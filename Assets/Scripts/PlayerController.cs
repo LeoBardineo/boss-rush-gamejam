@@ -37,4 +37,14 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
     }
+
+    void OnDrawGizmos()
+    {
+        if (groundCheck != null)
+        {
+            Gizmos.color = isGrounded ? Color.blue : Color.red; // Escolha a cor do Gizmo
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius); // Desenha o círculo
+        }
+    }
+
 }
