@@ -8,7 +8,7 @@ public class TesteStateManager : MonoBehaviour
     void Start()
     {
         stateManager = new StateManager();
-        stateManager.Start(new IdleState());
+        stateManager.Start(new IdleState(gameObject));
     }
 
     void Update()
