@@ -41,7 +41,8 @@ public class IdleState : IState
 
         List<IState> possibleAttacks = new List<IState>
         {
-            new AttackState(bossGameObject)
+            new GreenAttackState(bossGameObject),
+            new BlueAttackState(bossGameObject),
         };
 
         if(!starSpawner.isSpawning)

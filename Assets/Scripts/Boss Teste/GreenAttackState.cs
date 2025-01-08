@@ -1,14 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackState : IState
+public class GreenAttackState : IState
 {
     float attackDuration = 2f;
     float timeSinceStart = 0f;
     GameObject bossGameObject;
     SpriteRenderer sp;
 
-    public AttackState(GameObject bossGameObject)
+    public GreenAttackState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
         sp = bossGameObject.GetComponent<SpriteRenderer>();
@@ -17,7 +17,7 @@ public class AttackState : IState
     public void Enter()
     {
         // inicia alguma animação do ataque começando
-        Debug.Log("Entrou em estado de ataque!");
+        Debug.Log("Entrou em estado de ataque verde!");
         sp.color = Color.green;
         timeSinceStart = 0f;
     }
@@ -25,7 +25,7 @@ public class AttackState : IState
     public void Exit()
     {
         // inicia alguma animação do ataque terminando
-        Debug.Log("Saiu do estado de ataque!");
+        Debug.Log("Saiu do estado de ataque verde!");
         sp.color = Color.white;
     }
 
