@@ -12,8 +12,14 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
+    //↓↓ Tratamento de jogador para direita ou para esquerda ↓↓
+    // Basicamente só to checando se ele ta olhando pra direita. Se não está, tá olhando pra esquerda. Pegando a ultima direção que ele ta olhando determina já o dash certo
+    public bool facingRight;
+    public bool idle;
 
-    // Dash ↓↓↓↓↓↓ 
+    //↑↑ Tratamento de jogador para direita ou para esquerda ↑↑
+    
+    //↓↓ Dash ↓↓
     private bool canDash = true;
     private bool isDashing = false;
     private float dashingPower = 50f;
@@ -22,10 +28,11 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private TrailRenderer tr;
 
-    // Dash ↑↑↑↑↑↑
+    //↑↑ Dash ↑↑
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        facingRight = true;
     }
 
     void Update()
@@ -44,7 +51,7 @@ public class PlayerController : MonoBehaviour
     {
         float moveInput = Input.GetAxis("Horizontal"); // "A/D" ou "Setas" padrão
         rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
-        print(rb.linearVelocity);
+        CheckLookDirection(moveInput);
     }
 
     void Jump()
@@ -66,6 +73,24 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //Checa se o player ta olhando pra direita, pra esquerda ou ta idle. O idle não ta sendo usado ainda mas eu coloquei porque imagino que a gente vai usar futuramente pra fatores de animação.
+    void CheckLookDirection(float moveInput)
+    {
+        if (moveInput > 0)
+        {
+            idle = false;
+            facingRight = true;
+        }
+        else if (moveInput < 0)
+        {
+            idle = false;
+            facingRight = false;
+        }
+        else
+        {
+            idle = true;
+        }
+    }
     //Lida com o input do Dash. Posto aqui pra ficar mais organizado
     void Dash()
     {
@@ -91,7 +116,14 @@ public class PlayerController : MonoBehaviour
         isDashing = true;
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
-        rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        if (facingRight)
+        {
+            rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        }
+        else
+        {
+            rb.linearVelocity = new Vector2(-transform.localScale.x * dashingPower, 0f);    
+        }
         tr.emitting = true;
         yield return new WaitForSeconds(dashingTime);
         tr.emitting = false;

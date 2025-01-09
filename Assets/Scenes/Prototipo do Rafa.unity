@@ -211,7 +211,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: -6768344225973435738, guid: 72d2e2d5630514d4d8901994dd824ac7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -458,8 +458,11 @@ MonoBehaviour:
   starPrefab: {fileID: 8009984048675986719, guid: 05f7f1adc4062274faa71e728931186e, type: 3}
   spawnObject: {fileID: 149471445}
   spawnHeight: 20
-  spawnInterval: 0.25
   positionVariance: 10
+  antecipationDuration: 2
+  attackDuration: 5
+  spawnInterval: 0.25
+  isSpawning: 0
 --- !u!1 &584600489
 GameObject:
   m_ObjectHideFlags: 0
