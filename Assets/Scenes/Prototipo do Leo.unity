@@ -230,7 +230,7 @@ Transform:
   m_GameObject: {fileID: 149471442}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.47, y: -3.47, z: 0}
+  m_LocalPosition: {x: -8.47, y: -2.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -302,9 +302,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 496510883}
-  - component: {fileID: 496510884}
   - component: {fileID: 496510886}
+  - component: {fileID: 496510884}
   - component: {fileID: 496510887}
+  - component: {fileID: 496510888}
+  - component: {fileID: 496510889}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -324,7 +326,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 925998734}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &496510884
@@ -334,7 +337,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1572b04cf15dad6488d3bc060015feb4, type: 3}
   m_Name: 
@@ -346,6 +349,7 @@ MonoBehaviour:
   antecipationDuration: 2
   attackDuration: 5
   spawnInterval: 0.1
+  isSpawning: 0
 --- !u!212 &496510886
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -408,11 +412,38 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee53ddcf5fcda7c4d9ff052d33ffc1c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &496510888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496510881}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9fc1356ba2e0a6409955b8c14d7d78a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  espadas: {fileID: 8866769052354878493, guid: c5b9a7d2e59b29942b0f7c0152388694, type: 3}
+  spawnArea: {fileID: 925998734}
+--- !u!114 &496510889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496510881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156e4a95b6750664489242fd43d75f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 149471446}
 --- !u!1 &584600489
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,6 +577,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &925998733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925998734}
+  m_Layer: 0
+  m_Name: EspadasSpawnArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &925998734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925998733}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 496510883}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1812725836
 GameObject:
