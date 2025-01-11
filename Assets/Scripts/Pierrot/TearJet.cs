@@ -7,49 +7,55 @@ using UnityEngine.InputSystem.Controls;
 
 public class TearJet : MonoBehaviour
 {
-    private float time, timeToDestroy, timeToShoot=1.5f, timeTracked, delayToShoot;
-    private bool shooting;
+    //Caso queira aumentar o tempo que a atencipação do ataque dura aumentar o timeToShoot.
+    //Caso queira aumenar o tempo que o ataque em si dura(a jatada) aumentar o timeAfterShoot.
+    // Caso queira invocar um jato para motivos de teste e debug é só apertar O.
+    private float time,timeTracked, delayToShoot;
     [SerializeField]
-    public GameObject waterJetPrefab; // Prefab do jato de água
+    private float timeAfterShoot=2.0f, timeToShoot=1.5f;
+    private bool shooting, canTraceTrack, shootComplete;
     [SerializeField]
-    public GameObject waterTracePrefab;
+    public GameObject waterJetPrefab, waterTracePrefab; // Prefab do jato de água e da antecipação
     [SerializeField]
-    public Transform waterJetSpawnPoint; // Ponto onde o jato será instanciado
-    [SerializeField]
-    public Transform player; // Referência ao jogador
+    public Transform waterJetSpawnPoint, player; // Ponto onde o jato será instanciado e a referencia da posição do player
     private GameObject waterTrace;
     private GameObject waterJet;
     private Vector3 direction, finalDirection;
 
     void Start()
     {
-        InstantiateJetTrace();
+        
     }
     void Update()
     {
-        // time += Time.deltaTime;
-        // timeToDestroy += Time.deltaTime;
-        // if (time >= 3)
-        // {
-        //     time = 0;
-        //     timeToDestroy=0;
-        //     ShootWaterJet();
-        // }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            InstantiateJetTrace();
+        }
 
-        // if (timeToDestroy >=1.5)
-        // {
-
-        //     Destroy(waterJet);
+        if (canTraceTrack)
+        {
+            PlayerTracking();
+        }
         
-        // }
-        PlayerTracking();
+        if (time <= timeAfterShoot && shootComplete)
+        {
+            time+= Time.deltaTime;
+        }
+        else
+        {
+            time=0;
+            shootComplete=false;
+            Destroy(waterJet);
+        }
+        
 
     }
 
     public void InstantiateJetTrace()
     {
         waterTrace = Instantiate(waterTracePrefab, waterJetSpawnPoint.position, Quaternion.identity);
-        
+        canTraceTrack = true;
     }
 
     public void PlayerTracking()
@@ -68,12 +74,14 @@ public class TearJet : MonoBehaviour
         else
         {
             delayToShoot += 0.2f;
-            if (delayToShoot > 85 && !shooting)
+            if (delayToShoot > 65 && !shooting)
             {
                 delayToShoot=0;
-                Destroy(waterTrace);
-                ShootWaterJet();
                 shooting = true;
+                canTraceTrack = false;  
+                timeTracked=0;
+                ShootWaterJet();
+                Destroy(waterTrace);
             }
         }
     }
@@ -83,10 +91,9 @@ public class TearJet : MonoBehaviour
         waterJet = Instantiate(waterJetPrefab, waterJetSpawnPoint.position, Quaternion.identity);
         // Calcula o ângulo para rotacionar o jato de água
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
         // Rotaciona o jato de água no eixo Z
         waterJet.transform.rotation = Quaternion.Euler(0, 0, angle);
         shooting = false;
-        // timeTracked = 0;
+        shootComplete = true;
     }
 }
