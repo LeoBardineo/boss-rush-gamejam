@@ -8,11 +8,12 @@ using UnityEngine.InputSystem.Controls;
 public class TearJet : MonoBehaviour
 {
     //Caso queira aumentar o tempo que a atencipação do ataque dura aumentar o timeToShoot.
-    //Caso queira aumenar o tempo que o ataque em si dura(a jatada) aumentar o timeAfterShoot.
-    // Caso queira invocar um jato para motivos de teste e debug é só apertar O.
+    //Caso queira aumentar o tempo que o ataque em si dura(a jatada) aumentar o timeAfterShoot.
+    //Caso queira diminuir o delay entre a atencipação do ataque e o ataque em si, modificar delayTime;
+    //Caso queira invocar um jato para motivos de teste e debug é só apertar O.
     private float time,timeTracked, delayToShoot;
     [SerializeField]
-    private float timeAfterShoot=2.0f, timeToShoot=1.5f;
+    private float timeAfterShoot=2.0f, timeToShoot=1.5f, delayTime=65;
     private bool shooting, canTraceTrack, shootComplete;
     [SerializeField]
     public GameObject waterJetPrefab, waterTracePrefab; // Prefab do jato de água e da antecipação
@@ -74,7 +75,7 @@ public class TearJet : MonoBehaviour
         else
         {
             delayToShoot += 0.2f;
-            if (delayToShoot > 65 && !shooting)
+            if (delayToShoot > delayTime && !shooting)
             {
                 delayToShoot=0;
                 shooting = true;
