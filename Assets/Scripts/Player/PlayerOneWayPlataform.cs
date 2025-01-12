@@ -11,7 +11,7 @@ public class PlayerOneWayPlataform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S)|| Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             if (currentOneyWayPlatform != null)
             {
