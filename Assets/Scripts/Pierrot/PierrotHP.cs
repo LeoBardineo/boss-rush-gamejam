@@ -5,6 +5,8 @@ public class PierrotHP : MonoBehaviour
 {
 
     public float HP = 50;
+    private float originalColorTimer, timeOnRed=0.75f;
+    private bool attacked = false;
     [SerializeField] SpriteRenderer SpriteRenderer;
     //Ideia: Variavel global para trackear quantos bosses já foram derrotados pra ajustar o HP de cada paz
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,7 +18,16 @@ public class PierrotHP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (attacked = true && originalColorTimer <= timeOnRed)
+        {
+            originalColorTimer += Time.deltaTime;
+        }
+        else
+        {
+            attacked = false;
+            SpriteRenderer.color = Color.white;
+            originalColorTimer=0;
+        }
     }
 
 
@@ -24,14 +35,6 @@ public class PierrotHP : MonoBehaviour
     {
         HP -= damage;
         SpriteRenderer.color = Color.red;
-        float time = 0;
-        while (time <= 40404f)
-        {
-            time += Time.deltaTime;
-            Debug.Log("Tempo passando");
-        }
-        time=0;
-        SpriteRenderer.color = Color.white;
-
+        attacked = true;
     }
 }
