@@ -4,16 +4,16 @@ public class AttackArea : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     
-    private int damage = 20;
+    protected int damage;
 
-    private void OnTriggerEnter2D(Collider2D collider) 
+    protected virtual void OnTriggerEnter2D(Collider2D collider) 
     {
-        if (collider.GetComponent<PierrotHP>() != null)
+        if (collider.GetComponent<BossHP>() != null)
         {
-            PierrotHP hp = collider.GetComponent<PierrotHP>();
-            hp.Damage(damage);
+            BossHP BossHPAtual = collider.GetComponent<BossHP>();
+            BossHPAtual.Damage(damage);
             Debug.Log("Tomei porrada");
-            Debug.Log("HP Atual:"+ hp.HP);
+            Debug.Log("HP Atual:"+ BossHPAtual.HP);
         }   
     }
 }

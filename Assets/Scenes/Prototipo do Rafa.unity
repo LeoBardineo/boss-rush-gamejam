@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: 149471448}
   - component: {fileID: 149471449}
   - component: {fileID: 149471450}
+  - component: {fileID: 149471451}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -572,9 +573,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149471442}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17fa6cf3921434e40af65c4c813ca2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &149471451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149471442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c597a58e4000a42a042b4920f4dc5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &383521137
@@ -941,6 +954,7 @@ GameObject:
   - component: {fileID: 1719214070}
   - component: {fileID: 1719214072}
   - component: {fileID: 1719214071}
+  - component: {fileID: 1719214073}
   m_Layer: 0
   m_Name: AttackArea
   m_TagString: Untagged
@@ -970,7 +984,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719214069}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4dad0aa5b5597dd4492a86b46ce4af2b, type: 3}
   m_Name: 
@@ -1026,6 +1040,18 @@ PolygonCollider2D:
       - {x: 0.9906616, y: -0.39628267}
       - {x: -0.89226747, y: -0.8918205}
   m_UseDelaunayMesh: 0
+--- !u!114 &1719214073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719214069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf20139f70e4042408388008e07f62f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1720138126
 PrefabInstance:
   m_ObjectHideFlags: 0
