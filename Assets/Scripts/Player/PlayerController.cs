@@ -80,11 +80,13 @@ public class PlayerController : MonoBehaviour
         {
             idle = false;
             facingRight = true;
+
         }
         else if (moveInput < 0)
         {
             idle = false;
             facingRight = false;
+            
         }
         else
         {

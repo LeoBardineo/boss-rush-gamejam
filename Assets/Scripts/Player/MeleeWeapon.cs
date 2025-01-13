@@ -6,6 +6,8 @@ public class MeleeWeapon : MonoBehaviour
     protected bool attacking = false, onCooldown = false, attackWindowClosed = false;
     protected float attackWindow = 0.25f, cooldownTime;
     protected float timer = 0f;
+
+    [SerializeField] protected PlayerController PlayerControl;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public virtual void Start()
     {
@@ -44,6 +46,17 @@ public class MeleeWeapon : MonoBehaviour
                 attackWindowClosed = false;
                 onCooldown = false;
             }
+        }
+
+        if (!PlayerControl.facingRight)
+        {
+            attackArea.transform.localPosition = new Vector3(-1.35f,0,0);
+            attackArea.transform.localScale = new Vector3(-1,1,1);
+        }
+        else
+        {
+            attackArea.transform.localPosition = new Vector3(1.35f,0,0);
+            attackArea.transform.localScale = new Vector3(1,1,1);
         }
     }
 
