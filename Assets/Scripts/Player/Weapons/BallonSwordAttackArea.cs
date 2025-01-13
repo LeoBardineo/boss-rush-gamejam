@@ -1,16 +1,34 @@
 using UnityEngine;
 
-public class BallonSwordAttackArea : MonoBehaviour
+public class BallonSwordAttackArea : AttackArea
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Start()
     {
-        
-    }
+        if (GlobalData.level == 0)
+        {
+            damage = 25;
+        }
+        if (GlobalData.level == 1)
+        {
+            damage = 27;
+        }
+        if (GlobalData.level == 2)
+        {
+            damage = 30;
+        }
+        if (GlobalData.level == 3)
+        {
+            damage = 33;
+        }
+        if (GlobalData.level == 4)
+        {
+            damage = 36;
+        }     
 
-    // Update is called once per frame
-    void Update()
+        Debug.Log("Hammer DMG:"+ damage);
+    }
+    protected override void OnTriggerEnter2D(Collider2D collider)
     {
-        
+        base.OnTriggerEnter2D(collider);
     }
 }

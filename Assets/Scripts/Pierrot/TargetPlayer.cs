@@ -1,12 +1,13 @@
 using UnityEngine;
 
-public class TargetPlayer : MonoBehaviour
+public class TargetPlayer : BossDMG
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected override void  Start()
     {
-        if (collision.CompareTag("Player"))
-        {
-            Debug.Log("dano da JATADA");
-        } 
+        base.Start();
+    }
+    protected override void OnTriggerEnter2D(Collider2D collision)
+    {
+        base.OnTriggerEnter2D(collision);
     }
 }
