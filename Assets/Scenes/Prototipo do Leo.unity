@@ -256,6 +256,9 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  facingRight: 0
+  idle: 0
+  tr: {fileID: 0}
 --- !u!70 &149471447
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -303,11 +306,11 @@ GameObject:
   m_Component:
   - component: {fileID: 496510883}
   - component: {fileID: 496510886}
-  - component: {fileID: 496510887}
   - component: {fileID: 496510888}
   - component: {fileID: 496510889}
   - component: {fileID: 496510890}
   - component: {fileID: 496510891}
+  - component: {fileID: 496510892}
   m_Layer: 0
   m_Name: Jester
   m_TagString: Untagged
@@ -385,18 +388,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &496510887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496510881}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee53ddcf5fcda7c4d9ff052d33ffc1c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &496510888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,6 +429,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   copas: {fileID: 6021406861567221011, guid: 2f26f85b11b3cf641b4b82626f7c0e43, type: 3}
   player: {fileID: 149471445}
+  antecipationDuration: 0.5
+  attackDuration: 10
+  spawnInterval: 1
+  isSpawning: 0
 --- !u!114 &496510891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,9 +450,22 @@ MonoBehaviour:
   spawnHeight: 1.5
   positionVariance: 1.5
   antecipationDuration: 2
-  attackDuration: 5
+  attackDuration: 10
   spawnInterval: 0.1
   isSpawning: 0
+--- !u!114 &496510892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496510881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc4821820383304c9d56cf50bb8ab4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleDuration: 2
 --- !u!1 &584600489
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,8 +656,8 @@ Transform:
   m_GameObject: {fileID: 1166359925}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 8, z: 0}
-  m_LocalScale: {x: 400, y: 10, z: 10}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalScale: {x: 40, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

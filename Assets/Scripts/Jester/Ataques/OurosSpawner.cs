@@ -12,23 +12,11 @@ public class OurosSpawner : MonoBehaviour
     public float spawnInterval = 0.1f;
     public bool isSpawning = false;
 
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.O))
-        {
-            if(isSpawning) {
-                EndSpawning();
-                return;
-            }
-
-            StartSpawning();
-        }
-    }
-
     public void StartSpawning()
     {
         isSpawning = true;
         InvokeRepeating(nameof(SpawnOuros), antecipationDuration, spawnInterval);
+        StartCoroutine(WaitSpawning(antecipationDuration + attackDuration));
     }
 
     void SpawnOuros()
@@ -40,11 +28,6 @@ public class OurosSpawner : MonoBehaviour
 
         Vector3 posicaoAleatoria = new Vector3(posicaoCentro.x + posicaoX, posicaoCentro.y, posicaoCentro.z);
         Instantiate(ourosPrefab, posicaoAleatoria, ourosPrefab.transform.rotation);
-    }
-
-    public void EndSpawning()
-    {
-        StartCoroutine(WaitSpawning(attackDuration));
     }
 
     IEnumerator WaitSpawning(float attackDuration)

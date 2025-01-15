@@ -3,13 +3,13 @@ using UnityEngine;
 public class PausAttack : MonoBehaviour
 {
     public PlayerController playerController;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject cardPrefab;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.F))
