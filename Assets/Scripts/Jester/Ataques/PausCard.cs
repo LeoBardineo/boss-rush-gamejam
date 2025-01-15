@@ -7,7 +7,23 @@ class PausCard : MonoBehaviour
 
     void Start()
     {
-        
+        reverseControls();
+    }
+
+    public void TomarDano(float dano)
+    {
+        cardHP -= dano;
+        if(cardHP <= 0)
+        {
+            DestroyCard();
+        }
+    }
+    
+    void DestroyCard()
+    {
+        reverseControls();
+        PausSpawner.cardSpawned = false;
+        Destroy(gameObject);
     }
     
     void reverseControls()

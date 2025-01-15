@@ -48,6 +48,9 @@ public class JesterIdleState : IState
             new EspadasState(bossGameObject),
         };
 
+        if(!PausSpawner.cardSpawned)
+            possibleAttacks.Add(new PausState(bossGameObject));
+
         if(!ourosSpawner.isSpawning)
             possibleAttacks.Add(new OurosState(bossGameObject));
         
