@@ -29,11 +29,6 @@ public class TearJet : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            InstantiateJetTrace();
-        }
-
         if (canTraceTrack)
         {
             PlayerTracking();
