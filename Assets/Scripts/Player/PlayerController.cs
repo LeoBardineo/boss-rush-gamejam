@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Threading;
+using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -14,8 +15,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
     //↓↓ Tratamento de jogador para direita ou para esquerda ↓↓
     // Basicamente só to checando se ele ta olhando pra direita. Se não está, tá olhando pra esquerda. Pegando a ultima direção que ele ta olhando determina já o dash certo
-    public bool facingRight;
-    public bool idle;
+    public bool facingRight = true;
+    public bool idle = true;
 
     //↑↑ Tratamento de jogador para direita ou para esquerda ↑↑
     
@@ -23,8 +24,9 @@ public class PlayerController : MonoBehaviour
     private bool canDash = true;
     private bool isDashing = false;
     private float dashingPower = 50f;
-    private float dashingTime = 0.2f;
+    private float dashingTime = 0.08f;
     private float dashingCooldown = 1f;
+    private bool flipedToRight = true, flipedToLeft =false;
 
     [SerializeField] private TrailRenderer tr;
 
@@ -76,17 +78,28 @@ public class PlayerController : MonoBehaviour
     //Checa se o player ta olhando pra direita, pra esquerda ou ta idle. O idle não ta sendo usado ainda mas eu coloquei porque imagino que a gente vai usar futuramente pra fatores de animação.
     void CheckLookDirection(float moveInput)
     {
-        if (moveInput > 0)
+        Debug.Log(moveInput);
+        if (moveInput > 0) 
         {
             idle = false;
             facingRight = true;
-
+            if (!flipedToRight)
+            {
+                transform.Rotate(0f,180f,0f);
+                flipedToRight = true;
+                flipedToLeft = false;
+            }
         }
-        else if (moveInput < 0)
+        if (moveInput < 0)
         {
             idle = false;
             facingRight = false;
-            
+            if(!flipedToLeft)
+            {
+                transform.Rotate(0f,180f,0f);
+                flipedToRight = false;
+                flipedToLeft = true;
+            }
         }
         else
         {

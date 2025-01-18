@@ -16,6 +16,6 @@ public class BallonSword : MeleeWeapon
 
     public void ModifyCooldown()
     {
-        cooldownTime = 0.9f;
+        cooldownTime = 1.11f;
     }
 }

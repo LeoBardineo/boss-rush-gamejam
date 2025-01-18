@@ -48,16 +48,8 @@ public class MeleeWeapon : MonoBehaviour
             }
         }
 
-        if (!PlayerControl.facingRight)
-        {
-            attackArea.transform.localPosition = new Vector3(-1.35f,0,0);
-            attackArea.transform.localScale = new Vector3(-1,1,1);
-        }
-        else
-        {
             attackArea.transform.localPosition = new Vector3(1.35f,0,0);
-            attackArea.transform.localScale = new Vector3(1,1,1);
-        }
+
     }
 
     protected void Attack()
