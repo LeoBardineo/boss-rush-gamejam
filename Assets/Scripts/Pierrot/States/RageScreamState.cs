@@ -2,47 +2,47 @@ using UnityEngine;
 
 public class RageScreamState : IState
 {
-    [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Vector2 PushDirection;
-    [SerializeField] private float ScreamStrenght=30;
+    float attackDuration = 4f;
+    float timeSinceStart = 0f;
+    GameObject bossGameObject;
+    SpriteRenderer sp;
+    RageScream rageScream;
 
+    public RageScreamState(GameObject bossGameObject)
+    {
+        this.bossGameObject = bossGameObject;
+        sp = bossGameObject.GetComponent<SpriteRenderer>();
+        rageScream = bossGameObject.GetComponent<RageScream>();
+    }
     public void Enter()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("Entrou no grito");
+        sp.color = Color.red;
+        timeSinceStart = 0f;
+        rageScream.RageScreamOn();
     }
 
     public void Exit()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("Saiu do grito");
+        sp.color = Color.white;
     }
 
+    public void Update()
+    {
+        timeSinceStart += Time.deltaTime;
+    }
     public IState GetNext()
     {
-        throw new System.NotImplementedException();
-    }
+        if(timeSinceStart < attackDuration)
+        return this;
 
+        return new PierrotIdleState(bossGameObject);
+    }
     public void OnTriggerEnter(Collider other)
-    {
-        throw new System.NotImplementedException();
-    }
-
+    {}
     public void OnTriggerExit(Collider other)
-    {
-        throw new System.NotImplementedException();
-    }
-
+    {}
     public void OnTriggerStay(Collider other)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    void Update()
-    {
-        rb.AddForce(PushDirection*ScreamStrenght);
-    }
-
-    void IState.Update()
-    {
-        Update();
-    }
+    {}
 }

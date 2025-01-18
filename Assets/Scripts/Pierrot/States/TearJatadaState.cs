@@ -2,50 +2,49 @@ using UnityEngine;
 
 public class TearJatadaState : IState
 {
+
+    float attackDuration = 5f;
+    float timeSinceStart = 0f;
+    GameObject bossGameObject;
+    SpriteRenderer sp;
+    TearJet tearJet;
+
+    public TearJatadaState(GameObject bossGameObject)
+    {
+        this.bossGameObject = bossGameObject;
+        sp = bossGameObject.GetComponent<SpriteRenderer>();
+        tearJet = bossGameObject.GetComponent<TearJet>();
+    }
     public void Enter()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("Entrou em jatada!");
+        sp.color = Color.green;
+        tearJet.InstantiateJetTrace();
+        timeSinceStart = 0f;
     }
 
     public void Exit()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("Saiu da jatada");
+        sp.color = Color.white;
     }
 
+    public void Update()
+    {
+        timeSinceStart += Time.deltaTime;
+    }
     public IState GetNext()
     {
-        throw new System.NotImplementedException();
+        if(timeSinceStart < attackDuration)
+        return this;
+
+        return new PierrotIdleState(bossGameObject);
     }
 
     public void OnTriggerEnter(Collider other)
-    {
-        throw new System.NotImplementedException();
-    }
-
+    {}
     public void OnTriggerExit(Collider other)
-    {
-        throw new System.NotImplementedException();
-    }
-
+    {}
     public void OnTriggerStay(Collider other)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void IState.Update()
-    {
-        Update();
-    }
+    {}
 }

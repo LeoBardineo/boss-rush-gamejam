@@ -4,7 +4,7 @@ using UnityEditor.UI;
 public class WaveState : IState
 {
 
-    float attackDuration;
+    float attackDuration =5f;
     float timeSinceStart= 0f;
     GameObject bossGameObject;
     SpriteRenderer sp;
@@ -20,7 +20,9 @@ public class WaveState : IState
     {
         // inicia alguma animação do ataque começando
         Debug.Log("Entrou em waves");
+        wave.InstantiateWave();
         sp.color = Color.blue;
+        timeSinceStart= 0f;
     }
 
     public void Exit()
@@ -29,68 +31,23 @@ public class WaveState : IState
         sp.color = Color.white;
     }
 
+    public void Update()
+    {
+        timeSinceStart += Time.deltaTime;
+    }
     public IState GetNext()
     {
-        throw new System.NotImplementedException();
+        if (timeSinceStart < attackDuration) return this;
+
+        return new PierrotIdleState(bossGameObject);
     }
 
     public void OnTriggerEnter(Collider other)
-    {
-        throw new System.NotImplementedException();
-    }
+    {}
 
     public void OnTriggerExit(Collider other)
-    {
-        throw new System.NotImplementedException();
-    }
+    {}
 
     public void OnTriggerStay(Collider other)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        timeSinceStart += Time.deltaTime;
-        moveWave();
-    }
-
-    //---||||||Interface acima---||||||
-        [SerializeField]
-    private Rigidbody2D rb;
-    private float waveSpeed = 5;
-    private float timeToDestroy = 120;
-    private float timePassed = 0;
-
-    // Update is called once per frame
-
-    void moveWave()
-    {
-        rb.linearVelocity = new Vector2(-(waveSpeed * waveSpeed), rb.linearVelocity.y);
-        timePassed += 0.1f;
-        if (timePassed >= timeToDestroy)
-        {
-            // Destroy(gameObject);
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            Debug.Log("dano da wave");
-        }
-    }
-
-    void IState.Update()
-    {
-        Update();
-    }
+    {}
 }

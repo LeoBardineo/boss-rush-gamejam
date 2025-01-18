@@ -22,6 +22,7 @@ public class TearJet : MonoBehaviour
     private GameObject waterTrace;
     private GameObject waterJet;
     private Vector3 direction, finalDirection;
+    public static bool jetSpawned=false;
 
     void Start()
     {
@@ -52,6 +53,7 @@ public class TearJet : MonoBehaviour
     {
         waterTrace = Instantiate(waterTracePrefab, waterJetSpawnPoint.position, Quaternion.identity);
         canTraceTrack = true;
+        jetSpawned = true;
     }
 
     public void PlayerTracking()
@@ -78,6 +80,7 @@ public class TearJet : MonoBehaviour
                 timeTracked=0;
                 ShootWaterJet();
                 Destroy(waterTrace);
+                jetSpawned = false;
             }
         }
     }

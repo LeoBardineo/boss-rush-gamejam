@@ -52,15 +52,18 @@ public class PlayerHP : MonoBehaviour
     }
     public void TakeDamage(float damage)
     {
-        if (HP > 0)
+        if (!invicible)
         {
-            HP -= damage;
-            invicible = true;
-            HurtEffect();
-        }
-        else
-        {
-            Die();
+            if (HP > 0)
+            {
+                HP -= damage;
+                invicible = true;
+                HurtEffect();
+            }
+            else
+            {
+                Die();
+            }
         }
     }
 

@@ -1,22 +1,32 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PierrotIdleState : IState
 {
     float timeSinceStart = 0f;
     float idleDuration;
     GameObject bossGameObject;
-    CopasSpawner copasSpawner;
-    OurosSpawner ourosSpawner;
-    JesterStateManager jesterSM;
+    TearJet tearJet;
+    PierrotStateManager pierrotSM;
+    WaveBehaviour waveBehaviour;
+    RageScream rageScream;
+    BossHP bossHP;
 
+    TransitionPierrot transitionPierrot;
+    
+    SpawnRainTears spawnRainTears;
     public PierrotIdleState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
-        ourosSpawner = bossGameObject.GetComponent<OurosSpawner>();
-        copasSpawner = bossGameObject.GetComponent<CopasSpawner>();
-        jesterSM = bossGameObject.GetComponent<JesterStateManager>();
-        idleDuration = jesterSM.idleDuration;
+        tearJet = bossGameObject.GetComponent<TearJet>();
+        pierrotSM = bossGameObject.GetComponent<PierrotStateManager>();
+        waveBehaviour = bossGameObject.GetComponent<WaveBehaviour>();
+        rageScream = bossGameObject.GetComponent<RageScream>();
+        spawnRainTears = bossGameObject.GetComponent<SpawnRainTears>();
+        bossHP = bossGameObject.GetComponent<BossHP>();
+        transitionPierrot = bossGameObject.GetComponent<TransitionPierrot>();
+        idleDuration = pierrotSM.idleDuration;
     }
 
     public void Enter()
@@ -33,6 +43,11 @@ public class PierrotIdleState : IState
     public void Update()
     {
         timeSinceStart += Time.deltaTime;
+
+        if (bossHP.HP <=0 )
+        {
+            Debug.Log("Boss morreu, pare de bater nele tadinho!");
+        }
     }
 
     public IState GetNext()
@@ -44,19 +59,29 @@ public class PierrotIdleState : IState
         // se muito longe, corda invisivel
         // se não, aleatorio entre outros ataques
 
-        List<IState> possibleAttacks = new List<IState>{
-            new EspadasState(bossGameObject),
-        };
+        List<IState> possibleAttacks = new List<IState>{};
 
-        if(!PausSpawner.cardSpawned)
-            possibleAttacks.Add(new PausState(bossGameObject));
-
-        if(!ourosSpawner.isSpawning)
-            possibleAttacks.Add(new OurosState(bossGameObject));
+        if(!TearJet.jetSpawned)
+            possibleAttacks.Add(new TearJatadaState(bossGameObject));
         
-        if(!copasSpawner.isSpawning)
-            possibleAttacks.Add(new CopasState(bossGameObject));
+        if(!WaveBehaviour.waveSpawned)
+            possibleAttacks.Add(new WaveState   (bossGameObject));
+        
+        if(!spawnRainTears.isSpawning)
+            possibleAttacks.Add(new RainTearsState(bossGameObject));  
+            
+        if(bossHP.fase2)
+        { 
+            if (bossHP.firstTimeFase2)
+            {
+                Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+                transitionPierrot.transition();
+                bossHP.firstTimeFase2 = false;
+            }
+            if(!RageScream.rageScreamingOn)
+            possibleAttacks.Add(new RageScreamState(bossGameObject));
 
+        }
         IState attack = possibleAttacks[Random.Range(0, possibleAttacks.Count)];
         return attack;
     }

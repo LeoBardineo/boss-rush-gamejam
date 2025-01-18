@@ -38,4 +38,19 @@ public class BossDMG : MonoBehaviour
             }
         } 
     }
+
+        protected virtual void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            if (collision.GetComponent<PlayerHP>() != null)
+            {
+                PlayerHP playerHP = collision.GetComponent<PlayerHP>();
+                if (!playerHP.invicible)
+                {
+                    playerHP.TakeDamage(bossDMG);
+                }
+            }
+        } 
+    }
 }
