@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
     public float jumpForce = 10f;
+    public bool isGrounded;
     Rigidbody2D rb;
-    bool isGrounded;
 
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
@@ -21,12 +21,12 @@ public class PlayerController : MonoBehaviour
     //↑↑ Tratamento de jogador para direita ou para esquerda ↑↑
     
     //↓↓ Dash ↓↓
+    public float dashingPower = 50f;
+    public float dashingTime = 0.08f;
+    public float dashingCooldown = 1f;
     private bool canDash = true;
-    private bool isDashing = false;
-    private float dashingPower = 50f;
-    private float dashingTime = 0.08f;
-    private float dashingCooldown = 1f;
-    private bool flipedToRight = true, flipedToLeft =false;
+    private bool movimentLocked = false;
+    private bool flipedToRight = true, flipedToLeft = false;
 
     [SerializeField] private TrailRenderer tr;
 
@@ -39,9 +39,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        DashLock();
         Dash();
-        if (isDashing == false)
+        if (!movimentLocked)
         {
             Move();
             Jump();
@@ -70,15 +69,14 @@ public class PlayerController : MonoBehaviour
     {
         if (groundCheck != null)
         {
-            Gizmos.color = isGrounded ? Color.blue : Color.red; // Escolha a cor do Gizmo
-            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius); // Desenha o círculo
+            Gizmos.color = isGrounded ? Color.blue : Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
 
-    //Checa se o player ta olhando pra direita, pra esquerda ou ta idle. O idle não ta sendo usado ainda mas eu coloquei porque imagino que a gente vai usar futuramente pra fatores de animação.
+    // Checa se o player ta olhando pra direita, pra esquerda ou ta idle. O idle não ta sendo usado ainda mas eu coloquei porque imagino que a gente vai usar futuramente pra fatores de animação.
     void CheckLookDirection(float moveInput)
     {
-        Debug.Log(moveInput);
         if (moveInput > 0) 
         {
             idle = false;
@@ -106,29 +104,21 @@ public class PlayerController : MonoBehaviour
             idle = true;
         }
     }
-    //Lida com o input do Dash. Posto aqui pra ficar mais organizado
+
+    // Lida com o input do Dash
     void Dash()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && !movimentLocked)
         {
             StartCoroutine(DashRT());
         }
     }
 
-    //Para prevenir o player de se mexer, pular ou algo do tipo enquanto dá dash.
-    void DashLock()
-    {
-        if (isDashing)
-        {
-            return;
-        }
-    }
-
-    //Rotina que trata o efeito do dash
+    // Rotina que trata o efeito do dash
     private IEnumerator DashRT()
     {
         canDash = false;
-        isDashing = true;
+        movimentLocked = true;
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         if (facingRight)
@@ -143,8 +133,20 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(dashingTime);
         tr.emitting = false;
         rb.gravityScale = originalGravity;
-        isDashing = false;
+        movimentLocked = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+    }
+
+    // Não permite o personagem se mexer e zera sua velocidade
+    public void LockMovement()
+    {
+        movimentLocked = true;
+        rb.linearVelocity = new Vector2(0f, 0f);
+    }
+
+    public void UnlockMovement()
+    {
+        movimentLocked = false;
     }
 }
