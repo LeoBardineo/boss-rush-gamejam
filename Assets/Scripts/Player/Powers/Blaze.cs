@@ -1,48 +1,17 @@
 using UnityEngine;
 
-class Blaze : MonoBehaviour {
+class Blaze : Power {
 
-    public GameObject powerArea;
-    public float cooldownTime;
-    public int damage;
-    float cooldownRemaining = 0f;
-    bool isUsingPower = false;
-    PlayerController playerController;
-
-    void Start()
+    [SerializeField]
+    GameObject powerArea;
+    
+    protected override void EnterPower()
     {
-        playerController = GetComponent<PlayerController>();
-    }
-
-    void Update()
-    {
-        if(cooldownRemaining > 0f) {
-            cooldownRemaining -= Time.deltaTime;
-            return;
-        } else if(isUsingPower) {
-            DisablePower();
-        }
-
-        if(!playerController.isGrounded) return;
-
-        if(Input.GetKeyDown(KeyCode.F))
-        {
-            UsePower();
-        }
-    }
-
-    void UsePower()
-    {
-        cooldownRemaining = cooldownTime;
-        isUsingPower = true;
-        playerController.LockMovement();
         powerArea.SetActive(true);
     }
-
-    void DisablePower()
+    
+    protected override void EndPower()
     {
-        isUsingPower = false;
-        playerController.UnlockMovement();
         powerArea.SetActive(false);
     }
 
