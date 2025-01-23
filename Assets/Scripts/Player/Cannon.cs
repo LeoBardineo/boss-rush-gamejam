@@ -1,14 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class RangedWeapon : MonoBehaviour
+public class Cannon : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
     protected bool attacking = false, onCooldown = false;
     protected float attackCooldown=2f, timer;
-    [SerializeField]
-    protected ParticleSystem particles;
 
     // Update is called once per frame
     void Update()
@@ -28,7 +26,6 @@ public class RangedWeapon : MonoBehaviour
                 timer = 0;
                 attacking = false;
                 onCooldown = false;
-                particles.Stop();
             }
         }
     }
@@ -37,7 +34,6 @@ public class RangedWeapon : MonoBehaviour
     {
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         attacking = true;
-        particles.Play();
     }
 
 }

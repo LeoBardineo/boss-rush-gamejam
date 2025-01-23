@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: e282d52a3deb1054985c6ae9770c1cbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8194163358208712040
+    second: onda_pierrot_completo_0
+  - first:
+      213: -8701406649296302395
+    second: onda_pierrot_completo_1
+  - first:
+      213: 6763602301457720793
+    second: onda_pierrot_completo_2
+  - first:
+      213: 3590482281759947027
+    second: onda_pierrot_completo_3
+  - first:
+      213: 4215414944944977910
+    second: onda_pierrot_completo_4
+  - first:
+      213: 1698677650264152397
+    second: onda_pierrot_completo_5
+  - first:
+      213: -2929004531598422742
+    second: onda_pierrot_completo_6
+  - first:
+      213: -313244731129612455
+    second: onda_pierrot_completo_7
+  - first:
+      213: 4751260408872390377
+    second: onda_pierrot_completo_8
+  - first:
+      213: -7607238516655710899
+    second: onda_pierrot_completo_9
+  - first:
+      213: -5628565377049052463
+    second: onda_pierrot_completo_10
+  - first:
+      213: -9203416044658024544
+    second: onda_pierrot_completo_11
+  - first:
+      213: -5351219071481123862
+    second: onda_pierrot_completo_12
+  - first:
+      213: 917555411325188975
+    second: onda_pierrot_completo_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: onda_pierrot_completo_2
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 0
+        width: 280
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5e66445742ddd50800000000000000
+      internalID: 6763602301457720793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_pierrot_completo_3
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 0
+        width: 280
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319b2a0bc94f3d130800000000000000
+      internalID: 3590482281759947027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_pierrot_completo_4
+      rect:
+        serializedVersion: 2
+        x: 2755
+        y: 0
+        width: 280
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f77156ee89208a30800000000000000
+      internalID: 4215414944944977910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_pierrot_completo_5
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 0
+        width: 280
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d0194a5e51a57d0800000000000000
+      internalID: -2929004531598422742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_pierrot_completo_6
+      rect:
+        serializedVersion: 2
+        x: 4236
+        y: 0
+        width: 229
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee473a2b2edfe140800000000000000
+      internalID: 4751260408872390377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_pierrot_completo_1
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 0
+        width: 280
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d111dbfd8ad6690800000000000000
+      internalID: -7607238516655710899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_pierrot_completo_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 280
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af17028ed5e64080800000000000000
+      internalID: -9203416044658024544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_pierrot_completo_7
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 0
+        width: 148
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb62114b96acb5b0800000000000000
+      internalID: -5351219071481123862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onda_pierrot_completo_8
+      rect:
+        serializedVersion: 2
+        x: 5668
+        y: 0
+        width: 86
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b76c109cfcbbc00800000000000000
+      internalID: 917555411325188975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gota
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 69
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef8a8620cd551647a4956e272d8ebed
+      internalID: 8194163358208712040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: acb8eddb4f942804cb0cf1e4765b369f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gota: 8194163358208712040
+      onda_pierrot_completo_0: -9203416044658024544
+      onda_pierrot_completo_1: -7607238516655710899
+      onda_pierrot_completo_10: -5628565377049052463
+      onda_pierrot_completo_2: 6763602301457720793
+      onda_pierrot_completo_3: 3590482281759947027
+      onda_pierrot_completo_4: 4215414944944977910
+      onda_pierrot_completo_5: -2929004531598422742
+      onda_pierrot_completo_6: 4751260408872390377
+      onda_pierrot_completo_7: -5351219071481123862
+      onda_pierrot_completo_8: 917555411325188975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
