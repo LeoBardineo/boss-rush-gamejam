@@ -24,6 +24,8 @@ class Bunny : Power
     void SpawnBunny()
     {
         Vector3 spawnPosition = player.position;
-        Instantiate(bunnyPrefab, spawnPosition, bunnyPrefab.transform.rotation);
+        GameObject bunnyInstance = Instantiate(bunnyPrefab, spawnPosition, bunnyPrefab.transform.rotation);
+        if(!playerController.facingRight)
+            bunnyInstance.GetComponent<BunnyAttack>().velocidadeDeMovimeto *= -1;
     }
 }
