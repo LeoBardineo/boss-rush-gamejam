@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 115760843}
   - component: {fileID: 115760842}
   - component: {fileID: 115760841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BlazeArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +594,8 @@ GameObject:
   - component: {fileID: 585488631}
   - component: {fileID: 585488632}
   - component: {fileID: 585488633}
-  m_Layer: 0
+  - component: {fileID: 585488634}
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -665,6 +666,7 @@ MonoBehaviour:
     m_Bits: 64
   facingRight: 0
   idle: 0
+  powerInCooldown: 0
   dashingPower: 50
   dashingTime: 0.08
   dashingCooldown: 1
@@ -934,9 +936,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9e432264d5faf1418ed702d9bc1489f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownTime: 2
-  lockedTime: 0
+  attackDuration: 1
+  cooldownTime: 5
+  lockedTime: 2
   damage: 10
+  playerController: {fileID: 585488624}
+  cooldownRemaining: 0
+  lockedRemaining: 0
+  attackRemaining: 0
   powerArea: {fileID: 115760839}
 --- !u!114 &585488631
 MonoBehaviour:
@@ -950,9 +957,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f9fcf7b328fe94ea64cecd5869423f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownTime: 2
-  lockedTime: 0
+  attackDuration: 5
+  cooldownTime: 10
+  lockedTime: 1
   damage: 10
+  playerController: {fileID: 585488624}
+  cooldownRemaining: 0
+  lockedRemaining: 0
+  attackRemaining: 0
   bunnyPrefab: {fileID: 6674516587623914274, guid: 1d5b8e4c02ef35c4ea1261314958e4c8, type: 3}
   spawnInterval: 0.5
   antecipationDuration: 0.5
@@ -968,9 +980,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa004fca91770e489d85383df706de4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownTime: 1
+  attackDuration: 0
+  cooldownTime: 5
   lockedTime: 0
   damage: 0
+  playerController: {fileID: 585488624}
+  cooldownRemaining: 0
+  lockedRemaining: 0
+  attackRemaining: 0
   bangPrefab: {fileID: 3709194906325558912, guid: 1e67c0d3413c57e46a8f344c9cba5fb2, type: 3}
 --- !u!114 &585488633
 MonoBehaviour:
@@ -984,14 +1001,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dfe0529f94b5bc49b2319504cedb9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownTime: 5
-  lockedTime: 1
-  damage: 0
-  rainPrefab: {fileID: 8770195569515005297, guid: e6f205b72fd0aca469384e1f4368ac73, type: 3}
-  spawnInterval: 0.5
-  antecipationDuration: 0.5
   attackDuration: 5
+  cooldownTime: 1
+  lockedTime: 0
+  damage: 0
+  playerController: {fileID: 585488624}
+  cooldownRemaining: 0
+  lockedRemaining: 0
+  attackRemaining: 0
+  rainPrefab: {fileID: 8770195569515005297, guid: e6f205b72fd0aca469384e1f4368ac73, type: 3}
+  spawnInterval: 0.25
+  antecipationDuration: 0.5
+  horizontalVariance: 5
+  verticalVariance: 0.5
+  verticalOffset: 10
   boss: {fileID: 496510883}
+--- !u!114 &585488634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585488620}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d60b6d060fd1af1478681eed92c8c3b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDuration: 0
+  cooldownTime: 2
+  lockedTime: 0
+  damage: 0
+  playerController: {fileID: 585488624}
+  cooldownRemaining: 0
+  lockedRemaining: 0
+  attackRemaining: 0
 --- !u!1 &906145361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,7 +1140,7 @@ GameObject:
   - component: {fileID: 1380444957}
   - component: {fileID: 1380444959}
   - component: {fileID: 1380444958}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AttackArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1279,7 +1323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1592359574}
   - component: {fileID: 1592359575}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DebugSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1396,7 +1440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1620181344}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -7,13 +7,15 @@ class Bang : Power
     
     Transform player;
     
-    protected override void EnterPower()
+    public override void EnterPower()
     {
+        if(playerController == null)
+            playerController = GetComponent<PlayerController>();
         player = playerController.transform;
         SpawnBang();
     }
     
-    protected override void EndPower()
+    public override void EndPower()
     {
         
     }

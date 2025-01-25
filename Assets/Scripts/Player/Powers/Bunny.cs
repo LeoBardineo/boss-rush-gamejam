@@ -10,13 +10,15 @@ class Bunny : Power
     
     Transform player;
     
-    protected override void EnterPower()
+    public override void EnterPower()
     {
+        if(playerController == null)
+            playerController = GetComponent<PlayerController>();
         player = playerController.transform;
         InvokeRepeating(nameof(SpawnBunny), antecipationDuration, spawnInterval);
     }
     
-    protected override void EndPower()
+    public override void EndPower()
     {
         CancelInvoke(nameof(SpawnBunny));
     }

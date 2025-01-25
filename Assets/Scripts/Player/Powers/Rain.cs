@@ -7,31 +7,26 @@ class Rain : Power
     GameObject rainPrefab;
 
     [SerializeField]
-    float spawnInterval = 0.5f, antecipationDuration = 0.5f, attackDuration = 5f;
+    float spawnInterval = 0.5f, antecipationDuration = 0.5f, horizontalVariance = 2f, verticalVariance = 0.5f, verticalOffset = 2f;
     
     [SerializeField]
     Transform boss;
     
-    protected override void EnterPower()
+    public override void EnterPower()
     {
         InvokeRepeating(nameof(SpawnRain), antecipationDuration, spawnInterval);
-        StartCoroutine(WaitSpawning(attackDuration));
     }
     
-    protected override void EndPower()
+    public override void EndPower()
     {
         CancelInvoke(nameof(SpawnRain));
     }
 
-    IEnumerator WaitSpawning(float attackDuration)
-    {
-        yield return new WaitForSeconds(attackDuration);
-        EndPower();
-    }
-
     void SpawnRain()
     {
-        Vector3 spawnPosition = boss.position + new Vector3(0, 2f, 0);
+        float randomX = Random.Range(-horizontalVariance, horizontalVariance);
+        float randomY = Random.Range(-verticalVariance, verticalVariance);
+        Vector3 spawnPosition = boss.position + new Vector3(randomX, randomY + verticalOffset, 0);
         Instantiate(rainPrefab, spawnPosition, rainPrefab.transform.rotation);
     }
 }
