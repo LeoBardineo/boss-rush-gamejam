@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     // Basicamente só to checando se ele ta olhando pra direita. Se não está, tá olhando pra esquerda. Pegando a ultima direção que ele ta olhando determina já o dash certo
     public bool facingRight = true;
     public bool idle = true;
+    public bool powerInCooldown = false;
 
     //↑↑ Tratamento de jogador para direita ou para esquerda ↑↑
     
@@ -28,6 +29,8 @@ public class PlayerController : MonoBehaviour
     private bool movimentLocked = false;
     private bool flipedToRight = true, flipedToLeft = false;
 
+    Power equipedPower;
+
     [SerializeField] private TrailRenderer tr;
 
     //↑↑ Dash ↑↑
@@ -35,6 +38,14 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         facingRight = true;
+        Power[] powers = GetComponents<Power>();
+        foreach (Power power in powers)
+        {
+            if(power.enabled){
+                equipedPower = power;
+                break;
+            }
+        }
     }
 
     void Update()
@@ -44,6 +55,7 @@ public class PlayerController : MonoBehaviour
         {
             Move();
             Jump();
+            DoPower();
         }
 
     }
@@ -62,6 +74,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+        }
+    }
+
+    void DoPower()
+    {
+        if(Input.GetKeyDown(KeyCode.F) && !powerInCooldown)
+        {
+            equipedPower.UsePower();
         }
     }
 

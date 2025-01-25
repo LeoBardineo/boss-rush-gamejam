@@ -10,13 +10,15 @@ class Bunny : Power
     
     Transform player;
     
-    protected override void EnterPower()
+    public override void EnterPower()
     {
+        if(playerController == null)
+            playerController = GetComponent<PlayerController>();
         player = playerController.transform;
         InvokeRepeating(nameof(SpawnBunny), antecipationDuration, spawnInterval);
     }
     
-    protected override void EndPower()
+    public override void EndPower()
     {
         CancelInvoke(nameof(SpawnBunny));
     }
@@ -24,6 +26,8 @@ class Bunny : Power
     void SpawnBunny()
     {
         Vector3 spawnPosition = player.position;
-        Instantiate(bunnyPrefab, spawnPosition, bunnyPrefab.transform.rotation);
+        GameObject bunnyInstance = Instantiate(bunnyPrefab, spawnPosition, bunnyPrefab.transform.rotation);
+        if(!playerController.facingRight)
+            bunnyInstance.GetComponent<BunnyAttack>().velocidadeDeMovimeto *= -1;
     }
 }

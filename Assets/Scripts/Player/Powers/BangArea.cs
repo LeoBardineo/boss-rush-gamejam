@@ -1,20 +1,19 @@
 using UnityEngine;
 
-public class BunnyAttack : AttackArea
+public class BangArea : AttackArea
 {
-    public float velocidadeDeGiro, velocidadeDeMovimeto;
+    public float velocidadeDeMovimeto;
 
     [SerializeField]
-    int bunnyDamage;
+    int bangDamage;
 
     void Start()
     {
-        damage = bunnyDamage;
+        damage = bangDamage;
     }
 
     void Update()
     {
-        transform.Rotate(0f, 0f, velocidadeDeGiro * Time.deltaTime);
         transform.position += new Vector3(velocidadeDeMovimeto * Time.deltaTime, 0, 0);
     }
 

@@ -5,12 +5,12 @@ class Blaze : Power {
     [SerializeField]
     GameObject powerArea;
     
-    protected override void EnterPower()
+    public override void EnterPower()
     {
         powerArea.SetActive(true);
     }
     
-    protected override void EndPower()
+    public override void EndPower()
     {
         powerArea.SetActive(false);
     }
