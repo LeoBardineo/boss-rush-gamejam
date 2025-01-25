@@ -1,10 +1,10 @@
 using UnityEngine;
 
 abstract class Power : MonoBehaviour {
-    public float cooldownTime;
+    public float cooldownTime, lockedTime;
     public int damage;
     protected PlayerController playerController;
-    float cooldownRemaining = 0f;
+    float cooldownRemaining = 0f, lockedRemaining = 0f;
     bool isUsingPower = false;
 
     void Start()
@@ -14,6 +14,12 @@ abstract class Power : MonoBehaviour {
 
     void Update()
     {
+        if(lockedRemaining > 0f) {
+            lockedRemaining -= Time.deltaTime;
+            if (lockedRemaining <= 0f)
+                playerController.UnlockMovement();
+        }
+
         if(cooldownRemaining > 0f) {
             cooldownRemaining -= Time.deltaTime;
             if (cooldownRemaining < 0f) cooldownRemaining = 0f;
@@ -33,15 +39,16 @@ abstract class Power : MonoBehaviour {
     void UsePower()
     {
         cooldownRemaining = cooldownTime;
+        lockedRemaining = lockedTime;
         isUsingPower = true;
-        playerController.LockMovement();
+        if(lockedTime != 0f)
+            playerController.LockMovement();
         EnterPower();
     }
 
     void DisablePower()
     {
         isUsingPower = false;
-        playerController.UnlockMovement();
         EndPower();
     }
 

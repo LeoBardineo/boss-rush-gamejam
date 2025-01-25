@@ -4,9 +4,6 @@ class Bang : Power
 {
     [SerializeField]
     GameObject bangPrefab;
-
-    [SerializeField]
-    float antecipationDuration = 0.5f;
     
     Transform player;
     

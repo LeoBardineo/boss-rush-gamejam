@@ -287,7 +287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &496510883
 Transform:
   m_ObjectHideFlags: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9fc1356ba2e0a6409955b8c14d7d78a, type: 3}
   m_Name: 
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 156e4a95b6750664489242fd43d75f46, type: 3}
   m_Name: 
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8154c55cfa5db9349974f0f947ba5338, type: 3}
   m_Name: 
@@ -413,7 +413,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a25fa214efe74a44db126e0b21eaac08, type: 3}
   m_Name: 
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfc4821820383304c9d56cf50bb8ab4b, type: 3}
   m_Name: 
@@ -593,6 +593,7 @@ GameObject:
   - component: {fileID: 585488630}
   - component: {fileID: 585488631}
   - component: {fileID: 585488632}
+  - component: {fileID: 585488633}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -934,6 +935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownTime: 2
+  lockedTime: 0
   damage: 10
   powerArea: {fileID: 115760839}
 --- !u!114 &585488631
@@ -943,12 +945,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585488620}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 50f9fcf7b328fe94ea64cecd5869423f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownTime: 2
+  lockedTime: 0
   damage: 10
   bunnyPrefab: {fileID: 6674516587623914274, guid: 1d5b8e4c02ef35c4ea1261314958e4c8, type: 3}
   spawnInterval: 0.5
@@ -966,9 +969,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownTime: 1
+  lockedTime: 0
   damage: 0
   bangPrefab: {fileID: 3709194906325558912, guid: 1e67c0d3413c57e46a8f344c9cba5fb2, type: 3}
+--- !u!114 &585488633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585488620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dfe0529f94b5bc49b2319504cedb9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownTime: 5
+  lockedTime: 1
+  damage: 0
+  rainPrefab: {fileID: 8770195569515005297, guid: e6f205b72fd0aca469384e1f4368ac73, type: 3}
+  spawnInterval: 0.5
   antecipationDuration: 0.5
+  attackDuration: 5
+  boss: {fileID: 496510883}
 --- !u!1 &906145361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1175,7 +1198,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1575915279
 SpriteRenderer:
   m_ObjectHideFlags: 0
