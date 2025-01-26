@@ -67,7 +67,6 @@ public class BossHP : MonoBehaviour
 
     public void Damage(float damage)
     {
-
         HP -= damage;
         //Script apenas por questões de debug abaixo
         SpriteRenderer.color = Color.magenta;

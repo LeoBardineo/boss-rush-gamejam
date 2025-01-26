@@ -1,18 +1,25 @@
 using UnityEngine;
 
 class Blaze : Power {
-
     [SerializeField]
-    GameObject powerArea;
+    BlazeArea powerArea;
+
+    protected override void Initialize()
+    {
+        base.Initialize();
+        attackArea = powerArea;
+    }
     
     public override void EnterPower()
     {
-        powerArea.SetActive(true);
+        powerArea.damage = damage;
+        powerArea.damageModifier = damageModifier;
+        powerArea.gameObject.SetActive(true);
     }
     
     public override void EndPower()
     {
-        powerArea.SetActive(false);
+        powerArea.gameObject.SetActive(false);
     }
 
 }

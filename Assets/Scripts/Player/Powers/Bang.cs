@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 class Bang : Power
@@ -7,6 +8,12 @@ class Bang : Power
     
     Transform player;
     
+    protected override void Initialize()
+    {
+        base.Initialize();
+        attackArea = bangPrefab.GetComponent<BangArea>();
+    }
+
     public override void EnterPower()
     {
         if(playerController == null)
@@ -24,7 +31,10 @@ class Bang : Power
     {
         Vector3 spawnPosition = player.position;
         GameObject bangInstance = Instantiate(bangPrefab, spawnPosition, bangPrefab.transform.rotation);
+        BangArea bangArea = bangInstance.GetComponent<BangArea>();
+        bangArea.damage = damage;
+        bangArea.damageModifier = damageModifier;
         if(!playerController.facingRight)
-            bangInstance.GetComponent<BangArea>().velocidadeDeMovimeto *= -1;
+            bangArea.velocidadeDeMovimeto *= -1;
     }
 }

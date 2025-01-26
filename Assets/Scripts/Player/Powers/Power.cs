@@ -1,13 +1,19 @@
 using UnityEngine;
 
-abstract class Power : MonoBehaviour {
-    public float attackDuration, cooldownTime, lockedTime;
+public abstract class Power : MonoBehaviour {
+    public float attackDuration, cooldownTime, lockedTime, damageModifier;
     public int damage;
     public PlayerController playerController;
     public float cooldownRemaining = 0f, lockedRemaining = 0f, attackRemaining;
+    public AttackArea attackArea;
     bool isUsingPower = false;
 
     void Start()
+    {
+        Initialize();
+    }
+
+    protected virtual void Initialize()
     {
         playerController = GetComponent<PlayerController>();
     }

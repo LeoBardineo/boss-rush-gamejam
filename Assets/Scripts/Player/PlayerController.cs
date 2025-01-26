@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     // Basicamente só to checando se ele ta olhando pra direita. Se não está, tá olhando pra esquerda. Pegando a ultima direção que ele ta olhando determina já o dash certo
     public bool facingRight = true;
     public bool idle = true;
-    public bool powerInCooldown = false;
+    public bool powerInCooldown = false, potionInCooldown = false;
 
     //↑↑ Tratamento de jogador para direita ou para esquerda ↑↑
     
@@ -29,7 +29,10 @@ public class PlayerController : MonoBehaviour
     private bool movimentLocked = false;
     private bool flipedToRight = true, flipedToLeft = false;
 
-    Power equipedPower;
+    public Power equipedPower;
+
+    [SerializeField]
+    Potion equipedPotion;
 
     [SerializeField] private TrailRenderer tr;
 
@@ -38,13 +41,15 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         facingRight = true;
-        Power[] powers = GetComponents<Power>();
-        foreach (Power power in powers)
+
+        if(equipedPower == null)
         {
-            if(power.enabled){
-                equipedPower = power;
-                break;
-            }
+            equipedPower = equipFirstPower();
+        }
+
+        if(equipedPotion == null)
+        {
+            equipedPotion = equipFirstPotion();
         }
     }
 
@@ -56,6 +61,7 @@ public class PlayerController : MonoBehaviour
             Move();
             Jump();
             DoPower();
+            DoPotion();
         }
 
     }
@@ -82,6 +88,14 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.F) && !powerInCooldown)
         {
             equipedPower.UsePower();
+        }
+    }
+
+    void DoPotion()
+    {
+        if(Input.GetKeyDown(KeyCode.G) && !potionInCooldown)
+        {
+            equipedPotion.UsePotion();
         }
     }
 
@@ -168,5 +182,29 @@ public class PlayerController : MonoBehaviour
     public void UnlockMovement()
     {
         movimentLocked = false;
+    }
+
+    Power equipFirstPower()
+    {
+        Power[] powers = GetComponents<Power>();
+        foreach (Power power in powers)
+        {
+            if(power.enabled){
+                return power;
+            }
+        }
+        return null;
+    }
+
+    Potion equipFirstPotion()
+    {
+        Potion[] potions = GetComponents<Potion>();
+        foreach (Potion potion in potions)
+        {
+            if(potion.enabled){
+                return potion;
+            }
+        }
+        return null;
     }
 }

@@ -2,39 +2,39 @@ using UnityEngine;
 
 public class PlayerHP : MonoBehaviour
 {
-
-    public float HP;
+    public float HP, maxHP;
     public bool invicible;
+    float damageModifier = 1;
 
     //Pra alterar o tempo que o player fica invencível após tomar um dano é só alterar abaixo
     [SerializeField]
-    private float invicibleDuration=1.2f, time;
+    private float invicibleDuration = 1.2f, time;
 
     private SpriteRenderer sprite;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void Start()
     {
         if (GlobalData.level == 0)
         {
-            HP = 10;
+            maxHP = 10;
         }
         if (GlobalData.level == 1)
         {
-            HP = 12;
+            maxHP = 12;
         }
         if (GlobalData.level == 2)
         {
-            HP = 14;
+            maxHP = 14;
         }
         if (GlobalData.level == 3)
         {
-            HP = 16;
+            maxHP = 16;
         }
         if (GlobalData.level == 4)
         {
-            HP = 18;
-        }   
+            maxHP = 18;
+        }
+        HP = maxHP;
     }
 
     void Update()
@@ -50,18 +50,20 @@ public class PlayerHP : MonoBehaviour
             }
         }
     }
+
     public void TakeDamage(float damage)
     {
         if (!invicible)
         {
+            HP -= damage * damageModifier;
             if (HP > 0)
             {
-                HP -= damage;
                 invicible = true;
                 HurtEffect();
             }
             else
             {
+                HP = 0;
                 Die();
             }
         }
@@ -80,5 +82,17 @@ public class PlayerHP : MonoBehaviour
             sprite.color = Color.red;
             Debug.Log("Hurt change");
         }
+    }
+
+    public void Heal(int healingPoints)
+    {
+        HP += healingPoints;
+        if(HP > maxHP)
+            HP = maxHP;
+    }
+
+    public void ChangeMaxHP(int healingPoints)
+    {
+        maxHP += healingPoints;
     }
 }

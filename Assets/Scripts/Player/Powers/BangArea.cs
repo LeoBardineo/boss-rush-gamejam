@@ -4,14 +4,6 @@ public class BangArea : AttackArea
 {
     public float velocidadeDeMovimeto;
 
-    [SerializeField]
-    int bangDamage;
-
-    void Start()
-    {
-        damage = bangDamage;
-    }
-
     void Update()
     {
         transform.position += new Vector3(velocidadeDeMovimeto * Time.deltaTime, 0, 0);

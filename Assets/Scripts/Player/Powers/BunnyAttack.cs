@@ -4,14 +4,6 @@ public class BunnyAttack : AttackArea
 {
     public float velocidadeDeGiro, velocidadeDeMovimeto;
 
-    [SerializeField]
-    int bunnyDamage;
-
-    void Start()
-    {
-        damage = bunnyDamage;
-    }
-
     void Update()
     {
         transform.Rotate(0f, 0f, velocidadeDeGiro * Time.deltaTime);

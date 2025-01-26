@@ -11,9 +11,18 @@ class Rain : Power
     
     [SerializeField]
     Transform boss;
+
+    protected override void Initialize()
+    {
+        base.Initialize();
+        attackArea = rainPrefab.GetComponent<RainAttack>();
+    }
     
     public override void EnterPower()
     {
+        RainAttack rainAttack = rainPrefab.GetComponent<RainAttack>();
+        rainAttack.damage = damage;
+        rainAttack.damageModifier = damageModifier;
         InvokeRepeating(nameof(SpawnRain), antecipationDuration, spawnInterval);
     }
     

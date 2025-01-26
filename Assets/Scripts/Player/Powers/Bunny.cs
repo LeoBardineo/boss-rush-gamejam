@@ -9,6 +9,12 @@ class Bunny : Power
     float spawnInterval = 0.5f, antecipationDuration = 0.5f;
     
     Transform player;
+
+    protected override void Initialize()
+    {
+        base.Initialize();
+        attackArea = bunnyPrefab.GetComponent<BunnyAttack>();
+    }
     
     public override void EnterPower()
     {
@@ -27,7 +33,10 @@ class Bunny : Power
     {
         Vector3 spawnPosition = player.position;
         GameObject bunnyInstance = Instantiate(bunnyPrefab, spawnPosition, bunnyPrefab.transform.rotation);
+        BunnyAttack bunnyAttack = bunnyInstance.GetComponent<BunnyAttack>();
+        bunnyAttack.damage = damage;
+        bunnyAttack.damageModifier = damageModifier;
         if(!playerController.facingRight)
-            bunnyInstance.GetComponent<BunnyAttack>().velocidadeDeMovimeto *= -1;
+            bunnyAttack.velocidadeDeMovimeto *= -1;
     }
 }
