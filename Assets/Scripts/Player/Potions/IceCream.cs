@@ -8,26 +8,27 @@ class IceCream : Potion {
     [SerializeField]
     float damageModifier = 0.7f;
 
-    [SerializeField]
-    AttackArea attackArea;
-
     PlayerHP playerHP;
+
+    Weapon weapon;
 
     protected override void Initialize()
     {
         base.Initialize();
         playerHP = GetComponent<PlayerHP>();
-        // attackArea = equipedWeapon.attackArea;
+        weapon = playerController.equipedWeapon;
     }
 
     public override void EnterPotion(){
         Debug.Log("IceCream: começou o buff");
         playerHP.Heal(healingPoints);
-        attackArea.damageModifier = damageModifier;
+        weapon.damageModifier = damageModifier;
+        weapon.ChangeAttackAreaModifiers();
     }
 
     public override void EndPotion(){
         Debug.Log("IceCream: acabou o buff");
-        attackArea.damageModifier = 1;
+        weapon.damageModifier = 1f;
+        weapon.ChangeAttackAreaModifiers();
     }
 }

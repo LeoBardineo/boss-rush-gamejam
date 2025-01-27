@@ -10,4 +10,13 @@ abstract class RangedWeapon : Weapon
         base.Attack();
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
+
+    public override void ChangeAttackAreaModifiers()
+    {
+        AttackArea attackArea = bulletPrefab.GetComponent<Bullet>();
+        attackArea.bananaSplitAmountOfHits = bananaSplitAmountOfHits;
+        attackArea.bananaSplitEffect = bananaSplitEffect;
+        attackArea.bananaSplitModifier = bananaSplitModifier;
+        attackArea.damageModifier = damageModifier;
+    }
 }

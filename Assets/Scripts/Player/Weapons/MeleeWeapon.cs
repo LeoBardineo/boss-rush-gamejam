@@ -24,7 +24,7 @@ abstract class MeleeWeapon : Weapon
     {
         timer += Time.deltaTime;
 
-        if (timer >= attackWindow)
+        if (attacking && timer >= attackWindow)
         {
             timer = 0;
             attacking = false;
@@ -32,10 +32,18 @@ abstract class MeleeWeapon : Weapon
             return;
         }
 
-        if (timer >= cooldownTime && !attacking)
+        if (!attacking && timer >= cooldownTime)
         {
             timer = 0;
             onCooldown = false;
         }
+    }
+    
+    public override void ChangeAttackAreaModifiers()
+    {
+        attackArea.bananaSplitAmountOfHits = bananaSplitAmountOfHits;
+        attackArea.bananaSplitEffect = bananaSplitEffect;
+        attackArea.bananaSplitModifier = bananaSplitModifier;
+        attackArea.damageModifier = damageModifier;
     }
 }

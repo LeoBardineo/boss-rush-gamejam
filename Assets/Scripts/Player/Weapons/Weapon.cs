@@ -5,8 +5,13 @@ public abstract class Weapon : MonoBehaviour
     [SerializeField]
     protected float cooldownTime;
 
-    protected bool onCooldown = false;
-    protected float timer = 0f;
+    public bool onCooldown = false;
+    public float timer = 0f;
+
+    public float damageModifier = 1f;
+    public float bananaSplitModifier = 0;
+    public bool bananaSplitEffect = false;
+    public int bananaSplitAmountOfHits = 0;
 
     void Update()
     {
@@ -36,4 +41,6 @@ public abstract class Weapon : MonoBehaviour
             onCooldown = false;
         }
     }
+
+    public abstract void ChangeAttackAreaModifiers();
 }

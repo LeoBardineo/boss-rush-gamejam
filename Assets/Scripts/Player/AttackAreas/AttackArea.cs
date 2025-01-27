@@ -6,9 +6,9 @@ public class AttackArea : MonoBehaviour
     public int damage;
     public float damageModifier = 1f;
     
-    public float bananaSplitModifier;
+    public float bananaSplitModifier = 1f;
     public bool bananaSplitEffect = false;
-    public int bananaSplitAmountOfHits;
+    public int bananaSplitAmountOfHits = 0;
 
     protected virtual void OnTriggerEnter2D(Collider2D collider) 
     {

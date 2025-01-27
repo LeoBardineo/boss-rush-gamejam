@@ -706,7 +706,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91c597a58e4000a42a042b4920f4dc5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownTime: 1
+  onCooldown: 0
+  timer: 0
+  damageModifier: 1
+  bananaSplitModifier: 0
+  bananaSplitEffect: 0
+  bananaSplitAmountOfHits: 0
+  attacking: 0
   PlayerControl: {fileID: 585488624}
+  attackArea: {fileID: 0}
+  attackWindow: 0.25
 --- !u!114 &585488623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,6 +757,7 @@ MonoBehaviour:
   dashingPower: 50
   dashingTime: 0.08
   dashingCooldown: 1
+  equipedWeapon: {fileID: 585488622}
   equipedPower: {fileID: 585488632}
   equipedPotion: {fileID: 585488637}
   tr: {fileID: 585488625}
@@ -1187,7 +1198,6 @@ MonoBehaviour:
   buffRemaining: 0
   healingPoints: 4
   damageModifier: 0.7
-  attackArea: {fileID: 1380444958}
 --- !u!114 &585488638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1209,7 +1219,6 @@ MonoBehaviour:
   buffRemaining: 0
   reducedMaxHP: 2
   damageModifier: 2
-  attackArea: {fileID: 1380444958}
 --- !u!114 &585488639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1232,7 +1241,6 @@ MonoBehaviour:
   amountOfHits: 5
   damageAfterFail: 1
   damageModifier: 1.5
-  attackArea: {fileID: 1380444958}
 --- !u!1 &906145361
 GameObject:
   m_ObjectHideFlags: 0

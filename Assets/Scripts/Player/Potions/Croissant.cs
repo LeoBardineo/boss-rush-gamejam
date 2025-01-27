@@ -8,27 +8,28 @@ class Croissant : Potion {
     [SerializeField]
     float damageModifier = 2;
 
-    [SerializeField]
-    AttackArea attackArea;
-
     PlayerHP playerHP;
+
+    Weapon weapon;
 
     protected override void Initialize()
     {
         base.Initialize();
         playerHP = GetComponent<PlayerHP>();
-        // attackArea = equipedWeapon.attackArea;
+        weapon = playerController.equipedWeapon;
     }
 
     public override void EnterPotion(){
         Debug.Log("Croissant: começou o buff");
         playerHP.ChangeMaxHP(-reducedMaxHP);
-        attackArea.damageModifier = damageModifier;
+        weapon.damageModifier = damageModifier;
+        weapon.ChangeAttackAreaModifiers();
     }
 
     public override void EndPotion(){
         Debug.Log("Croissant: acabou o buff");
         playerHP.ChangeMaxHP(reducedMaxHP);
-        attackArea.damageModifier = 1;
+        weapon.damageModifier = 1f;
+        weapon.ChangeAttackAreaModifiers();
     }
 }
