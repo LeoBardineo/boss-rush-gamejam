@@ -1,7 +1,8 @@
 using UnityEngine;
 
-public class SkateHandAttack : MonoBehaviour
+public class BallHandAttack : MonoBehaviour
 {
+     public static bool skating= false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -10,6 +11,14 @@ public class SkateHandAttack : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            StartBallAttack();
+        }        
+    }
+
+    public void StartBallAttack()
     {
         
     }

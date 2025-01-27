@@ -3,10 +3,15 @@ using UnityEngine;
 public class ClappingAttack : MonoBehaviour
 {
     private Rigidbody2D rbLeftHand,rbRightHand;
-    [SerializeField] private GameObject leftHand,rightHand; 
-    [SerializeField] private float clappingSpeed;
+    [SerializeField] private GameObject leftHand,rightHand;
+    [SerializeField] private float clappingSpeed=3.5f;
+    [SerializeField] private Transform leftHandClapPos,rightHandClapPos;
+    [SerializeField] private Vector3 originalLeftHandPos,originalRightHandPos;
+    [SerializeField] private SpriteRenderer leftHandSprite, rightHandSprite;
+    [SerializeField] private float antecipationTimer=3f, timer;
+
     public static bool clapping = false;
-    public bool canClap=false;
+    public bool canClap=false, antecipationStarted, canBegingClap, antecipationFinished;
     public int ciclesOfClaps, currentCicle;
     void Start()
     {
@@ -24,10 +29,26 @@ public class ClappingAttack : MonoBehaviour
             BeginClapAttack();
         }
 
-        if (canClap)
+        if (antecipationStarted)
+        {
+            if (timer<=antecipationTimer)
+            {
+                timer+= 0.1f;
+            }
+            else
+            {
+                antecipationFinished = true;
+                timer = 0f;
+                antecipationStarted = false;
+            }
+        }
+        else
+        {
+        if (canClap && antecipationFinished)
         {
             if(!leftHand.GetComponent<HandInfo>().resetHandPos)
             {
+                Debug.Log("TESTE");
             rbLeftHand.linearVelocity = new Vector2(clappingSpeed * clappingSpeed,rbLeftHand.linearVelocity.y);
             rbRightHand.linearVelocity = new Vector2(-(clappingSpeed * clappingSpeed),rbRightHand.linearVelocity.y);
             }
@@ -40,7 +61,7 @@ public class ClappingAttack : MonoBehaviour
                     Debug.Log("ReturningCicle");
                 }
                 else
-                    {
+                {
                     rbLeftHand.linearVelocity = new Vector2(0,0);
                     rbRightHand.linearVelocity = new Vector2(0,0);                  
                     Debug.Log("Stoped!");
@@ -50,20 +71,24 @@ public class ClappingAttack : MonoBehaviour
                        canClap = false;
                        currentCicle = 0; 
                        clapping = false;
+                       MoveHandsToOriginalPosition();
+                       antecipationFinished = false;
                     }
                     else
                     {
                     leftHand.GetComponent<HandInfo>().StartCicle();
                     rightHand.GetComponent<HandInfo>().StartCicle();
                     }
-                    }
+                }
             }
+        }
         }
 
     }
 
     public void BeginClapAttack()
     {
+        MoveHandsToClapPosition();
         leftHand.GetComponent<HandInfo>().StartCicle();
         rightHand.GetComponent<HandInfo>().StartCicle();
         ciclesOfClaps = Random.Range(1,5);
@@ -79,4 +104,28 @@ public class ClappingAttack : MonoBehaviour
         }
     }
 
+    void MoveHandsToClapPosition()
+    {
+        antecipationStarted = true;
+        leftHandSprite.enabled = false;
+        rightHandSprite.enabled = false;
+        Vector3 targetPosition = leftHandClapPos.position;
+        targetPosition.x += 3;
+        originalLeftHandPos = leftHand.transform.position;
+        originalRightHandPos= rightHand.transform.position;
+        //Movendo elas para posição do Clap.
+        leftHand.transform.position = targetPosition;
+        targetPosition = rightHandClapPos.position;
+        targetPosition.x -= 3;
+        rightHand.transform.position = targetPosition;
+        leftHandSprite.enabled = true;
+        rightHandSprite.enabled = true;
+    }
+
+    void MoveHandsToOriginalPosition()
+    {
+        Debug.Log("Original position called");
+        leftHand.transform.position = originalLeftHandPos;
+        rightHand.transform.position = originalRightHandPos;
+    }
 }
