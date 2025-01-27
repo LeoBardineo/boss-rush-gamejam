@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Wave
   - OneWayPlatform
+  - ResetHand
+  - DefaultHand
   layers:
   - Default
   - TransparentFX
