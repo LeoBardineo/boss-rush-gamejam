@@ -1,0 +1,4 @@
+class SquirtFlower : RangedWeapon
+{
+
+}

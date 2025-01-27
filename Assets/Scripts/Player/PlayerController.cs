@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     private bool movimentLocked = false;
     private bool flipedToRight = true, flipedToLeft = false;
 
+    public Weapon equipedWeapon;
     public Power equipedPower;
 
     [SerializeField]

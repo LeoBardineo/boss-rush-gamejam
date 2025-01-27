@@ -28,7 +28,7 @@ public class Bullet : AttackArea
         if (GlobalData.level == 4)
         {
             damage = 41;
-        }     
+        }
 
         rb.linearVelocity = transform.right * speed;   
     }
@@ -41,5 +41,10 @@ public class Bullet : AttackArea
         {
             Destroy(gameObject);
         }
+    }
+    
+    void OnBecameInvisible()
+    {
+        Destroy(gameObject, 0.5f);
     }
 }
