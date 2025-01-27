@@ -2,15 +2,17 @@ using UnityEngine;
 
 public class HarlequimStateManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    StateManager stateManager;
+    public float idleDuration;
+
     void Start()
     {
-        
+        stateManager = new StateManager();
+        stateManager.Start(new JesterIdleState(gameObject));
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        stateManager.Update();
     }
 }
