@@ -9,7 +9,7 @@ public class ClappingAttack : MonoBehaviour
     [SerializeField] private Vector3 originalLeftHandPos,originalRightHandPos;
     [SerializeField] private SpriteRenderer leftHandSprite, rightHandSprite;
     [SerializeField] private float antecipationTimer=3f, timer;
-
+    [SerializeField] private GameObject SlapReset;
     public static bool clapping = false;
     public bool canClap=false, antecipationStarted, canBegingClap, antecipationFinished;
     public int ciclesOfClaps, currentCicle;
@@ -73,6 +73,10 @@ public class ClappingAttack : MonoBehaviour
                        clapping = false;
                        MoveHandsToOriginalPosition();
                        antecipationFinished = false;
+                       leftHand.GetComponent<HandInfo>().ResetAll();
+                       rightHand.GetComponent<HandInfo>().ResetAll();
+                       SlapReset.SetActive(false);
+                     
                     }
                     else
                     {
@@ -88,6 +92,7 @@ public class ClappingAttack : MonoBehaviour
 
     public void BeginClapAttack()
     {
+        SlapReset.SetActive(true);
         MoveHandsToClapPosition();
         leftHand.GetComponent<HandInfo>().StartCicle();
         rightHand.GetComponent<HandInfo>().StartCicle();
