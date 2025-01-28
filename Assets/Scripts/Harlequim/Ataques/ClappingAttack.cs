@@ -8,7 +8,7 @@ public class ClappingAttack : MonoBehaviour
     [SerializeField] private Transform leftHandClapPos,rightHandClapPos;
     [SerializeField] private Vector3 originalLeftHandPos,originalRightHandPos;
     [SerializeField] private SpriteRenderer leftHandSprite, rightHandSprite;
-    [SerializeField] private float antecipationTimer=3f, timer;
+    [SerializeField] private float antecipationTimer=1.2f, timer;
     [SerializeField] private GameObject SlapReset;
     public static bool clapping = false;
     public bool canClap=false, antecipationStarted, canBegingClap, antecipationFinished;
@@ -33,7 +33,7 @@ public class ClappingAttack : MonoBehaviour
         {
             if (timer<=antecipationTimer)
             {
-                timer+= 0.1f;
+                timer+= Time.deltaTime;
             }
             else
             {
@@ -115,13 +115,13 @@ public class ClappingAttack : MonoBehaviour
         leftHandSprite.enabled = false;
         rightHandSprite.enabled = false;
         Vector3 targetPosition = leftHandClapPos.position;
-        targetPosition.x += 3;
+        targetPosition.x += 1;
         originalLeftHandPos = leftHand.transform.position;
         originalRightHandPos= rightHand.transform.position;
         //Movendo elas para posição do Clap.
         leftHand.transform.position = targetPosition;
         targetPosition = rightHandClapPos.position;
-        targetPosition.x -= 3;
+        targetPosition.x -= 1;
         rightHand.transform.position = targetPosition;
         leftHandSprite.enabled = true;
         rightHandSprite.enabled = true;
