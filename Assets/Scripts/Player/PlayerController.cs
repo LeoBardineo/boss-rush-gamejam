@@ -9,7 +9,9 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 10f;
     public bool isGrounded;
     Rigidbody2D rb;
+    public Animator animator;
 
+    public bool exibeGroundCheck = false;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
@@ -41,6 +43,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         facingRight = true;
 
         if(equipedPower == null)
@@ -63,8 +66,28 @@ public class PlayerController : MonoBehaviour
             Jump();
             DoPower();
             DoPotion();
+            Animate();
         }
 
+    }
+
+    void Animate()
+    {
+        if(isGrounded)
+        {
+            if(idle)
+            {
+                animator.Play("Idle");
+            }
+            else
+            {
+                animator.Play("Walk");
+            }
+        } else if(!isGrounded && rb.linearVelocity.y < 0) {
+            animator.Play("Fall");
+        } else {
+            animator.Play("Jump");
+        }
     }
 
     void Move()
@@ -102,7 +125,7 @@ public class PlayerController : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        if (groundCheck != null)
+        if (groundCheck != null && exibeGroundCheck)
         {
             Gizmos.color = isGrounded ? Color.blue : Color.red;
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
@@ -118,24 +141,20 @@ public class PlayerController : MonoBehaviour
             facingRight = true;
             if (!flipedToRight)
             {
-                transform.Rotate(0f,180f,0f);
+                transform.Rotate(0f,-180f,0f);
                 flipedToRight = true;
                 flipedToLeft = false;
             }
-        }
-        if (moveInput < 0)
-        {
+        } else if (moveInput < 0) {
             idle = false;
             facingRight = false;
             if(!flipedToLeft)
             {
-                transform.Rotate(0f,180f,0f);
+                transform.Rotate(0f,-180f,0f);
                 flipedToRight = false;
                 flipedToLeft = true;
             }
-        }
-        else
-        {
+        } else {
             idle = true;
         }
     }
@@ -152,6 +171,7 @@ public class PlayerController : MonoBehaviour
     // Rotina que trata o efeito do dash
     private IEnumerator DashRT()
     {
+        animator.Play("Dash");
         canDash = false;
         movimentLocked = true;
         float originalGravity = rb.gravityScale;
@@ -166,6 +186,7 @@ public class PlayerController : MonoBehaviour
         }
         tr.emitting = true;
         yield return new WaitForSeconds(dashingTime);
+        animator.Play("Idle");
         tr.emitting = false;
         rb.gravityScale = originalGravity;
         movimentLocked = false;
@@ -176,6 +197,7 @@ public class PlayerController : MonoBehaviour
     // Não permite o personagem se mexer e zera sua velocidade
     public void LockMovement()
     {
+        // animator.Play("Idle");
         movimentLocked = true;
         rb.linearVelocity = new Vector2(0f, 0f);
     }

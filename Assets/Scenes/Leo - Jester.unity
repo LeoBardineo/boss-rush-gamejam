@@ -304,8 +304,8 @@ Transform:
   m_GameObject: {fileID: 496510881}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.73, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 1.69, y: 0.31, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -637,8 +637,8 @@ Transform:
   m_GameObject: {fileID: 584600489}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0634, y: -8.58, z: 0}
-  m_LocalScale: {x: 40, y: 1, z: 1}
+  m_LocalPosition: {x: 0.0634, y: -2.16, z: 0}
+  m_LocalScale: {x: 10, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -658,9 +658,9 @@ GameObject:
   - component: {fileID: 585488625}
   - component: {fileID: 585488629}
   - component: {fileID: 585488624}
+  - component: {fileID: 585488621}
   - component: {fileID: 585488623}
   - component: {fileID: 585488622}
-  - component: {fileID: 585488621}
   - component: {fileID: 585488630}
   - component: {fileID: 585488631}
   - component: {fileID: 585488632}
@@ -743,12 +743,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9dfad691bc5f974895f068daf355510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 20
+  speed: 3
+  jumpForce: 12
   isGrounded: 0
   animator: {fileID: 0}
+  exibeGroundCheck: 0
   groundCheck: {fileID: 1620181344}
-  groundCheckRadius: 0.2
+  groundCheckRadius: 0.1
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -913,8 +914,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.0651989}
-  m_Size: {x: 0.9383552, y: 1.1504917}
+  m_Offset: {x: 0, y: -0.019666165}
+  m_Size: {x: 0.90915257, y: 0.90915257}
   m_Direction: 0
 --- !u!50 &585488627
 Rigidbody2D:
@@ -952,8 +953,8 @@ Transform:
   m_GameObject: {fileID: 585488620}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.2, y: -5.77, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalPosition: {x: -1.97, y: -0.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1380444957}
@@ -1007,7 +1008,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 2312625509354070964, guid: f084da141e8c4ca4daadffd252ab5f84, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 3.99, y: 5.32}
@@ -1071,7 +1072,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585488620}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2aa004fca91770e489d85383df706de4, type: 3}
   m_Name: 
@@ -1692,7 +1693,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.508, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 585488628}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1741,6 +1742,7 @@ GameObject:
   - component: {fileID: 1936637724}
   - component: {fileID: 1936637723}
   - component: {fileID: 1936637726}
+  - component: {fileID: 1936637727}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1791,7 +1793,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 1.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1866,6 +1868,30 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &1936637727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936637722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ComponentVersion: 1
+  m_AssetsPPU: 100
+  m_RefResolutionX: 640
+  m_RefResolutionY: 360
+  m_CropFrame: 0
+  m_GridSnapping: 0
+  m_FilterMode: 0
+  m_UpscaleRT: 0
+  m_PixelSnapping: 0
+  m_CropFrameX: 0
+  m_CropFrameY: 0
+  m_StretchFill: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
