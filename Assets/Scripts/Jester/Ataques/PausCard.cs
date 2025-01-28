@@ -1,13 +1,14 @@
 using UnityEngine;
 
-class PausCard : MonoBehaviour
+public class PausCard : MonoBehaviour
 {
     public float cardHP;
     public PlayerController playerController;
+    public Animator animator;
 
     void Start()
     {
-        reverseControls();
+        animator = GetComponent<Animator>();
     }
 
     public void TomarDano(float dano)
@@ -21,17 +22,22 @@ class PausCard : MonoBehaviour
     
     void DestroyCard()
     {
-        reverseControls();
         PausSpawner.cardSpawned = false;
-        Destroy(gameObject);
+        ReverseControls();
+        animator.Play("PausCartaAntecipacaoReverse");
+        Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length + 0.25f);
     }
     
-    void reverseControls()
+    public void ReverseControls()
     {
+        if(PausSpawner.cardSpawned)
+            animator.Play("PausCartaHitMe");
         playerController.speed *= -1;
+        //playerController.gameObject.GetComponent<SpriteRenderer>().flipX = !PausSpawner.cardSpawned;
+        playerController.transform.Rotate(0f,-180f,0f);
     }
 
-    void mirrorCamera()
+    void MirrorCamera()
     {
         Camera.main.projectionMatrix *= Matrix4x4.Scale(new Vector3(-1, 1, 1));
     }

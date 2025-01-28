@@ -6,6 +6,9 @@ public class JesterIdleState : IState
     float timeSinceStart = 0f;
     float idleDuration;
     GameObject bossGameObject;
+    
+    EspadasSpawner espadasSpawner;
+    PausSpawner pausSpawner;
     CopasSpawner copasSpawner;
     OurosSpawner ourosSpawner;
     JesterStateManager jesterSM;
@@ -13,6 +16,8 @@ public class JesterIdleState : IState
     public JesterIdleState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
+        espadasSpawner = bossGameObject.GetComponent<EspadasSpawner>();
+        pausSpawner = bossGameObject.GetComponent<PausSpawner>();
         ourosSpawner = bossGameObject.GetComponent<OurosSpawner>();
         copasSpawner = bossGameObject.GetComponent<CopasSpawner>();
         jesterSM = bossGameObject.GetComponent<JesterStateManager>();
@@ -44,18 +49,22 @@ public class JesterIdleState : IState
         // se muito longe, corda invisivel
         // se não, aleatorio entre outros ataques
 
-        List<IState> possibleAttacks = new List<IState>{
-            new EspadasState(bossGameObject),
-        };
+        List<IState> possibleAttacks = new List<IState>();
 
-        if(!PausSpawner.cardSpawned)
+        if(espadasSpawner.enabled)
+            possibleAttacks.Add(new EspadasState(bossGameObject));
+
+        if(pausSpawner.enabled && !PausSpawner.cardSpawned)
             possibleAttacks.Add(new PausState(bossGameObject));
 
-        if(!ourosSpawner.isSpawning)
+        if(ourosSpawner.enabled && !ourosSpawner.isSpawning)
             possibleAttacks.Add(new OurosState(bossGameObject));
         
-        if(!copasSpawner.isSpawning)
+        if(copasSpawner.enabled && !copasSpawner.isSpawning)
             possibleAttacks.Add(new CopasState(bossGameObject));
+
+        if(possibleAttacks.Count == 0)
+            return new JesterIdleState(bossGameObject);
 
         IState attack = possibleAttacks[Random.Range(0, possibleAttacks.Count)];
         return attack;

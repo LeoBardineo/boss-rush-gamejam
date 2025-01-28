@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 56717ae490dec234b8f0cbf25236240e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 767421854207112977
+    second: ouros_antecipacao_0
+  - first:
+      213: 1735982797430161054
+    second: ouros_antecipacao_1
+  - first:
+      213: -1659475933177992595
+    second: ouros_antecipacao_2
+  - first:
+      213: -8804576455787650578
+    second: ouros_antecipacao_3
+  - first:
+      213: -6174642931325112898
+    second: ouros_antecipacao_4
+  - first:
+      213: 4707831934176214213
+    second: ouros_antecipacao_5
+  - first:
+      213: 4196166454284363402
+    second: ouros_antecipacao_6
+  - first:
+      213: -4116194602605088198
+    second: ouros_antecipacao_7
+  - first:
+      213: -6178577360909373254
+    second: ouros_antecipacao_8
+  - first:
+      213: -7869494802336557675
+    second: ouros_antecipacao_9
+  - first:
+      213: -7791930156830875057
+    second: ouros_antecipacao_10
+  - first:
+      213: -6538360206422399638
+    second: ouros_antecipacao_11
+  - first:
+      213: 1239742092683110866
+    second: ouros_antecipacao_12
+  - first:
+      213: -3537676986257428530
+    second: ouros_antecipacao_13
+  - first:
+      213: -1349449750795933114
+    second: ouros_antecipacao_14
+  - first:
+      213: 8344696840006849700
+    second: ouros_antecipacao_15
+  - first:
+      213: -9140299802065416005
+    second: ouros_antecipacao_16
+  - first:
+      213: -2241969417038699034
+    second: ouros_antecipacao_17
+  - first:
+      213: -1846633254158356198
+    second: ouros_antecipacao_18
+  - first:
+      213: -6697677324149010586
+    second: ouros_antecipacao_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ouros_antecipacao_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 59
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117f2e44c1e66aa00800000000000000
+      internalID: 767421854207112977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 56
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e73091823771810800000000000000
+      internalID: 1735982797430161054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 52
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6aad995e6b58f8e0800000000000000
+      internalID: -1659475933177992595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_3
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 50
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee16203bc5cdfc580800000000000000
+      internalID: -8804576455787650578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 47
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd6d77f7f24f4aa0800000000000000
+      internalID: -6174642931325112898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_5
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 46
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc30d27334955140800000000000000
+      internalID: 4707831934176214213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_6
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 41
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86a70e6827cb3a30800000000000000
+      internalID: 4196166454284363402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_7
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 39
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32f75541d650e6c0800000000000000
+      internalID: -4116194602605088198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_8
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 36
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0f9b130a8414aa0800000000000000
+      internalID: -6178577360909373254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_9
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 34
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59552f0fb20f9c290800000000000000
+      internalID: -7869494802336557675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_10
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 32
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4221774ec08dd390800000000000000
+      internalID: -7791930156830875057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_11
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 29
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65a4a2b8041345a0800000000000000
+      internalID: -6538360206422399638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_12
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 26
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9e9776dd2743110800000000000000
+      internalID: 1239742092683110866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_13
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 22
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf2d004685a7eec0800000000000000
+      internalID: -3537676986257428530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_14
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 18
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64aa191f99ac54de0800000000000000
+      internalID: -1349449750795933114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_15
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 13
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4deea50915ec370800000000000000
+      internalID: 8344696840006849700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_16
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 6
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb05155e1c1272180800000000000000
+      internalID: -9140299802065416005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_17
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 4
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e56e1491bce2e0e0800000000000000
+      internalID: -2241969417038699034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_18
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 6
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11b777d6d07f56e0800000000000000
+      internalID: -1846633254158356198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ouros_antecipacao_19
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 4
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fc8e1a5f11d03a0800000000000000
+      internalID: -6697677324149010586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ouros_antecipacao_0: 767421854207112977
+      ouros_antecipacao_1: 1735982797430161054
+      ouros_antecipacao_10: -7791930156830875057
+      ouros_antecipacao_11: -6538360206422399638
+      ouros_antecipacao_12: 1239742092683110866
+      ouros_antecipacao_13: -3537676986257428530
+      ouros_antecipacao_14: -1349449750795933114
+      ouros_antecipacao_15: 8344696840006849700
+      ouros_antecipacao_16: -9140299802065416005
+      ouros_antecipacao_17: -2241969417038699034
+      ouros_antecipacao_18: -1846633254158356198
+      ouros_antecipacao_19: -6697677324149010586
+      ouros_antecipacao_2: -1659475933177992595
+      ouros_antecipacao_3: -8804576455787650578
+      ouros_antecipacao_4: -6174642931325112898
+      ouros_antecipacao_5: 4707831934176214213
+      ouros_antecipacao_6: 4196166454284363402
+      ouros_antecipacao_7: -4116194602605088198
+      ouros_antecipacao_8: -6178577360909373254
+      ouros_antecipacao_9: -7869494802336557675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

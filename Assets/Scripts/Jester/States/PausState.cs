@@ -18,8 +18,7 @@ public class PausState : IState
 
     public void Enter()
     {
-        // inicia alguma animação do ataque começando
-        Debug.Log("Entrou em espadas!");
+        Debug.Log("Entrou em paus!");
         sp.color = Color.cyan;
         pausSpawner.SpawnCard();
         timeSinceStart = 0f;
@@ -27,8 +26,8 @@ public class PausState : IState
 
     public void Exit()
     {
-        // inicia alguma animação do ataque terminando
-        Debug.Log("Saiu do espadas!");
+        Debug.Log("Saiu do paus!");
+        pausSpawner.StartReverse();
         sp.color = Color.white;
     }
 

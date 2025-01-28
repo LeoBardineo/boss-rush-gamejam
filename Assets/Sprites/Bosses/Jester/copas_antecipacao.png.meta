@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 5ffcca9aea835d34189429fc1628fa16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3637749287212055913
+    second: copas_antecipacao_0
+  - first:
+      213: -6660156724804023511
+    second: copas_antecipacao_1
+  - first:
+      213: -8877779758824689375
+    second: copas_antecipacao_2
+  - first:
+      213: 2795202946588817111
+    second: copas_antecipacao_3
+  - first:
+      213: 7224501770652521794
+    second: copas_antecipacao_4
+  - first:
+      213: -2959651780066083186
+    second: copas_antecipacao_5
+  - first:
+      213: 8437536827647013548
+    second: copas_antecipacao_6
+  - first:
+      213: -6449041337561535621
+    second: copas_antecipacao_7
+  - first:
+      213: -9182465902711772240
+    second: copas_antecipacao_8
+  - first:
+      213: 1338605843247010069
+    second: copas_antecipacao_9
+  - first:
+      213: 1120073847933448240
+    second: copas_antecipacao_10
+  - first:
+      213: -6881613128308848503
+    second: copas_antecipacao_11
+  - first:
+      213: -3027637279223364528
+    second: copas_antecipacao_12
+  - first:
+      213: -928491812162036860
+    second: copas_antecipacao_13
+  - first:
+      213: -3863850967510774086
+    second: copas_antecipacao_14
+  - first:
+      213: -7427653799158771165
+    second: copas_antecipacao_15
+  - first:
+      213: 3219059372550706688
+    second: copas_antecipacao_16
+  - first:
+      213: 5529252118483603099
+    second: copas_antecipacao_17
+  - first:
+      213: -3262365774695644551
+    second: copas_antecipacao_18
+  - first:
+      213: -1643263018182551113
+    second: copas_antecipacao_19
+  - first:
+      213: 5234716841041728779
+    second: copas_antecipacao_20
+  - first:
+      213: 4838222026306277662
+    second: copas_antecipacao_21
+  - first:
+      213: -3549046656576700123
+    second: copas_antecipacao_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: copas_antecipacao_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7928bc10c4e148dc0800000000000000
+      internalID: -3637749287212055913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b80adeebe5293a0800000000000000
+      internalID: -6660156724804023511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_2
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121f919885acbc480800000000000000
+      internalID: -8877779758824689375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d63d82354e8ac620800000000000000
+      internalID: 2795202946588817111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2459ce65516924460800000000000000
+      internalID: 7224501770652521794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_5
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8efe4e03643de6d0800000000000000
+      internalID: -2959651780066083186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_6
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca23d2f6a07281570800000000000000
+      internalID: 8437536827647013548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_7
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ba5dc62176086a0800000000000000
+      internalID: -6449041337561535621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_8
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb6aba89e3519080800000000000000
+      internalID: -9182465902711772240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_9
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51110051ceea39210800000000000000
+      internalID: 1338605843247010069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_10
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0303744fa3d4b8f00800000000000000
+      internalID: 1120073847933448240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_11
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9888c75f1599f70a0800000000000000
+      internalID: -6881613128308848503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_12
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05449278febabf5d0800000000000000
+      internalID: -3027637279223364528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_13
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b193fbd955d13f0800000000000000
+      internalID: -928491812162036860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_14
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe88704408d06ac0800000000000000
+      internalID: -3863850967510774086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_15
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3229f8a193cabe890800000000000000
+      internalID: -7427653799158771165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_16
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006d6cba1756cac20800000000000000
+      internalID: 3219059372550706688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_17
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e8acba189dbbc40800000000000000
+      internalID: 5529252118483603099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_18
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972cfd7dc9fb9b2d0800000000000000
+      internalID: -3262365774695644551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_19
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b951b8cdf4f139e0800000000000000
+      internalID: -1643263018182551113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_20
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b051c027b3375a840800000000000000
+      internalID: 5234716841041728779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_21
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 12
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11d4768c41d42340800000000000000
+      internalID: 4838222026306277662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_22
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 12
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52145779ed04fbec0800000000000000
+      internalID: -3549046656576700123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      copas_antecipacao_0: -3637749287212055913
+      copas_antecipacao_1: -6660156724804023511
+      copas_antecipacao_10: 1120073847933448240
+      copas_antecipacao_11: -6881613128308848503
+      copas_antecipacao_12: -3027637279223364528
+      copas_antecipacao_13: -928491812162036860
+      copas_antecipacao_14: -3863850967510774086
+      copas_antecipacao_15: -7427653799158771165
+      copas_antecipacao_16: 3219059372550706688
+      copas_antecipacao_17: 5529252118483603099
+      copas_antecipacao_18: -3262365774695644551
+      copas_antecipacao_19: -1643263018182551113
+      copas_antecipacao_2: -8877779758824689375
+      copas_antecipacao_20: 5234716841041728779
+      copas_antecipacao_21: 4838222026306277662
+      copas_antecipacao_22: -3549046656576700123
+      copas_antecipacao_3: 2795202946588817111
+      copas_antecipacao_4: 7224501770652521794
+      copas_antecipacao_5: -2959651780066083186
+      copas_antecipacao_6: 8437536827647013548
+      copas_antecipacao_7: -6449041337561535621
+      copas_antecipacao_8: -9182465902711772240
+      copas_antecipacao_9: 1338605843247010069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

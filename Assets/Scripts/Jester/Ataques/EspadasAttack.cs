@@ -26,6 +26,6 @@ public class EspadasAttack : MonoBehaviour
     // Quando os soldados saem da visão da câmera, ele se auto destrói
     void OnBecameInvisible()
     {
-        Destroy(gameObject, 0.5f);
+        Destroy(gameObject.transform.parent.gameObject, 0.5f);
     }
 }
