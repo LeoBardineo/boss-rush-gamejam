@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f084da141e8c4ca4daadffd252ab5f84
+guid: 3126d4255b52ffb43a54518aa7f5183d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2312625509354070964
-    second: player_idle_spr_0
+      213: -1700019421843757353
+    second: icone_espada_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_idle_spr_0
+      name: icone_espada_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 6
-        width: 79
-        height: 100
+        x: 3
+        y: 0
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b36e8fd5a8181020800000000000000
-      internalID: 2312625509354070964
+      spriteID: 7d6ecb9c7515868e0800000000000000
+      internalID: -1700019421843757353
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_idle_spr_0: 2312625509354070964
+      icone_espada_0: -1700019421843757353
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

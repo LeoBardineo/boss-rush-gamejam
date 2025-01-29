@@ -10,6 +10,7 @@ public class TabController : MonoBehaviour
     [SerializeField] List<GameObject> tabsGroup;
     Dictionary<string, string> buttonTab = new Dictionary<string, string>();
     [SerializeField] Color selectedColor, disabledColor;
+    [SerializeField] GameObject settingsPanel;
     
     void Start()
     {
@@ -24,7 +25,8 @@ public class TabController : MonoBehaviour
         // Se for o último, que é o de voltar, desativa o panel de settings
         if(buttonSelected.name == buttonsGroup[^1].name)
         {
-            transform.parent.parent.gameObject.SetActive(false);
+            PauseManager.settingsOpened = false;
+            settingsPanel.SetActive(false);
             return;
         }
 
