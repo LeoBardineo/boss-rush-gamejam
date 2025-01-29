@@ -5,6 +5,9 @@ public class EspadasAttack : MonoBehaviour
     [SerializeField]
     float speed = 20f;
 
+    [SerializeField]
+    int damage = 1;
+
     void Start()
     {
         
@@ -19,7 +22,14 @@ public class EspadasAttack : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("dano dos soldados de espadas");
+            if (collision.GetComponent<PlayerHP>() != null)
+            {
+                PlayerHP playerHP = collision.GetComponent<PlayerHP>();
+                if (!playerHP.invicible)
+                {
+                    playerHP.TakeDamage(damage);
+                }
+            }
         }
     }
 

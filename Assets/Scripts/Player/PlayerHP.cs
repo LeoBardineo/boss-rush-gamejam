@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHP : MonoBehaviour
 {
@@ -11,6 +13,14 @@ public class PlayerHP : MonoBehaviour
     private float invicibleDuration = 1.2f, time;
 
     private SpriteRenderer sprite;
+
+    [SerializeField]
+    GameObject HealthPanel;
+
+    [SerializeField]
+    Sprite mascaraFull, mascaraMetade,  mascaraVazia;
+    
+    Image[] mascaras;
 
     void Start()
     {
@@ -35,10 +45,15 @@ public class PlayerHP : MonoBehaviour
             maxHP = 18;
         }
         HP = maxHP;
+        mascaras = HealthPanel.GetComponentsInChildren<Image>(includeInactive : true);
+        UpdateHealthUI();
     }
 
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.X))
+            UpdateHealthUI();
+        
         if (invicible)
         {
             time += Time.deltaTime;
@@ -59,11 +74,13 @@ public class PlayerHP : MonoBehaviour
             if (HP > 0)
             {
                 invicible = true;
+                UpdateHealthUI();
                 HurtEffect();
             }
             else
             {
                 HP = 0;
+                UpdateHealthUI();
                 Die();
             }
         }
@@ -89,10 +106,38 @@ public class PlayerHP : MonoBehaviour
         HP += healingPoints;
         if(HP > maxHP)
             HP = maxHP;
+        UpdateHealthUI();
     }
 
     public void ChangeMaxHP(int healingPoints)
     {
         maxHP += healingPoints;
+        UpdateHealthUI();
+    }
+
+    void UpdateHealthUI()
+    {
+        for (int i = 1; i <= mascaras.Length; i++)
+        {
+            Image mascara = mascaras[i - 1];
+            if(i > maxHP / 2)
+            {
+                mascara.gameObject.SetActive(false);
+                continue;
+            } else {
+                mascara.gameObject.SetActive(true);
+            }
+
+            if (i <= HP / 2) {
+                mascara.sprite = mascaraFull;
+            } else {
+                mascara.sprite = mascaraVazia;
+            }
+
+            if(i == Math.Ceiling(HP / 2) && HP % 2 == 1) {
+                Debug.Log("mascara metade");
+                mascara.sprite = mascaraMetade;
+            }
+        }
     }
 }
