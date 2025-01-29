@@ -447,7 +447,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "player_ataque_canh\xE3o_0": 635209245408941854
+      "player_ataque_canh\xE3o_1": -1206780589309814033
+      "player_ataque_canh\xE3o_10": 3844511181790458526
+      "player_ataque_canh\xE3o_11": -1182142359621221023
+      "player_ataque_canh\xE3o_12": -7396280245032653968
+      "player_ataque_canh\xE3o_2": 1532911207172302890
+      "player_ataque_canh\xE3o_3": -6402195487489764366
+      "player_ataque_canh\xE3o_4": -5343397454348747469
+      "player_ataque_canh\xE3o_5": 6256276908000055318
+      "player_ataque_canh\xE3o_6": -7236480787696465699
+      "player_ataque_canh\xE3o_7": -7893241191250370714
+      "player_ataque_canh\xE3o_8": 4095516421815975342
+      "player_ataque_canh\xE3o_9": 8824827765851368790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

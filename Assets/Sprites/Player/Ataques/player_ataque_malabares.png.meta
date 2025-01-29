@@ -522,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player_ataque_malabares_0: -9222494902914688796
+      player_ataque_malabares_1: -1231264226046478922
+      player_ataque_malabares_10: 3310951065388361178
+      player_ataque_malabares_11: -3512944700723734151
+      player_ataque_malabares_12: -297249089859005220
+      player_ataque_malabares_13: -907323379327069459
+      player_ataque_malabares_14: 3766746531252555284
+      player_ataque_malabares_15: -5475749172836676267
+      player_ataque_malabares_2: -877133547184024635
+      player_ataque_malabares_3: 2147567670663660725
+      player_ataque_malabares_4: 8271565972720929386
+      player_ataque_malabares_5: -9035471351151770714
+      player_ataque_malabares_6: 2304002183718207587
+      player_ataque_malabares_7: -5702980171980565072
+      player_ataque_malabares_8: -8789278838062889332
+      player_ataque_malabares_9: -6601615537236360483
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

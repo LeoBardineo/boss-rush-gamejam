@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player_ataque_martelo_0: 5848546248497117608
+      player_ataque_martelo_1: -451193971137230130
+      player_ataque_martelo_2: 2705690445795933503
+      player_ataque_martelo_3: 7747508836947662898
+      player_ataque_martelo_4: -5459939719384318663
+      player_ataque_martelo_5: 550560621856646386
+      player_ataque_martelo_6: 7307934516085682381
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

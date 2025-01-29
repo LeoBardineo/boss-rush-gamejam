@@ -4,11 +4,11 @@ using UnityEngine;
 public class BallHandAttack : MonoBehaviour
 {
     [SerializeField]
-    private float timer, antecipationTime=3f, vanishTimer, vanishCompleteTime=0.7f;
+    private float timer, antecipationTime=0.8f, vanishTimer, vanishCompleteTime=0.7f;
     [SerializeField]
     private GameObject leftHand,rightHand, rightToLeftLimitAndSpawn, leftToRightLimitAndSpawn;
     [Header("Speed")]
-    [SerializeField] private float speed=4f;
+    [SerializeField] private float speed=3f;
     [SerializeField] private GameObject leftToRightResetGO,rightToLeftResetGO;
     private Rigidbody2D rbLeftHand, rbRightHand;
     private SpriteRenderer SpriteLeftHand, SpriteRightHand;
@@ -140,14 +140,14 @@ public class BallHandAttack : MonoBehaviour
         {
             rightHand.SetActive(false);
             Vector3 targetPosition = leftToRightLimitAndSpawn.transform.position;;
-            targetPosition.x += 3;
+            targetPosition.x += 1;
             leftHand.transform.position = targetPosition;
         }
         else if (rightToLeft)
         {
             leftHand.SetActive(false);
             Vector3 targetPosition = rightToLeftLimitAndSpawn.transform.position;
-            targetPosition.x -= 3;
+            targetPosition.x -= 1;
             rightHand.transform.position = targetPosition;
         }
     }

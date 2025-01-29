@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      player_ataque_rosa_0: 2979371084537351349
+      player_ataque_rosa_1: -7513140237280527175
+      player_ataque_rosa_2: 2795642807367867824
+      player_ataque_rosa_3: -5227124996550520079
+      player_ataque_rosa_4: 8000935424840432832
+      player_ataque_rosa_5: -7512748924389143867
+      player_ataque_rosa_6: 2239597570787189187
+      player_ataque_rosa_7: -8657096392797752062
+      player_ataque_rosa_8: -6669690078303410521
+      player_ataque_rosa_9: 736277601540524005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
