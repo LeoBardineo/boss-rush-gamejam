@@ -134,12 +134,12 @@ TextureImporter:
       name: player_ataque_martelo_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2
-        width: 74
-        height: 105
+        x: 0
+        y: 3
+        width: 110
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,12 +156,12 @@ TextureImporter:
       name: player_ataque_martelo_1
       rect:
         serializedVersion: 2
-        x: 130
+        x: 110
         y: 3
-        width: 58
-        height: 102
+        width: 110
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,12 +178,12 @@ TextureImporter:
       name: player_ataque_martelo_2
       rect:
         serializedVersion: 2
-        x: 254
-        y: 9
-        width: 78
-        height: 90
+        x: 242
+        y: 3
+        width: 110
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,12 +200,12 @@ TextureImporter:
       name: player_ataque_martelo_3
       rect:
         serializedVersion: 2
-        x: 365
-        y: 10
-        width: 88
-        height: 85
+        x: 352
+        y: 3
+        width: 110
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -222,12 +222,12 @@ TextureImporter:
       name: player_ataque_martelo_4
       rect:
         serializedVersion: 2
-        x: 480
-        y: 14
-        width: 84
-        height: 79
+        x: 462
+        y: 3
+        width: 110
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -244,12 +244,12 @@ TextureImporter:
       name: player_ataque_martelo_5
       rect:
         serializedVersion: 2
-        x: 593
-        y: 3
-        width: 76
-        height: 92
+        x: 571
+        y: 4
+        width: 110
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -266,12 +266,12 @@ TextureImporter:
       name: player_ataque_martelo_6
       rect:
         serializedVersion: 2
-        x: 703
-        y: 2
-        width: 56
-        height: 95
+        x: 681
+        y: 3
+        width: 110
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -288,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 40970c0d750b14c4f9370f7c8b697782
     internalID: 0
     vertices: []
     indices: 
