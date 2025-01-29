@@ -1,7 +1,9 @@
 class Hammer : MeleeWeapon
 {
-    void Start()
+    protected override void Initialize()
     {
+        base.Initialize();
+        attackingAnimation = "Ataque_Martelo";
         if(attackArea == null)
             attackArea = GetComponentInChildren<HammerAttackArea>(includeInactive: true);
     }

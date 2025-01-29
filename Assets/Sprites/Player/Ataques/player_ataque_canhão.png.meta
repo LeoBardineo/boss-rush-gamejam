@@ -73,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -111,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -152,10 +152,10 @@ TextureImporter:
       name: "player_ataque_canh\xE3o_0"
       rect:
         serializedVersion: 2
-        x: 10
-        y: 46
-        width: 10
-        height: 11
+        x: 0
+        y: 0
+        width: 119
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +174,10 @@ TextureImporter:
       name: "player_ataque_canh\xE3o_1"
       rect:
         serializedVersion: 2
-        x: 12
-        y: 7
-        width: 84
-        height: 93
+        x: 119
+        y: 0
+        width: 119
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +196,10 @@ TextureImporter:
       name: "player_ataque_canh\xE3o_2"
       rect:
         serializedVersion: 2
-        x: 131
-        y: 7
-        width: 84
-        height: 93
+        x: 238
+        y: 0
+        width: 119
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: "player_ataque_canh\xE3o_3"
       rect:
         serializedVersion: 2
-        x: 246
-        y: 39
-        width: 10
-        height: 11
+        x: 357
+        y: 0
+        width: 119
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +240,10 @@ TextureImporter:
       name: "player_ataque_canh\xE3o_4"
       rect:
         serializedVersion: 2
-        x: 248
-        y: 7
-        width: 86
-        height: 99
+        x: 476
+        y: 0
+        width: 119
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +262,10 @@ TextureImporter:
       name: "player_ataque_canh\xE3o_5"
       rect:
         serializedVersion: 2
-        x: 368
-        y: 7
-        width: 85
-        height: 99
+        x: 595
+        y: 0
+        width: 119
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: "player_ataque_canh\xE3o_6"
       rect:
         serializedVersion: 2
-        x: 492
-        y: 7
-        width: 80
-        height: 99
+        x: 714
+        y: 0
+        width: 119
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +306,10 @@ TextureImporter:
       name: "player_ataque_canh\xE3o_7"
       rect:
         serializedVersion: 2
-        x: 613
-        y: 6
-        width: 77
-        height: 100
+        x: 833
+        y: 0
+        width: 119
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: "player_ataque_canh\xE3o_8"
       rect:
         serializedVersion: 2
-        x: 729
-        y: 6
-        width: 80
-        height: 100
+        x: 952
+        y: 0
+        width: 119
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,99 +346,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: "player_ataque_canh\xE3o_9"
-      rect:
-        serializedVersion: 2
-        x: 847
-        y: 6
-        width: 81
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65d239bd816187a70800000000000000
-      internalID: 8824827765851368790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "player_ataque_canh\xE3o_10"
-      rect:
-        serializedVersion: 2
-        x: 966
-        y: 7
-        width: 77
-        height: 99
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9233adfc827a5530800000000000000
-      internalID: 3844511181790458526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "player_ataque_canh\xE3o_11"
-      rect:
-        serializedVersion: 2
-        x: 364
-        y: 34
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 165c5d489cf289fe0800000000000000
-      internalID: -1182142359621221023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "player_ataque_canh\xE3o_12"
-      rect:
-        serializedVersion: 2
-        x: 486
-        y: 30
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07be697ed422b5990800000000000000
-      internalID: -7396280245032653968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8d74f140b721441419c2e1a18a8e27f2
     internalID: 0
     vertices: []
     indices: 
@@ -450,9 +362,6 @@ TextureImporter:
     nameFileIdTable:
       "player_ataque_canh\xE3o_0": 635209245408941854
       "player_ataque_canh\xE3o_1": -1206780589309814033
-      "player_ataque_canh\xE3o_10": 3844511181790458526
-      "player_ataque_canh\xE3o_11": -1182142359621221023
-      "player_ataque_canh\xE3o_12": -7396280245032653968
       "player_ataque_canh\xE3o_2": 1532911207172302890
       "player_ataque_canh\xE3o_3": -6402195487489764366
       "player_ataque_canh\xE3o_4": -5343397454348747469
@@ -460,7 +369,6 @@ TextureImporter:
       "player_ataque_canh\xE3o_6": -7236480787696465699
       "player_ataque_canh\xE3o_7": -7893241191250370714
       "player_ataque_canh\xE3o_8": 4095516421815975342
-      "player_ataque_canh\xE3o_9": 8824827765851368790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

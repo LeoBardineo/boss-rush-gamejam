@@ -550,7 +550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &496510883
 Transform:
   m_ObjectHideFlags: 0
@@ -974,7 +974,8 @@ MonoBehaviour:
   attacking: 0
   PlayerControl: {fileID: 585488624}
   attackArea: {fileID: 0}
-  attackWindow: 0.25
+  attackWindow: 0.8
+  attackingAnimation: 
 --- !u!114 &585488623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1872,7 +1873,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1592359574
 Transform:
   m_ObjectHideFlags: 0

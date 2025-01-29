@@ -2,8 +2,6 @@ using UnityEngine;
 
 abstract class MeleeWeapon : Weapon
 {
-    public bool attacking = false;
-
     [SerializeField]
     protected PlayerController PlayerControl;
     
@@ -11,13 +9,19 @@ abstract class MeleeWeapon : Weapon
     protected AttackArea attackArea;
 
     [SerializeField]
-    protected float attackWindow = 0.25f;
+    protected float attackWindow = 0.8f;
+
+    [SerializeField]
+    protected string attackingAnimation = "";
 
     protected override void Attack()
     {
         base.Attack();
         attacking = true;
         attackArea.gameObject.SetActive(true);
+        animator.Play(attackingAnimation);
+        // attackWindow = animator.GetCurrentAnimatorStateInfo(0).length;
+        Debug.Log(attackWindow);
     }
 
     protected override void HandleCooldown()
@@ -29,6 +33,7 @@ abstract class MeleeWeapon : Weapon
             timer = 0;
             attacking = false;
             attackArea.gameObject.SetActive(false);
+            animator.Play("Idle");
             return;
         }
 

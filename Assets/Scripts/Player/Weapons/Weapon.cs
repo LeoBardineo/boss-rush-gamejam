@@ -12,6 +12,18 @@ public abstract class Weapon : MonoBehaviour
     public float bananaSplitModifier = 0;
     public bool bananaSplitEffect = false;
     public int bananaSplitAmountOfHits = 0;
+    protected Animator animator;
+    public bool attacking = false;
+
+    void Start()
+    {
+        Initialize();
+    }
+
+    protected virtual void Initialize()
+    {
+        animator =  GetComponent<Animator>();
+    }
 
     void Update()
     {

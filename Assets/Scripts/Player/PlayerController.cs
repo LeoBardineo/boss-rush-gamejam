@@ -73,6 +73,8 @@ public class PlayerController : MonoBehaviour
 
     void Animate()
     {
+        if(equipedWeapon.attacking) return;
+
         if(isGrounded)
         {
             if(idle)

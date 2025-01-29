@@ -1,7 +1,8 @@
 class JugglingClub : MeleeWeapon
 {
-    void Start()
+    protected override void Initialize()
     {
+        base.Initialize();
         if(attackArea == null)
             attackArea = GetComponentInChildren<JugglingClubAttackArea>(includeInactive: true);
     }
