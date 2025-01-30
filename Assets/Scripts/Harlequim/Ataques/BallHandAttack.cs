@@ -5,19 +5,16 @@ public class BallHandAttack : MonoBehaviour
 {
     [SerializeField]
     private float timer, antecipationTime=0.8f, vanishTimer, vanishCompleteTime=0.7f;
-    [SerializeField]
-    private GameObject leftHand,rightHand, rightToLeftLimitAndSpawn, leftToRightLimitAndSpawn;
-    [Header("Speed")]
     [SerializeField] private float speed=3f;
+
+    [SerializeField] private GameObject leftHand,rightHand, rightToLeftLimitAndSpawn, leftToRightLimitAndSpawn;
     [SerializeField] private GameObject leftToRightResetGO,rightToLeftResetGO;
     private Rigidbody2D rbLeftHand, rbRightHand;
     private SpriteRenderer SpriteLeftHand, SpriteRightHand;
-    public bool leftToRight, rightToLeft, antecipationStarted, antecipationFinished, canMove, vanishStarted, vanishFinished;
+    private bool leftToRight, rightToLeft, antecipationStarted, antecipationFinished, canMove, vanishStarted, vanishFinished;
     //Basicamente vamo usar o int randAttackDirection pra fazer um random de 1 a 2, se 1 = leftToRight, se 2 =rightToLeft no ataque
     private int randAttackDirection;
     private Vector3 originalPosLeftHand, originalPosRightHand;
-
-
      public static bool ballHandAttacking= false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

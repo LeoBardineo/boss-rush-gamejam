@@ -2,17 +2,19 @@ using UnityEngine;
 
 public class ClappingAttack : MonoBehaviour
 {
+    [SerializeField] private float clappingSpeed=3.5f;
+    [SerializeField] private float antecipationTimer=1.2f, timer;
     private Rigidbody2D rbLeftHand,rbRightHand;
     [SerializeField] private GameObject leftHand,rightHand;
-    [SerializeField] private float clappingSpeed=3.5f;
-    [SerializeField] private Transform leftHandClapPos,rightHandClapPos;
-    [SerializeField] private Vector3 originalLeftHandPos,originalRightHandPos;
-    [SerializeField] private SpriteRenderer leftHandSprite, rightHandSprite;
-    [SerializeField] private float antecipationTimer=1.2f, timer;
     [SerializeField] private GameObject SlapReset;
+    [SerializeField] private Transform leftHandClapPos,rightHandClapPos;
+    private Vector3 originalLeftHandPos,originalRightHandPos;
+    [SerializeField] private SpriteRenderer leftHandSprite, rightHandSprite;
     public static bool clapping = false;
-    public bool canClap=false, antecipationStarted, canBegingClap, antecipationFinished;
-    public int ciclesOfClaps, currentCicle;
+    private bool canClap=false, antecipationStarted, canBegingClap, antecipationFinished;
+
+    [SerializeField]
+    private int ciclesOfClaps, currentCicle;
     void Start()
     {
         currentCicle = 0;

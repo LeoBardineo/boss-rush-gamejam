@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: f99eaf342bf1a174ea24f467a103eb72
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4970960931456305111
+    second: harlequin_projetilexplosao_completo_corrigido_0
+  - first:
+      213: 7419919600242322007
+    second: harlequin_projetilexplosao_completo_corrigido_1
+  - first:
+      213: 1372851249086521113
+    second: harlequin_projetilexplosao_completo_corrigido_2
+  - first:
+      213: -5333538790338353170
+    second: harlequin_projetilexplosao_completo_corrigido_3
+  - first:
+      213: -1716340561528218888
+    second: harlequin_projetilexplosao_completo_corrigido_4
+  - first:
+      213: -4413437318887129045
+    second: harlequin_projetilexplosao_completo_corrigido_5
+  - first:
+      213: 5395334180495063374
+    second: harlequin_projetilexplosao_completo_corrigido_6
+  - first:
+      213: 6629036725505187286
+    second: harlequin_projetilexplosao_completo_corrigido_7
+  - first:
+      213: 723006491239623794
+    second: harlequin_projetilexplosao_completo_corrigido_8
+  - first:
+      213: -4712909197211264226
+    second: harlequin_projetilexplosao_completo_corrigido_9
+  - first:
+      213: -6330863890419320702
+    second: harlequin_projetilexplosao_completo_corrigido_10
+  - first:
+      213: -6780751659809854031
+    second: harlequin_projetilexplosao_completo_corrigido_11
+  - first:
+      213: 598432724833951355
+    second: harlequin_projetilexplosao_completo_corrigido_12
+  - first:
+      213: 5046988657014073939
+    second: harlequin_projetilexplosao_completo_corrigido_13
+  - first:
+      213: -8355513421491391604
+    second: harlequin_projetilexplosao_completo_corrigido_14
+  - first:
+      213: 7581958826292970223
+    second: harlequin_projetilexplosao_completo_corrigido_15
+  - first:
+      213: -3851502430041336619
+    second: harlequin_projetilexplosao_completo_corrigido_16
+  - first:
+      213: -7166984118359326300
+    second: harlequin_projetilexplosao_completo_corrigido_17
+  - first:
+      213: -8491938464434575269
+    second: harlequin_projetilexplosao_completo_corrigido_18
+  - first:
+      213: -3612895341319204063
+    second: harlequin_projetilexplosao_completo_corrigido_19
+  - first:
+      213: 79399696512130698
+    second: harlequin_projetilexplosao_completo_corrigido_20
+  - first:
+      213: -4362345810845448156
+    second: harlequin_projetilexplosao_completo_corrigido_21
+  - first:
+      213: 8891631877215351375
+    second: harlequin_projetilexplosao_completo_corrigido_22
+  - first:
+      213: 6301871744739502891
+    second: harlequin_projetilexplosao_completo_corrigido_23
+  - first:
+      213: 7315410946457032625
+    second: harlequin_projetilexplosao_completo_corrigido_24
+  - first:
+      213: 6268224757916403382
+    second: harlequin_projetilexplosao_completo_corrigido_25
+  - first:
+      213: 6010633682636824697
+    second: harlequin_projetilexplosao_completo_corrigido_26
+  - first:
+      213: -3833157287007218994
+    second: harlequin_projetilexplosao_completo_corrigido_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d74ccf31a66cf440800000000000000
+      internalID: 4970960931456305111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 169
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ae6626099d8f660800000000000000
+      internalID: 7419919600242322007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 169
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fd047ffe85d0310800000000000000
+      internalID: 1372851249086521113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 169
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7ad1e7ab67bf5b0800000000000000
+      internalID: -5333538790338353170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_4
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 169
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa14845a555e28e0800000000000000
+      internalID: -1716340561528218888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_5
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 169
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20c741542250c2c0800000000000000
+      internalID: -4413437318887129045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_6
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 169
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e497ee8f9d310ea40800000000000000
+      internalID: 5395334180495063374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd51ca97c11ffb50800000000000000
+      internalID: 6629036725505187286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ca3a8b292a80a00800000000000000
+      internalID: 723006491239623794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_9
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b1d812e02689eb0800000000000000
+      internalID: -4712909197211264226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_projetilexplosao_completo_corrigido_10
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 2
+        width: 248
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84c590661ab3d6448e353354feaef52
+      internalID: -6330863890419320702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9f044476f5ac6ce4c96b2f2df772ae4d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      harlequin_projetilexplosao_completo_corrigido_0: 4970960931456305111
+      harlequin_projetilexplosao_completo_corrigido_1: 7419919600242322007
+      harlequin_projetilexplosao_completo_corrigido_10: -6330863890419320702
+      harlequin_projetilexplosao_completo_corrigido_2: 1372851249086521113
+      harlequin_projetilexplosao_completo_corrigido_3: -5333538790338353170
+      harlequin_projetilexplosao_completo_corrigido_4: -1716340561528218888
+      harlequin_projetilexplosao_completo_corrigido_5: -4413437318887129045
+      harlequin_projetilexplosao_completo_corrigido_6: 5395334180495063374
+      harlequin_projetilexplosao_completo_corrigido_7: 6629036725505187286
+      harlequin_projetilexplosao_completo_corrigido_8: 723006491239623794
+      harlequin_projetilexplosao_completo_corrigido_9: -4712909197211264226
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

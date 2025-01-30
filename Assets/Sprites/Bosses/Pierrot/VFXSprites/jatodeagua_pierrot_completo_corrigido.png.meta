@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jatodeagua_pierrot_completo_corrigido_0: 2787511885458673833
+      jatodeagua_pierrot_completo_corrigido_1: 6062491827411868477
+      jatodeagua_pierrot_completo_corrigido_2: -8972509616692880483
+      jatodeagua_pierrot_completo_corrigido_3: -5747855908159926396
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

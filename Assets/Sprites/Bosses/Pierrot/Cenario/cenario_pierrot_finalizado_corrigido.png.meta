@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cenario_pierrot_finalizado_corrigido_0: 4409499640428912171
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
