@@ -116,12 +116,12 @@ TextureImporter:
       name: "pote5hits_\xEDcone_0"
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 3
-        width: 36
+        width: 34
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 76c2988592895b64db1aeaa690a5f9d4
     internalID: 0
     vertices: []
     indices: 
