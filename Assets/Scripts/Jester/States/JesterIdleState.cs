@@ -7,6 +7,7 @@ public class JesterIdleState : IState
     float idleDuration;
     GameObject bossGameObject;
     
+    Animator animator;
     EspadasSpawner espadasSpawner;
     PausSpawner pausSpawner;
     CopasSpawner copasSpawner;
@@ -16,6 +17,7 @@ public class JesterIdleState : IState
     public JesterIdleState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
+        animator = bossGameObject.GetComponent<Animator>();
         espadasSpawner = bossGameObject.GetComponent<EspadasSpawner>();
         pausSpawner = bossGameObject.GetComponent<PausSpawner>();
         ourosSpawner = bossGameObject.GetComponent<OurosSpawner>();
@@ -27,6 +29,7 @@ public class JesterIdleState : IState
     public void Enter()
     {
         Debug.Log("Entrou em Idle");
+        animator.Play("JesterIdle");
         timeSinceStart = 0f;
     }
 
