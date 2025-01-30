@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PausCard : MonoBehaviour
@@ -5,6 +6,9 @@ public class PausCard : MonoBehaviour
     public float cardHP;
     public PlayerController playerController;
     public Animator animator;
+
+    [SerializeField]
+    float tempoDeAnimacaoOffset = 0.25f;
 
     void Start()
     {
@@ -16,16 +20,18 @@ public class PausCard : MonoBehaviour
         cardHP -= dano;
         if(cardHP <= 0)
         {
-            DestroyCard();
+            StartCoroutine(DestroyCard());
         }
     }
     
-    void DestroyCard()
+    IEnumerator DestroyCard()
     {
         PausSpawner.cardSpawned = false;
-        ReverseControls();
         animator.Play("PausCartaAntecipacaoReverse");
-        Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length + 0.25f);
+        float tempoDeAnimacao = animator.GetCurrentAnimatorStateInfo(0).length + tempoDeAnimacaoOffset;
+        yield return new WaitForSeconds(tempoDeAnimacao);
+        Destroy(gameObject);
+        ReverseControls();
     }
     
     public void ReverseControls()
