@@ -8,6 +8,7 @@ public class JesterIdleState : IState
     GameObject bossGameObject;
     
     Animator animator;
+    PlataformaSpawner plataformaSpawner;
     EspadasSpawner espadasSpawner;
     PausSpawner pausSpawner;
     CopasSpawner copasSpawner;
@@ -18,6 +19,7 @@ public class JesterIdleState : IState
     {
         this.bossGameObject = bossGameObject;
         animator = bossGameObject.GetComponent<Animator>();
+        plataformaSpawner = bossGameObject.GetComponent<PlataformaSpawner>();
         espadasSpawner = bossGameObject.GetComponent<EspadasSpawner>();
         pausSpawner = bossGameObject.GetComponent<PausSpawner>();
         ourosSpawner = bossGameObject.GetComponent<OurosSpawner>();
@@ -56,6 +58,9 @@ public class JesterIdleState : IState
             return new JesterIdleState(bossGameObject);
 
         List<IState> possibleAttacks = new List<IState>();
+
+        if(plataformaSpawner.enabled)
+            possibleAttacks.Add(new PlataformaState(bossGameObject));
 
         if(espadasSpawner.enabled)
             possibleAttacks.Add(new EspadasState(bossGameObject));
