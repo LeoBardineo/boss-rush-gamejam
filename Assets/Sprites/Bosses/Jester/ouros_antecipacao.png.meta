@@ -173,10 +173,10 @@ TextureImporter:
       name: ouros_antecipacao_0
       rect:
         serializedVersion: 2
-        x: 74
-        y: 59
-        width: 46
-        height: 15
+        x: 64
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: ouros_antecipacao_1
       rect:
         serializedVersion: 2
-        x: 138
-        y: 56
-        width: 46
-        height: 18
+        x: 128
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: ouros_antecipacao_2
       rect:
         serializedVersion: 2
-        x: 202
-        y: 52
-        width: 46
-        height: 22
+        x: 192
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: ouros_antecipacao_3
       rect:
         serializedVersion: 2
-        x: 266
-        y: 50
-        width: 46
-        height: 24
+        x: 256
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: ouros_antecipacao_4
       rect:
         serializedVersion: 2
-        x: 330
-        y: 47
-        width: 46
-        height: 27
+        x: 320
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: ouros_antecipacao_5
       rect:
         serializedVersion: 2
-        x: 394
-        y: 46
-        width: 46
-        height: 28
+        x: 384
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: ouros_antecipacao_6
       rect:
         serializedVersion: 2
-        x: 458
-        y: 41
-        width: 46
-        height: 33
+        x: 448
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: ouros_antecipacao_7
       rect:
         serializedVersion: 2
-        x: 522
-        y: 39
-        width: 46
-        height: 35
+        x: 512
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: ouros_antecipacao_8
       rect:
         serializedVersion: 2
-        x: 586
-        y: 36
-        width: 46
-        height: 38
+        x: 576
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: ouros_antecipacao_9
       rect:
         serializedVersion: 2
-        x: 650
-        y: 34
-        width: 46
-        height: 40
+        x: 640
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: ouros_antecipacao_10
       rect:
         serializedVersion: 2
-        x: 714
-        y: 32
-        width: 46
-        height: 42
+        x: 704
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: ouros_antecipacao_11
       rect:
         serializedVersion: 2
-        x: 778
-        y: 29
-        width: 46
-        height: 45
+        x: 768
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +437,10 @@ TextureImporter:
       name: ouros_antecipacao_12
       rect:
         serializedVersion: 2
-        x: 842
-        y: 26
-        width: 46
-        height: 48
+        x: 832
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +459,10 @@ TextureImporter:
       name: ouros_antecipacao_13
       rect:
         serializedVersion: 2
-        x: 906
-        y: 22
-        width: 46
-        height: 52
+        x: 896
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: ouros_antecipacao_14
       rect:
         serializedVersion: 2
-        x: 970
-        y: 18
-        width: 46
-        height: 56
+        x: 960
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,10 +503,10 @@ TextureImporter:
       name: ouros_antecipacao_15
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 13
-        width: 46
-        height: 61
+        x: 1024
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: ouros_antecipacao_16
       rect:
         serializedVersion: 2
-        x: 1098
-        y: 6
-        width: 46
-        height: 68
+        x: 1088
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: ouros_antecipacao_17
       rect:
         serializedVersion: 2
-        x: 1162
-        y: 4
-        width: 46
-        height: 70
+        x: 1152
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: ouros_antecipacao_18
       rect:
         serializedVersion: 2
-        x: 1226
-        y: 6
-        width: 46
-        height: 68
+        x: 1216
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: ouros_antecipacao_19
       rect:
         serializedVersion: 2
-        x: 1290
-        y: 4
-        width: 46
-        height: 70
+        x: 1280
+        y: 0
+        width: 64
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,7 +613,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9231318183afe1b459b0795a40b9e502
     internalID: 0
     vertices: []
     indices: 

@@ -26,7 +26,7 @@ public class OurosSpawner : MonoBehaviour
 
         float posicaoX = Random.Range(-dimensoes.x, dimensoes.x);
 
-        Vector3 posicaoAleatoria = new Vector3(posicaoCentro.x + posicaoX, posicaoCentro.y, posicaoCentro.z);
+        Vector3 posicaoAleatoria = new Vector3(posicaoCentro.x + posicaoX, posicaoCentro.y, posicaoCentro.z + posicaoX * 0.01f);
         Instantiate(ourosPrefab, posicaoAleatoria, ourosPrefab.transform.rotation);
     }
 
