@@ -59,7 +59,7 @@ public class JesterIdleState : IState
 
         List<IState> possibleAttacks = new List<IState>();
 
-        if(plataformaSpawner.enabled)
+        if(plataformaSpawner.enabled && !PausSpawner.cardSpawned)
             possibleAttacks.Add(new PlataformaState(bossGameObject));
 
         if(espadasSpawner.enabled)

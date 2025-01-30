@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlataformaState : IState
@@ -26,6 +25,7 @@ public class PlataformaState : IState
         if(posEscolhida == posAtual)
             posEscolhida = (posEscolhida + 1) % 3;
 
+        plataformaSpawner.posAtual = posEscolhida;
         plataformaSpawner.Spawnar(posEscolhida);
     }
 

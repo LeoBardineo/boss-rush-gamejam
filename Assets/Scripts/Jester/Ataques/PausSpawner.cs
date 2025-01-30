@@ -10,16 +10,24 @@ public class PausSpawner : MonoBehaviour
     public List<Transform> spawnPositionList;
     public static bool cardSpawned = false;
     GameObject pausCardInstanciado;
+    PlataformaSpawner plataformaSpawner;
 
     void Start()
     {
         pausCard = cardPrefab.GetComponent<PausCard>();
-        foreach(Transform transform in spawnArea.transform)
-            spawnPositionList.Add(transform);
+        plataformaSpawner = GetComponent<PlataformaSpawner>();
     }
 
     public void SpawnCard()
     {
+        spawnPositionList = new List<Transform>();
+        for(int i = 0; i < spawnArea.transform.childCount; i++)
+        {
+            if(i % 3 == plataformaSpawner.posAtual) continue;
+            Transform spawnPos = spawnArea.transform.GetChild(i);
+            spawnPositionList.Add(spawnPos);
+        }
+        
         Vector3 spawnPosition = spawnPositionList[Random.Range(0, spawnPositionList.Count)].position;
         pausCard.playerController = playerController;
         pausCardInstanciado = Instantiate(cardPrefab, spawnPosition, cardPrefab.transform.rotation);
