@@ -20,7 +20,7 @@ public class CopasSpawner : MonoBehaviour
     public void SpawnCopas()
     {
         copas.GetComponent<CopasAttack>().player = player;
-        Vector3 spawnPosition = new Vector3(player.position.x, player.position.y, player.position.z);
+        Vector3 spawnPosition = new Vector3(player.position.x, player.position.y, player.position.x + player.position.z);
         Instantiate(copas, spawnPosition, copas.transform.rotation);
     }
 

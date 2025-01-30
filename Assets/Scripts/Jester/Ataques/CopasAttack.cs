@@ -1,43 +1,31 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class CopasAttack : MonoBehaviour
 {
     [SerializeField]
-    float antecipationDuration = 2f, attackDuration = 1f, offset = 1f;
+    float antecipationDurationOffset = 0f, attackDuration = 1f, damage = 1f;
+    float antecipationDuration;
     float timeSinceStart = 0f;
     bool attacking = false, attacked = false;
 
     public Transform player;
-    SpriteRenderer sp;
-    Color color;
     float raioDoCirculo;
+    Animator animator;
 
     void Awake()
     {
         raioDoCirculo = GetComponent<CircleCollider2D>().radius * transform.localScale.x;
+        animator = GetComponent<Animator>();
+        antecipationDuration = animator.GetCurrentAnimatorStateInfo(0).length + antecipationDurationOffset;
         GetComponent<CircleCollider2D>().enabled = false;
-    }
-    
-    void Start()
-    {
-        sp = GetComponent<SpriteRenderer>();
-        color = sp.color;
-        color.a = 0f;
-        sp.color = color;
     }
 
     void Update()
     {
         timeSinceStart += Time.deltaTime;
 
-        if(timeSinceStart < antecipationDuration)
-        {
-            color.a = timeSinceStart / (antecipationDuration + offset);
-            sp.color = color;
-        } else if (!attacking) {
-            color = Color.red;
-            sp.color = color;
+        if(timeSinceStart >= antecipationDuration && !attacking) {
+            animator.Play("CopasBang");
             attacking = true;
             GetComponent<CircleCollider2D>().enabled = true;
 
@@ -54,6 +42,15 @@ public class CopasAttack : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Attack();
+
+            if (collision.GetComponent<PlayerHP>() != null)
+            {
+                PlayerHP playerHP = collision.GetComponent<PlayerHP>();
+                if (!playerHP.invicible)
+                {
+                    playerHP.TakeDamage(damage);
+                }
+            }
         }
     }
 
