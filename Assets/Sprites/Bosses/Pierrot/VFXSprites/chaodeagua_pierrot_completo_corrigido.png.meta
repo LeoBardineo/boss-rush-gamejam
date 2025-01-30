@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: e17bb3822ca10634daff66bbee0e2d1d
+guid: 06219aea334443f438e21c9b121a3756
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4083715384313581937
-    second: arlequin sprite-Sheet_0
-  - first:
-      213: 6297685322875203140
-    second: arlequin sprite-Sheet_1
-  - first:
-      213: -334772993998713655
-    second: arlequin sprite-Sheet_2
+      213: 4798098989200155404
+    second: chaodeagua_pierrot_completo_corrigido_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -81,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arlequin sprite-Sheet_0
+      name: chaodeagua_pierrot_completo_corrigido_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 187
-        height: 242
+        width: 1920
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8ee0329e7ab357c0800000000000000
-      internalID: -4083715384313581937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arlequin sprite-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 0
-        width: 189
-        height: 242
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44eea214f6fd56750800000000000000
-      internalID: 6297685322875203140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: arlequin sprite-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 1
-        width: 187
-        height: 241
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9cc00545cb5aa5bf0800000000000000
-      internalID: -334772993998713655
+      spriteID: c03af68fb95469240800000000000000
+      internalID: 4798098989200155404
       vertices: []
       indices: 
       edges: []
@@ -197,10 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      arlequin sprite-Sheet_0: -4083715384313581937
-      arlequin sprite-Sheet_1: 6297685322875203140
-      arlequin sprite-Sheet_2: -334772993998713655
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

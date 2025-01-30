@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 2a41876aad0d06a4182be483f93eb90b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7785025296438682468
+    second: grito_pierrot_completo_0
+  - first:
+      213: 8667920854752558944
+    second: grito_pierrot_completo_1
+  - first:
+      213: -1397917773325484924
+    second: grito_pierrot_completo_2
+  - first:
+      213: -3009232262796429288
+    second: grito_pierrot_completo_3
+  - first:
+      213: 3692307315205774482
+    second: grito_pierrot_completo_4
+  - first:
+      213: -5091495912228991966
+    second: grito_pierrot_completo_5
+  - first:
+      213: 8005233698636581626
+    second: grito_pierrot_completo_6
+  - first:
+      213: 6181893309200348063
+    second: grito_pierrot_completo_7
+  - first:
+      213: -5926001332679814814
+    second: grito_pierrot_completo_8
+  - first:
+      213: 6924390843557952154
+    second: grito_pierrot_completo_9
+  - first:
+      213: -5879268537639468108
+    second: grito_pierrot_completo_10
+  - first:
+      213: -8497008393179108250
+    second: grito_pierrot_completo_11
+  - first:
+      213: 6442136043182632823
+    second: grito_pierrot_completo_12
+  - first:
+      213: -1794945420365733752
+    second: grito_pierrot_completo_13
+  - first:
+      213: 5851508118498283894
+    second: grito_pierrot_completo_14
+  - first:
+      213: -6636744338018217341
+    second: grito_pierrot_completo_15
+  - first:
+      213: 5694050594137884714
+    second: grito_pierrot_completo_16
+  - first:
+      213: -3797537229924414287
+    second: grito_pierrot_completo_17
+  - first:
+      213: 5825513928533698038
+    second: grito_pierrot_completo_18
+  - first:
+      213: 427445180385223627
+    second: grito_pierrot_completo_19
+  - first:
+      213: 6727915816434370045
+    second: grito_pierrot_completo_20
+  - first:
+      213: 8543032855970515919
+    second: grito_pierrot_completo_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grito_pierrot_completo_0
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 145
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c975e5db806f390800000000000000
+      internalID: -7785025296438682468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_1
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 141
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ff9b0c714aa4870800000000000000
+      internalID: 8667920854752558944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_2
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 145
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cbabf0139999ce0800000000000000
+      internalID: -1397917773325484924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_3
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 134
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818bf59533f0d36d0800000000000000
+      internalID: -3009232262796429288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_4
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 141
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c9a64c0f5bd3330800000000000000
+      internalID: 3692307315205774482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_5
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 145
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ccc38917f5759b0800000000000000
+      internalID: -5091495912228991966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_6
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 121
+        width: 102
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa4837a2ad481f60800000000000000
+      internalID: 8005233698636581626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_7
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 133
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93304e263f7ac550800000000000000
+      internalID: 6181893309200348063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_8
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 139
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261d02b6f2d92cda0800000000000000
+      internalID: -5926001332679814814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_9
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 143
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a3d3409c0681060800000000000000
+      internalID: 6924390843557952154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_10
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 111
+        width: 139
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b38eda2a64a86ea0800000000000000
+      internalID: -5879268537639468108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_11
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 127
+        width: 81
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ceb0fa2ef841a80800000000000000
+      internalID: -8497008393179108250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_12
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 135
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f24a07990176950800000000000000
+      internalID: 6442136043182632823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_13
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 140
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880e2e376a21717e0800000000000000
+      internalID: -1794945420365733752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_14
+      rect:
+        serializedVersion: 2
+        x: 3980
+        y: 93
+        width: 190
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671976391abb43150800000000000000
+      internalID: 5851508118498283894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_15
+      rect:
+        serializedVersion: 2
+        x: 4173
+        y: 115
+        width: 111
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382d653003c85e3a0800000000000000
+      internalID: -6636744338018217341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_16
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 126
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28c0b4d8d4550f40800000000000000
+      internalID: 5694050594137884714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_17
+      rect:
+        serializedVersion: 2
+        x: 4351
+        y: 135
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcc80572007c4bc0800000000000000
+      internalID: -3797537229924414287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_18
+      rect:
+        serializedVersion: 2
+        x: 4522
+        y: 84
+        width: 219
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f567589d0268d050800000000000000
+      internalID: 5825513928533698038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_19
+      rect:
+        serializedVersion: 2
+        x: 4744
+        y: 109
+        width: 128
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc360d970279ee500800000000000000
+      internalID: 427445180385223627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_20
+      rect:
+        serializedVersion: 2
+        x: 4876
+        y: 122
+        width: 73
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df58d4df9cb5e5d50800000000000000
+      internalID: 6727915816434370045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grito_pierrot_completo_21
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 130
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb0d9c9e13fe8670800000000000000
+      internalID: 8543032855970515919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
