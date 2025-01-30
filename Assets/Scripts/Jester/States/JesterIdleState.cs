@@ -49,6 +49,9 @@ public class JesterIdleState : IState
         // se muito longe, corda invisivel
         // se não, aleatorio entre outros ataques
 
+        if(PlayerHP.dead)
+            return new JesterIdleState(bossGameObject);
+
         List<IState> possibleAttacks = new List<IState>();
 
         if(espadasSpawner.enabled)

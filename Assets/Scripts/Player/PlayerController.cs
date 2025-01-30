@@ -59,6 +59,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if(PlayerHP.dead) return;
+        
         Dash();
         if (!movimentLocked)
         {

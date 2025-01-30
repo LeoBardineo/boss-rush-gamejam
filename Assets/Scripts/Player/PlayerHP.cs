@@ -6,11 +6,20 @@ public class PlayerHP : MonoBehaviour
 {
     public float HP, maxHP;
     public bool invicible;
+    public static bool dead = false;
     float damageModifier = 1;
 
     //Pra alterar o tempo que o player fica invencível após tomar um dano é só alterar abaixo
     [SerializeField]
     private float invicibleDuration = 1.2f, time;
+
+    [SerializeField]
+    GameObject deathPanel;
+
+    [SerializeField]
+    string deathAnimationName;
+
+    Animator animator;
 
     private SpriteRenderer sprite;
 
@@ -45,15 +54,17 @@ public class PlayerHP : MonoBehaviour
             maxHP = 18;
         }
         HP = maxHP;
+
+        dead = false;
+        deathPanel.SetActive(false);
+        animator = GetComponent<Animator>();
+
         mascaras = HealthPanel.GetComponentsInChildren<Image>(includeInactive : true);
         UpdateHealthUI();
     }
 
     void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.X))
-            UpdateHealthUI();
-        
+    {        
         if (invicible)
         {
             time += Time.deltaTime;
@@ -68,7 +79,7 @@ public class PlayerHP : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        if (!invicible)
+        if (!invicible && !dead)
         {
             HP -= damage * damageModifier;
             if (HP > 0)
@@ -88,7 +99,10 @@ public class PlayerHP : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("fucking dies");
+        dead = true;
+        animator.Play(deathAnimationName);
+        sprite.color = Color.black;
+        deathPanel.SetActive(true);
     }
 
     void HurtEffect()
