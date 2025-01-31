@@ -13,6 +13,7 @@ public class PlataformaState : IState
     {
         this.bossGameObject = bossGameObject;
         plataformaSpawner = bossGameObject.GetComponent<PlataformaSpawner>();
+        attackDuration += plataformaSpawner.tempoInvisivel;
     }
 
     public void Enter()

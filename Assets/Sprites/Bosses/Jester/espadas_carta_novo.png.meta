@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9441ff8129ab382429365e3e602af42b
+guid: 5bab5ff6d0c33e0469fd526445de41fd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4431851368482040473
-    second: plataforma_jester_0
+      213: 2397093106949750372
+    second: espadas_carta_novo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plataforma_jester_0
+      name: espadas_carta_novo_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 104
-        height: 34
+        x: 13
+        y: 2
+        width: 77
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99a63b3b659118d30800000000000000
-      internalID: 4431851368482040473
+      spriteID: 46ef64dfa7f244120800000000000000
+      internalID: 2397093106949750372
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      plataforma_jester_0: 4431851368482040473
+      espadas_carta_novo_0: 2397093106949750372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

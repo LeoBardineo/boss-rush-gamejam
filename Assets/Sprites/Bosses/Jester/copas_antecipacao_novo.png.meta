@@ -1,67 +1,76 @@
 fileFormatVersion: 2
-guid: 56717ae490dec234b8f0cbf25236240e
+guid: 02497ea69f7571748a5bc47ac5fcd611
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 767421854207112977
-    second: ouros_antecipacao_0
+      213: -2023677990520322506
+    second: copas_antecipacao_novo_0
   - first:
-      213: 1735982797430161054
-    second: ouros_antecipacao_1
+      213: 5398610231946315338
+    second: copas_antecipacao_novo_1
   - first:
-      213: -1659475933177992595
-    second: ouros_antecipacao_2
+      213: -263738554360822154
+    second: copas_antecipacao_novo_2
   - first:
-      213: -8804576455787650578
-    second: ouros_antecipacao_3
+      213: -7470632625213004213
+    second: copas_antecipacao_novo_3
   - first:
-      213: -6174642931325112898
-    second: ouros_antecipacao_4
+      213: 3952172669684557351
+    second: copas_antecipacao_novo_4
   - first:
-      213: 4707831934176214213
-    second: ouros_antecipacao_5
+      213: 3516555333956088108
+    second: copas_antecipacao_novo_5
   - first:
-      213: 4196166454284363402
-    second: ouros_antecipacao_6
+      213: 1632608442901460118
+    second: copas_antecipacao_novo_6
   - first:
-      213: -4116194602605088198
-    second: ouros_antecipacao_7
+      213: -818070456458091577
+    second: copas_antecipacao_novo_7
   - first:
-      213: -6178577360909373254
-    second: ouros_antecipacao_8
+      213: -1290495342608155398
+    second: copas_antecipacao_novo_8
   - first:
-      213: -7869494802336557675
-    second: ouros_antecipacao_9
+      213: -1333799559862715739
+    second: copas_antecipacao_novo_9
   - first:
-      213: -7791930156830875057
-    second: ouros_antecipacao_10
+      213: -2770271206817602730
+    second: copas_antecipacao_novo_10
   - first:
-      213: -6538360206422399638
-    second: ouros_antecipacao_11
+      213: -4845836125891439779
+    second: copas_antecipacao_novo_11
   - first:
-      213: 1239742092683110866
-    second: ouros_antecipacao_12
+      213: 343334802390209454
+    second: copas_antecipacao_novo_12
   - first:
-      213: -3537676986257428530
-    second: ouros_antecipacao_13
+      213: -2006453544044796506
+    second: copas_antecipacao_novo_13
   - first:
-      213: -1349449750795933114
-    second: ouros_antecipacao_14
+      213: -733761936412517211
+    second: copas_antecipacao_novo_14
   - first:
-      213: 8344696840006849700
-    second: ouros_antecipacao_15
+      213: -5209214208732292013
+    second: copas_antecipacao_novo_15
   - first:
-      213: -9140299802065416005
-    second: ouros_antecipacao_16
+      213: -2866683739576012850
+    second: copas_antecipacao_novo_16
   - first:
-      213: -2241969417038699034
-    second: ouros_antecipacao_17
+      213: -7878743810000323716
+    second: copas_antecipacao_novo_17
   - first:
-      213: -1846633254158356198
-    second: ouros_antecipacao_18
+      213: 4248480695640277498
+    second: copas_antecipacao_novo_18
   - first:
-      213: -6697677324149010586
-    second: ouros_antecipacao_19
+      213: -5619543064372541178
+    second: copas_antecipacao_novo_19
+  - first:
+      213: 7733728223743712484
+    second: copas_antecipacao_novo_20
+  - first:
+      213: 3162179512558368762
+    second: copas_antecipacao_novo_21
+  - first:
+      213: 288736027241976067
+    second: copas_antecipacao_novo_22
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -170,13 +179,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ouros_antecipacao_0
+      name: copas_antecipacao_novo_0
       rect:
         serializedVersion: 2
-        x: 64
+        x: 72
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 117f2e44c1e66aa00800000000000000
-      internalID: 767421854207112977
+      spriteID: 636824be6937ae3e0800000000000000
+      internalID: -2023677990520322506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_1
+      name: copas_antecipacao_novo_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9e73091823771810800000000000000
-      internalID: 1735982797430161054
+      spriteID: a4603f32767bbea40800000000000000
+      internalID: 5398610231946315338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_2
+      name: copas_antecipacao_novo_2
       rect:
         serializedVersion: 2
-        x: 192
+        x: 200
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6aad995e6b58f8e0800000000000000
-      internalID: -1659475933177992595
+      spriteID: 6768fb1ae23075cf0800000000000000
+      internalID: -263738554360822154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_3
+      name: copas_antecipacao_novo_3
       rect:
         serializedVersion: 2
-        x: 256
+        x: 264
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee16203bc5cdfc580800000000000000
-      internalID: -8804576455787650578
+      spriteID: b462cbe553bf25890800000000000000
+      internalID: -7470632625213004213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_4
+      name: copas_antecipacao_novo_4
       rect:
         serializedVersion: 2
-        x: 320
+        x: 328
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,20 +282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebd6d77f7f24f4aa0800000000000000
-      internalID: -6174642931325112898
+      spriteID: 7262e838a10f8d630800000000000000
+      internalID: 3952172669684557351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_5
+      name: copas_antecipacao_novo_5
       rect:
         serializedVersion: 2
-        x: 384
+        x: 392
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,20 +304,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5cc30d27334955140800000000000000
-      internalID: 4707831934176214213
+      spriteID: c213579d1705dc030800000000000000
+      internalID: 3516555333956088108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_6
+      name: copas_antecipacao_novo_6
       rect:
         serializedVersion: 2
-        x: 448
+        x: 456
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a86a70e6827cb3a30800000000000000
-      internalID: 4196166454284363402
+      spriteID: 694f1789ab038a610800000000000000
+      internalID: 1632608442901460118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_7
+      name: copas_antecipacao_novo_7
       rect:
         serializedVersion: 2
-        x: 512
+        x: 520
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,20 +348,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a32f75541d650e6c0800000000000000
-      internalID: -4116194602605088198
+      spriteID: 7c3e2911141a5a4f0800000000000000
+      internalID: -818070456458091577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_8
+      name: copas_antecipacao_novo_8
       rect:
         serializedVersion: 2
-        x: 576
+        x: 584
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,20 +370,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab0f9b130a8414aa0800000000000000
-      internalID: -6178577360909373254
+      spriteID: afc7b8fb25d371ee0800000000000000
+      internalID: -1290495342608155398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_9
+      name: copas_antecipacao_novo_9
       rect:
         serializedVersion: 2
-        x: 640
+        x: 648
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59552f0fb20f9c290800000000000000
-      internalID: -7869494802336557675
+      spriteID: 5aa7fc8fd546d7de0800000000000000
+      internalID: -1333799559862715739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_10
+      name: copas_antecipacao_novo_10
       rect:
         serializedVersion: 2
-        x: 704
+        x: 712
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,20 +414,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4221774ec08dd390800000000000000
-      internalID: -7791930156830875057
+      spriteID: 653e422d3050e89d0800000000000000
+      internalID: -2770271206817602730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_11
+      name: copas_antecipacao_novo_11
       rect:
         serializedVersion: 2
-        x: 768
+        x: 776
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,20 +436,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a65a4a2b8041345a0800000000000000
-      internalID: -6538360206422399638
+      spriteID: d535c74c7b120ccb0800000000000000
+      internalID: -4845836125891439779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_12
+      name: copas_antecipacao_novo_12
       rect:
         serializedVersion: 2
-        x: 832
+        x: 840
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,20 +458,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d9e9776dd2743110800000000000000
-      internalID: 1239742092683110866
+      spriteID: ea35f770f25c3c400800000000000000
+      internalID: 343334802390209454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_13
+      name: copas_antecipacao_novo_13
       rect:
         serializedVersion: 2
-        x: 896
+        x: 904
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,20 +480,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecf2d004685a7eec0800000000000000
-      internalID: -3537676986257428530
+      spriteID: 6a5e2e0e125a724e0800000000000000
+      internalID: -2006453544044796506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_14
+      name: copas_antecipacao_novo_14
       rect:
         serializedVersion: 2
-        x: 960
+        x: 968
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,20 +502,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64aa191f99ac54de0800000000000000
-      internalID: -1349449750795933114
+      spriteID: 5acdd6e086721d5f0800000000000000
+      internalID: -733761936412517211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_15
+      name: copas_antecipacao_novo_15
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1032
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,20 +524,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a4deea50915ec370800000000000000
-      internalID: 8344696840006849700
+      spriteID: 35c1899d64725b7b0800000000000000
+      internalID: -5209214208732292013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_16
+      name: copas_antecipacao_novo_16
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1096
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -537,20 +546,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb05155e1c1272180800000000000000
-      internalID: -9140299802065416005
+      spriteID: ecfee23c35e7738d0800000000000000
+      internalID: -2866683739576012850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_17
+      name: copas_antecipacao_novo_17
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1160
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,20 +568,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e56e1491bce2e0e0800000000000000
-      internalID: -2241969417038699034
+      spriteID: c7b7f988f3419a290800000000000000
+      internalID: -7878743810000323716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_18
+      name: copas_antecipacao_novo_18
       rect:
         serializedVersion: 2
-        x: 1216
+        x: 1224
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,20 +590,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a11b777d6d07f56e0800000000000000
-      internalID: -1846633254158356198
+      spriteID: af14ebaeea2a5fa30800000000000000
+      internalID: 4248480695640277498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_19
+      name: copas_antecipacao_novo_19
       rect:
         serializedVersion: 2
-        x: 1280
+        x: 1288
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -603,20 +612,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66fc8e1a5f11d03a0800000000000000
-      internalID: -6697677324149010586
+      spriteID: 60980184b5f5302b0800000000000000
+      internalID: -5619543064372541178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ouros_antecipacao_00
+      name: copas_antecipacao_novo_20
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1352
         y: 0
-        width: 64
-        height: 74
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec18ad28d8b35b60800000000000000
+      internalID: 7733728223743712484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_novo_21
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 11
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af73f02438152eb20800000000000000
+      internalID: 3162179512558368762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_novo_22
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 11
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3019d9113ebc10400800000000000000
+      internalID: 288736027241976067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copas_antecipacao_novo_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,8 +700,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f167b0ef7775524489d0f541b6aefe4
-      internalID: -328612527
+      spriteID: 07c50d69d394fb249b1d2185223ad254
+      internalID: 994079986
       vertices: []
       indices: 
       edges: []
@@ -635,7 +710,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9231318183afe1b459b0795a40b9e502
+    spriteID: b419ce3db4e3ea142948c3d2c1b3c975
     internalID: 0
     vertices: []
     indices: 
@@ -645,27 +720,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ouros_antecipacao_0: 767421854207112977
-      ouros_antecipacao_00: -328612527
-      ouros_antecipacao_1: 1735982797430161054
-      ouros_antecipacao_10: -7791930156830875057
-      ouros_antecipacao_11: -6538360206422399638
-      ouros_antecipacao_12: 1239742092683110866
-      ouros_antecipacao_13: -3537676986257428530
-      ouros_antecipacao_14: -1349449750795933114
-      ouros_antecipacao_15: 8344696840006849700
-      ouros_antecipacao_16: -9140299802065416005
-      ouros_antecipacao_17: -2241969417038699034
-      ouros_antecipacao_18: -1846633254158356198
-      ouros_antecipacao_19: -6697677324149010586
-      ouros_antecipacao_2: -1659475933177992595
-      ouros_antecipacao_3: -8804576455787650578
-      ouros_antecipacao_4: -6174642931325112898
-      ouros_antecipacao_5: 4707831934176214213
-      ouros_antecipacao_6: 4196166454284363402
-      ouros_antecipacao_7: -4116194602605088198
-      ouros_antecipacao_8: -6178577360909373254
-      ouros_antecipacao_9: -7869494802336557675
+      copas_antecipacao_novo_0: -2023677990520322506
+      copas_antecipacao_novo_00: 994079986
+      copas_antecipacao_novo_1: 5398610231946315338
+      copas_antecipacao_novo_10: -2770271206817602730
+      copas_antecipacao_novo_11: -4845836125891439779
+      copas_antecipacao_novo_12: 343334802390209454
+      copas_antecipacao_novo_13: -2006453544044796506
+      copas_antecipacao_novo_14: -733761936412517211
+      copas_antecipacao_novo_15: -5209214208732292013
+      copas_antecipacao_novo_16: -2866683739576012850
+      copas_antecipacao_novo_17: -7878743810000323716
+      copas_antecipacao_novo_18: 4248480695640277498
+      copas_antecipacao_novo_19: -5619543064372541178
+      copas_antecipacao_novo_2: -263738554360822154
+      copas_antecipacao_novo_20: 7733728223743712484
+      copas_antecipacao_novo_21: 3162179512558368762
+      copas_antecipacao_novo_22: 288736027241976067
+      copas_antecipacao_novo_3: -7470632625213004213
+      copas_antecipacao_novo_4: 3952172669684557351
+      copas_antecipacao_novo_5: 3516555333956088108
+      copas_antecipacao_novo_6: 1632608442901460118
+      copas_antecipacao_novo_7: -818070456458091577
+      copas_antecipacao_novo_8: -1290495342608155398
+      copas_antecipacao_novo_9: -1333799559862715739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

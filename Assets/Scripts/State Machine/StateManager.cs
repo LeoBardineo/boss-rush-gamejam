@@ -26,15 +26,14 @@ public class StateManager
         if(nextState.Equals(currentState)) {
             currentState.Update();
         } else {
-            TransitionToState();
+            TransitionToState(nextState);
         }
     }
 
-    void TransitionToState() {
+    void TransitionToState(IState nextState) {
         isTransitioningState = true;
         currentState.Exit();
         
-        IState nextState = currentState.GetNext();
         currentState = nextState;
 
         currentState.Enter();

@@ -30,7 +30,6 @@ public class OurosAttack : MonoBehaviour
 
     void DestroyCarta()
     {
-        Debug.Log("DestroyCarta");
         // COMENTADO caso queriam o efeito de bang
         // GetComponent<CircleCollider2D>().enabled = false;
 
@@ -41,10 +40,11 @@ public class OurosAttack : MonoBehaviour
         // Animator animator = GetComponent<Animator>();
         // animator.Play("OurosProjetilBang");
 
-        GameObject ourosAntecipacao = gameObject.transform.parent.gameObject;
+        // GameObject ourosAntecipacao = gameObject.transform.parent.gameObject;
         // ourosAntecipacao.GetComponent<SpriteRenderer>().enabled = false;
 
         // Destroy(ourosAntecipacao, animator.GetCurrentAnimatorStateInfo(0).length + bangDurationOffset);
-        Destroy(ourosAntecipacao);
+        // Destroy(ourosAntecipacao);
+        Destroy(gameObject);
     }
 }

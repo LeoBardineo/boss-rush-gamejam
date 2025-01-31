@@ -24,7 +24,8 @@ public class OurosAntecipacao : MonoBehaviour
         Vector3 projetilPosition = transform.position + new Vector3(0, 0, transform.position.x * 0.01f + 2);
         GameObject projetil = Instantiate(ourosProjetil, projetilPosition, ourosProjetil.transform.rotation);
         projetil.transform.SetParent(transform, true);
-        projetil.GetComponent<SpriteRenderer>().sortingOrder = 2;
-        animator.Play("OurosCartaAtaque");
+        animator.Play("OurosAntecipacaoSaindo");
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length + 0.5f);
+        Destroy(gameObject);
     }
 }

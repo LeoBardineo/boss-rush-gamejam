@@ -73,16 +73,18 @@ public class JesterIdleState : IState
         
         if(copasSpawner.enabled && !copasSpawner.isSpawning)
             possibleAttacks.Add(new CopasState(bossGameObject));
+        
+        if(jesterSM.lastUsedAttack != null)
+        {
+            possibleAttacks.RemoveAll(pAttack => jesterSM.lastUsedAttack.GetType() == pAttack.GetType());
+        }
 
         if(possibleAttacks.Count == 0)
             return new JesterIdleState(bossGameObject);
-        
-        if(jesterSM.lastUsedAttack != null)
-            possibleAttacks.RemoveAll(pAttack => jesterSM.lastUsedAttack.GetType() == pAttack.GetType());
 
         IState attack = possibleAttacks[Random.Range(0, possibleAttacks.Count)];
         jesterSM.lastUsedAttack = attack;
-        Debug.LogWarning("Last Used Attack: " + attack);
+        animator.Play("JesterAttack");
         return attack;
     }
 

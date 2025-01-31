@@ -1,67 +1,94 @@
 fileFormatVersion: 2
-guid: 56717ae490dec234b8f0cbf25236240e
+guid: 926e571ee62650d49870d1b068a0fe77
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 767421854207112977
-    second: ouros_antecipacao_0
+      213: -3380005600906039488
+    second: paus_antecipacao_novo_0
   - first:
-      213: 1735982797430161054
-    second: ouros_antecipacao_1
+      213: -7439801561165471554
+    second: paus_antecipacao_novo_1
   - first:
-      213: -1659475933177992595
-    second: ouros_antecipacao_2
+      213: -8839414169095886238
+    second: paus_antecipacao_novo_2
   - first:
-      213: -8804576455787650578
-    second: ouros_antecipacao_3
+      213: -761796050699679706
+    second: paus_antecipacao_novo_3
   - first:
-      213: -6174642931325112898
-    second: ouros_antecipacao_4
+      213: -4773650616445489743
+    second: paus_antecipacao_novo_4
   - first:
-      213: 4707831934176214213
-    second: ouros_antecipacao_5
+      213: 3946066672061257400
+    second: paus_antecipacao_novo_5
   - first:
-      213: 4196166454284363402
-    second: ouros_antecipacao_6
+      213: -7495120256775433588
+    second: paus_antecipacao_novo_6
   - first:
-      213: -4116194602605088198
-    second: ouros_antecipacao_7
+      213: 6480016301958101531
+    second: paus_antecipacao_novo_7
   - first:
-      213: -6178577360909373254
-    second: ouros_antecipacao_8
+      213: -1700416219982705064
+    second: paus_antecipacao_novo_8
   - first:
-      213: -7869494802336557675
-    second: ouros_antecipacao_9
+      213: 6390887466660671619
+    second: paus_antecipacao_novo_9
   - first:
-      213: -7791930156830875057
-    second: ouros_antecipacao_10
+      213: 4936468563927826951
+    second: paus_antecipacao_novo_10
   - first:
-      213: -6538360206422399638
-    second: ouros_antecipacao_11
+      213: 1801352459309843936
+    second: paus_antecipacao_novo_11
   - first:
-      213: 1239742092683110866
-    second: ouros_antecipacao_12
+      213: 1158604964316146254
+    second: paus_antecipacao_novo_12
   - first:
-      213: -3537676986257428530
-    second: ouros_antecipacao_13
+      213: 6050304092695474898
+    second: paus_antecipacao_novo_13
   - first:
-      213: -1349449750795933114
-    second: ouros_antecipacao_14
+      213: -1932857358247908522
+    second: paus_antecipacao_novo_14
   - first:
-      213: 8344696840006849700
-    second: ouros_antecipacao_15
+      213: 2549231411428746764
+    second: paus_antecipacao_novo_15
   - first:
-      213: -9140299802065416005
-    second: ouros_antecipacao_16
+      213: 908718069030492911
+    second: paus_antecipacao_novo_16
   - first:
-      213: -2241969417038699034
-    second: ouros_antecipacao_17
+      213: 6257014139578440240
+    second: paus_antecipacao_novo_17
   - first:
-      213: -1846633254158356198
-    second: ouros_antecipacao_18
+      213: -8043462137377422932
+    second: paus_antecipacao_novo_18
   - first:
-      213: -6697677324149010586
-    second: ouros_antecipacao_19
+      213: 1277131705905995031
+    second: paus_antecipacao_novo_19
+  - first:
+      213: -8849660706382303340
+    second: paus_antecipacao_novo_20
+  - first:
+      213: -6788518213902899631
+    second: paus_antecipacao_novo_21
+  - first:
+      213: -8620638882006660495
+    second: paus_antecipacao_novo_22
+  - first:
+      213: -3022360872311704262
+    second: paus_antecipacao_novo_23
+  - first:
+      213: 4610096071992849065
+    second: paus_antecipacao_novo_24
+  - first:
+      213: -5603467688354652441
+    second: paus_antecipacao_novo_25
+  - first:
+      213: 17305074278680119
+    second: paus_antecipacao_novo_26
+  - first:
+      213: 5973024142350516509
+    second: paus_antecipacao_novo_27
+  - first:
+      213: 6126553892737391020
+    second: paus_antecipacao_novo_28
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -170,463 +197,463 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ouros_antecipacao_0
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 117f2e44c1e66aa00800000000000000
-      internalID: 767421854207112977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_1
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9e73091823771810800000000000000
-      internalID: 1735982797430161054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_2
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6aad995e6b58f8e0800000000000000
-      internalID: -1659475933177992595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_3
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee16203bc5cdfc580800000000000000
-      internalID: -8804576455787650578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_4
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebd6d77f7f24f4aa0800000000000000
-      internalID: -6174642931325112898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_5
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5cc30d27334955140800000000000000
-      internalID: 4707831934176214213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_6
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a86a70e6827cb3a30800000000000000
-      internalID: 4196166454284363402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_7
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a32f75541d650e6c0800000000000000
-      internalID: -4116194602605088198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_8
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab0f9b130a8414aa0800000000000000
-      internalID: -6178577360909373254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_9
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59552f0fb20f9c290800000000000000
-      internalID: -7869494802336557675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_10
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4221774ec08dd390800000000000000
-      internalID: -7791930156830875057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_11
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a65a4a2b8041345a0800000000000000
-      internalID: -6538360206422399638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_12
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d9e9776dd2743110800000000000000
-      internalID: 1239742092683110866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_13
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ecf2d004685a7eec0800000000000000
-      internalID: -3537676986257428530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_14
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64aa191f99ac54de0800000000000000
-      internalID: -1349449750795933114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_15
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a4deea50915ec370800000000000000
-      internalID: 8344696840006849700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_16
-      rect:
-        serializedVersion: 2
-        x: 1088
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb05155e1c1272180800000000000000
-      internalID: -9140299802065416005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_17
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e56e1491bce2e0e0800000000000000
-      internalID: -2241969417038699034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_18
-      rect:
-        serializedVersion: 2
-        x: 1216
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a11b777d6d07f56e0800000000000000
-      internalID: -1846633254158356198
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_19
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 64
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66fc8e1a5f11d03a0800000000000000
-      internalID: -6697677324149010586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ouros_antecipacao_00
+      name: paus_antecipacao_novo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 74
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7f167b0ef7775524489d0f541b6aefe4
-      internalID: -328612527
+      spriteID: 04f2a2360dec711d0800000000000000
+      internalID: -3380005600906039488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0e55bd5e380c890800000000000000
+      internalID: -7439801561165471554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a2c7c75a7145580800000000000000
+      internalID: -8839414169095886238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62800ce278e8d65f0800000000000000
+      internalID: -761796050699679706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd21f46e0690cdb0800000000000000
+      internalID: -4773650616445489743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b618382bbe33c630800000000000000
+      internalID: 3946066672061257400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82d01a56dbfbf790800000000000000
+      internalID: -7495120256775433588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1af3f87e74ade950800000000000000
+      internalID: 6480016301958101531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e4e950578e668e0800000000000000
+      internalID: -1700416219982705064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3803ec16a4ef0b850800000000000000
+      internalID: 6390887466660671619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7020dcd110cd18440800000000000000
+      internalID: 4936468563927826951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5807c8480bff810800000000000000
+      internalID: 1801352459309843936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_12
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a61159311341010800000000000000
+      internalID: 1158604964316146254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2b434348ff6f350800000000000000
+      internalID: 6050304092695474898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b2220397c1d25e0800000000000000
+      internalID: -1932857358247908522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_15
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c066a785670b06320800000000000000
+      internalID: 2549231411428746764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea9a89e44a6c9c00800000000000000
+      internalID: 908718069030492911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_17
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a5b28753165d650800000000000000
+      internalID: 6257014139578440240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_18
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca180595dc1ef5090800000000000000
+      internalID: -8043462137377422932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_19
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d5aed158849b110800000000000000
+      internalID: 1277131705905995031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paus_antecipacao_novo_20
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fa95d9970bf2580800000000000000
+      internalID: -8849660706382303340
       vertices: []
       indices: 
       edges: []
@@ -635,7 +662,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9231318183afe1b459b0795a40b9e502
+    spriteID: e7cf9e2c6e6c41b4b858d85ef3d42b42
     internalID: 0
     vertices: []
     indices: 
@@ -645,27 +672,27 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ouros_antecipacao_0: 767421854207112977
-      ouros_antecipacao_00: -328612527
-      ouros_antecipacao_1: 1735982797430161054
-      ouros_antecipacao_10: -7791930156830875057
-      ouros_antecipacao_11: -6538360206422399638
-      ouros_antecipacao_12: 1239742092683110866
-      ouros_antecipacao_13: -3537676986257428530
-      ouros_antecipacao_14: -1349449750795933114
-      ouros_antecipacao_15: 8344696840006849700
-      ouros_antecipacao_16: -9140299802065416005
-      ouros_antecipacao_17: -2241969417038699034
-      ouros_antecipacao_18: -1846633254158356198
-      ouros_antecipacao_19: -6697677324149010586
-      ouros_antecipacao_2: -1659475933177992595
-      ouros_antecipacao_3: -8804576455787650578
-      ouros_antecipacao_4: -6174642931325112898
-      ouros_antecipacao_5: 4707831934176214213
-      ouros_antecipacao_6: 4196166454284363402
-      ouros_antecipacao_7: -4116194602605088198
-      ouros_antecipacao_8: -6178577360909373254
-      ouros_antecipacao_9: -7869494802336557675
+      paus_antecipacao_novo_0: -3380005600906039488
+      paus_antecipacao_novo_1: -7439801561165471554
+      paus_antecipacao_novo_10: 4936468563927826951
+      paus_antecipacao_novo_11: 1801352459309843936
+      paus_antecipacao_novo_12: 1158604964316146254
+      paus_antecipacao_novo_13: 6050304092695474898
+      paus_antecipacao_novo_14: -1932857358247908522
+      paus_antecipacao_novo_15: 2549231411428746764
+      paus_antecipacao_novo_16: 908718069030492911
+      paus_antecipacao_novo_17: 6257014139578440240
+      paus_antecipacao_novo_18: -8043462137377422932
+      paus_antecipacao_novo_19: 1277131705905995031
+      paus_antecipacao_novo_2: -8839414169095886238
+      paus_antecipacao_novo_20: -8849660706382303340
+      paus_antecipacao_novo_3: -761796050699679706
+      paus_antecipacao_novo_4: -4773650616445489743
+      paus_antecipacao_novo_5: 3946066672061257400
+      paus_antecipacao_novo_6: -7495120256775433588
+      paus_antecipacao_novo_7: 6480016301958101531
+      paus_antecipacao_novo_8: -1700416219982705064
+      paus_antecipacao_novo_9: 6390887466660671619
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
