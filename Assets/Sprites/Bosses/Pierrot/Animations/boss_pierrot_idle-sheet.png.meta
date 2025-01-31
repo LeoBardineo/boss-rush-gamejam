@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 7a1452dffca66a4499a350a64f4bcc41
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1196642992012321873
+    second: boss_pierrot_idle-sheet_0
+  - first:
+      213: -6218109439294519945
+    second: boss_pierrot_idle-sheet_1
+  - first:
+      213: 3753904143958433092
+    second: boss_pierrot_idle-sheet_2
+  - first:
+      213: 360377120451777348
+    second: boss_pierrot_idle-sheet_3
+  - first:
+      213: 2996215817025636694
+    second: boss_pierrot_idle-sheet_4
+  - first:
+      213: -2572850599755866447
+    second: boss_pierrot_idle-sheet_5
+  - first:
+      213: 6764264780018306779
+    second: boss_pierrot_idle-sheet_6
+  - first:
+      213: -7150377315992621382
+    second: boss_pierrot_idle-sheet_7
+  - first:
+      213: -3747528574422246355
+    second: boss_pierrot_idle-sheet_8
+  - first:
+      213: -7509262398122334306
+    second: boss_pierrot_idle-sheet_9
+  - first:
+      213: -6278375403995557073
+    second: boss_pierrot_idle-sheet_10
+  - first:
+      213: -7826737992595120188
+    second: boss_pierrot_idle-sheet_11
+  - first:
+      213: -7181285416346578087
+    second: boss_pierrot_idle-sheet_12
+  - first:
+      213: 8250369412954199717
+    second: boss_pierrot_idle-sheet_13
+  - first:
+      213: 1332270161438601359
+    second: boss_pierrot_idle-sheet_14
+  - first:
+      213: 1694828577417728030
+    second: boss_pierrot_idle-sheet_15
+  - first:
+      213: -1260284752862546043
+    second: boss_pierrot_idle-sheet_16
+  - first:
+      213: -1426597822854083688
+    second: boss_pierrot_idle-sheet_17
+  - first:
+      213: -7779152777766258544
+    second: boss_pierrot_idle-sheet_18
+  - first:
+      213: -1099295251911020458
+    second: boss_pierrot_idle-sheet_19
+  - first:
+      213: 1149910914760657355
+    second: boss_pierrot_idle-sheet_20
+  - first:
+      213: 704921987447774163
+    second: boss_pierrot_idle-sheet_21
+  - first:
+      213: -5683742762819462040
+    second: boss_pierrot_idle-sheet_22
+  - first:
+      213: 4156053815899786439
+    second: boss_pierrot_idle-sheet_23
+  - first:
+      213: 7249404602418015090
+    second: boss_pierrot_idle-sheet_24
+  - first:
+      213: -326487064229911531
+    second: boss_pierrot_idle-sheet_25
+  - first:
+      213: -6631968641662662317
+    second: boss_pierrot_idle-sheet_26
+  - first:
+      213: 1305752582748310106
+    second: boss_pierrot_idle-sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154eadd06745b9010800000000000000
+      internalID: 1196642992012321873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775c850f866d4b9a0800000000000000
+      internalID: -6218109439294519945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d528d0eeb881430800000000000000
+      internalID: 3753904143958433092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443d4b9e411500500800000000000000
+      internalID: 360377120451777348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65948343962b49920800000000000000
+      internalID: 2996215817025636694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be9665d2066b4cd0800000000000000
+      internalID: -2572850599755866447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde4da39afe7fdd50800000000000000
+      internalID: 6764264780018306779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abeaf3627b1c4cc90800000000000000
+      internalID: -7150377315992621382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c9fe7ed9a1efbc0800000000000000
+      internalID: -3747528574422246355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9768ba72adb9c790800000000000000
+      internalID: -7509262398122334306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f239b4695dabed8a0800000000000000
+      internalID: -6278375403995557073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2901
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf50597347d16390800000000000000
+      internalID: -7826737992595120188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95318ff36f2f65c90800000000000000
+      internalID: -7181285416346578087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3425
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a612ecc4433f7270800000000000000
+      internalID: 8250369412954199717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80766537ac2d7210800000000000000
+      internalID: 1332270161438601359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e101a209c9d358710800000000000000
+      internalID: 1694828577417728030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 4211
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58779cdc1b1928ee0800000000000000
+      internalID: -1260284752862546043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 4473
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bcf6ba6d4b33ce0800000000000000
+      internalID: -1426597822854083688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4735
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098bfbba3c5ea0490800000000000000
+      internalID: -7779152777766258544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4997
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650f19eeac48eb0f0800000000000000
+      internalID: -1099295251911020458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 5259
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc947ad62ed45ff00800000000000000
+      internalID: 1149910914760657355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 5521
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbdf2010d268c900800000000000000
+      internalID: 704921987447774163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 5783
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cd27b221a4f11b0800000000000000
+      internalID: -5683742762819462040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 6045
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc0d140de44da930800000000000000
+      internalID: 4156053815899786439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 6307
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b2530b31f0b9460800000000000000
+      internalID: 7249404602418015090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 6569
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514e0d0beb5187bf0800000000000000
+      internalID: -326487064229911531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 6831
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359ca2878a386f3a0800000000000000
+      internalID: -6631968641662662317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_idle-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 7093
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a034b4e07fe1210800000000000000
+      internalID: 1305752582748310106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_pierrot_idle-sheet_0: 1196642992012321873
+      boss_pierrot_idle-sheet_1: -6218109439294519945
+      boss_pierrot_idle-sheet_10: -6278375403995557073
+      boss_pierrot_idle-sheet_11: -7826737992595120188
+      boss_pierrot_idle-sheet_12: -7181285416346578087
+      boss_pierrot_idle-sheet_13: 8250369412954199717
+      boss_pierrot_idle-sheet_14: 1332270161438601359
+      boss_pierrot_idle-sheet_15: 1694828577417728030
+      boss_pierrot_idle-sheet_16: -1260284752862546043
+      boss_pierrot_idle-sheet_17: -1426597822854083688
+      boss_pierrot_idle-sheet_18: -7779152777766258544
+      boss_pierrot_idle-sheet_19: -1099295251911020458
+      boss_pierrot_idle-sheet_2: 3753904143958433092
+      boss_pierrot_idle-sheet_20: 1149910914760657355
+      boss_pierrot_idle-sheet_21: 704921987447774163
+      boss_pierrot_idle-sheet_22: -5683742762819462040
+      boss_pierrot_idle-sheet_23: 4156053815899786439
+      boss_pierrot_idle-sheet_24: 7249404602418015090
+      boss_pierrot_idle-sheet_25: -326487064229911531
+      boss_pierrot_idle-sheet_26: -6631968641662662317
+      boss_pierrot_idle-sheet_27: 1305752582748310106
+      boss_pierrot_idle-sheet_3: 360377120451777348
+      boss_pierrot_idle-sheet_4: 2996215817025636694
+      boss_pierrot_idle-sheet_5: -2572850599755866447
+      boss_pierrot_idle-sheet_6: 6764264780018306779
+      boss_pierrot_idle-sheet_7: -7150377315992621382
+      boss_pierrot_idle-sheet_8: -3747528574422246355
+      boss_pierrot_idle-sheet_9: -7509262398122334306
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

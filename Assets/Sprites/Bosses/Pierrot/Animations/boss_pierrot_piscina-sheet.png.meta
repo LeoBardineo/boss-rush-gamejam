@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 53c7d78ffe7b25a468993b41a0f47646
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6896136812865621037
+    second: boss_pierrot_piscina-sheet_0
+  - first:
+      213: -7601180500661283920
+    second: boss_pierrot_piscina-sheet_1
+  - first:
+      213: -5601201584574358095
+    second: boss_pierrot_piscina-sheet_2
+  - first:
+      213: 8380434140096400951
+    second: boss_pierrot_piscina-sheet_3
+  - first:
+      213: 737369970671686589
+    second: boss_pierrot_piscina-sheet_4
+  - first:
+      213: -1063624677292105800
+    second: boss_pierrot_piscina-sheet_5
+  - first:
+      213: 5587743980488805681
+    second: boss_pierrot_piscina-sheet_6
+  - first:
+      213: 7009647487356253667
+    second: boss_pierrot_piscina-sheet_7
+  - first:
+      213: 421213135708851782
+    second: boss_pierrot_piscina-sheet_8
+  - first:
+      213: -6753420400693887160
+    second: boss_pierrot_piscina-sheet_9
+  - first:
+      213: 3936089860471552282
+    second: boss_pierrot_piscina-sheet_10
+  - first:
+      213: 7901258986377825540
+    second: boss_pierrot_piscina-sheet_11
+  - first:
+      213: 3328568959608336644
+    second: boss_pierrot_piscina-sheet_12
+  - first:
+      213: -1167347464304046435
+    second: boss_pierrot_piscina-sheet_13
+  - first:
+      213: -2560222808338698919
+    second: boss_pierrot_piscina-sheet_14
+  - first:
+      213: -1025477043760547841
+    second: boss_pierrot_piscina-sheet_15
+  - first:
+      213: 8991594454758494145
+    second: boss_pierrot_piscina-sheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c895dd4eff3bf50800000000000000
+      internalID: 6896136812865621037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b355708b9e238690800000000000000
+      internalID: -7601180500661283920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd1714d5d88442b0800000000000000
+      internalID: -5601201584574358095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e8000f2784d4470800000000000000
+      internalID: 8380434140096400951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db31de1e41aab3a00800000000000000
+      internalID: 737369970671686589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf1aa7cdfe3d31f0800000000000000
+      internalID: -1063624677292105800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dccdc8b87ab8d40800000000000000
+      internalID: 5587743980488805681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e534944045474160800000000000000
+      internalID: 7009647487356253667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e87a08d1378d500800000000000000
+      internalID: 421213135708851782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fb3cd3de70742a0800000000000000
+      internalID: -6753420400693887160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a197c61bfdccf9630800000000000000
+      internalID: 3936089860471552282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2901
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dc9697f29e6ad60800000000000000
+      internalID: 7901258986377825540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 11
+        width: 216
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401b8df45d3713e20800000000000000
+      internalID: 3328568959608336644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3425
+        y: 0
+        width: 216
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e44b48aafbccfe0800000000000000
+      internalID: -1167347464304046435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 0
+        width: 216
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d6e13abe2487cd0800000000000000
+      internalID: -2560222808338698919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 0
+        width: 216
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7b559df06c4c1f0800000000000000
+      internalID: -1025477043760547841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_piscina-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 4211
+        y: 0
+        width: 216
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf8040648f88cc70800000000000000
+      internalID: 8991594454758494145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_pierrot_piscina-sheet_0: 6896136812865621037
+      boss_pierrot_piscina-sheet_1: -7601180500661283920
+      boss_pierrot_piscina-sheet_10: 3936089860471552282
+      boss_pierrot_piscina-sheet_11: 7901258986377825540
+      boss_pierrot_piscina-sheet_12: 3328568959608336644
+      boss_pierrot_piscina-sheet_13: -1167347464304046435
+      boss_pierrot_piscina-sheet_14: -2560222808338698919
+      boss_pierrot_piscina-sheet_15: -1025477043760547841
+      boss_pierrot_piscina-sheet_16: 8991594454758494145
+      boss_pierrot_piscina-sheet_2: -5601201584574358095
+      boss_pierrot_piscina-sheet_3: 8380434140096400951
+      boss_pierrot_piscina-sheet_4: 737369970671686589
+      boss_pierrot_piscina-sheet_5: -1063624677292105800
+      boss_pierrot_piscina-sheet_6: 5587743980488805681
+      boss_pierrot_piscina-sheet_7: 7009647487356253667
+      boss_pierrot_piscina-sheet_8: 421213135708851782
+      boss_pierrot_piscina-sheet_9: -6753420400693887160
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
