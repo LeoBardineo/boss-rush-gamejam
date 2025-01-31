@@ -25,7 +25,7 @@ public class OurosAntecipacao : MonoBehaviour
         GameObject projetil = Instantiate(ourosProjetil, projetilPosition, ourosProjetil.transform.rotation);
         projetil.transform.SetParent(transform, true);
         animator.Play("OurosAntecipacaoSaindo");
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length + 0.5f);
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length + 1f);
         Destroy(gameObject);
     }
 }

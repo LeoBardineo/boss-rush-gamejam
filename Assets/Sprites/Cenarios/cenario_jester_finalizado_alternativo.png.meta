@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 72d2e2d5630514d4d8901994dd824ac7
+guid: 1e5402437ddce8544a01d055f499a48d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6768344225973435738
-    second: itsme_0
+      213: -1483150763289112461
+    second: cenario_jester_finalizado_alternativo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,12 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: itsme_0
+      name: cenario_jester_finalizado_alternativo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 360
+        width: 640
         height: 360
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a2894569c20212a0800000000000000
-      internalID: -6768344225973435738
+      spriteID: 3709dc52d3aca6be0800000000000000
+      internalID: -1483150763289112461
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      itsme_0: -6768344225973435738
+      cenario_jester_finalizado_alternativo_0: -1483150763289112461
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
