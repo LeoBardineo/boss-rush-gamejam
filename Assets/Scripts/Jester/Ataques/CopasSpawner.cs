@@ -6,7 +6,7 @@ public class CopasSpawner : MonoBehaviour
     public GameObject copas;
     public Transform player;
     public float antecipationDuration = 0.5f;
-    public float attackDuration = 10f;
+    public float attackDuration = 10f, secondPhaseWaitDuration = 1f;
     public float spawnInterval = 1f;
     public bool isSpawning = false;
 

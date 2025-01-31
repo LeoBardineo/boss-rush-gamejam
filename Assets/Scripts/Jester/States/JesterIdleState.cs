@@ -13,6 +13,7 @@ public class JesterIdleState : IState
     PausSpawner pausSpawner;
     CopasSpawner copasSpawner;
     OurosSpawner ourosSpawner;
+    BossHP bossHP;
     JesterStateManager jesterSM;
 
     public JesterIdleState(GameObject bossGameObject)
@@ -25,6 +26,7 @@ public class JesterIdleState : IState
         ourosSpawner = bossGameObject.GetComponent<OurosSpawner>();
         copasSpawner = bossGameObject.GetComponent<CopasSpawner>();
         jesterSM = bossGameObject.GetComponent<JesterStateManager>();
+        bossHP = bossGameObject.GetComponent<BossHP>();
         idleDuration = jesterSM.idleDuration;
     }
 
@@ -68,10 +70,10 @@ public class JesterIdleState : IState
         if(pausSpawner.enabled && !PausSpawner.cardSpawned)
             possibleAttacks.Add(new PausState(bossGameObject));
 
-        if(ourosSpawner.enabled && !ourosSpawner.isSpawning)
+        if(ourosSpawner.enabled && (bossHP.fase2 || !ourosSpawner.isSpawning))
             possibleAttacks.Add(new OurosState(bossGameObject));
         
-        if(copasSpawner.enabled && !copasSpawner.isSpawning)
+        if(copasSpawner.enabled && (bossHP.fase2 || !copasSpawner.isSpawning))
             possibleAttacks.Add(new CopasState(bossGameObject));
         
         if(jesterSM.lastUsedAttack != null)

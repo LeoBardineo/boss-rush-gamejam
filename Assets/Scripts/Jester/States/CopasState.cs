@@ -8,13 +8,17 @@ public class CopasState : IState
     GameObject bossGameObject;
     SpriteRenderer sp;
     CopasSpawner copasSpawner;
+    BossHP bossHP;
 
     public CopasState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
         sp = bossGameObject.GetComponent<SpriteRenderer>();
         copasSpawner = bossGameObject.GetComponent<CopasSpawner>();
+        bossHP = bossGameObject.GetComponent<BossHP>();
         attackDuration = copasSpawner.attackDuration;
+        if(bossHP.fase2)
+            attackDuration = copasSpawner.secondPhaseWaitDuration;
     }
 
     public void Enter()

@@ -8,7 +8,7 @@ public class OurosSpawner : MonoBehaviour
     public float spawnHeight = 1.5f;
     public float positionVariance = 1.5f;
     public float antecipationDuration = 2f;
-    public float attackDuration = 5f;
+    public float attackDuration = 5f, secondPhaseWaitDuration = 1f;
     public float spawnInterval = 0.1f;
     public bool isSpawning = false;
 

@@ -8,13 +8,17 @@ public class OurosState : IState
     GameObject bossGameObject;
     SpriteRenderer sp;
     OurosSpawner ourosSpawner;
+    BossHP bossHP;
 
     public OurosState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
         sp = bossGameObject.GetComponent<SpriteRenderer>();
         ourosSpawner = bossGameObject.GetComponent<OurosSpawner>();
+        bossHP = bossGameObject.GetComponent<BossHP>();
         attackDuration = ourosSpawner.attackDuration;
+        if(bossHP.fase2)
+            attackDuration = ourosSpawner.secondPhaseWaitDuration;
     }
 
     public void Enter()
