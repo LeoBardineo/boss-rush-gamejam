@@ -5,6 +5,7 @@ public class JesterStateManager : MonoBehaviour
 {
     StateManager stateManager;
     public float idleDuration;
+    public IState lastUsedAttack;
 
     void Start()
     {

@@ -76,8 +76,13 @@ public class JesterIdleState : IState
 
         if(possibleAttacks.Count == 0)
             return new JesterIdleState(bossGameObject);
+        
+        if(jesterSM.lastUsedAttack != null)
+            possibleAttacks.RemoveAll(pAttack => jesterSM.lastUsedAttack.GetType() == pAttack.GetType());
 
         IState attack = possibleAttacks[Random.Range(0, possibleAttacks.Count)];
+        jesterSM.lastUsedAttack = attack;
+        Debug.LogWarning("Last Used Attack: " + attack);
         return attack;
     }
 
