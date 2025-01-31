@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8a62ff1b498e791418f768ed5ef5371b
+guid: 06219aea334443f438e21c9b121a3756
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4409499640428912171
-    second: cenario_pierrot_finalizado_corrigido_0
+      213: 4798098989200155404
+    second: chaodeagua_pierrot_completo_corrigido_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,10 +72,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +100,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cenario_pierrot_finalizado_corrigido_0
+      name: ChaoDeAguaPierrot_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 640
-        height: 360
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b2e5af87f80b13d30800000000000000
-      internalID: 4409499640428912171
+      spriteID: 03731a16c83553747be64c48898555ae
+      internalID: 131475495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoDeAguaPierrot_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e90597e0a04d743ac728f80c20c4df
+      internalID: 1361034075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoDeAguaPierrot_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 640
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a641154ab3d69d43b1e6b3d59ffd5f6
+      internalID: -1724013576
       vertices: []
       indices: 
       edges: []
@@ -125,7 +169,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8a6b93fa21cf96e4a884f44fc876fdc2
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +179,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cenario_pierrot_finalizado_corrigido_0: 4409499640428912171
+      ChaoDeAguaPierrot_0: 131475495
+      ChaoDeAguaPierrot_1: 1361034075
+      ChaoDeAguaPierrot_2: -1724013576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

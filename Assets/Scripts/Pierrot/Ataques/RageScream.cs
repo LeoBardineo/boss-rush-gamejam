@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class RageScream : MonoBehaviour
 {
+    [SerializeField] AudioSource gritoSound;
     [SerializeField] private Rigidbody2D rb;
     //Precisa colocar o número -1 por exemplo pra empurrar o player pra esquerda no inspector do unity.
     [SerializeField] private Vector2 PushDirection;
@@ -32,6 +33,7 @@ public class RageScream : MonoBehaviour
 
     public void RageScreamOn()
     {
+        gritoSound.Play();
         rageScreamingOn = true;
     }
 }

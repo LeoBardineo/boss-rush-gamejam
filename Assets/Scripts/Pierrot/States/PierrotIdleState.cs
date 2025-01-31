@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -54,35 +55,44 @@ public class PierrotIdleState : IState
     {
         // continua em idle até terminar a sua duração
         if(timeSinceStart < idleDuration) return this;
-
-        // se muito perto, dar chute pra longe
-        // se muito longe, corda invisivel
-        // se não, aleatorio entre outros ataques
-
+        
+        if(PlayerHP.dead)
+            return new PierrotIdleState(bossGameObject);
+            
         List<IState> possibleAttacks = new List<IState>{};
-
+        
         if(!TearJet.jetSpawned)
             possibleAttacks.Add(new TearJatadaState(bossGameObject));
-        
-        if(!WaveBehaviour.waveSpawned)
-            possibleAttacks.Add(new WaveState   (bossGameObject));
-        
-        if(!spawnRainTears.isSpawning)
-            possibleAttacks.Add(new RainTearsState(bossGameObject));  
+        if(!bossHP.fase2)
+        {
+         if(!WaveBehaviour.waveSpawned)
+             possibleAttacks.Add(new WaveState   (bossGameObject));
+        }
+         if(!spawnRainTears.isSpawning)
+             possibleAttacks.Add(new RainTearsState(bossGameObject));  
             
         if(bossHP.fase2)
         { 
             if (bossHP.firstTimeFase2)
             {
-                Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
                 transitionPierrot.transition();
                 bossHP.firstTimeFase2 = false;
             }
             if(!RageScream.rageScreamingOn)
             possibleAttacks.Add(new RageScreamState(bossGameObject));
-
         }
+
+        if(pierrotSM.lastUsedAttack != null)
+        {
+            possibleAttacks.RemoveAll(pAttack => pierrotSM.lastUsedAttack.GetType() == pAttack.GetType());
+        }
+
+        if (possibleAttacks.Count == 0)
+            return new PierrotIdleState(bossGameObject);
+        
         IState attack = possibleAttacks[Random.Range(0, possibleAttacks.Count)];
+        pierrotSM.lastUsedAttack = attack;
+        //animator.Play("JesterAttack");
         return attack;
     }
 

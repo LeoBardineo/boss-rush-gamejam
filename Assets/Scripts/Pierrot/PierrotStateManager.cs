@@ -6,6 +6,8 @@ public class PierrotStateManager : MonoBehaviour
     StateManager stateManager;
     public float idleDuration;
 
+    public IState lastUsedAttack;
+
     void Start()
     {
         stateManager = new StateManager();

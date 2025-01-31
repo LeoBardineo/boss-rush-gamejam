@@ -19,6 +19,8 @@ public class TearJet : MonoBehaviour
     public GameObject waterJetPrefab, waterTracePrefab; // Prefab do jato de água e da antecipação
     [SerializeField]
     public Transform waterJetSpawnPoint, player; // Ponto onde o jato será instanciado e a referencia da posição do player
+    [SerializeField]
+    private AudioSource jatadaSound;
     private GameObject waterTrace;
     private GameObject waterJet;
     private Vector3 direction, finalDirection;
@@ -71,7 +73,7 @@ public class TearJet : MonoBehaviour
         }
         else
         {
-            delayToShoot += 0.2f;
+            delayToShoot += Time.deltaTime;
             if (delayToShoot > delayTime && !shooting)
             {
                 delayToShoot=0;
@@ -86,6 +88,7 @@ public class TearJet : MonoBehaviour
     }
     public void ShootWaterJet()
     {
+        jatadaSound.Play();
         // Instancia o jato de água
         waterJet = Instantiate(waterJetPrefab, waterJetSpawnPoint.position, Quaternion.identity);
         // Calcula o ângulo para rotacionar o jato de água

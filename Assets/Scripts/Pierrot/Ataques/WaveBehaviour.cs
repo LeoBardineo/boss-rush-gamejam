@@ -9,10 +9,15 @@ public class WaveBehaviour : MonoBehaviour
     [SerializeField]
     private Transform spawnPoint;
     private GameObject wave;
+    [SerializeField]
     private float waveSpeed = 5;
-    private float timeToDestroy = 120;
+    [SerializeField]
+    private float timeToDestroy = 1;
     private float timePassed = 0;
     public static bool waveSpawned = false;
+    [SerializeField]
+    private AudioSource somDeOnda;
+
 
     // Update is called once per frame
     void Update()
@@ -34,15 +39,16 @@ public class WaveBehaviour : MonoBehaviour
         else
         {
             rb.linearVelocity = new Vector2(-(waveSpeed * waveSpeed), rb.linearVelocity.y);
-            timePassed += 0.1f;
+            timePassed += Time.deltaTime;
         }
     }
 
     public void InstantiateWave()
     {
+        somDeOnda.Play();
         wave = Instantiate(wavePrefab, spawnPoint.position, Quaternion.identity);
         rb = wave.GetComponent<Rigidbody2D>();
         waveSpawned = true;
-        Debug.Log("ONDAAAAA PORRRRAA");
+
     }
 }
