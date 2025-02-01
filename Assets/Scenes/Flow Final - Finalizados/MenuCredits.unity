@@ -150,6 +150,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 640673855}
+  - {fileID: 1777427618}
+  - {fileID: 897561720}
   - {fileID: 474391627}
   - {fileID: 1645079783}
   m_Father: {fileID: 2046385043}
@@ -354,12 +356,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "    ART:\n. Sofia \"Destroya\" Soares\n. Raphael \"SleeperART\" Almeida
-    \n. Mari \"Yoda Purpurinado\" Rocha\n. Sozo\n. Giulia Quintal \n. Luiza maia\n\n   
-    SFX:\n. Cirandinha\n\n    Soundtrack:\n. Dressa Hemy\n\n    Programmers:\n. LeoBardo\n.
-    Rafael \"Rafahgol\" Lima\n. Guilherme Barbosa\n\n    Game Design:\n. Guilherme
-    Barbosa\n. Sophia E Caldas\n. Sofia \"Destroya\" Soares\n. Vitoria Nazareth\n\n   
-    Writing: \n. Giulia Moraes\n. Andressa Marques\n. Cirandinha\n. Balzana\n\n\n\n\n\nURUTAU
+  m_text: "  ***  ART  ***\nSofia \"Destroya\" Soares\nRaphael \"SleeperART\" Almeida
+    \nMari \"Yoda Purpurinado\" Rocha\nSozo\nAura \nLuiza maia\n\n   ***  SFX  ***\nCirandinha\n\n 
+    ***  Soundtrack  ***  \nDressa Hemy\n\n  ***  Programmers  ***  \nLeoBardo\nRafael
+    \"Rafahgol\" Lima\nGuilherme Barbosa\n\n  ***  Game Design  ***  \nGuilherme
+    Barbosa\nSophia E Caldas\nSofia \"Destroya\" Soares\nVitoria Nazareth\n\n  *** 
+    Writing  ***  \nGiulia Moraes\nAndressa Marques\nCirandinha\n Balzana\n\n\n\n\n\nURUTAU
     STUDIO - UFRJ"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 44a9122e764d8dc42b1898da75fbfe9e, type: 2}
@@ -369,8 +371,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4287135164
+  m_fontColor: {r: 0.7372549, g: 0.4901961, b: 0.53333336, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -484,7 +486,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f4d2ef69d90b59b4b94b588bb0b1f9a4, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.29803923, g: 0.09411766, b: 0.16862746, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -522,7 +524,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2046385043}
+    m_TransformParent: {fileID: 418169978}
     m_Modifications:
     - target: {fileID: 5396199808906302995, guid: 4f4cab1fb6bdc0d4499cc7973b9823d0, type: 3}
       propertyPath: m_Pivot.x
@@ -619,7 +621,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2046385043}
+    m_TransformParent: {fileID: 418169978}
     m_Modifications:
     - target: {fileID: 5396199808906302995, guid: 77b5b703ea6153246bf5e5de1aabcae8, type: 3}
       propertyPath: m_Pivot.x
@@ -1142,8 +1144,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 418169978}
-  - {fileID: 1777427618}
-  - {fileID: 897561720}
   - {fileID: 1814935915}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

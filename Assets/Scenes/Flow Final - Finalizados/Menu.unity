@@ -426,9 +426,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 478787631}
+  - {fileID: 1299831920}
+  - {fileID: 119913020}
   - {fileID: 474391627}
   - {fileID: 1645079783}
-  - {fileID: 478787631}
   m_Father: {fileID: 2046385043}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -480,7 +482,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2046385043}
+    m_TransformParent: {fileID: 418169978}
     m_Modifications:
     - target: {fileID: 5396199808906302995, guid: 77b5b703ea6153246bf5e5de1aabcae8, type: 3}
       propertyPath: m_Pivot.x
@@ -653,7 +655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -688,6 +690,7 @@ GameObject:
   - component: {fileID: 478787631}
   - component: {fileID: 478787632}
   - component: {fileID: 478787633}
+  - component: {fileID: 478787634}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -757,6 +760,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settingsCanvas: {fileID: 0}
+--- !u!95 &478787634
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478787630}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 66aca6253153ebc458279fb31b34f383, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &556794224
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,7 +1777,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2046385043}
+    m_TransformParent: {fileID: 418169978}
     m_Modifications:
     - target: {fileID: 5396199808906302995, guid: 4f4cab1fb6bdc0d4499cc7973b9823d0, type: 3}
       propertyPath: m_Pivot.x
@@ -1898,7 +1923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2017,8 +2042,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 418169978}
-  - {fileID: 1299831920}
-  - {fileID: 119913020}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
