@@ -323,8 +323,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tempoDeGiro: 2
+  tempoParado: 1
   minVInicial: 1000
   maxVInicial: 2000
+  numDeEscolhas: 3
+  harlequinBossFight: 
+  pierrotBossFight: 
+  jesterBossFight: 
+  rostosRoleta2: {fileID: 0}
+  rostoRoleta1: {fileID: 0}
+  HarlequinJester: {fileID: 0}
+  PierrotJester: {fileID: 0}
+  HarlequinPierrot: {fileID: 0}
+  HarlequinIcon: {fileID: 0}
+  PierrotIcon: {fileID: 0}
+  JesterIcon: {fileID: 0}
+  sceneManagementUtilitys: {fileID: 0}
+  cortinaIN: {fileID: 0}
 --- !u!114 &534511347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -848,41 +863,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomesArmas:
-  - Arco
-  - "Arco lend\xE1rio"
-  - Pistola
-  - Rifle
+  - Martelo
   imagensArmas:
-  - {fileID: 7362661061344524757, guid: f2b9c846dd4e3b244b81aa0edf434540, type: 3}
-  - {fileID: -601452068, guid: f2b9c846dd4e3b244b81aa0edf434540, type: 3}
-  - {fileID: -229587059, guid: f2b9c846dd4e3b244b81aa0edf434540, type: 3}
-  - {fileID: -1185387248, guid: f2b9c846dd4e3b244b81aa0edf434540, type: 3}
+  - {fileID: 3002470279127200175, guid: 52c6d3dd156a33e41b6a25dffecd38a1, type: 3}
   nomesPoderes:
-  - Cereja
-  - "Lim\xE3o"
-  - "Mel\xE2ncia"
-  - Sino
-  - Uva
+  - CospeFogo
   imagensPoderes:
-  - {fileID: -1700900778123837011, guid: 89232ac209db8aa46bfc974ab069fd5d, type: 3}
-  - {fileID: 8341351615818193774, guid: 89232ac209db8aa46bfc974ab069fd5d, type: 3}
-  - {fileID: -6810028827587399597, guid: 89232ac209db8aa46bfc974ab069fd5d, type: 3}
-  - {fileID: -957261330913964933, guid: 89232ac209db8aa46bfc974ab069fd5d, type: 3}
-  - {fileID: 6227436812019389292, guid: 89232ac209db8aa46bfc974ab069fd5d, type: 3}
+  - {fileID: 7113765218198422275, guid: d13993a54760e3f4b9d6f9f496e75d24, type: 3}
   nomesPocoes:
-  - "Po\xE7\xE3o de dano"
-  - "Po\xE7\xE3o de velocidade"
-  - "Po\xE7\xE3o de vida"
+  - HP
   imagensPocoes:
-  - {fileID: -8468023181923317647, guid: 2538feecff1bf4a4f952be7adbb7c3d4, type: 3}
-  - {fileID: -6401699084251728242, guid: 2538feecff1bf4a4f952be7adbb7c3d4, type: 3}
-  - {fileID: -7949467875105356233, guid: 2538feecff1bf4a4f952be7adbb7c3d4, type: 3}
+  - {fileID: 7589598402620599379, guid: c61c8600f0a648f4ab41e1b7e2535122, type: 3}
+  iconesHarlequin:
+  - {fileID: 923035826455698290, guid: a773a702aee5af345aeb2b4d28ba8738, type: 3}
+  - {fileID: -2057048343960055022, guid: 7bca3e49de99def49ab93d624a7aedbd, type: 3}
+  - {fileID: -7145884101460274851, guid: 590e6585b665ed844ab9842c3367d41a, type: 3}
+  iconesPierrot:
+  - {fileID: 369416444135452212, guid: f2f384bedef9c53429df0f5264179d1b, type: 3}
+  - {fileID: -5316894037686754558, guid: d7f6ae6a55378bf4d8e9fb89cb3af9ca, type: 3}
+  - {fileID: 7346506838079753305, guid: 29fcc33191357d44d8ec8674d77edf5f, type: 3}
+  iconesJester:
+  - {fileID: 1583675266023823759, guid: 58ac637d24e60274497001da733aaf76, type: 3}
+  - {fileID: -89971986847955828, guid: c39d5ef30c70dbf45946d4db24a24a1b, type: 3}
+  - {fileID: -6749445633835608627, guid: 5a7f3ce35c64c4641aaef2912b6f58b1, type: 3}
   slotsImage:
   - {fileID: 382388155}
   - {fileID: 1050982670}
   - {fileID: 2036140734}
   tempoDeGiro: 1.5
-  tempoEntreGiros: 0.5
 --- !u!114 &1657215701
 MonoBehaviour:
   m_ObjectHideFlags: 0

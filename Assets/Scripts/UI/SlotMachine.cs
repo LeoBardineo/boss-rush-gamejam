@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using System.Linq;
 
 public class SlotMachine : MonoBehaviour
 {
@@ -14,9 +15,10 @@ public class SlotMachine : MonoBehaviour
     [SerializeField] List<string> nomesPocoes;
     [SerializeField] List<Sprite> imagensPocoes;
 
+    [SerializeField] List<Sprite> iconesHarlequin, iconesPierrot, iconesJester;
+
     [SerializeField] Image[] slotsImage;
     [SerializeField] float tempoDeGiro = 1.5f;
-    [SerializeField] float tempoEntreGiros = 0.5f;
     
     string[] escolhas = new string[3];
     List<string>[] todosNomes = new List<string>[3];
@@ -24,6 +26,48 @@ public class SlotMachine : MonoBehaviour
 
     void Start()
     {
+        // Harlequin, Pierrot, Jester
+        // List<string> nomeBosses = new List<string>{"Harlequin", "Pierrot", "Jester"};
+        // List<string> nomeBossesCompletos = nomeBosses.Except(GlobalData.bossDisponiveis).ToList();
+
+        // Inicializar pelo inspetor
+        // nomesArmas.Add("Martelo");
+        // nomesPoderes.Add("CospeFogo");
+        // nomesPocoes.Add("HP");
+
+        if(!GlobalData.bossDisponiveis.Contains("Harlequin"))
+        {
+            nomesArmas.Add("Canhao");
+            nomesPoderes.Add("Coelhos");
+            nomesPocoes.Add("Poder");
+            
+            imagensArmas.Add(iconesHarlequin[0]);
+            imagensPoderes.Add(iconesHarlequin[1]);
+            imagensPocoes.Add(iconesHarlequin[2]);
+        }
+        
+        if(!GlobalData.bossDisponiveis.Contains("Pierrot"))
+        {
+            nomesArmas.Add("Florzinha");
+            nomesPoderes.Add("Nuvem");
+            nomesPocoes.Add("DanoHP");
+
+            imagensArmas.Add(iconesPierrot[0]);
+            imagensPoderes.Add(iconesPierrot[1]);
+            imagensPocoes.Add(iconesPierrot[2]);
+        }
+
+        if(!GlobalData.bossDisponiveis.Contains("Jester"))
+        {
+            nomesArmas.Add("Malabares");
+            nomesPoderes.Add("Coringa");
+            nomesPocoes.Add("Hits");
+
+            imagensArmas.Add(iconesJester[0]);
+            imagensPoderes.Add(iconesJester[1]);
+            imagensPocoes.Add(iconesJester[2]);
+        }
+
         todosNomes[0] = nomesArmas;
         todosNomes[1] = nomesPoderes;
         todosNomes[2] = nomesPocoes;
@@ -32,19 +76,11 @@ public class SlotMachine : MonoBehaviour
         todasImagens[1] = imagensPoderes;
         todasImagens[2] = imagensPocoes;
 
-        for (int i = 0; i < 3; i++){
-            int indexImagemInicial = Random.Range(0, todasImagens[i].Count);
-            slotsImage[i].sprite = todasImagens[i][indexImagemInicial];
-            slotsImage[i].preserveAspect = true;
-        }
-    }
-
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.S))
-        {
-            GirarSlots();
-        }
+        // for (int i = 0; i < 3; i++){
+        //     int indexImagemInicial = Random.Range(0, todasImagens[i].Count);
+        //     slotsImage[i].sprite = todasImagens[i][indexImagemInicial];
+        //     slotsImage[i].preserveAspect = true;
+        // }
     }
     
     public void GirarSlots()
@@ -59,20 +95,20 @@ public class SlotMachine : MonoBehaviour
         List<string> nomes = todosNomes[index];
         List<Sprite> imagens = todasImagens[index];
 
-        float tempoPassado = 0f; 
-        int total = nomes.Count;
+        yield return new WaitForSeconds(tempoDeGiro);
 
-        while (tempoPassado < tempoDeGiro + index * tempoEntreGiros)
-        {
-            int escolhaAleatoria = Random.Range(0, total);
-            slotsImage[index].sprite = imagens[escolhaAleatoria];
-            tempoPassado += Time.deltaTime;
-            yield return null;
-        }
-
-        int escolhaFinal = Random.Range(0, total);
+        int escolhaFinal = Random.Range(0, nomes.Count);
         escolhas[index] =  nomes[escolhaFinal];
         slotsImage[index].sprite = imagens[escolhaFinal];
+
+        if(index == 0)
+            GlobalData.armaEquipada = escolhas[index];
+
+        if(index == 1)
+            GlobalData.poderEquipado = escolhas[index];
+
+        if(index == 2)
+            GlobalData.pocaoEquipada = escolhas[index];
 
         Debug.Log($"Slot {index + 1}: {escolhas[index]}");
     }

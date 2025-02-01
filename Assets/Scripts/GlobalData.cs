@@ -9,6 +9,8 @@ public static class GlobalData
         "Jester"
     };
 
+    public static string armaEquipada, poderEquipado, pocaoEquipada;
+
     public static int level = 0;
 
     public static Dictionary<string, float[]> playerData = new Dictionary<string, float[]>
