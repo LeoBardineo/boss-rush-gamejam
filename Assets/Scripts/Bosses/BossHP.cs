@@ -59,14 +59,22 @@ public class BossHP : MonoBehaviour
             HP = 0;
 
             if(bossStateManager is JesterStateManager)
+            {
                 JesterDeath();
+                return;
+            }
 
-            return;
+            if(bossStateManager is HarlequimStateManager)
+            {
+                HarlequimDeath();
+                return ;
+            }
         }
 
         //Script apenas por questões de debug abaixo
-        SpriteRenderer.color = Color.magenta;
         attacked = true;
+        SpriteRenderer.color = Color.magenta;
+        Debug.Log("Tomou golpe:"+SpriteRenderer.color);
     }
 
     void JesterDeath()
@@ -87,5 +95,11 @@ public class BossHP : MonoBehaviour
         }
 
         stateManager.TransitionToState(new JesterDeathState(gameObject));
+    }
+
+    void HarlequimDeath()
+    {
+
+        stateManager.TransitionToState(new HarlequimDeathState(gameObject));
     }
 }

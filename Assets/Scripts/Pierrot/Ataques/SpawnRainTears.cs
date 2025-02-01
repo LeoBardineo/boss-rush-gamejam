@@ -6,11 +6,11 @@ public class SpawnRainTears: MonoBehaviour
     [SerializeField] AudioSource rainTearSound;
     public GameObject tearPrefab;
     public Transform spawnArea;
-    public float spawnHeight = 1.5f;
-    public float positionVariance = 0.1f;
+    public float spawnHeight = 0f;
+    public float positionVariance = 0.9f;
     public float antecipationDuration = 2f;
     public float attackDuration = 5f;
-    public float spawnInterval = 0.2f;
+    public float spawnInterval = 0.1f;
     public bool isSpawning = false;
 
     public void StartSpawning()

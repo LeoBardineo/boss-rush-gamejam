@@ -4,7 +4,7 @@ using UnityEditor.UI;
 public class WaveState : IState
 {
 
-    float attackDuration =5f;
+    float attackDuration =1.2f;
     float timeSinceStart= 0f;
     GameObject bossGameObject;
     SpriteRenderer sp;

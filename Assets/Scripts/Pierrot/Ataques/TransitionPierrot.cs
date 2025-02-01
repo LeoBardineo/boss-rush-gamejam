@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class TransitionPierrot : MonoBehaviour
@@ -13,10 +14,14 @@ public class TransitionPierrot : MonoBehaviour
 
     void Update()
     {
-        if (bossHP.fase2 && firstTime)
+        if(bossHP != null)
         {
-            transition();
-            firstTime = false;
+
+            if (bossHP.fase2 && firstTime)
+            {
+                transition();
+                firstTime = false;
+            }
         }
     }
     public void transition()

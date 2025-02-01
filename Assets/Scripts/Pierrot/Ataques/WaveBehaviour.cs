@@ -9,10 +9,8 @@ public class WaveBehaviour : MonoBehaviour
     [SerializeField]
     private Transform spawnPoint;
     private GameObject wave;
-    [SerializeField]
-    private float waveSpeed = 5;
-    [SerializeField]
-    private float timeToDestroy = 1;
+    private float waveSpeed = 1.3f;
+    private float timeToDestroy = 1f;
     private float timePassed = 0;
     public static bool waveSpawned = false;
     [SerializeField]
@@ -33,8 +31,7 @@ public class WaveBehaviour : MonoBehaviour
         if (timePassed >= timeToDestroy)
         {
             waveSpawned = false;
-            Destroy(this.wave);
-            timePassed = 0f;
+            timePassed=0f;
         }
         else
         {

@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      seta_selecao_direita_0: -1838940213017584227
+      seta_selecao_direita_1: -5109058588316761525
+      seta_selecao_direita_2: 3746795472466368508
+      seta_selecao_direita_3: 4682167147268085108
+      seta_selecao_direita_4: -7336047093607005884
+      seta_selecao_direita_5: 314273121108511245
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

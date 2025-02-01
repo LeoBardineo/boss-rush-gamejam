@@ -11,7 +11,7 @@ public class PlayerHP : MonoBehaviour
 
     //Pra alterar o tempo que o player fica invencível após tomar um dano é só alterar abaixo
     [SerializeField]
-    private float invicibleDuration = 1.2f, time;
+    private float invicibleDuration = 1.7f, time;
 
     [SerializeField]
     GameObject deathPanel;

@@ -19,7 +19,7 @@ public class HarlequimIdleState : IState
     public HarlequimIdleState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
-        animator = bossGameObject.GetComponent<Animator>();
+        // animator = bossGameObject.GetComponent<Animator>();
         ballHandAttack = bossGameObject.GetComponent<BallHandAttack>();
         clappingAttack = bossGameObject.GetComponent<ClappingAttack>();
         confettiRainAttack = bossGameObject.GetComponent<ConfettiRainAttack>();
@@ -34,7 +34,7 @@ public class HarlequimIdleState : IState
     public void Enter()
     {
         Debug.Log("Entrou em Idle");
-        animator.Play("HarlequinIdle");
+        // animator.Play("HarlequinIdle");
         timeSinceStart = 0f;
     }
 

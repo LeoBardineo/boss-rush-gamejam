@@ -6,7 +6,7 @@ using UnityEngine.Rendering;
 public class PierrotIdleState : IState
 {
     float timeSinceStart = 0f;
-    float idleDuration;
+    float idleDuration=2f;
     GameObject bossGameObject;
     TearJet tearJet;
     PierrotStateManager pierrotSM;
@@ -44,6 +44,10 @@ public class PierrotIdleState : IState
     public void Update()
     {
         timeSinceStart += Time.deltaTime;
+        if (bossHP.fase2)
+        {
+            idleDuration=0.1f;
+        }
     }
 
     public IState GetNext()

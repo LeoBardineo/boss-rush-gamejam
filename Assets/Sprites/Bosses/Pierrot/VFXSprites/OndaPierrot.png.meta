@@ -134,78 +134,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: onda_pierrot_completo_corrigido_0
+      name: OndaPierrot_0
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 171
-        width: 19
-        height: 10
+        x: 3
+        y: 0
+        width: 335
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ece7515aa345c6160800000000000000
-      internalID: 7020078530018246350
+      spriteID: 4ea9f227d1344c0499b540b9445a90a6
+      internalID: -1147279944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: onda_pierrot_completo_corrigido_1
+      name: OndaPierrot_1
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 176
-        width: 22
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7b7e4d9295d80c60800000000000000
-      internalID: 7784706781591010170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: onda_pierrot_completo_corrigido_2
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 16
-        width: 160
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea369a4e55c370d60800000000000000
-      internalID: 7856314414577312686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: onda_pierrot_completo_corrigido_3
-      rect:
-        serializedVersion: 2
-        x: 422
-        y: 15
-        width: 241
+        x: 400
+        y: 19
+        width: 266
         height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -213,98 +169,98 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63f9e1d39459c49d0800000000000000
-      internalID: -2788689927458611402
+      spriteID: 66da9c3c26be11046aa7384efb64db37
+      internalID: -1661212019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: onda_pierrot_completo_corrigido_4
+      name: OndaPierrot_2
       rect:
         serializedVersion: 2
-        x: 751
-        y: 21
-        width: 228
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e58fdf1794f35b930800000000000000
-      internalID: 4158299415624153182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: onda_pierrot_completo_corrigido_5
-      rect:
-        serializedVersion: 2
-        x: 1059
-        y: 16
-        width: 264
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dcb25ea4a13de0d00800000000000000
-      internalID: 940921482046155725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: onda_pierrot_completo_corrigido_6
-      rect:
-        serializedVersion: 2
-        x: 1353
+        x: 750
         y: 19
-        width: 296
-        height: 156
+        width: 235
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f71b98e3228e61e20800000000000000
-      internalID: 3321097009008062847
+      spriteID: c2afdc75a2299cb45bec211d1af0ff32
+      internalID: 468233870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: onda_pierrot_completo_corrigido_7
+      name: OndaPierrot_3
       rect:
         serializedVersion: 2
-        x: 1684
-        y: 15
-        width: 300
-        height: 142
+        x: 1055
+        y: 19
+        width: 269
+        height: 133
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9995c118472efe200800000000000000
-      internalID: 211636697519905177
+      spriteID: 2afee161865a23d439a82e6963e3a9d4
+      internalID: 843529427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndaPierrot_4
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 19
+        width: 301
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4111f34816a7f4e870dccd5e0e06b6
+      internalID: -1659706633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OndaPierrot_5
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 19
+        width: 307
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b301ff675b3ab7a4da53c3ee7b6a53dc
+      internalID: 85118996
       vertices: []
       indices: 
       edges: []
@@ -313,7 +269,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cf0485c4f9892ac408d09341eecbdacc
     internalID: 0
     vertices: []
     indices: 
@@ -323,14 +279,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      onda_pierrot_completo_corrigido_0: 7020078530018246350
-      onda_pierrot_completo_corrigido_1: 7784706781591010170
-      onda_pierrot_completo_corrigido_2: 7856314414577312686
-      onda_pierrot_completo_corrigido_3: -2788689927458611402
-      onda_pierrot_completo_corrigido_4: 4158299415624153182
-      onda_pierrot_completo_corrigido_5: 940921482046155725
-      onda_pierrot_completo_corrigido_6: 3321097009008062847
-      onda_pierrot_completo_corrigido_7: 211636697519905177
+      OndaPierrot_0: -1147279944
+      OndaPierrot_1: -1661212019
+      OndaPierrot_2: 468233870
+      OndaPierrot_3: 843529427
+      OndaPierrot_4: -1659706633
+      OndaPierrot_5: 85118996
+      OndaPierrot_6: -1472144659
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

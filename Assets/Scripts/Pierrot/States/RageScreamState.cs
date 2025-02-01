@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class RageScreamState : IState
 {
-    float attackDuration = 4f;
+    float attackDuration = 4.2f;
     float timeSinceStart = 0f;
     GameObject bossGameObject;
     SpriteRenderer sp;

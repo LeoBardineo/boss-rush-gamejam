@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TargetState : IState
 {
-    float attackDuration;
+    float attackDuration=5f;
     float timeSinceStart = 0f;
     GameObject bossGameObject;
     SpriteRenderer sp;
