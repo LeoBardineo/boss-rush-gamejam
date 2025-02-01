@@ -3,6 +3,12 @@ using UnityEngine;
 
 public static class GlobalData
 {
+    public static List<string> bossDisponiveis = new List<string>{
+        "Harlequin",
+        "Pierrot",
+        "Jester"
+    };
+
     public static int level = 0;
 
     public static Dictionary<string, float[]> playerData = new Dictionary<string, float[]>
