@@ -7,23 +7,9 @@ public class BossDMG : MonoBehaviour
 
     protected virtual void  Start()
     {
-        if (GlobalData.level == 0 || GlobalData.level == 1)
-        {
-            bossDMG = 0.5f;
-        }
-        if (GlobalData.level == 2)
-        {
-            bossDMG = 1f;
-        }
-        if (GlobalData.level == 3)
-        {
-            bossDMG = 1.5f;
-        }
-        if (GlobalData.level == 4)
-        {
-            bossDMG = 2f;
-        }
+        bossDMG = GlobalData.bossData["Dano"][GlobalData.level];
     }
+    
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

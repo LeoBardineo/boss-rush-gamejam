@@ -4,26 +4,7 @@ public class BallonSwordAttackArea : AttackArea
 {
     public void Start()
     {
-        if (GlobalData.level == 0)
-        {
-            damage = 25;
-        }
-        if (GlobalData.level == 1)
-        {
-            damage = 27;
-        }
-        if (GlobalData.level == 2)
-        {
-            damage = 30;
-        }
-        if (GlobalData.level == 3)
-        {
-            damage = 33;
-        }
-        if (GlobalData.level == 4)
-        {
-            damage = 36;
-        }     
+        damage = (int) GlobalData.weaponsData["Espada"][GlobalData.level];
 
         Debug.Log("Hammer DMG:"+ damage);
     }
