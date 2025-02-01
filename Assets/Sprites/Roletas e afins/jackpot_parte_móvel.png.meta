@@ -1,0 +1,497 @@
+fileFormatVersion: 2
+guid: 28b73a48906ca944e8c9e12c81d652bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9221316525330007578
+    second: "jackpot_parte_m\xF3vel_0"
+  - first:
+      213: -1667933278591648265
+    second: "jackpot_parte_m\xF3vel_1"
+  - first:
+      213: -2702937783900498883
+    second: "jackpot_parte_m\xF3vel_2"
+  - first:
+      213: 4438892331174689908
+    second: "jackpot_parte_m\xF3vel_3"
+  - first:
+      213: 7129246184388616520
+    second: "jackpot_parte_m\xF3vel_4"
+  - first:
+      213: -2964032236181662760
+    second: "jackpot_parte_m\xF3vel_5"
+  - first:
+      213: 4965312823181256306
+    second: "jackpot_parte_m\xF3vel_6"
+  - first:
+      213: -2249994978524187574
+    second: "jackpot_parte_m\xF3vel_7"
+  - first:
+      213: 8874382112662991052
+    second: "jackpot_parte_m\xF3vel_8"
+  - first:
+      213: -4235775490543017480
+    second: "jackpot_parte_m\xF3vel_9"
+  - first:
+      213: -4790615640699894295
+    second: "jackpot_parte_m\xF3vel_10"
+  - first:
+      213: 7896329478325679653
+    second: "jackpot_parte_m\xF3vel_11"
+  - first:
+      213: 34338835518983136
+    second: "jackpot_parte_m\xF3vel_12"
+  - first:
+      213: 7317627951855431665
+    second: "jackpot_parte_m\xF3vel_13"
+  - first:
+      213: 2994171516661768300
+    second: "jackpot_parte_m\xF3vel_14"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_0"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 474
+        width: 162
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a160cbde582b8ff70800000000000000
+      internalID: 9221316525330007578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_1"
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 468
+        width: 160
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdfd7c258f4ad8e0800000000000000
+      internalID: -1667933278591648265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_2"
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 467
+        width: 160
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3411a4086c3d7ad0800000000000000
+      internalID: -2702937783900498883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_3"
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 467
+        width: 160
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c7fd39e0d1a9d30800000000000000
+      internalID: 4438892331174689908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_4"
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 467
+        width: 160
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841eac0e1ab20f260800000000000000
+      internalID: 7129246184388616520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_5"
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 467
+        width: 162
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3d593a264add6d0800000000000000
+      internalID: -2964032236181662760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_6"
+      rect:
+        serializedVersion: 2
+        x: 4079
+        y: 473
+        width: 160
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276296094b558e440800000000000000
+      internalID: 4965312823181256306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_7"
+      rect:
+        serializedVersion: 2
+        x: 4718
+        y: 466
+        width: 165
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4437aeec7966c0e0800000000000000
+      internalID: -2249994978524187574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_8"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 109
+        width: 162
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0bb525383282b70800000000000000
+      internalID: 8874382112662991052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_9"
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 107
+        width: 160
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1a0e922a08735c0800000000000000
+      internalID: -4235775490543017480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_10"
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 107
+        width: 160
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e507a0e470548db0800000000000000
+      internalID: -4790615640699894295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_11"
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 107
+        width: 160
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5263c01f2d5659d60800000000000000
+      internalID: 7896329478325679653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_12"
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 108
+        width: 160
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb0c1d2dfef97000800000000000000
+      internalID: 34338835518983136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "jackpot_parte_m\xF3vel_13"
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 114
+        width: 161
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffefcc0adf6d8560800000000000000
+      internalID: 7317627951855431665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e49c15d3562e9de46a666fe8e274d7be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "jackpot_parte_m\xF3vel_0": 9221316525330007578
+      "jackpot_parte_m\xF3vel_1": -1667933278591648265
+      "jackpot_parte_m\xF3vel_10": -4790615640699894295
+      "jackpot_parte_m\xF3vel_11": 7896329478325679653
+      "jackpot_parte_m\xF3vel_12": 34338835518983136
+      "jackpot_parte_m\xF3vel_13": 7317627951855431665
+      "jackpot_parte_m\xF3vel_2": -2702937783900498883
+      "jackpot_parte_m\xF3vel_3": 4438892331174689908
+      "jackpot_parte_m\xF3vel_4": 7129246184388616520
+      "jackpot_parte_m\xF3vel_5": -2964032236181662760
+      "jackpot_parte_m\xF3vel_6": 4965312823181256306
+      "jackpot_parte_m\xF3vel_7": -2249994978524187574
+      "jackpot_parte_m\xF3vel_8": 8874382112662991052
+      "jackpot_parte_m\xF3vel_9": -4235775490543017480
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
