@@ -112,7 +112,7 @@ public class ConfettiRainAttack : MonoBehaviour
         }
     }
 
-    void BeginAttack()
+    public void BeginAttack()
     {
         isAttacking = true;
         int rand = Random.Range(1,3);

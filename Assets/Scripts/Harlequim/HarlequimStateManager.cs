@@ -8,7 +8,7 @@ public class HarlequimStateManager : MonoBehaviour
     void Start()
     {
         stateManager = new StateManager();
-        stateManager.Start(new JesterIdleState(gameObject));
+        stateManager.Start(new HarlequimIdleState(gameObject));
     }
 
     void Update()

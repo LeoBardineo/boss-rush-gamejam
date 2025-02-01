@@ -3,7 +3,7 @@ using UnityEngine;
 
 public static class GlobalData
 {
-    public static int level = 2;
+    public static int level = 0;
 
     public static Dictionary<string, float[]> playerData = new Dictionary<string, float[]>
     {

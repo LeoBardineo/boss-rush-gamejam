@@ -2523,7 +2523,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: -5115618752126089108, guid: a1401255415e463488297538a120f605, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2676,7 +2676,6 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
-  healingPoints: 2
 --- !u!114 &585488636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2696,8 +2695,6 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
-  powerDamageModifier: 2
-  cdPowerModifier: 1.5
 --- !u!114 &585488637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2717,8 +2714,6 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
-  healingPoints: 4
-  damageModifier: 0.7
 --- !u!114 &585488638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2738,8 +2733,6 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
-  reducedMaxHP: 2
-  damageModifier: 2
 --- !u!114 &585488639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2759,9 +2752,6 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
-  amountOfHits: 5
-  damageAfterFail: 1
-  damageModifier: 1.5
 --- !u!95 &585488640
 Animator:
   serializedVersion: 7
@@ -3380,11 +3370,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3143082261233472807, guid: 07c8963176f29cb4fa4c0e2ee9334449, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.936
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3143082261233472807, guid: 07c8963176f29cb4fa4c0e2ee9334449, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.378
+      value: 0.573
       objectReference: {fileID: 0}
     - target: {fileID: 3143082261233472807, guid: 07c8963176f29cb4fa4c0e2ee9334449, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4848,7 +4838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3143082261233472807, guid: 07c8963176f29cb4fa4c0e2ee9334449, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.298
+      value: -2.009
       objectReference: {fileID: 0}
     - target: {fileID: 3143082261233472807, guid: 07c8963176f29cb4fa4c0e2ee9334449, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5620,6 +5610,7 @@ MonoBehaviour:
   SpriteRenderer: {fileID: 1065663535}
   fase2: 0
   firstTimeFase2: 0
+  playerController: {fileID: 585488624}
 --- !u!114 &1065663531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5635,7 +5626,7 @@ MonoBehaviour:
   gritoSound: {fileID: 735195982}
   rb: {fileID: 585488627}
   PushDirection: {x: -1, y: 0}
-  ScreamStrenght: 60
+  ScreamStrenght: 12
   screamGO: {fileID: 1613942368}
 --- !u!114 &1065663532
 MonoBehaviour:
@@ -9223,11 +9214,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3143082261233472807, guid: 07c8963176f29cb4fa4c0e2ee9334449, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.416
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 3143082261233472807, guid: 07c8963176f29cb4fa4c0e2ee9334449, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.48
+      value: -0.367
       objectReference: {fileID: 0}
     - target: {fileID: 3143082261233472807, guid: 07c8963176f29cb4fa4c0e2ee9334449, type: 3}
       propertyPath: m_LocalPosition.z

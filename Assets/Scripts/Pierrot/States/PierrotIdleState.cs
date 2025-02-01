@@ -44,11 +44,6 @@ public class PierrotIdleState : IState
     public void Update()
     {
         timeSinceStart += Time.deltaTime;
-
-        if (bossHP.HP <=0 )
-        {
-            Debug.Log("Boss morreu, pare de bater nele tadinho!");
-        }
     }
 
     public IState GetNext()
@@ -59,7 +54,7 @@ public class PierrotIdleState : IState
         if(PlayerHP.dead)
             return new PierrotIdleState(bossGameObject);
             
-        List<IState> possibleAttacks = new List<IState>{};
+        List<IState> possibleAttacks = new List<IState>();
         
         if(!TearJet.jetSpawned)
             possibleAttacks.Add(new TearJatadaState(bossGameObject));

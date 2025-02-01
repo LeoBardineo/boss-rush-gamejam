@@ -8,21 +8,33 @@ public class HarlequimIdleState : IState
     GameObject bossGameObject;
     HarlequimStateManager harlequimSM;
 
-    //ShootingMasksAttack
-    //ClappingAttack
-    //SkateHandAttack
-    //CrushAttack
+    BossHP bossHP;
+    BallHandAttack ballHandAttack;
+    ClappingAttack clappingAttack;
+    ConfettiRainAttack confettiRainAttack;
+    HomingMasksBehaviour homingMasks;
+    Animator animator;
+    TransitionHarlequin transitionHarlequin;
     
     public HarlequimIdleState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
+        animator = bossGameObject.GetComponent<Animator>();
+        ballHandAttack = bossGameObject.GetComponent<BallHandAttack>();
+        clappingAttack = bossGameObject.GetComponent<ClappingAttack>();
+        confettiRainAttack = bossGameObject.GetComponent<ConfettiRainAttack>();
+        homingMasks = bossGameObject.GetComponent<HomingMasksBehaviour>();
         harlequimSM = bossGameObject.GetComponent<HarlequimStateManager>();
+        bossHP = bossGameObject.GetComponent<BossHP>();
+        transitionHarlequin = bossGameObject.GetComponent<TransitionHarlequin>();
         idleDuration = harlequimSM.idleDuration;
+
     }
 
     public void Enter()
     {
         Debug.Log("Entrou em Idle");
+        animator.Play("HarlequinIdle");
         timeSinceStart = 0f;
     }
 
@@ -38,19 +50,30 @@ public class HarlequimIdleState : IState
 
     public IState GetNext()
     {
-        // continua em idle até terminar a sua duração
         if(timeSinceStart < idleDuration) return this;
 
-        // se muito perto, dar chute pra longe
-        // se muito longe, corda invisivel
-        // se não, aleatorio entre outros ataques
+        if(PlayerHP.dead)
+        {
+            return new JesterIdleState(bossGameObject);
+        }
+        List<IState> possibleAttacks = new List<IState>();
 
-        List<IState> possibleAttacks = new List<IState>{
-            new EspadasState(bossGameObject),
-        };
-
-        if(!PausSpawner.cardSpawned)
-            possibleAttacks.Add(new PausState(bossGameObject));
+        if(!BallHandAttack.ballHandAttacking)
+            possibleAttacks.Add(new BallHandState(bossGameObject));
+        if(!ClappingAttack.clapping)
+            possibleAttacks.Add(new ClappingState(bossGameObject));
+        if(!ConfettiRainAttack.isAttacking)
+            possibleAttacks.Add(new ConfettiRainState(bossGameObject));
+        if (!HomingMasks.homingMasksAttacking)
+            possibleAttacks.Add(new ShootingMasksState(bossGameObject));
+        if(bossHP.fase2)
+        {
+            if(bossHP.firstTimeFase2)
+            {
+                transitionHarlequin.Transition();
+                bossHP.firstTimeFase2 = false;
+            }
+        }
 
         IState attack = possibleAttacks[Random.Range(0, possibleAttacks.Count)];
         return attack;

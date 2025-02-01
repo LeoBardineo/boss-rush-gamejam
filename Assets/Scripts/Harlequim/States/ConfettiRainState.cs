@@ -1,16 +1,47 @@
 using UnityEngine;
 
-public class CrushState : MonoBehaviour
+public class ConfettiRainState : IState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    float attackDuration = 5f;
+    float timeSinceStart = 0f;
+    GameObject bossGameObject;
+    SpriteRenderer sp;
+    ConfettiRainAttack confettiRainAttack;
+    public ConfettiRainState(GameObject bossGameObject)
     {
-        
+        this.bossGameObject = bossGameObject;
+        sp = bossGameObject.GetComponent<SpriteRenderer>();
+        confettiRainAttack = bossGameObject.GetComponent<ConfettiRainAttack>();
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Enter()
     {
-        
+        Debug.Log("Entrou em ConfettiRain");
+        timeSinceStart =0f;
+        confettiRainAttack.BeginAttack();
     }
+
+    public void Exit()
+    {
+        Debug.Log("Saiu do ConfettiRain");
+    }
+    // Update is called once per frame
+    public void Update()
+    {
+        timeSinceStart += Time.deltaTime;
+    }
+
+    public IState GetNext()
+    {
+        if (timeSinceStart < attackDuration) return this;
+
+        return new HarlequimIdleState(bossGameObject);
+    }
+    public void OnTriggerEnter(Collider other)
+    {}
+    public void OnTriggerExit(Collider other)
+    {}
+    public void OnTriggerStay(Collider other)
+    {}
 }
