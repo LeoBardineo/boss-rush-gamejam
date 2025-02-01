@@ -9,6 +9,7 @@ public class OurosSpawner : MonoBehaviour
     public float positionVariance = 1.5f;
     public float antecipationDuration = 2f;
     public float attackDuration = 5f, secondPhaseWaitDuration = 1f;
+    public float attackCooldown = 5f, attackCooldownRemaining = 0f;
     public float spawnInterval = 0.1f;
     public bool isSpawning = false;
 
@@ -17,6 +18,12 @@ public class OurosSpawner : MonoBehaviour
         isSpawning = true;
         InvokeRepeating(nameof(SpawnOuros), antecipationDuration, spawnInterval);
         StartCoroutine(WaitSpawning(antecipationDuration + attackDuration));
+    }
+
+    void Update()
+    {
+        if(!isSpawning && attackCooldownRemaining >= 0)
+            attackCooldownRemaining -= Time.deltaTime;
     }
 
     void SpawnOuros()
@@ -35,6 +42,7 @@ public class OurosSpawner : MonoBehaviour
         yield return new WaitForSeconds(attackDuration);
         CancelInvoke(nameof(SpawnOuros));
         isSpawning = false;
+        attackCooldownRemaining = attackCooldown;
     }
 
     public void StopSpawning()

@@ -1770,6 +1770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   espadas: {fileID: 6875210379774330344, guid: da5fbd73aa911b4499e4008a37ca9472, type: 3}
   spawnArea: {fileID: 925998734}
+  antecipacaoOffsetDuration: 0.5
 --- !u!114 &496510889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1787,6 +1788,7 @@ MonoBehaviour:
   pausCard: {fileID: 0}
   playerController: {fileID: 585488624}
   spawnPositionList: []
+  bossHP: {fileID: 0}
 --- !u!114 &496510890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1901,7 +1903,7 @@ MonoBehaviour:
   maxHP: 0
   HP: 0
   SpriteRenderer: {fileID: 496510886}
-  fase2: 0
+  fase2: 1
   firstTimeFase2: 1
   playerController: {fileID: 585488624}
 --- !u!95 &496510895

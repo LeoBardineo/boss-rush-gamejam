@@ -10,6 +10,7 @@ public class PausSpawner : MonoBehaviour
     public List<Transform> spawnPositionList;
     public static bool cardSpawned = false;
     public static GameObject pausCardInstanciado;
+    public BossHP bossHP;
     PlataformaSpawner plataformaSpawner;
 
     void Start()
@@ -30,6 +31,7 @@ public class PausSpawner : MonoBehaviour
         
         Vector3 spawnPosition = spawnPositionList[Random.Range(0, spawnPositionList.Count)].position;
         pausCard.playerController = playerController;
+        pausCard.bossHP = bossHP;
         pausCardInstanciado = Instantiate(cardPrefab, spawnPosition, cardPrefab.transform.rotation);
         cardSpawned = true;
     }

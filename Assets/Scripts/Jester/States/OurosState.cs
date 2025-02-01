@@ -33,7 +33,7 @@ public class OurosState : IState
     public void Exit()
     {
         // inicia alguma animação do ataque terminando
-        Debug.Log("Saiu do ouros!");
+        // Debug.Log("Saiu do ouros!");
         sp.color = Color.white;
     }
 

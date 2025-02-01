@@ -28,7 +28,7 @@ public class EspadasState : IState
     public void Exit()
     {
         // inicia alguma animação do ataque terminando
-        Debug.Log("Saiu do espadas!");
+        // Debug.Log("Saiu do espadas!");
         sp.color = Color.white;
     }
 
