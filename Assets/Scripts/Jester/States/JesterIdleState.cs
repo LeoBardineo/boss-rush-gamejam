@@ -39,7 +39,7 @@ public class JesterIdleState : IState
 
     public void Exit()
     {
-        Debug.Log("Saiu de Idle");
+        // Debug.Log("Saiu de Idle");
     }
 
     public void Update()
@@ -70,10 +70,10 @@ public class JesterIdleState : IState
         if(pausSpawner.enabled && !PausSpawner.cardSpawned)
             possibleAttacks.Add(new PausState(bossGameObject));
 
-        if(ourosSpawner.enabled && (bossHP.fase2 || !ourosSpawner.isSpawning))
+        if(ourosSpawner.enabled && !ourosSpawner.isSpawning && (!bossHP.fase2 || ourosSpawner.attackCooldownRemaining <= 0))
             possibleAttacks.Add(new OurosState(bossGameObject));
         
-        if(copasSpawner.enabled && (bossHP.fase2 || !copasSpawner.isSpawning))
+        if(copasSpawner.enabled && !copasSpawner.isSpawning && (!bossHP.fase2 || copasSpawner.attackCooldownRemaining <= 0))
             possibleAttacks.Add(new CopasState(bossGameObject));
         
         if(jesterSM.lastUsedAttack != null)

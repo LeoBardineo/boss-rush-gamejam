@@ -7,8 +7,15 @@ public class CopasSpawner : MonoBehaviour
     public Transform player;
     public float antecipationDuration = 0.5f;
     public float attackDuration = 10f, secondPhaseWaitDuration = 1f;
+    public float attackCooldown = 5f, attackCooldownRemaining = 0f;
     public float spawnInterval = 1f;
     public bool isSpawning = false;
+
+    void Update()
+    {
+        if(!isSpawning && attackCooldownRemaining >= 0)
+            attackCooldownRemaining -= Time.deltaTime;
+    }
 
     public void StartSpawning()
     {
@@ -29,5 +36,12 @@ public class CopasSpawner : MonoBehaviour
         yield return new WaitForSeconds(attackDuration);
         CancelInvoke(nameof(SpawnCopas));
         isSpawning = false;
+        attackCooldownRemaining = attackCooldown;
+    }
+
+    public void StopSpawning()
+    {
+        isSpawning = false;
+        CancelInvoke();
     }
 }

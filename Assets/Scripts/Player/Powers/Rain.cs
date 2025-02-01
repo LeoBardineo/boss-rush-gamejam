@@ -16,6 +16,8 @@ class Rain : Power
     {
         base.Initialize();
         attackArea = rainPrefab.GetComponent<RainAttack>();
+        cooldownTime = GlobalData.skillsData["Nuvem"][0];
+        attackDuration = GlobalData.skillsData["Nuvem"][2];
     }
     
     public override void EnterPower()

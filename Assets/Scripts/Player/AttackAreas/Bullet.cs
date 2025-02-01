@@ -5,30 +5,12 @@ public class Bullet : AttackArea
 {
     public float speed = 20f;
     public Rigidbody2D rb;
+    public string tipoDeArma = "Canhao";
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (GlobalData.level == 0)
-        {
-            damage = 30;
-        }
-        if (GlobalData.level == 1)
-        {
-            damage = 32;
-        }
-        if (GlobalData.level == 2)
-        {
-            damage = 35;
-        }
-        if (GlobalData.level == 3)
-        {
-            damage = 38;
-        }
-        if (GlobalData.level == 4)
-        {
-            damage = 41;
-        }
+        damage = (int) GlobalData.weaponsData[tipoDeArma][GlobalData.level];
 
         rb.linearVelocity = transform.right * speed;   
     }

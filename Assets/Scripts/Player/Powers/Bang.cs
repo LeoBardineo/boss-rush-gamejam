@@ -12,6 +12,7 @@ class Bang : Power
     {
         base.Initialize();
         attackArea = bangPrefab.GetComponent<BangArea>();
+        cooldownTime = GlobalData.skillsData["BangBang"][0];
     }
 
     public override void EnterPower()

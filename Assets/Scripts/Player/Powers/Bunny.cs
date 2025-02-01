@@ -14,6 +14,7 @@ class Bunny : Power
     {
         base.Initialize();
         attackArea = bunnyPrefab.GetComponent<BunnyAttack>();
+        cooldownTime = GlobalData.skillsData["Coelhos"][0];
     }
     
     public override void EnterPower()

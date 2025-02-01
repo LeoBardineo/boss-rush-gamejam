@@ -9,37 +9,23 @@ public class BossHP : MonoBehaviour
     private bool attacked = false;
     [SerializeField] SpriteRenderer SpriteRenderer;
     public bool fase2 = false, firstTimeFase2 = true;
-    private UnityEngine.Color originalColor;
+    private Color originalColor;
     //Ideia: Variavel global para trackear quantos bosses já foram derrotados pra ajustar o HP de cada paz
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    [SerializeField]
+    PlayerController playerController;
+
+    BossStateManager bossStateManager;
+    StateManager stateManager;
+
     void Start()
     {
-        if (GlobalData.level == 0)
-        {
-            HP = 500;
-        }
-        if (GlobalData.level == 1)
-        {
-            HP = 550;
-        }
-        if (GlobalData.level == 2)
-        {
-            HP = 605;
-        }
-        if (GlobalData.level == 3)
-        {
-            HP = 665;
-        }
-        if (GlobalData.level == 4)
-        {
-            HP = 735;
-        }
-        Debug.Log("Boss HP:"+ HP);
-
+        bossStateManager = GetComponent<BossStateManager>();
+        stateManager = bossStateManager.stateManager;
+        HP = GlobalData.bossData["HP"][GlobalData.level];
         maxHP = HP;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (!attacked)
@@ -55,21 +41,51 @@ public class BossHP : MonoBehaviour
         {
             attacked = false;
             SpriteRenderer.color = originalColor;
-            originalColorTimer=0;
+            originalColorTimer = 0;
         }
 
-        if (HP<= (maxHP/2))
-        {
-            fase2 = true;
-        }
     }
 
 
     public void Damage(float damage)
     {
         HP -= damage;
+        
+        if (!fase2 && HP <= (maxHP/2))
+            fase2 = true;
+        
+        if(HP <= 0)
+        {
+            HP = 0;
+
+            if(bossStateManager is JesterStateManager)
+                JesterDeath();
+
+            return;
+        }
+
         //Script apenas por questões de debug abaixo
         SpriteRenderer.color = Color.magenta;
         attacked = true;
+    }
+
+    void JesterDeath()
+    {
+        if (stateManager.currentState is CopasState copasState)
+        {
+            copasState.copasSpawner.StopSpawning();
+        }
+
+        if(stateManager.currentState is OurosState ourosState)
+        {
+            ourosState.ourosSpawner.StopSpawning();
+        }
+
+        if(PausSpawner.cardSpawned)
+        {
+            PausSpawner.StopAttack(playerController);
+        }
+
+        stateManager.TransitionToState(new JesterDeathState(gameObject));
     }
 }

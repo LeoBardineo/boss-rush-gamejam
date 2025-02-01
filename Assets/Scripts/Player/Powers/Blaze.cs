@@ -8,6 +8,7 @@ class Blaze : Power {
     {
         base.Initialize();
         attackArea = powerArea;
+        cooldownTime = GlobalData.skillsData["CospeFogo"][0];
     }
     
     public override void EnterPower()

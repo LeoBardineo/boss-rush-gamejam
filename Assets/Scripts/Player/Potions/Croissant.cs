@@ -2,10 +2,8 @@ using UnityEngine;
 
 // Aumenta o dano, diminui a vida máxima
 class Croissant : Potion {
-    [SerializeField]
     int reducedMaxHP = 2;
 
-    [SerializeField]
     float damageModifier = 2;
 
     PlayerHP playerHP;
@@ -17,6 +15,10 @@ class Croissant : Potion {
         base.Initialize();
         playerHP = GetComponent<PlayerHP>();
         weapon = playerController.equipedWeapon;
+        damageModifier = GlobalData.potionsData["DanoHP"][0];
+        buffDuration = GlobalData.potionsData["DanoHP"][1];
+        reducedMaxHP = (int) GlobalData.potionsData["DanoHP"][2];
+        cooldownTime = GlobalData.potionsData["DanoHP"][3];
     }
 
     public override void EnterPotion(){

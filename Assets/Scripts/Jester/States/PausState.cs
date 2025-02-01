@@ -7,13 +7,14 @@ public class PausState : IState
     float timeSinceStart = 0f;
     GameObject bossGameObject;
     SpriteRenderer sp;
-    PausSpawner pausSpawner;
+    public PausSpawner pausSpawner;
 
     public PausState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
         sp = bossGameObject.GetComponent<SpriteRenderer>();
         pausSpawner = bossGameObject.GetComponent<PausSpawner>();
+        pausSpawner.bossHP = bossGameObject.GetComponent<BossHP>();
     }
 
     public void Enter()
@@ -26,7 +27,7 @@ public class PausState : IState
 
     public void Exit()
     {
-        Debug.Log("Saiu do paus!");
+        // Debug.Log("Saiu do paus!");
         pausSpawner.StartReverse();
         sp.color = Color.white;
     }

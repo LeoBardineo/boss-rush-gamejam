@@ -2,10 +2,8 @@ using UnityEngine;
 
 // Cura, diminui o dano das armas
 class IceCream : Potion {
-    [SerializeField]
     int healingPoints = 4;
 
-    [SerializeField]
     float damageModifier = 0.7f;
 
     PlayerHP playerHP;
@@ -17,6 +15,10 @@ class IceCream : Potion {
         base.Initialize();
         playerHP = GetComponent<PlayerHP>();
         weapon = playerController.equipedWeapon;
+        healingPoints = (int) GlobalData.potionsData["HPDano"][0];
+        damageModifier = GlobalData.potionsData["HPDano"][1];
+        buffDuration = GlobalData.potionsData["HPDano"][2];
+        cooldownTime = GlobalData.potionsData["HPDano"][3];
     }
 
     public override void EnterPotion(){

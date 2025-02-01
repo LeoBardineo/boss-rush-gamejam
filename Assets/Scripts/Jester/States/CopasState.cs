@@ -7,7 +7,7 @@ public class CopasState : IState
     float timeSinceStart = 0f;
     GameObject bossGameObject;
     SpriteRenderer sp;
-    CopasSpawner copasSpawner;
+    public CopasSpawner copasSpawner;
     BossHP bossHP;
 
     public CopasState(GameObject bossGameObject)
@@ -33,7 +33,7 @@ public class CopasState : IState
     public void Exit()
     {
         // inicia alguma animação do ataque terminando
-        Debug.Log("Saiu do copas!");
+        // Debug.Log("Saiu do copas!");
         sp.color = Color.white;
     }
 

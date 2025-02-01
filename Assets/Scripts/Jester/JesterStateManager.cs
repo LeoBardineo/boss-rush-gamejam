@@ -1,20 +1,8 @@
-using Unity.VisualScripting;
-using UnityEngine;
-
-public class JesterStateManager : MonoBehaviour
+public class JesterStateManager : BossStateManager
 {
-    StateManager stateManager;
-    public float idleDuration;
-    public IState lastUsedAttack;
-
     void Start()
     {
         stateManager = new StateManager();
         stateManager.Start(new JesterIdleState(gameObject));
-    }
-
-    void Update()
-    {
-        stateManager.Update();
     }
 }

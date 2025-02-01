@@ -8,6 +8,8 @@ public class EspadasAttack : MonoBehaviour
     [SerializeField]
     int damage = 1;
 
+    public bool antecipacao = true;
+
     void Start()
     {
         
@@ -15,7 +17,8 @@ public class EspadasAttack : MonoBehaviour
 
     void Update()
     {
-        transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
+        if(!antecipacao)
+            transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
     }
     
     void OnTriggerEnter2D(Collider2D collision)
@@ -36,6 +39,9 @@ public class EspadasAttack : MonoBehaviour
     // Quando os soldados saem da visão da câmera, ele se auto destrói
     void OnBecameInvisible()
     {
-        Destroy(gameObject.transform.parent.gameObject, 0.5f);
+        GameObject cartaEspadas = gameObject.transform.parent.gameObject;
+        Animator animator = cartaEspadas.GetComponent<Animator>();
+        animator.Play("EspadasCartaReverse");
+        Destroy(cartaEspadas, animator.GetCurrentAnimatorStateInfo(0).length);
     }
 }

@@ -6,6 +6,7 @@ public class RainAttack : AttackArea
     {
         base.OnTriggerEnter2D(collider);
         
+        damage = (int) GlobalData.skillsData["Nuvem"][1];
         if(collider.CompareTag("Ground") || collider.GetComponent<BossHP>() != null)
         {
             Destroy(gameObject);

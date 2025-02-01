@@ -10,6 +10,8 @@ public class PausCard : MonoBehaviour
     [SerializeField]
     float tempoDeAnimacaoOffset = 0.25f;
 
+    public BossHP bossHP;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -38,8 +40,13 @@ public class PausCard : MonoBehaviour
     {
         if(PausSpawner.cardSpawned)
             animator.Play("PausCartaHitMe");
+        
+        if(bossHP.fase2){
+            MirrorCamera();
+            return;
+        }
+
         playerController.speed *= -1;
-        //playerController.gameObject.GetComponent<SpriteRenderer>().flipX = !PausSpawner.cardSpawned;
         playerController.transform.Rotate(0f,-180f,0f);
     }
 

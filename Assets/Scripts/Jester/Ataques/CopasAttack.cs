@@ -31,7 +31,7 @@ public class CopasAttack : MonoBehaviour
 
             float distance = Vector2.Distance(player.transform.position, gameObject.transform.position);
             if(distance <= raioDoCirculo)
-                Attack();
+                Attack(player.gameObject.GetComponent<PlayerHP>());
 
             Destroy(gameObject, attackDuration);
         }
@@ -41,24 +41,23 @@ public class CopasAttack : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Attack();
 
             if (collision.GetComponent<PlayerHP>() != null)
             {
                 PlayerHP playerHP = collision.GetComponent<PlayerHP>();
                 if (!playerHP.invicible)
                 {
-                    playerHP.TakeDamage(damage);
+                    Attack(playerHP);
                 }
             }
         }
     }
 
-    void Attack()
+    void Attack(PlayerHP playerHP)
     {
         if(!attacked && attacking)
         {
-            Debug.Log("dano de copas");
+            playerHP.TakeDamage(damage);
             attacked = true;
         }
     }
