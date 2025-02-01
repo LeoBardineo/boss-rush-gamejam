@@ -4,6 +4,11 @@ public class BunnyAttack : AttackArea
 {
     public float velocidadeDeGiro, velocidadeDeMovimeto;
 
+    void Start()
+    {
+        damage = (int) GlobalData.skillsData["Coelhos"][1];
+    }
+
     void Update()
     {
         transform.Rotate(0f, 0f, velocidadeDeGiro * Time.deltaTime);

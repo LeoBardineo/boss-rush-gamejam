@@ -46,6 +46,11 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         facingRight = true;
 
+        if(equipedWeapon == null)
+        {
+            equipedWeapon = equipFirstWeapon();
+        }
+
         if(equipedPower == null)
         {
             equipedPower = equipFirstPower();
@@ -55,6 +60,8 @@ public class PlayerController : MonoBehaviour
         {
             equipedPotion = equipFirstPotion();
         }
+
+        speed *= GlobalData.playerData["Agilidade"][GlobalData.level];
     }
 
     void Update()
@@ -209,6 +216,18 @@ public class PlayerController : MonoBehaviour
     public void UnlockMovement()
     {
         movimentLocked = false;
+    }
+
+    Weapon equipFirstWeapon()
+    {
+        Weapon[] weapons = GetComponents<Weapon>();
+        foreach (Weapon weapon in weapons)
+        {
+            if(weapon.enabled){
+                return weapon;
+            }
+        }
+        return null;
     }
 
     Power equipFirstPower()

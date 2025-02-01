@@ -33,26 +33,7 @@ public class PlayerHP : MonoBehaviour
 
     void Start()
     {
-        if (GlobalData.level == 0)
-        {
-            maxHP = 10;
-        }
-        if (GlobalData.level == 1)
-        {
-            maxHP = 12;
-        }
-        if (GlobalData.level == 2)
-        {
-            maxHP = 14;
-        }
-        if (GlobalData.level == 3)
-        {
-            maxHP = 16;
-        }
-        if (GlobalData.level == 4)
-        {
-            maxHP = 18;
-        }
+        maxHP = GlobalData.playerData["HP"][GlobalData.level];
         HP = maxHP;
 
         dead = false;

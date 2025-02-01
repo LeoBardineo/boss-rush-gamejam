@@ -15,6 +15,7 @@ class Joker : Power
             GetComponent<Bunny>(),
             GetComponent<Rain>(),
         };
+        cooldownTime = GlobalData.skillsData["Coringa"][0];
     }
 
     public override void EnterPower()

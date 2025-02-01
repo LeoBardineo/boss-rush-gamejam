@@ -16,6 +16,7 @@ public abstract class Power : MonoBehaviour {
     protected virtual void Initialize()
     {
         playerController = GetComponent<PlayerController>();
+        // cooldownTime = GlobalData.playerData["PowerCD"][GlobalData.level];
     }
 
     void Update()
