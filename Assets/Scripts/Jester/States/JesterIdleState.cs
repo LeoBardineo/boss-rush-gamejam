@@ -73,7 +73,7 @@ public class JesterIdleState : IState
         if(ourosSpawner.enabled && !ourosSpawner.isSpawning && (!bossHP.fase2 || ourosSpawner.attackCooldownRemaining <= 0))
             possibleAttacks.Add(new OurosState(bossGameObject));
         
-        if(copasSpawner.enabled && !copasSpawner.isSpawning)
+        if(copasSpawner.enabled && !copasSpawner.isSpawning && (!bossHP.fase2 || copasSpawner.attackCooldownRemaining <= 0))
             possibleAttacks.Add(new CopasState(bossGameObject));
         
         if(jesterSM.lastUsedAttack != null)
