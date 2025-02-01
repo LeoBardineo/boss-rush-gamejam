@@ -10,10 +10,14 @@ public class PauseManager : MonoBehaviour
 
     public static bool isPaused = false, settingsOpened = false;
 
+    [SerializeField]
+    private Animator animator;
+
     void Start()
     {
         pausePanel.SetActive(false);
-        settingsPanel.SetActive(false);
+        settingsPanel.SetActive(false);    
+        animator.updateMode = AnimatorUpdateMode.UnscaledTime;    
     }
 
     void Update()
@@ -52,7 +56,8 @@ public class PauseManager : MonoBehaviour
     void PauseGame()
     {
         Time.timeScale = 0; 
-        pausePanel.SetActive(true); 
+        pausePanel.SetActive(true);
+        animator.Play("PauseIN"); 
     }
 
     public void ResumeGame()

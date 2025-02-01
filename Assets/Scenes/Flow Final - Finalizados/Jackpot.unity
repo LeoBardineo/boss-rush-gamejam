@@ -1475,6 +1475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Cortina_Transi\xE7\xE3oOUT"
       objectReference: {fileID: 0}
+    - target: {fileID: 6755634984648950771, guid: 4f4cab1fb6bdc0d4499cc7973b9823d0, type: 3}
+      propertyPath: timer
+      value: 0.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
