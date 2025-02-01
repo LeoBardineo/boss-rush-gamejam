@@ -13,7 +13,13 @@ public class HandInfo : BossDMG
 
     }
     protected override void OnTriggerEnter2D(Collider2D collision) {
-        base.OnTriggerEnter2D(collision);
+        if(collision.GetComponent<PlayerHP>()!= null)
+        {
+            if(collision.GetComponent<PlayerHP>().canTakeDamage)
+            {
+                base.OnTriggerEnter2D(collision);
+            }
+        }
         if (collision.CompareTag("ResetHand"))
         {
             resetHandPos = true;

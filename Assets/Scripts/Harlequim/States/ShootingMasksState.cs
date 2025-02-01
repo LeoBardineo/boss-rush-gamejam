@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ShootingMasksState : IState
 {
-    float attackDuration = 5f;
+    float attackDuration = 7f;
     float timeSinceStart = 0f;
     GameObject bossGameObject;
     SpriteRenderer sp;

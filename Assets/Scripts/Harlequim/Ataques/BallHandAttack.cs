@@ -9,6 +9,7 @@ public class BallHandAttack : MonoBehaviour
 
     [SerializeField] private GameObject leftHand,rightHand, rightToLeftLimitAndSpawn, leftToRightLimitAndSpawn;
     [SerializeField] private GameObject leftToRightResetGO,rightToLeftResetGO;
+    [SerializeField] private Animator AnimLeftHand,AnimRightHand;
     private Rigidbody2D rbLeftHand, rbRightHand;
     private SpriteRenderer SpriteLeftHand, SpriteRightHand;
     private bool leftToRight, rightToLeft, antecipationStarted, antecipationFinished, canMove, vanishStarted, vanishFinished;
@@ -23,6 +24,8 @@ public class BallHandAttack : MonoBehaviour
         rbRightHand = rightHand.GetComponent<Rigidbody2D>();
         originalPosLeftHand = leftHand.transform.position;
         originalPosRightHand = rightHand.transform.position;
+        AnimLeftHand.Play("idle");
+        AnimRightHand.Play("idleRightLeft");
     }
 
     // Update is called once per frame
@@ -60,6 +63,14 @@ public class BallHandAttack : MonoBehaviour
                 {
                     antecipationFinished = true;
                     timer = 0f;
+                    if (leftToRight)
+                    {
+                        AnimLeftHand.Play("ballhandanimation");
+                    }
+                    if (rightToLeft)
+                    {
+                        AnimRightHand.Play("ballhandanimation");
+                    }
                     antecipationStarted = false;
                 }        
             }
@@ -87,8 +98,10 @@ public class BallHandAttack : MonoBehaviour
                     leftHand.GetComponent<HandInfo>().ResetAll();
                     leftToRightResetGO.SetActive(false);
                     rightHand.SetActive(true);
+                    AnimRightHand.Play("idleRightLeft");
                     leftToRight=false;
                     ballHandAttacking = false;
+                    AnimLeftHand.Play("idle");
                 }
                 if(rightToLeft && !rightHand.GetComponent<HandInfo>().resetHandPos)
                 {
@@ -106,8 +119,10 @@ public class BallHandAttack : MonoBehaviour
                     rightHand.GetComponent<HandInfo>().ResetAll();
                     rightToLeftResetGO.SetActive(false);
                     leftHand.SetActive(true);
+                    AnimLeftHand.Play("idle");
                     rightToLeft= false;
                     ballHandAttacking = false;
+                    AnimRightHand.Play("idleRightLeft");
                 }
             }
         }
@@ -122,7 +137,6 @@ public class BallHandAttack : MonoBehaviour
     {
         StartAntecipation();
         int rand = Random.Range(1,3);
-        Debug.Log("Rand number:"+rand);
         if(rand == 1)
         {
             leftToRight = true;

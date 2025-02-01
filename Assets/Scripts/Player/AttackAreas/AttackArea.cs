@@ -25,6 +25,13 @@ public class AttackArea : MonoBehaviour
             pausCard.TomarDano(CalcDamage());
             Debug.Log("HP da carta de PAUS: " + pausCard.cardHP);
         }
+
+        if (collider.GetComponent<HarlequimTakeDamage>() != null)
+        {
+            HarlequimTakeDamage BossHPAtual = collider.GetComponent<HarlequimTakeDamage>();
+            BossHPAtual.Damage(CalcDamage());
+            Debug.Log("Dano harlss");
+        }        
     }
 
     protected int CalcDamage()

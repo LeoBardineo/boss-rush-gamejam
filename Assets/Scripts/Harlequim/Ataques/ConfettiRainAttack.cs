@@ -79,7 +79,6 @@ public class ConfettiRainAttack : MonoBehaviour
         isAttacking = false;
         spawnHasBegun = false;
         returnDefault();
-        Debug.Log("testes wait spawn");
     }
 
     void moveHandUp(bool hand)

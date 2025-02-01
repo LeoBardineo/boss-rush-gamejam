@@ -1,14 +1,16 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class HarlequimIdleState : IState
 {
     float timeSinceStart = 0f;
-    float idleDuration;
-    GameObject bossGameObject;
+    float idleDuration=2f;
+    GameObject bossGameObject,playerGO,bossGO;
     HarlequimStateManager harlequimSM;
+    
 
-    BossHP bossHP;
+    HarlequimHPManager bossHP;
     BallHandAttack ballHandAttack;
     ClappingAttack clappingAttack;
     ConfettiRainAttack confettiRainAttack;
@@ -25,7 +27,8 @@ public class HarlequimIdleState : IState
         confettiRainAttack = bossGameObject.GetComponent<ConfettiRainAttack>();
         homingMasks = bossGameObject.GetComponent<HomingMasksBehaviour>();
         harlequimSM = bossGameObject.GetComponent<HarlequimStateManager>();
-        bossHP = bossGameObject.GetComponent<BossHP>();
+        bossGO = GameObject.Find("HPManager");
+        bossHP = bossGO.GetComponent<HarlequimHPManager>();
         transitionHarlequin = bossGameObject.GetComponent<TransitionHarlequin>();
         idleDuration = harlequimSM.idleDuration;
 
@@ -36,6 +39,7 @@ public class HarlequimIdleState : IState
         Debug.Log("Entrou em Idle");
         // animator.Play("HarlequinIdle");
         timeSinceStart = 0f;
+
     }
 
     public void Exit()
@@ -66,11 +70,11 @@ public class HarlequimIdleState : IState
             possibleAttacks.Add(new ConfettiRainState(bossGameObject));
         if (!HomingMasks.homingMasksAttacking)
             possibleAttacks.Add(new ShootingMasksState(bossGameObject));
+
         if(bossHP.fase2)
         {
             if(bossHP.firstTimeFase2)
             {
-                transitionHarlequin.Transition();
                 bossHP.firstTimeFase2 = false;
             }
         }

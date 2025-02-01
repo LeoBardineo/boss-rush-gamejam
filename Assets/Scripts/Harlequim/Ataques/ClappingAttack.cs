@@ -50,7 +50,6 @@ public class ClappingAttack : MonoBehaviour
         {
             if(!leftHand.GetComponent<HandInfo>().resetHandPos)
             {
-                Debug.Log("TESTE");
             rbLeftHand.linearVelocity = new Vector2(clappingSpeed * clappingSpeed,rbLeftHand.linearVelocity.y);
             rbRightHand.linearVelocity = new Vector2(-(clappingSpeed * clappingSpeed),rbRightHand.linearVelocity.y);
             }
@@ -60,13 +59,11 @@ public class ClappingAttack : MonoBehaviour
                 {
                     rbLeftHand.linearVelocity = new Vector2(-(clappingSpeed * clappingSpeed),rbLeftHand.linearVelocity.y);
                     rbRightHand.linearVelocity = new Vector2(clappingSpeed * clappingSpeed,rbRightHand.linearVelocity.y);
-                    Debug.Log("ReturningCicle");
                 }
                 else
                 {
                     rbLeftHand.linearVelocity = new Vector2(0,0);
                     rbRightHand.linearVelocity = new Vector2(0,0);                  
-                    Debug.Log("Stoped!");
                     currentCicle +=1;
                     if (currentCicle >= ciclesOfClaps)
                     {
@@ -131,7 +128,6 @@ public class ClappingAttack : MonoBehaviour
 
     void MoveHandsToOriginalPosition()
     {
-        Debug.Log("Original position called");
         leftHand.transform.position = originalLeftHandPos;
         rightHand.transform.position = originalRightHandPos;
     }

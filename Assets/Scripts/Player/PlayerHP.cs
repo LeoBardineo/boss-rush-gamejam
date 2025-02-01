@@ -6,6 +6,7 @@ public class PlayerHP : MonoBehaviour
 {
     public float HP, maxHP;
     public bool invicible;
+    public bool canTakeDamage=false;
     public static bool dead = false;
     float damageModifier = 1;
 

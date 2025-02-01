@@ -1,0 +1,5434 @@
+fileFormatVersion: 2
+guid: 4694652130fa2814086c075c86516914
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3434530491731311990
+    second: harlequin_ataqueconfetes_confetes_finalizado_0
+  - first:
+      213: 7025811738130489705
+    second: harlequin_ataqueconfetes_confetes_finalizado_1
+  - first:
+      213: 849672707936818384
+    second: harlequin_ataqueconfetes_confetes_finalizado_2
+  - first:
+      213: 4264300571749879833
+    second: harlequin_ataqueconfetes_confetes_finalizado_3
+  - first:
+      213: -1302208340581618222
+    second: harlequin_ataqueconfetes_confetes_finalizado_4
+  - first:
+      213: 3432391667695391793
+    second: harlequin_ataqueconfetes_confetes_finalizado_5
+  - first:
+      213: -1264883314290348612
+    second: harlequin_ataqueconfetes_confetes_finalizado_6
+  - first:
+      213: -1628043913925845127
+    second: harlequin_ataqueconfetes_confetes_finalizado_7
+  - first:
+      213: 6861381989762888361
+    second: harlequin_ataqueconfetes_confetes_finalizado_8
+  - first:
+      213: -3395932289330406136
+    second: harlequin_ataqueconfetes_confetes_finalizado_9
+  - first:
+      213: -9146866230615793369
+    second: harlequin_ataqueconfetes_confetes_finalizado_10
+  - first:
+      213: -5261231969776521067
+    second: harlequin_ataqueconfetes_confetes_finalizado_11
+  - first:
+      213: -3296844421585027755
+    second: harlequin_ataqueconfetes_confetes_finalizado_12
+  - first:
+      213: -4935888768109577179
+    second: harlequin_ataqueconfetes_confetes_finalizado_13
+  - first:
+      213: 1381041871069709142
+    second: harlequin_ataqueconfetes_confetes_finalizado_14
+  - first:
+      213: 3096583782530737380
+    second: harlequin_ataqueconfetes_confetes_finalizado_15
+  - first:
+      213: 3014289020698590372
+    second: harlequin_ataqueconfetes_confetes_finalizado_16
+  - first:
+      213: -3508017186237509026
+    second: harlequin_ataqueconfetes_confetes_finalizado_17
+  - first:
+      213: 6059760909377122201
+    second: harlequin_ataqueconfetes_confetes_finalizado_18
+  - first:
+      213: -8073705652303640038
+    second: harlequin_ataqueconfetes_confetes_finalizado_19
+  - first:
+      213: 1303829718810468409
+    second: harlequin_ataqueconfetes_confetes_finalizado_20
+  - first:
+      213: 6324770673542908684
+    second: harlequin_ataqueconfetes_confetes_finalizado_21
+  - first:
+      213: 5541800010068393792
+    second: harlequin_ataqueconfetes_confetes_finalizado_22
+  - first:
+      213: -6304320583634925201
+    second: harlequin_ataqueconfetes_confetes_finalizado_23
+  - first:
+      213: 9132635711806186429
+    second: harlequin_ataqueconfetes_confetes_finalizado_24
+  - first:
+      213: -2239576590011285862
+    second: harlequin_ataqueconfetes_confetes_finalizado_25
+  - first:
+      213: -4502287294392998851
+    second: harlequin_ataqueconfetes_confetes_finalizado_26
+  - first:
+      213: -4530075354132725969
+    second: harlequin_ataqueconfetes_confetes_finalizado_27
+  - first:
+      213: -2538781266844907960
+    second: harlequin_ataqueconfetes_confetes_finalizado_28
+  - first:
+      213: 1019675141539257646
+    second: harlequin_ataqueconfetes_confetes_finalizado_29
+  - first:
+      213: 2887575835256779416
+    second: harlequin_ataqueconfetes_confetes_finalizado_30
+  - first:
+      213: -8249648754970717073
+    second: harlequin_ataqueconfetes_confetes_finalizado_31
+  - first:
+      213: 362759929709491027
+    second: harlequin_ataqueconfetes_confetes_finalizado_32
+  - first:
+      213: -4333182505374103184
+    second: harlequin_ataqueconfetes_confetes_finalizado_33
+  - first:
+      213: -7916750963552560688
+    second: harlequin_ataqueconfetes_confetes_finalizado_34
+  - first:
+      213: -6454994462537824744
+    second: harlequin_ataqueconfetes_confetes_finalizado_35
+  - first:
+      213: -5379048171879731177
+    second: harlequin_ataqueconfetes_confetes_finalizado_36
+  - first:
+      213: -33423186702392710
+    second: harlequin_ataqueconfetes_confetes_finalizado_37
+  - first:
+      213: 8425135969689320586
+    second: harlequin_ataqueconfetes_confetes_finalizado_38
+  - first:
+      213: 5662943293981052878
+    second: harlequin_ataqueconfetes_confetes_finalizado_39
+  - first:
+      213: -7934693453405025948
+    second: harlequin_ataqueconfetes_confetes_finalizado_40
+  - first:
+      213: -7904738180186874163
+    second: harlequin_ataqueconfetes_confetes_finalizado_41
+  - first:
+      213: -3402122238835336034
+    second: harlequin_ataqueconfetes_confetes_finalizado_42
+  - first:
+      213: -6018224611464305744
+    second: harlequin_ataqueconfetes_confetes_finalizado_43
+  - first:
+      213: -2772522761377356219
+    second: harlequin_ataqueconfetes_confetes_finalizado_44
+  - first:
+      213: 3574888281852921600
+    second: harlequin_ataqueconfetes_confetes_finalizado_45
+  - first:
+      213: -4716515833075267097
+    second: harlequin_ataqueconfetes_confetes_finalizado_46
+  - first:
+      213: 5608915824030191668
+    second: harlequin_ataqueconfetes_confetes_finalizado_47
+  - first:
+      213: 4392857874131410855
+    second: harlequin_ataqueconfetes_confetes_finalizado_48
+  - first:
+      213: -3581027496660755656
+    second: harlequin_ataqueconfetes_confetes_finalizado_49
+  - first:
+      213: -5300171434063033300
+    second: harlequin_ataqueconfetes_confetes_finalizado_50
+  - first:
+      213: 9021844070175676334
+    second: harlequin_ataqueconfetes_confetes_finalizado_51
+  - first:
+      213: -6911614053475268307
+    second: harlequin_ataqueconfetes_confetes_finalizado_52
+  - first:
+      213: 6458943174146034076
+    second: harlequin_ataqueconfetes_confetes_finalizado_53
+  - first:
+      213: -8021909473520120436
+    second: harlequin_ataqueconfetes_confetes_finalizado_54
+  - first:
+      213: 4549905262377377032
+    second: harlequin_ataqueconfetes_confetes_finalizado_55
+  - first:
+      213: -6132170658801344899
+    second: harlequin_ataqueconfetes_confetes_finalizado_56
+  - first:
+      213: 6237340757914886782
+    second: harlequin_ataqueconfetes_confetes_finalizado_57
+  - first:
+      213: 7143881854455128283
+    second: harlequin_ataqueconfetes_confetes_finalizado_58
+  - first:
+      213: 7985134688423811414
+    second: harlequin_ataqueconfetes_confetes_finalizado_59
+  - first:
+      213: -8486034196309985045
+    second: harlequin_ataqueconfetes_confetes_finalizado_60
+  - first:
+      213: 3539689948091691039
+    second: harlequin_ataqueconfetes_confetes_finalizado_61
+  - first:
+      213: -4023137129487975662
+    second: harlequin_ataqueconfetes_confetes_finalizado_62
+  - first:
+      213: -1425462064509686053
+    second: harlequin_ataqueconfetes_confetes_finalizado_63
+  - first:
+      213: 8787137406919149023
+    second: harlequin_ataqueconfetes_confetes_finalizado_64
+  - first:
+      213: -905534963118797558
+    second: harlequin_ataqueconfetes_confetes_finalizado_65
+  - first:
+      213: 6488660781879886672
+    second: harlequin_ataqueconfetes_confetes_finalizado_66
+  - first:
+      213: -5840816109785369473
+    second: harlequin_ataqueconfetes_confetes_finalizado_67
+  - first:
+      213: 1089481652910274742
+    second: harlequin_ataqueconfetes_confetes_finalizado_68
+  - first:
+      213: -5943518319710330785
+    second: harlequin_ataqueconfetes_confetes_finalizado_69
+  - first:
+      213: -5522153488349688605
+    second: harlequin_ataqueconfetes_confetes_finalizado_70
+  - first:
+      213: -1206709442591902313
+    second: harlequin_ataqueconfetes_confetes_finalizado_71
+  - first:
+      213: 6422979126738189256
+    second: harlequin_ataqueconfetes_confetes_finalizado_72
+  - first:
+      213: -6989689226485895777
+    second: harlequin_ataqueconfetes_confetes_finalizado_73
+  - first:
+      213: -8481868869385898578
+    second: harlequin_ataqueconfetes_confetes_finalizado_74
+  - first:
+      213: 3047987422097691524
+    second: harlequin_ataqueconfetes_confetes_finalizado_75
+  - first:
+      213: -2840997739937876633
+    second: harlequin_ataqueconfetes_confetes_finalizado_76
+  - first:
+      213: -7043501608534589463
+    second: harlequin_ataqueconfetes_confetes_finalizado_77
+  - first:
+      213: -1746476572685450267
+    second: harlequin_ataqueconfetes_confetes_finalizado_78
+  - first:
+      213: 4332228007192859548
+    second: harlequin_ataqueconfetes_confetes_finalizado_79
+  - first:
+      213: 4475004054541838300
+    second: harlequin_ataqueconfetes_confetes_finalizado_80
+  - first:
+      213: 6595398018534514558
+    second: harlequin_ataqueconfetes_confetes_finalizado_81
+  - first:
+      213: -8191456919796042986
+    second: harlequin_ataqueconfetes_confetes_finalizado_82
+  - first:
+      213: 8868426269832999460
+    second: harlequin_ataqueconfetes_confetes_finalizado_83
+  - first:
+      213: 5707769444720125417
+    second: harlequin_ataqueconfetes_confetes_finalizado_84
+  - first:
+      213: 210308564893749964
+    second: harlequin_ataqueconfetes_confetes_finalizado_85
+  - first:
+      213: -6797664022212154518
+    second: harlequin_ataqueconfetes_confetes_finalizado_86
+  - first:
+      213: -7083137974706466342
+    second: harlequin_ataqueconfetes_confetes_finalizado_87
+  - first:
+      213: -4593117934929227387
+    second: harlequin_ataqueconfetes_confetes_finalizado_88
+  - first:
+      213: -1168903230746708509
+    second: harlequin_ataqueconfetes_confetes_finalizado_89
+  - first:
+      213: 7905177510186586332
+    second: harlequin_ataqueconfetes_confetes_finalizado_90
+  - first:
+      213: -2943515132408535873
+    second: harlequin_ataqueconfetes_confetes_finalizado_91
+  - first:
+      213: 5095781961860116110
+    second: harlequin_ataqueconfetes_confetes_finalizado_92
+  - first:
+      213: 5892165071361563740
+    second: harlequin_ataqueconfetes_confetes_finalizado_93
+  - first:
+      213: -224936997522280275
+    second: harlequin_ataqueconfetes_confetes_finalizado_94
+  - first:
+      213: 105035142339615574
+    second: harlequin_ataqueconfetes_confetes_finalizado_95
+  - first:
+      213: -452894957754761146
+    second: harlequin_ataqueconfetes_confetes_finalizado_96
+  - first:
+      213: -5874996135265449749
+    second: harlequin_ataqueconfetes_confetes_finalizado_97
+  - first:
+      213: -3793583413546443803
+    second: harlequin_ataqueconfetes_confetes_finalizado_98
+  - first:
+      213: -3487829264036367549
+    second: harlequin_ataqueconfetes_confetes_finalizado_99
+  - first:
+      213: 1542550603798368248
+    second: harlequin_ataqueconfetes_confetes_finalizado_100
+  - first:
+      213: 6993580056557080293
+    second: harlequin_ataqueconfetes_confetes_finalizado_101
+  - first:
+      213: 4653560203804756133
+    second: harlequin_ataqueconfetes_confetes_finalizado_102
+  - first:
+      213: 5526144663032033668
+    second: harlequin_ataqueconfetes_confetes_finalizado_103
+  - first:
+      213: 6953093572046416607
+    second: harlequin_ataqueconfetes_confetes_finalizado_104
+  - first:
+      213: -8081658502161633497
+    second: harlequin_ataqueconfetes_confetes_finalizado_105
+  - first:
+      213: -1180096516045113501
+    second: harlequin_ataqueconfetes_confetes_finalizado_106
+  - first:
+      213: 632027909702576673
+    second: harlequin_ataqueconfetes_confetes_finalizado_107
+  - first:
+      213: -3063866939001086838
+    second: harlequin_ataqueconfetes_confetes_finalizado_108
+  - first:
+      213: 1770251393583579179
+    second: harlequin_ataqueconfetes_confetes_finalizado_109
+  - first:
+      213: 3506952947646676775
+    second: harlequin_ataqueconfetes_confetes_finalizado_110
+  - first:
+      213: 3135161601852954507
+    second: harlequin_ataqueconfetes_confetes_finalizado_111
+  - first:
+      213: 633761803475156529
+    second: harlequin_ataqueconfetes_confetes_finalizado_112
+  - first:
+      213: 5930196484813572854
+    second: harlequin_ataqueconfetes_confetes_finalizado_113
+  - first:
+      213: 881179909985997396
+    second: harlequin_ataqueconfetes_confetes_finalizado_114
+  - first:
+      213: -450488038086038043
+    second: harlequin_ataqueconfetes_confetes_finalizado_115
+  - first:
+      213: -2175414819997380744
+    second: harlequin_ataqueconfetes_confetes_finalizado_116
+  - first:
+      213: 3134063738480473184
+    second: harlequin_ataqueconfetes_confetes_finalizado_117
+  - first:
+      213: 4089687556170302710
+    second: harlequin_ataqueconfetes_confetes_finalizado_118
+  - first:
+      213: 941665556506232830
+    second: harlequin_ataqueconfetes_confetes_finalizado_119
+  - first:
+      213: 7312881479576252389
+    second: harlequin_ataqueconfetes_confetes_finalizado_120
+  - first:
+      213: 4392866286001719518
+    second: harlequin_ataqueconfetes_confetes_finalizado_121
+  - first:
+      213: 6520968012724606577
+    second: harlequin_ataqueconfetes_confetes_finalizado_122
+  - first:
+      213: -4919987651506831822
+    second: harlequin_ataqueconfetes_confetes_finalizado_123
+  - first:
+      213: 287482592536300914
+    second: harlequin_ataqueconfetes_confetes_finalizado_124
+  - first:
+      213: 6623939233427732735
+    second: harlequin_ataqueconfetes_confetes_finalizado_125
+  - first:
+      213: 3631168485130069741
+    second: harlequin_ataqueconfetes_confetes_finalizado_126
+  - first:
+      213: -3870451740757288179
+    second: harlequin_ataqueconfetes_confetes_finalizado_127
+  - first:
+      213: 2228843720600991710
+    second: harlequin_ataqueconfetes_confetes_finalizado_128
+  - first:
+      213: 5763080520397950476
+    second: harlequin_ataqueconfetes_confetes_finalizado_129
+  - first:
+      213: 3620152643876502419
+    second: harlequin_ataqueconfetes_confetes_finalizado_130
+  - first:
+      213: 1767582139727170020
+    second: harlequin_ataqueconfetes_confetes_finalizado_131
+  - first:
+      213: 1982890710141951532
+    second: harlequin_ataqueconfetes_confetes_finalizado_132
+  - first:
+      213: 5487818864281228296
+    second: harlequin_ataqueconfetes_confetes_finalizado_133
+  - first:
+      213: 6919848079693548727
+    second: harlequin_ataqueconfetes_confetes_finalizado_134
+  - first:
+      213: -6898920937934594929
+    second: harlequin_ataqueconfetes_confetes_finalizado_135
+  - first:
+      213: 3664297754367718988
+    second: harlequin_ataqueconfetes_confetes_finalizado_136
+  - first:
+      213: -936666254805879984
+    second: harlequin_ataqueconfetes_confetes_finalizado_137
+  - first:
+      213: 4736003928766068880
+    second: harlequin_ataqueconfetes_confetes_finalizado_138
+  - first:
+      213: -134862922895997097
+    second: harlequin_ataqueconfetes_confetes_finalizado_139
+  - first:
+      213: 3285352105918006976
+    second: harlequin_ataqueconfetes_confetes_finalizado_140
+  - first:
+      213: -6238742238908234011
+    second: harlequin_ataqueconfetes_confetes_finalizado_141
+  - first:
+      213: 3776394263613749505
+    second: harlequin_ataqueconfetes_confetes_finalizado_142
+  - first:
+      213: -1229236679866713810
+    second: harlequin_ataqueconfetes_confetes_finalizado_143
+  - first:
+      213: 914910243267193684
+    second: harlequin_ataqueconfetes_confetes_finalizado_144
+  - first:
+      213: 2283246967665606268
+    second: harlequin_ataqueconfetes_confetes_finalizado_145
+  - first:
+      213: -3300944123546527325
+    second: harlequin_ataqueconfetes_confetes_finalizado_146
+  - first:
+      213: 7456204423570068976
+    second: harlequin_ataqueconfetes_confetes_finalizado_147
+  - first:
+      213: 5629869932866415769
+    second: harlequin_ataqueconfetes_confetes_finalizado_148
+  - first:
+      213: -9103020970616052363
+    second: harlequin_ataqueconfetes_confetes_finalizado_149
+  - first:
+      213: 5591343321989198416
+    second: harlequin_ataqueconfetes_confetes_finalizado_150
+  - first:
+      213: -91234242505083774
+    second: harlequin_ataqueconfetes_confetes_finalizado_151
+  - first:
+      213: -1826106004907998804
+    second: harlequin_ataqueconfetes_confetes_finalizado_152
+  - first:
+      213: 740227920242398290
+    second: harlequin_ataqueconfetes_confetes_finalizado_153
+  - first:
+      213: 4235330210006550725
+    second: harlequin_ataqueconfetes_confetes_finalizado_154
+  - first:
+      213: -5934303180055169560
+    second: harlequin_ataqueconfetes_confetes_finalizado_155
+  - first:
+      213: -8412870766217931643
+    second: harlequin_ataqueconfetes_confetes_finalizado_156
+  - first:
+      213: -465740796333695106
+    second: harlequin_ataqueconfetes_confetes_finalizado_157
+  - first:
+      213: -3709777751114746539
+    second: harlequin_ataqueconfetes_confetes_finalizado_158
+  - first:
+      213: -8101233114696690539
+    second: harlequin_ataqueconfetes_confetes_finalizado_159
+  - first:
+      213: 1314345282624654776
+    second: harlequin_ataqueconfetes_confetes_finalizado_160
+  - first:
+      213: -8279341445639471712
+    second: harlequin_ataqueconfetes_confetes_finalizado_161
+  - first:
+      213: 3486240296009791905
+    second: harlequin_ataqueconfetes_confetes_finalizado_162
+  - first:
+      213: -3296944098622141918
+    second: harlequin_ataqueconfetes_confetes_finalizado_163
+  - first:
+      213: -9158975598138343829
+    second: harlequin_ataqueconfetes_confetes_finalizado_164
+  - first:
+      213: -495961251240625086
+    second: harlequin_ataqueconfetes_confetes_finalizado_165
+  - first:
+      213: -25962028524008035
+    second: harlequin_ataqueconfetes_confetes_finalizado_166
+  - first:
+      213: -7584085374157003377
+    second: harlequin_ataqueconfetes_confetes_finalizado_167
+  - first:
+      213: 5614510514699899386
+    second: harlequin_ataqueconfetes_confetes_finalizado_168
+  - first:
+      213: 4805681763108000526
+    second: harlequin_ataqueconfetes_confetes_finalizado_169
+  - first:
+      213: 3523471922638726612
+    second: harlequin_ataqueconfetes_confetes_finalizado_170
+  - first:
+      213: -7450938882927818311
+    second: harlequin_ataqueconfetes_confetes_finalizado_171
+  - first:
+      213: 6220937220162802248
+    second: harlequin_ataqueconfetes_confetes_finalizado_172
+  - first:
+      213: -665564654823490439
+    second: harlequin_ataqueconfetes_confetes_finalizado_173
+  - first:
+      213: -6482637841773752991
+    second: harlequin_ataqueconfetes_confetes_finalizado_174
+  - first:
+      213: 5923965446210181307
+    second: harlequin_ataqueconfetes_confetes_finalizado_175
+  - first:
+      213: -4527632247845740916
+    second: harlequin_ataqueconfetes_confetes_finalizado_176
+  - first:
+      213: -3540498205071620319
+    second: harlequin_ataqueconfetes_confetes_finalizado_177
+  - first:
+      213: 3932239659819728170
+    second: harlequin_ataqueconfetes_confetes_finalizado_178
+  - first:
+      213: 4981580375503664996
+    second: harlequin_ataqueconfetes_confetes_finalizado_179
+  - first:
+      213: -5086712075812399927
+    second: harlequin_ataqueconfetes_confetes_finalizado_180
+  - first:
+      213: -3996102252194927792
+    second: harlequin_ataqueconfetes_confetes_finalizado_181
+  - first:
+      213: -5440325208306445736
+    second: harlequin_ataqueconfetes_confetes_finalizado_182
+  - first:
+      213: 6741653302697557366
+    second: harlequin_ataqueconfetes_confetes_finalizado_183
+  - first:
+      213: -3399070859841628627
+    second: harlequin_ataqueconfetes_confetes_finalizado_184
+  - first:
+      213: -3516882563641924716
+    second: harlequin_ataqueconfetes_confetes_finalizado_185
+  - first:
+      213: -7659268339101162693
+    second: harlequin_ataqueconfetes_confetes_finalizado_186
+  - first:
+      213: -4883083606714021614
+    second: harlequin_ataqueconfetes_confetes_finalizado_187
+  - first:
+      213: -2573215829984165486
+    second: harlequin_ataqueconfetes_confetes_finalizado_188
+  - first:
+      213: -1147452301358014466
+    second: harlequin_ataqueconfetes_confetes_finalizado_189
+  - first:
+      213: 1507945171206231528
+    second: harlequin_ataqueconfetes_confetes_finalizado_190
+  - first:
+      213: 469394077686007050
+    second: harlequin_ataqueconfetes_confetes_finalizado_191
+  - first:
+      213: -1075624192327732229
+    second: harlequin_ataqueconfetes_confetes_finalizado_192
+  - first:
+      213: -2689386053345149796
+    second: harlequin_ataqueconfetes_confetes_finalizado_193
+  - first:
+      213: 3451327673695555207
+    second: harlequin_ataqueconfetes_confetes_finalizado_194
+  - first:
+      213: 1052131137671033518
+    second: harlequin_ataqueconfetes_confetes_finalizado_195
+  - first:
+      213: -2204433784345524200
+    second: harlequin_ataqueconfetes_confetes_finalizado_196
+  - first:
+      213: 3170455370424673051
+    second: harlequin_ataqueconfetes_confetes_finalizado_197
+  - first:
+      213: 4794596042703078715
+    second: harlequin_ataqueconfetes_confetes_finalizado_198
+  - first:
+      213: -3368023012629395120
+    second: harlequin_ataqueconfetes_confetes_finalizado_199
+  - first:
+      213: 2808097779126262932
+    second: harlequin_ataqueconfetes_confetes_finalizado_200
+  - first:
+      213: 3546219826899973570
+    second: harlequin_ataqueconfetes_confetes_finalizado_201
+  - first:
+      213: -3664492957654796412
+    second: harlequin_ataqueconfetes_confetes_finalizado_202
+  - first:
+      213: -3978595100587682428
+    second: harlequin_ataqueconfetes_confetes_finalizado_203
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 224
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a828b16f6b81650d0800000000000000
+      internalID: -3434530491731311990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 225
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961a90e2d82b08160800000000000000
+      internalID: 7025811738130489705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 227
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d41beb73d4aacb00800000000000000
+      internalID: 849672707936818384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 231
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91095aad6c6dd2b30800000000000000
+      internalID: 4264300571749879833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 223
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dde414e960adede0800000000000000
+      internalID: -1302208340581618222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 206
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1349ef2490e42af20800000000000000
+      internalID: 3432391667695391793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_6
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 227
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbda769c35b327ee0800000000000000
+      internalID: -1264883314290348612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 215
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f96bf9fa60869e0800000000000000
+      internalID: -1628043913925845127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_8
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 228
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a274180196883f50800000000000000
+      internalID: 6861381989762888361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 222
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d9e2543993fd0d0800000000000000
+      internalID: -3395932289330406136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 223
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721212c10adcf0180800000000000000
+      internalID: -9146866230615793369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 215
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590ba8016695cf6b0800000000000000
+      internalID: -5261231969776521067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_12
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 219
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d32bb47714f32d0800000000000000
+      internalID: -3296844421585027755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_13
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 219
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cfcfd1153308bb0800000000000000
+      internalID: -4935888768109577179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_14
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 217
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6530d01c3427a2310800000000000000
+      internalID: 1381041871069709142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 230
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4eaf63b8649fa20800000000000000
+      internalID: 3096583782530737380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_16
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 220
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac7919d4e7e4d920800000000000000
+      internalID: 3014289020698590372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_17
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 224
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52195494f4015fc0800000000000000
+      internalID: -3508017186237509026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_18
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 214
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fa83be078981450800000000000000
+      internalID: 6059760909377122201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_19
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 207
+        width: 11
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ac06d4c7f64ff80800000000000000
+      internalID: -8073705652303640038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_20
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 209
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930ab45a832281210800000000000000
+      internalID: 1303829718810468409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_21
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 216
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b4552ea6916c750800000000000000
+      internalID: 6324770673542908684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 211
+        width: 11
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ff1685fbd68ec40800000000000000
+      internalID: 5541800010068393792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_23
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 215
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69c146b4dd8288a0800000000000000
+      internalID: -6304320583634925201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_24
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 229
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db321490bc3adbe70800000000000000
+      internalID: 9132635711806186429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_25
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 216
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9eb81905fc6be0e0800000000000000
+      internalID: -2239576590011285862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_26
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 238
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3463f45f89a481c0800000000000000
+      internalID: -4502287294392998851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_27
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 220
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fba2f7770f121c0800000000000000
+      internalID: -4530075354132725969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_28
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 236
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8460b4b83ef64ccd0800000000000000
+      internalID: -2538781266844907960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_29
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 188
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d5eb5832d962e00800000000000000
+      internalID: 1019675141539257646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_30
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 185
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8927b725ceab21820800000000000000
+      internalID: 2887575835256779416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 220
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f641a367a2c538d80800000000000000
+      internalID: -8249648754970717073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 177
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353741deb38c80500800000000000000
+      internalID: 362759929709491027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_33
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 185
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0794d3438717dd3c0800000000000000
+      internalID: -4333182505374103184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_34
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 204
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9d73281fc022290800000000000000
+      internalID: -7916750963552560688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_35
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 190
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816c1518cb04b66a0800000000000000
+      internalID: -6454994462537824744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_36
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 201
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710f465ef28c955b0800000000000000
+      internalID: -5379048171879731177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_37
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 194
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72a75de9c1498ff0800000000000000
+      internalID: -33423186702392710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_38
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 204
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cb2b1b6881ce470800000000000000
+      internalID: 8425135969689320586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_39
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 186
+        width: 11
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfcbec1ce0d69e40800000000000000
+      internalID: 5662943293981052878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_40
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 194
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4690d2c085e42e190800000000000000
+      internalID: -7934693453405025948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_41
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 193
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce5e77918abc4290800000000000000
+      internalID: -7904738180186874163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_42
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 205
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c53c759db39c0d0800000000000000
+      internalID: -3402122238835336034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_43
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 189
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3282f0a98fa7ca0800000000000000
+      internalID: -6018224611464305744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_44
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 190
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546ea6cec350689d0800000000000000
+      internalID: -2772522761377356219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_45
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 192
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007cc87a3fd8c9130800000000000000
+      internalID: 3574888281852921600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_46
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 194
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e90b08c6d19b8eb0800000000000000
+      internalID: -4716515833075267097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_47
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 194
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4301362893fd6dd40800000000000000
+      internalID: 5608915824030191668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 200
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af516056f096fc30800000000000000
+      internalID: 4392857874131410855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_49
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 200
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b11a20772ad4ec0800000000000000
+      internalID: -3581027496660755656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_50
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 212
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c000889220276b0800000000000000
+      internalID: -5300171434063033300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_51
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 209
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea719cdc167043d70800000000000000
+      internalID: 9021844070175676334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_52
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 192
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29420e33a30510a0800000000000000
+      internalID: -6911614053475268307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_53
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 187
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99886f8896c2a950800000000000000
+      internalID: 6458943174146034076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_54
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 182
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d0e72f5d37ca090800000000000000
+      internalID: -8021909473520120436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_55
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 179
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d1fadcab2842f30800000000000000
+      internalID: 4549905262377377032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_56
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 162
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e9214864726eaa0800000000000000
+      internalID: -6132170658801344899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_57
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 165
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72259a5f5c7f8650800000000000000
+      internalID: 6237340757914886782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_58
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 188
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0282c52ba242360800000000000000
+      internalID: 7143881854455128283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_59
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 172
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659962b21b5e0de60800000000000000
+      internalID: 7985134688423811414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_60
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 175
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be830210cdc8b3a80800000000000000
+      internalID: -8486034196309985045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_61
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 177
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10b603f0418f1130800000000000000
+      internalID: 3539689948091691039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_62
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 188
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b3f22a812fa28c0800000000000000
+      internalID: -4023137129487975662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_63
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 178
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdeea140ecdb73ce0800000000000000
+      internalID: -1425462064509686053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_64
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 170
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd586f35aee22f970800000000000000
+      internalID: 8787137406919149023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_65
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 186
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d8b9fafb4ee63f0800000000000000
+      internalID: -905534963118797558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_66
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 185
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05385fb4a9a5c0a50800000000000000
+      internalID: 6488660781879886672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_67
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 174
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f743dd1b1b041fea0800000000000000
+      internalID: -5840816109785369473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_68
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 183
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8b50f7acd9e1f00800000000000000
+      internalID: 1089481652910274742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_69
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 189
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50a3ad0491648da0800000000000000
+      internalID: -5943518319710330785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_70
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 166
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec8bb3f8ae5d53b0800000000000000
+      internalID: -5522153488349688605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_71
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 172
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7953337c728e04fe0800000000000000
+      internalID: -1206709442591902313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_72
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 180
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb7af04c71032950800000000000000
+      internalID: 6422979126738189256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_73
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 178
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9deee47ea2affe90800000000000000
+      internalID: -6989689226485895777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_74
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 176
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea53fc0c3395a4a80800000000000000
+      internalID: -8481868869385898578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_75
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 186
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483ddf55960ac4a20800000000000000
+      internalID: 3047987422097691524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_76
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 182
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765b0579b9fb298d0800000000000000
+      internalID: -2840997739937876633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_77
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 152
+        width: 10
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef3768ea94704e90800000000000000
+      internalID: -7043501608534589463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_78
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 158
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3ca847fc443c7e0800000000000000
+      internalID: -1746476572685450267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_79
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 160
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c939abe5b6a2f1c30800000000000000
+      internalID: 4332228007192859548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_80
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 158
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7266f5a786a1e30800000000000000
+      internalID: 4475004054541838300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_81
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 161
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f901fcd8f878b50800000000000000
+      internalID: 6595398018534514558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_82
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 154
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61334a6e459125e80800000000000000
+      internalID: -8191456919796042986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 144
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422732a94baf21b70800000000000000
+      internalID: 8868426269832999460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_84
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 160
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e52f54a112163f40800000000000000
+      internalID: 5707769444720125417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 153
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2d6b7868a2be200800000000000000
+      internalID: 210308564893749964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_86
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 154
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b679d5698d9a1a0800000000000000
+      internalID: -6797664022212154518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_87
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 158
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad19a824a83a3bd90800000000000000
+      internalID: -7083137974706466342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_88
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 138
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5815115d297f140c0800000000000000
+      internalID: -4593117934929227387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_89
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 153
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5398a64b837cfe0800000000000000
+      internalID: -1168903230746708509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_90
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 143
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd01415ef05d4bd60800000000000000
+      internalID: 7905177510186586332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_91
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 151
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb46dcd15988627d0800000000000000
+      internalID: -2943515132408535873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_92
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 161
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ee38912bad7b640800000000000000
+      internalID: 5095781961860116110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_93
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 134
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c58741aec25c150800000000000000
+      internalID: 5892165071361563740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_94
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 170
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da077d51efcd0ecf0800000000000000
+      internalID: -224936997522280275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_95
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 145
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bd51cc7e8257100800000000000000
+      internalID: 105035142339615574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_96
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 149
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640467a7f6ef6b9f0800000000000000
+      internalID: -452894957754761146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_97
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 145
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8c5bc5422d77ea0800000000000000
+      internalID: -5874996135265449749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_98
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 131
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb10c11cfb7a5bc0800000000000000
+      internalID: -3793583413546443803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_99
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 129
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34376ef73cdb89fc0800000000000000
+      internalID: -3487829264036367549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_100
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 132
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff4773f99d386510800000000000000
+      internalID: 1542550603798368248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_101
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 138
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee475302003e0160800000000000000
+      internalID: 6993580056557080293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_102
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 130
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a84da88954c49040800000000000000
+      internalID: 4653560203804756133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_103
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 115
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481f171da4fc0bc40800000000000000
+      internalID: 5526144663032033668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_104
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 143
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdae0e3c3c95e7060800000000000000
+      internalID: 6953093572046416607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_105
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 135
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fe3a6296e28df80800000000000000
+      internalID: -8081658502161633497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_106
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 119
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367747898747f9fe0800000000000000
+      internalID: -1180096516045113501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_107
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 124
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a64f5090a65c800800000000000000
+      internalID: 632027909702576673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_108
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 115
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cd6c58045fa75d0800000000000000
+      internalID: -3063866939001086838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_109
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 136
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2080b56342319810800000000000000
+      internalID: 1770251393583579179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_110
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 132
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f3d7010233ba030800000000000000
+      internalID: 3506952947646676775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_111
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 126
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87d3e7bdd4528b20800000000000000
+      internalID: 3135161601852954507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_112
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 135
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ef850a0039bc800800000000000000
+      internalID: 633761803475156529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_113
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 130
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa459d884a4c4250800000000000000
+      internalID: 5930196484813572854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_114
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 121
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4521ded95749a3c00800000000000000
+      internalID: 881179909985997396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_115
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 121
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eda152248b8fb9f0800000000000000
+      internalID: -450488038086038043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_116
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 120
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f8fee3fbf5fc1e0800000000000000
+      internalID: -2175414819997380744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_117
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 123
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064bf8b7d5e6e7b20800000000000000
+      internalID: 3134063738480473184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_118
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 132
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4cddb0a2d71c830800000000000000
+      internalID: 4089687556170302710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_119
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 142
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef746c0a5d7711d00800000000000000
+      internalID: 941665556506232830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_120
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 127
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efecaad5f29c7560800000000000000
+      internalID: 7312881479576252389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_121
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 141
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed80ceadc9896fc30800000000000000
+      internalID: 4392866286001719518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_122
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 129
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1769226abd12f7a50800000000000000
+      internalID: 6520968012724606577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_123
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 137
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e70a45c41b8bbb0800000000000000
+      internalID: -4919987651506831822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_124
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 121
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d0c3f05e75df300800000000000000
+      internalID: 287482592536300914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_125
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 130
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8bb3e33a5fceb50800000000000000
+      internalID: 6623939233427732735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_126
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 117
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de665cb9f70846230800000000000000
+      internalID: 3631168485130069741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_127
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 119
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b9ed7f5a4694ac0800000000000000
+      internalID: -3870451740757288179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_128
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 116
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed738421e817eee10800000000000000
+      internalID: 2228843720600991710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_129
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 117
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e0b4ef2339aff40800000000000000
+      internalID: 5763080520397950476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_130
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 115
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b33f236ad5d3230800000000000000
+      internalID: 3620152643876502419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_131
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 111
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e943cd4796b78810800000000000000
+      internalID: 1767582139727170020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_132
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 86
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ede665894a48b10800000000000000
+      internalID: 1982890710141951532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_133
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 102
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8049b2d6e26a82c40800000000000000
+      internalID: 5487818864281228296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_134
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 89
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc8dc16a2d380060800000000000000
+      internalID: 6919848079693548727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_135
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 102
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c57e085fb1240a0800000000000000
+      internalID: -6898920937934594929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_136
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 94
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c467950b4633ad230800000000000000
+      internalID: 3664297754367718988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_137
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 92
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0533331010b4003f0800000000000000
+      internalID: -936666254805879984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_138
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 89
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098b4f41b7aa9b140800000000000000
+      internalID: 4736003928766068880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_139
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 113
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757c96bd2eed02ef0800000000000000
+      internalID: -134862922895997097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_140
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 96
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c60353755ae79d20800000000000000
+      internalID: 3285352105918006976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_141
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 94
+        width: 11
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e646acecf88b69a0800000000000000
+      internalID: -6238742238908234011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_142
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 99
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10935861392786430800000000000000
+      internalID: 3776394263613749505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_143
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 108
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29f9af90cfd0fee0800000000000000
+      internalID: -1229236679866713810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_144
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 90
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bae43d40a62bc00800000000000000
+      internalID: 914910243267193684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_145
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 100
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e323a1509bfaf10800000000000000
+      internalID: 2283246967665606268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_146
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 117
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9989c0fc0b032d0800000000000000
+      internalID: -3300944123546527325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_147
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 95
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f517972b62c97760800000000000000
+      internalID: 7456204423570068976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_148
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 95
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ca72820e0512e40800000000000000
+      internalID: 5629869932866415769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_149
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 96
+        width: 10
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575af7738a29ba180800000000000000
+      internalID: -9103020970616052363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_150
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 91
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0523b6c8021789d40800000000000000
+      internalID: 5591343321989198416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_151
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 110
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284f12890fedbbef0800000000000000
+      internalID: -91234242505083774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_152
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 85
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1404f734e58a6e0800000000000000
+      internalID: -1826106004907998804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_153
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 87
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254dfde1f51d54a00800000000000000
+      internalID: 740227920242398290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_154
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 89
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8cbe1e26ae6ca30800000000000000
+      internalID: 4235330210006550725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_155
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 78
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e53753f2be15ada0800000000000000
+      internalID: -5934303180055169560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_156
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 53
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584df468c9a7f3b80800000000000000
+      internalID: -8412870766217931643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_157
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 61
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f5f1d963b5989f0800000000000000
+      internalID: -465740796333695106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_158
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 86
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55578256ac8348cc0800000000000000
+      internalID: -3709777751114746539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_159
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 88
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5945fd38763a29f80800000000000000
+      internalID: -8101233114696690539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_160
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 72
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd8d03221e7d3210800000000000000
+      internalID: 1314345282624654776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_161
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 74
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad7d7e22ded91d80800000000000000
+      internalID: -8279341445639471712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_162
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 60
+        width: 7
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9f05d041d916030800000000000000
+      internalID: 3486240296009791905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_163
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 75
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a8e4d6fc6ee32d0800000000000000
+      internalID: -3296944098622141918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_164
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 74
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e3e764838c4e080800000000000000
+      internalID: -9158975598138343829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_165
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 74
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cb175aeddfd19f0800000000000000
+      internalID: -495961251240625086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_166
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 52
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d8d203ca3c3aff0800000000000000
+      internalID: -25962028524008035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_167
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 41
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85e22fc88aefb690800000000000000
+      internalID: -7584085374157003377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_168
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 63
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af11260f09fbaed40800000000000000
+      internalID: 5614510514699899386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_169
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 49
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0310a91a1631b240800000000000000
+      internalID: 4805681763108000526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_170
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 53
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5a1f4ab03e5e030800000000000000
+      internalID: 3523471922638726612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_171
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 52
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b901ff0092f89890800000000000000
+      internalID: -7450938882927818311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_172
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 53
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8425fc91175355650800000000000000
+      internalID: 6220937220162802248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_173
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 48
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cb036097073c6f0800000000000000
+      internalID: -665564654823490439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_174
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 41
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d0299ba3b0906a0800000000000000
+      internalID: -6482637841773752991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_175
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 24
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8db03df27263250800000000000000
+      internalID: 5923965446210181307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_176
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 45
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e1d81857e9a21c0800000000000000
+      internalID: -4527632247845740916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_177
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 38
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1274cce04af9ddec0800000000000000
+      internalID: -3540498205071620319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_178
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 42
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2df14ff22f129630800000000000000
+      internalID: 3932239659819728170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_179
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 20
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467f3fd35f0222540800000000000000
+      internalID: 4981580375503664996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_180
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 26
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4138e415e5869b0800000000000000
+      internalID: -5086712075812399927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_181
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 12
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b68c38c2efa88c0800000000000000
+      internalID: -3996102252194927792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_182
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 34
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8529a401c051084b0800000000000000
+      internalID: -5440325208306445736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_183
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 17
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d7022c5f92f8d50800000000000000
+      internalID: 6741653302697557366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_184
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 17
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2612c0ef0314d0d0800000000000000
+      internalID: -3399070859841628627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_185
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 20
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493ab5d01f5813fc0800000000000000
+      internalID: -3516882563641924716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_186
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 33
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33aa70b600d4b590800000000000000
+      internalID: -7659268339101162693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_187
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 14
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2190745d45dcb3cb0800000000000000
+      internalID: -4883083606714021614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_188
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 4
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291c16b06d91a4cd0800000000000000
+      internalID: -2573215829984165486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_189
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 2
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effd9dc163e6310f0800000000000000
+      internalID: -1147452301358014466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_190
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 24
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5538ec42c4de410800000000000000
+      internalID: 1507945171206231528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_191
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 0
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05852c3d6f938600800000000000000
+      internalID: 469394077686007050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_192
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 6
+        width: 11
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf33d78fe7d9211f0800000000000000
+      internalID: -1075624192327732229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_193
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 0
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cf87a22a16daad0800000000000000
+      internalID: -2689386053345149796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_194
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 0
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e491abb3495ef20800000000000000
+      internalID: 3451327673695555207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_195
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 0
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2720ef1bbe99e00800000000000000
+      internalID: 1052131137671033518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_196
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818073917274861e0800000000000000
+      internalID: -2204433784345524200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_197
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1364629c58bffb20800000000000000
+      internalID: 3170455370424673051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_198
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b358fcea2b3d98240800000000000000
+      internalID: 4794596042703078715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_199
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 2
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05942e02ae06241d0800000000000000
+      internalID: -3368023012629395120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_200
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c526b5d0e58f620800000000000000
+      internalID: 2808097779126262932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_201
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5f1d5d424b63130800000000000000
+      internalID: 3546219826899973570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_202
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 0
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487b011021b152dc0800000000000000
+      internalID: -3664492957654796412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: harlequin_ataqueconfetes_confetes_finalizado_203
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 0
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4859c54e5d039c8c0800000000000000
+      internalID: -3978595100587682428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      harlequin_ataqueconfetes_confetes_finalizado_0: -3434530491731311990
+      harlequin_ataqueconfetes_confetes_finalizado_1: 7025811738130489705
+      harlequin_ataqueconfetes_confetes_finalizado_10: -9146866230615793369
+      harlequin_ataqueconfetes_confetes_finalizado_100: 1542550603798368248
+      harlequin_ataqueconfetes_confetes_finalizado_101: 6993580056557080293
+      harlequin_ataqueconfetes_confetes_finalizado_102: 4653560203804756133
+      harlequin_ataqueconfetes_confetes_finalizado_103: 5526144663032033668
+      harlequin_ataqueconfetes_confetes_finalizado_104: 6953093572046416607
+      harlequin_ataqueconfetes_confetes_finalizado_105: -8081658502161633497
+      harlequin_ataqueconfetes_confetes_finalizado_106: -1180096516045113501
+      harlequin_ataqueconfetes_confetes_finalizado_107: 632027909702576673
+      harlequin_ataqueconfetes_confetes_finalizado_108: -3063866939001086838
+      harlequin_ataqueconfetes_confetes_finalizado_109: 1770251393583579179
+      harlequin_ataqueconfetes_confetes_finalizado_11: -5261231969776521067
+      harlequin_ataqueconfetes_confetes_finalizado_110: 3506952947646676775
+      harlequin_ataqueconfetes_confetes_finalizado_111: 3135161601852954507
+      harlequin_ataqueconfetes_confetes_finalizado_112: 633761803475156529
+      harlequin_ataqueconfetes_confetes_finalizado_113: 5930196484813572854
+      harlequin_ataqueconfetes_confetes_finalizado_114: 881179909985997396
+      harlequin_ataqueconfetes_confetes_finalizado_115: -450488038086038043
+      harlequin_ataqueconfetes_confetes_finalizado_116: -2175414819997380744
+      harlequin_ataqueconfetes_confetes_finalizado_117: 3134063738480473184
+      harlequin_ataqueconfetes_confetes_finalizado_118: 4089687556170302710
+      harlequin_ataqueconfetes_confetes_finalizado_119: 941665556506232830
+      harlequin_ataqueconfetes_confetes_finalizado_12: -3296844421585027755
+      harlequin_ataqueconfetes_confetes_finalizado_120: 7312881479576252389
+      harlequin_ataqueconfetes_confetes_finalizado_121: 4392866286001719518
+      harlequin_ataqueconfetes_confetes_finalizado_122: 6520968012724606577
+      harlequin_ataqueconfetes_confetes_finalizado_123: -4919987651506831822
+      harlequin_ataqueconfetes_confetes_finalizado_124: 287482592536300914
+      harlequin_ataqueconfetes_confetes_finalizado_125: 6623939233427732735
+      harlequin_ataqueconfetes_confetes_finalizado_126: 3631168485130069741
+      harlequin_ataqueconfetes_confetes_finalizado_127: -3870451740757288179
+      harlequin_ataqueconfetes_confetes_finalizado_128: 2228843720600991710
+      harlequin_ataqueconfetes_confetes_finalizado_129: 5763080520397950476
+      harlequin_ataqueconfetes_confetes_finalizado_13: -4935888768109577179
+      harlequin_ataqueconfetes_confetes_finalizado_130: 3620152643876502419
+      harlequin_ataqueconfetes_confetes_finalizado_131: 1767582139727170020
+      harlequin_ataqueconfetes_confetes_finalizado_132: 1982890710141951532
+      harlequin_ataqueconfetes_confetes_finalizado_133: 5487818864281228296
+      harlequin_ataqueconfetes_confetes_finalizado_134: 6919848079693548727
+      harlequin_ataqueconfetes_confetes_finalizado_135: -6898920937934594929
+      harlequin_ataqueconfetes_confetes_finalizado_136: 3664297754367718988
+      harlequin_ataqueconfetes_confetes_finalizado_137: -936666254805879984
+      harlequin_ataqueconfetes_confetes_finalizado_138: 4736003928766068880
+      harlequin_ataqueconfetes_confetes_finalizado_139: -134862922895997097
+      harlequin_ataqueconfetes_confetes_finalizado_14: 1381041871069709142
+      harlequin_ataqueconfetes_confetes_finalizado_140: 3285352105918006976
+      harlequin_ataqueconfetes_confetes_finalizado_141: -6238742238908234011
+      harlequin_ataqueconfetes_confetes_finalizado_142: 3776394263613749505
+      harlequin_ataqueconfetes_confetes_finalizado_143: -1229236679866713810
+      harlequin_ataqueconfetes_confetes_finalizado_144: 914910243267193684
+      harlequin_ataqueconfetes_confetes_finalizado_145: 2283246967665606268
+      harlequin_ataqueconfetes_confetes_finalizado_146: -3300944123546527325
+      harlequin_ataqueconfetes_confetes_finalizado_147: 7456204423570068976
+      harlequin_ataqueconfetes_confetes_finalizado_148: 5629869932866415769
+      harlequin_ataqueconfetes_confetes_finalizado_149: -9103020970616052363
+      harlequin_ataqueconfetes_confetes_finalizado_15: 3096583782530737380
+      harlequin_ataqueconfetes_confetes_finalizado_150: 5591343321989198416
+      harlequin_ataqueconfetes_confetes_finalizado_151: -91234242505083774
+      harlequin_ataqueconfetes_confetes_finalizado_152: -1826106004907998804
+      harlequin_ataqueconfetes_confetes_finalizado_153: 740227920242398290
+      harlequin_ataqueconfetes_confetes_finalizado_154: 4235330210006550725
+      harlequin_ataqueconfetes_confetes_finalizado_155: -5934303180055169560
+      harlequin_ataqueconfetes_confetes_finalizado_156: -8412870766217931643
+      harlequin_ataqueconfetes_confetes_finalizado_157: -465740796333695106
+      harlequin_ataqueconfetes_confetes_finalizado_158: -3709777751114746539
+      harlequin_ataqueconfetes_confetes_finalizado_159: -8101233114696690539
+      harlequin_ataqueconfetes_confetes_finalizado_16: 3014289020698590372
+      harlequin_ataqueconfetes_confetes_finalizado_160: 1314345282624654776
+      harlequin_ataqueconfetes_confetes_finalizado_161: -8279341445639471712
+      harlequin_ataqueconfetes_confetes_finalizado_162: 3486240296009791905
+      harlequin_ataqueconfetes_confetes_finalizado_163: -3296944098622141918
+      harlequin_ataqueconfetes_confetes_finalizado_164: -9158975598138343829
+      harlequin_ataqueconfetes_confetes_finalizado_165: -495961251240625086
+      harlequin_ataqueconfetes_confetes_finalizado_166: -25962028524008035
+      harlequin_ataqueconfetes_confetes_finalizado_167: -7584085374157003377
+      harlequin_ataqueconfetes_confetes_finalizado_168: 5614510514699899386
+      harlequin_ataqueconfetes_confetes_finalizado_169: 4805681763108000526
+      harlequin_ataqueconfetes_confetes_finalizado_17: -3508017186237509026
+      harlequin_ataqueconfetes_confetes_finalizado_170: 3523471922638726612
+      harlequin_ataqueconfetes_confetes_finalizado_171: -7450938882927818311
+      harlequin_ataqueconfetes_confetes_finalizado_172: 6220937220162802248
+      harlequin_ataqueconfetes_confetes_finalizado_173: -665564654823490439
+      harlequin_ataqueconfetes_confetes_finalizado_174: -6482637841773752991
+      harlequin_ataqueconfetes_confetes_finalizado_175: 5923965446210181307
+      harlequin_ataqueconfetes_confetes_finalizado_176: -4527632247845740916
+      harlequin_ataqueconfetes_confetes_finalizado_177: -3540498205071620319
+      harlequin_ataqueconfetes_confetes_finalizado_178: 3932239659819728170
+      harlequin_ataqueconfetes_confetes_finalizado_179: 4981580375503664996
+      harlequin_ataqueconfetes_confetes_finalizado_18: 6059760909377122201
+      harlequin_ataqueconfetes_confetes_finalizado_180: -5086712075812399927
+      harlequin_ataqueconfetes_confetes_finalizado_181: -3996102252194927792
+      harlequin_ataqueconfetes_confetes_finalizado_182: -5440325208306445736
+      harlequin_ataqueconfetes_confetes_finalizado_183: 6741653302697557366
+      harlequin_ataqueconfetes_confetes_finalizado_184: -3399070859841628627
+      harlequin_ataqueconfetes_confetes_finalizado_185: -3516882563641924716
+      harlequin_ataqueconfetes_confetes_finalizado_186: -7659268339101162693
+      harlequin_ataqueconfetes_confetes_finalizado_187: -4883083606714021614
+      harlequin_ataqueconfetes_confetes_finalizado_188: -2573215829984165486
+      harlequin_ataqueconfetes_confetes_finalizado_189: -1147452301358014466
+      harlequin_ataqueconfetes_confetes_finalizado_19: -8073705652303640038
+      harlequin_ataqueconfetes_confetes_finalizado_190: 1507945171206231528
+      harlequin_ataqueconfetes_confetes_finalizado_191: 469394077686007050
+      harlequin_ataqueconfetes_confetes_finalizado_192: -1075624192327732229
+      harlequin_ataqueconfetes_confetes_finalizado_193: -2689386053345149796
+      harlequin_ataqueconfetes_confetes_finalizado_194: 3451327673695555207
+      harlequin_ataqueconfetes_confetes_finalizado_195: 1052131137671033518
+      harlequin_ataqueconfetes_confetes_finalizado_196: -2204433784345524200
+      harlequin_ataqueconfetes_confetes_finalizado_197: 3170455370424673051
+      harlequin_ataqueconfetes_confetes_finalizado_198: 4794596042703078715
+      harlequin_ataqueconfetes_confetes_finalizado_199: -3368023012629395120
+      harlequin_ataqueconfetes_confetes_finalizado_2: 849672707936818384
+      harlequin_ataqueconfetes_confetes_finalizado_20: 1303829718810468409
+      harlequin_ataqueconfetes_confetes_finalizado_200: 2808097779126262932
+      harlequin_ataqueconfetes_confetes_finalizado_201: 3546219826899973570
+      harlequin_ataqueconfetes_confetes_finalizado_202: -3664492957654796412
+      harlequin_ataqueconfetes_confetes_finalizado_203: -3978595100587682428
+      harlequin_ataqueconfetes_confetes_finalizado_21: 6324770673542908684
+      harlequin_ataqueconfetes_confetes_finalizado_22: 5541800010068393792
+      harlequin_ataqueconfetes_confetes_finalizado_23: -6304320583634925201
+      harlequin_ataqueconfetes_confetes_finalizado_24: 9132635711806186429
+      harlequin_ataqueconfetes_confetes_finalizado_25: -2239576590011285862
+      harlequin_ataqueconfetes_confetes_finalizado_26: -4502287294392998851
+      harlequin_ataqueconfetes_confetes_finalizado_27: -4530075354132725969
+      harlequin_ataqueconfetes_confetes_finalizado_28: -2538781266844907960
+      harlequin_ataqueconfetes_confetes_finalizado_29: 1019675141539257646
+      harlequin_ataqueconfetes_confetes_finalizado_3: 4264300571749879833
+      harlequin_ataqueconfetes_confetes_finalizado_30: 2887575835256779416
+      harlequin_ataqueconfetes_confetes_finalizado_31: -8249648754970717073
+      harlequin_ataqueconfetes_confetes_finalizado_32: 362759929709491027
+      harlequin_ataqueconfetes_confetes_finalizado_33: -4333182505374103184
+      harlequin_ataqueconfetes_confetes_finalizado_34: -7916750963552560688
+      harlequin_ataqueconfetes_confetes_finalizado_35: -6454994462537824744
+      harlequin_ataqueconfetes_confetes_finalizado_36: -5379048171879731177
+      harlequin_ataqueconfetes_confetes_finalizado_37: -33423186702392710
+      harlequin_ataqueconfetes_confetes_finalizado_38: 8425135969689320586
+      harlequin_ataqueconfetes_confetes_finalizado_39: 5662943293981052878
+      harlequin_ataqueconfetes_confetes_finalizado_4: -1302208340581618222
+      harlequin_ataqueconfetes_confetes_finalizado_40: -7934693453405025948
+      harlequin_ataqueconfetes_confetes_finalizado_41: -7904738180186874163
+      harlequin_ataqueconfetes_confetes_finalizado_42: -3402122238835336034
+      harlequin_ataqueconfetes_confetes_finalizado_43: -6018224611464305744
+      harlequin_ataqueconfetes_confetes_finalizado_44: -2772522761377356219
+      harlequin_ataqueconfetes_confetes_finalizado_45: 3574888281852921600
+      harlequin_ataqueconfetes_confetes_finalizado_46: -4716515833075267097
+      harlequin_ataqueconfetes_confetes_finalizado_47: 5608915824030191668
+      harlequin_ataqueconfetes_confetes_finalizado_48: 4392857874131410855
+      harlequin_ataqueconfetes_confetes_finalizado_49: -3581027496660755656
+      harlequin_ataqueconfetes_confetes_finalizado_5: 3432391667695391793
+      harlequin_ataqueconfetes_confetes_finalizado_50: -5300171434063033300
+      harlequin_ataqueconfetes_confetes_finalizado_51: 9021844070175676334
+      harlequin_ataqueconfetes_confetes_finalizado_52: -6911614053475268307
+      harlequin_ataqueconfetes_confetes_finalizado_53: 6458943174146034076
+      harlequin_ataqueconfetes_confetes_finalizado_54: -8021909473520120436
+      harlequin_ataqueconfetes_confetes_finalizado_55: 4549905262377377032
+      harlequin_ataqueconfetes_confetes_finalizado_56: -6132170658801344899
+      harlequin_ataqueconfetes_confetes_finalizado_57: 6237340757914886782
+      harlequin_ataqueconfetes_confetes_finalizado_58: 7143881854455128283
+      harlequin_ataqueconfetes_confetes_finalizado_59: 7985134688423811414
+      harlequin_ataqueconfetes_confetes_finalizado_6: -1264883314290348612
+      harlequin_ataqueconfetes_confetes_finalizado_60: -8486034196309985045
+      harlequin_ataqueconfetes_confetes_finalizado_61: 3539689948091691039
+      harlequin_ataqueconfetes_confetes_finalizado_62: -4023137129487975662
+      harlequin_ataqueconfetes_confetes_finalizado_63: -1425462064509686053
+      harlequin_ataqueconfetes_confetes_finalizado_64: 8787137406919149023
+      harlequin_ataqueconfetes_confetes_finalizado_65: -905534963118797558
+      harlequin_ataqueconfetes_confetes_finalizado_66: 6488660781879886672
+      harlequin_ataqueconfetes_confetes_finalizado_67: -5840816109785369473
+      harlequin_ataqueconfetes_confetes_finalizado_68: 1089481652910274742
+      harlequin_ataqueconfetes_confetes_finalizado_69: -5943518319710330785
+      harlequin_ataqueconfetes_confetes_finalizado_7: -1628043913925845127
+      harlequin_ataqueconfetes_confetes_finalizado_70: -5522153488349688605
+      harlequin_ataqueconfetes_confetes_finalizado_71: -1206709442591902313
+      harlequin_ataqueconfetes_confetes_finalizado_72: 6422979126738189256
+      harlequin_ataqueconfetes_confetes_finalizado_73: -6989689226485895777
+      harlequin_ataqueconfetes_confetes_finalizado_74: -8481868869385898578
+      harlequin_ataqueconfetes_confetes_finalizado_75: 3047987422097691524
+      harlequin_ataqueconfetes_confetes_finalizado_76: -2840997739937876633
+      harlequin_ataqueconfetes_confetes_finalizado_77: -7043501608534589463
+      harlequin_ataqueconfetes_confetes_finalizado_78: -1746476572685450267
+      harlequin_ataqueconfetes_confetes_finalizado_79: 4332228007192859548
+      harlequin_ataqueconfetes_confetes_finalizado_8: 6861381989762888361
+      harlequin_ataqueconfetes_confetes_finalizado_80: 4475004054541838300
+      harlequin_ataqueconfetes_confetes_finalizado_81: 6595398018534514558
+      harlequin_ataqueconfetes_confetes_finalizado_82: -8191456919796042986
+      harlequin_ataqueconfetes_confetes_finalizado_83: 8868426269832999460
+      harlequin_ataqueconfetes_confetes_finalizado_84: 5707769444720125417
+      harlequin_ataqueconfetes_confetes_finalizado_85: 210308564893749964
+      harlequin_ataqueconfetes_confetes_finalizado_86: -6797664022212154518
+      harlequin_ataqueconfetes_confetes_finalizado_87: -7083137974706466342
+      harlequin_ataqueconfetes_confetes_finalizado_88: -4593117934929227387
+      harlequin_ataqueconfetes_confetes_finalizado_89: -1168903230746708509
+      harlequin_ataqueconfetes_confetes_finalizado_9: -3395932289330406136
+      harlequin_ataqueconfetes_confetes_finalizado_90: 7905177510186586332
+      harlequin_ataqueconfetes_confetes_finalizado_91: -2943515132408535873
+      harlequin_ataqueconfetes_confetes_finalizado_92: 5095781961860116110
+      harlequin_ataqueconfetes_confetes_finalizado_93: 5892165071361563740
+      harlequin_ataqueconfetes_confetes_finalizado_94: -224936997522280275
+      harlequin_ataqueconfetes_confetes_finalizado_95: 105035142339615574
+      harlequin_ataqueconfetes_confetes_finalizado_96: -452894957754761146
+      harlequin_ataqueconfetes_confetes_finalizado_97: -5874996135265449749
+      harlequin_ataqueconfetes_confetes_finalizado_98: -3793583413546443803
+      harlequin_ataqueconfetes_confetes_finalizado_99: -3487829264036367549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
