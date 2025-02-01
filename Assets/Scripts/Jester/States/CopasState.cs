@@ -7,7 +7,7 @@ public class CopasState : IState
     float timeSinceStart = 0f;
     GameObject bossGameObject;
     SpriteRenderer sp;
-    CopasSpawner copasSpawner;
+    public CopasSpawner copasSpawner;
     BossHP bossHP;
 
     public CopasState(GameObject bossGameObject)

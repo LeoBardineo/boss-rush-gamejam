@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class StateManager
 {
-    IState currentState;
+    public IState currentState;
     bool isTransitioningState = false;
 
     public void Start(IState initialState)
@@ -20,8 +20,10 @@ public class StateManager
 
         IState nextState = currentState.GetNext();
 
-        if(nextState == null)
+        if(nextState == null){
             currentState.Exit();
+            return;
+        }
 
         if(nextState.Equals(currentState)) {
             currentState.Update();
@@ -30,7 +32,7 @@ public class StateManager
         }
     }
 
-    void TransitionToState(IState nextState) {
+    public void TransitionToState(IState nextState) {
         isTransitioningState = true;
         currentState.Exit();
         

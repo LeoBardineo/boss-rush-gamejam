@@ -1,34 +1,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PausState : IState
+public class JesterDeathState : IState
 {
-    float attackDuration = 1f;
+    float attackDuration = 3f;
     float timeSinceStart = 0f;
-    GameObject bossGameObject;
     SpriteRenderer sp;
-    public PausSpawner pausSpawner;
+    GameObject bossGameObject;
 
-    public PausState(GameObject bossGameObject)
+    public JesterDeathState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
         sp = bossGameObject.GetComponent<SpriteRenderer>();
-        pausSpawner = bossGameObject.GetComponent<PausSpawner>();
     }
 
     public void Enter()
     {
-        Debug.Log("Entrou em paus!");
-        sp.color = Color.cyan;
-        pausSpawner.SpawnCard();
+        Debug.Log("se morrio");
+        sp.color = Color.blue;
         timeSinceStart = 0f;
     }
 
     public void Exit()
     {
-        Debug.Log("Saiu do paus!");
-        pausSpawner.StartReverse();
+        Debug.Log("F");
         sp.color = Color.white;
+        bossGameObject.SetActive(false);
     }
 
     public void Update()
@@ -40,7 +37,7 @@ public class PausState : IState
     {
         if(timeSinceStart < attackDuration) return this;
 
-        return new JesterIdleState(bossGameObject);
+        return null;
     }
     
     public void OnTriggerEnter(Collider other){}

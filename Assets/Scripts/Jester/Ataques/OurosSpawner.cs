@@ -36,4 +36,10 @@ public class OurosSpawner : MonoBehaviour
         CancelInvoke(nameof(SpawnOuros));
         isSpawning = false;
     }
+
+    public void StopSpawning()
+    {
+        isSpawning = false;
+        CancelInvoke();
+    }
 }

@@ -7,7 +7,7 @@ public class OurosState : IState
     float timeSinceStart = 0f;
     GameObject bossGameObject;
     SpriteRenderer sp;
-    OurosSpawner ourosSpawner;
+    public OurosSpawner ourosSpawner;
     BossHP bossHP;
 
     public OurosState(GameObject bossGameObject)

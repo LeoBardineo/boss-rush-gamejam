@@ -30,4 +30,10 @@ public class CopasSpawner : MonoBehaviour
         CancelInvoke(nameof(SpawnCopas));
         isSpawning = false;
     }
+
+    public void StopSpawning()
+    {
+        isSpawning = false;
+        CancelInvoke();
+    }
 }
