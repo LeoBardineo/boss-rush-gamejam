@@ -84,6 +84,8 @@ public class BossHP : MonoBehaviour
 
     void JesterDeath()
     {
+        invincible = true;
+        
         if (stateManager.currentState is CopasState copasState)
         {
             copasState.copasSpawner.StopSpawning();

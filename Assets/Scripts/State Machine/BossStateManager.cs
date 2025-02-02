@@ -6,8 +6,19 @@ public abstract class BossStateManager : MonoBehaviour
     public float idleDuration;
     public IState lastUsedAttack;
 
+    [SerializeField]
+    GameManager gameManager;
+
+    [SerializeField]
+    string cenaGanhou;
+
     void Update()
     {
         stateManager.Update();
+    }
+
+    public void BossDeath()
+    {
+        StartCoroutine(gameManager.CarregaCena(cenaGanhou));
     }
 }

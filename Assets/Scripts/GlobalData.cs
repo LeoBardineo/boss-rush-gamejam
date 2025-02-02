@@ -22,7 +22,7 @@ public static class GlobalData
     public static Dictionary<string, string> cenasBossFights = new Dictionary<string, string>{
         {"Harlequin", "Roleta2"},
         {"Pierrot", "Roleta2"},
-        {"Jester", "Roleta2"}
+        {"Jester", "Jester Boss Fight"}
     };
 
     public static string armaEquipada, poderEquipado, pocaoEquipada;

@@ -7,25 +7,26 @@ public class JesterDeathState : IState
     float timeSinceStart = 0f;
     SpriteRenderer sp;
     GameObject bossGameObject;
+    JesterStateManager jesterStateManager;
 
     public JesterDeathState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
         sp = bossGameObject.GetComponent<SpriteRenderer>();
+        jesterStateManager = bossGameObject.GetComponent<JesterStateManager>();
     }
 
     public void Enter()
     {
         Debug.Log("se morrio");
-        sp.color = Color.blue;
+        sp.enabled = false;
         timeSinceStart = 0f;
+        jesterStateManager.BossDeath();
     }
 
     public void Exit()
     {
         Debug.Log("F");
-        sp.color = Color.white;
-        bossGameObject.SetActive(false);
     }
 
     public void Update()

@@ -19,9 +19,6 @@ public class PlayerHP : MonoBehaviour
     Color damageColor;
 
     [SerializeField]
-    GameObject deathPanel;
-
-    [SerializeField]
     string deathAnimationName;
 
     Animator animator;
@@ -39,6 +36,11 @@ public class PlayerHP : MonoBehaviour
     Sprite mascaraFull_X, mascaraMetade_X, mascaraVazia_X;
     [SerializeField]
     Sprite mascaraFull_Y, mascaraMetade_Y, mascaraVazia_Y;
+    
+    [SerializeField]
+    GameManager gameManager;
+    [SerializeField]
+    string cenaMorte;
 
     void Start()
     {
@@ -46,7 +48,6 @@ public class PlayerHP : MonoBehaviour
         HP = maxHP;
 
         dead = false;
-        deathPanel.SetActive(false);
         animator = GetComponent<Animator>();
 
         mascaras = HealthPanel.GetComponentsInChildren<Image>(includeInactive : true);
@@ -91,7 +92,7 @@ public class PlayerHP : MonoBehaviour
     {
         dead = true;
         animator.Play(deathAnimationName);
-        deathPanel.SetActive(true);
+        StartCoroutine(gameManager.CarregaCena(cenaMorte));
     }
 
     void HurtEffect()
