@@ -5,12 +5,15 @@ public class BossHP : MonoBehaviour
 {
 
     public float maxHP, HP;
-    private float originalColorTimer, timeOnRed=1f;
+    private float originalColorTimer;
     private bool attacked = false, invincible=false;
     [SerializeField] SpriteRenderer SpriteRenderer;
     public bool fase2 = false, firstTimeFase2 = true;
     private Color originalColor;
     //Ideia: Variavel global para trackear quantos bosses já foram derrotados pra ajustar o HP de cada paz
+
+    [SerializeField]
+    float timeOnRed = 1f;
 
     [SerializeField]
     PlayerController playerController;
@@ -32,7 +35,7 @@ public class BossHP : MonoBehaviour
         {
             originalColor = SpriteRenderer.color;
         }
-        //Script apenas por questões de debug abaixo
+        
         if (attacked = true && originalColorTimer <= timeOnRed)
         {
             originalColorTimer += Time.deltaTime;
@@ -73,10 +76,9 @@ public class BossHP : MonoBehaviour
                     return ;
                 }
             }
-            //Script apenas por questões de debug abaixo
+            
             attacked = true;
-            SpriteRenderer.color = Color.magenta;
-            Debug.Log("Tomou golpe:"+SpriteRenderer.color);
+            SpriteRenderer.color = new Color(1f, 0f, 0f, 1f);
         }
     }
 

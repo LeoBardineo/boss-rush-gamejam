@@ -1709,7 +1709,7 @@ MonoBehaviour:
   maxHP: 0
   HP: 0
   SpriteRenderer: {fileID: 496510886}
-  fase2: 1
+  fase2: 0
   firstTimeFase2: 1
   playerController: {fileID: 0}
 --- !u!95 &496510895
