@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PierrotDeathState : IState
 {
-    float attackDuration = 3f;
+    float attackDuration = 6f;
     float timeSinceStart = 0f;
     SpriteRenderer sp;
     GameObject bossGameObject;
@@ -18,7 +18,7 @@ public class PierrotDeathState : IState
     public void Enter()
     {
         Debug.Log("se morrio");
-        sp.color = Color.blue;
+        sp.enabled = false;
         timeSinceStart = 0f;
         pierrotStateManager.BossDeath();
     }
@@ -27,7 +27,6 @@ public class PierrotDeathState : IState
     {
         Debug.Log("F");
         sp.color = Color.white;
-        bossGameObject.SetActive(false);
     }
 
     public void Update()

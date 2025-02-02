@@ -26,7 +26,6 @@ public class HarlequimDeathState : IState
     {
         Debug.Log("F");
         sp.color = Color.white;
-        bossGameObject.SetActive(false);
     }
 
     public void Update()

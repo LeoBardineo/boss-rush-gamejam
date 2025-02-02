@@ -66,24 +66,29 @@ public class BossHP : MonoBehaviour
 
                 if(bossStateManager is JesterStateManager)
                 {
+                    Debug.Log("testeJESTEDERDEHADWA");
                     JesterDeath();
                     return;
                 }
 
                 if(bossStateManager is HarlequimStateManager)
-                {
+                {Debug.Log("Harlequim death chamado");
                     HarlequimDeath();
                     return ;
                 }
 
                 if(bossStateManager is PierrotStateManager)
                 {
+                    Debug.Log("Pirrrrrrrrrrrrrrramado");
                     PierrotDeath();
                     return;
                 }
             }
-            
-            attacked = true;
+            else
+            {
+                attacked = true;
+            }
+        
             SpriteRenderer.color = new Color(1f, 0f, 0f, 1f);
         }
     }
@@ -119,8 +124,7 @@ public class BossHP : MonoBehaviour
 
     void PierrotDeath()
     {
-        stateManager.TransitionToState(new PierrotDeathState(gameObject));
-
         invincible = true;
+        stateManager.TransitionToState(new PierrotDeathState(gameObject));
     }
 }
