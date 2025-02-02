@@ -1,7 +1,4 @@
 using UnityEngine;
-using System;
-using UnityEditor.Rendering;
-using System.Collections.Generic;
 
 public class StateManager
 {
