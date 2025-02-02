@@ -1,25 +1,26 @@
 using UnityEngine;
 
-public class HarlequimDeathState : IState
+public class PierrotDeathState : IState
 {
     float attackDuration = 3f;
     float timeSinceStart = 0f;
     SpriteRenderer sp;
     GameObject bossGameObject;
-    HarlequimStateManager harlequimStateManager;
-    public HarlequimDeathState(GameObject bossGameObject)
+    PierrotStateManager pierrotStateManager;
+
+    public PierrotDeathState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
         sp = bossGameObject.GetComponent<SpriteRenderer>();
-        harlequimStateManager = bossGameObject.GetComponent<HarlequimStateManager>();
+        pierrotStateManager = bossGameObject.GetComponent<PierrotStateManager>();
     }
 
     public void Enter()
     {
         Debug.Log("se morrio");
-        sp.enabled = false;
+        sp.color = Color.blue;
         timeSinceStart = 0f;
-        harlequimStateManager.BossDeath();
+        pierrotStateManager.BossDeath();
     }
 
     public void Exit()

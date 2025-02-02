@@ -33,6 +33,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Flow Final - Finalizados/Jester Boss Fight.unity
     guid: c2927ab8aa0ce634cb3f390973ea1338
   - enabled: 1
+    path: Assets/Scenes/Flow Final - Finalizados/Harlequim Boss Fight.unity
+    guid: 2b4ed11bc58d30d4aaf86ee54d775563
+  - enabled: 1
+    path: Assets/Scenes/Flow Final - Finalizados/Pierrot Boss Fight.unity
+    guid: 23b7749c7b6e8444c85ce4d716faff01
+  - enabled: 1
     path: Assets/Scenes/Flow Final - Finalizados/Jester Death.unity
     guid: 2c2b100a35b37cd4887569e9cf38b60c
   - enabled: 1

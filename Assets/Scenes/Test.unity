@@ -1027,6 +1027,8 @@ MonoBehaviour:
   SpriteRenderer: {fileID: 1984960120}
   fase2: 0
   firstTimeFase2: 0
+  timeOnRed: 1
+  playerController: {fileID: 0}
 --- !u!61 &1046276626
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1085,22 +1087,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b97fd7d0356de404faf40b78e55b12df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftHand: {fileID: 1415069416}
-  rightHand: {fileID: 1173643110}
   clappingSpeed: 2
-  leftHandClapPos: {fileID: 1029897061}
-  rightHandClapPos: {fileID: 1983881786}
-  originalLeftHandPos: {x: 0, y: 0, z: 0}
-  originalRightHandPos: {x: 0, y: 0, z: 0}
-  leftHandSprite: {fileID: 1415069417}
-  rightHandSprite: {fileID: 1173643111}
   antecipationTimer: 1.2
   timer: 0
+  clapT: 0
+  clapClosedTime: 4.5
+  leftHand: {fileID: 1415069416}
+  rightHand: {fileID: 1173643110}
   SlapReset: {fileID: 2011673023}
-  canClap: 0
-  antecipationStarted: 0
-  canBegingClap: 0
-  antecipationFinished: 0
+  leftHandClapPos: {fileID: 1029897061}
+  rightHandClapPos: {fileID: 1983881786}
+  leftHandSprite: {fileID: 1415069417}
+  rightHandSprite: {fileID: 1173643111}
+  AnimLeftHand: {fileID: 0}
+  AnimRightHand: {fileID: 0}
+  AnimHarlequim: {fileID: 0}
+  clap: {fileID: 0}
+  dragging: {fileID: 0}
   ciclesOfClaps: 0
   currentCicle: 0
 --- !u!114 &1046276630
@@ -1119,20 +1122,17 @@ MonoBehaviour:
   antecipationTime: 1.42
   vanishTimer: 0
   vanishCompleteTime: 0.7
+  speed: 2
   leftHand: {fileID: 1415069416}
   rightHand: {fileID: 1173643110}
   rightToLeftLimitAndSpawn: {fileID: 1983881784}
   leftToRightLimitAndSpawn: {fileID: 1029897059}
-  speed: 2
   leftToRightResetGO: {fileID: 76757456}
   rightToLeftResetGO: {fileID: 358760089}
-  leftToRight: 0
-  rightToLeft: 0
-  antecipationStarted: 0
-  antecipationFinished: 0
-  canMove: 0
-  vanishStarted: 0
-  vanishFinished: 0
+  AnimLeftHand: {fileID: 0}
+  AnimRightHand: {fileID: 0}
+  AnimHarlequim: {fileID: 0}
+  sound: {fileID: 0}
 --- !u!1 &1144593476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1735,7 +1735,7 @@ SpriteRenderer:
   m_Size: {x: 6.4, y: 3.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1539837435

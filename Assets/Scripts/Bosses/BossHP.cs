@@ -75,6 +75,12 @@ public class BossHP : MonoBehaviour
                     HarlequimDeath();
                     return ;
                 }
+
+                if(bossStateManager is PierrotStateManager)
+                {
+                    PierrotDeath();
+                    return;
+                }
             }
             
             attacked = true;
@@ -106,7 +112,15 @@ public class BossHP : MonoBehaviour
 
     void HarlequimDeath()
     {
-
         stateManager.TransitionToState(new HarlequimDeathState(gameObject));
+
+        invincible = true;
+    }
+
+    void PierrotDeath()
+    {
+        stateManager.TransitionToState(new PierrotDeathState(gameObject));
+
+        invincible = true;
     }
 }

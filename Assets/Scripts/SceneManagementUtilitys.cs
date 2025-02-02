@@ -50,7 +50,6 @@ public class SceneManagementUtilitys : MonoBehaviour
 	{
 		Invoke("desativarCanva",tempo);
 	}
-
 	public void QuitGame()
     {
         Application.Quit();
