@@ -1454,6 +1454,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226647162}
   m_CullTransparentMesh: 1
+--- !u!1001 &226747931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3143082261233472807, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143082261233472807, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143082261233472807, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143082261233472807, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143082261233472807, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143082261233472807, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143082261233472807, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143082261233472807, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143082261233472807, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3143082261233472807, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4320203164531216062, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
+      propertyPath: m_Name
+      value: PlataformaHarlequim
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fda8c45b4d76d7a4bb662fcdfa63489b, type: 3}
 --- !u!1 &261571591
 GameObject:
   m_ObjectHideFlags: 0
@@ -6869,6 +6926,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1966288078}
     - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
+      propertyPath: cenaMorte
+      value: Arlequin Death
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
       propertyPath: HealthPanel
       value: 
       objectReference: {fileID: 427190939}
@@ -7129,7 +7190,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 6ae7b7fc71833224a89cb315d06d5ff3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -8178,7 +8239,6 @@ GameObject:
   - component: {fileID: 1936637724}
   - component: {fileID: 1936637723}
   - component: {fileID: 1936637726}
-  - component: {fileID: 1936637727}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8304,30 +8364,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &1936637727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1936637722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ComponentVersion: 1
-  m_AssetsPPU: 100
-  m_RefResolutionX: 640
-  m_RefResolutionY: 360
-  m_CropFrame: 0
-  m_GridSnapping: 0
-  m_FilterMode: 0
-  m_UpscaleRT: 0
-  m_PixelSnapping: 0
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!1 &1964902659
 GameObject:
   m_ObjectHideFlags: 0
@@ -8638,7 +8674,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 6ae7b7fc71833224a89cb315d06d5ff3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -9144,3 +9180,4 @@ SceneRoots:
   - {fileID: 284509757}
   - {fileID: 1925041345}
   - {fileID: 810138659}
+  - {fileID: 226747931}

@@ -7,8 +7,8 @@ public static class GlobalData
 
     public static KeyCode
         attackButton = KeyCode.A,
-        powerButton = KeyCode.F,
-        potionButton = KeyCode.G,
+        powerButton = KeyCode.S,
+        potionButton = KeyCode.D,
         roletaButton = KeyCode.Space,
         pauseButton = KeyCode.Escape,
         dashButton = KeyCode.LeftShift;

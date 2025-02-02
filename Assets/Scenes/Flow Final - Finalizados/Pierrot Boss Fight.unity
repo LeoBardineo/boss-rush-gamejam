@@ -5843,6 +5843,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 568172047}
     - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
+      propertyPath: cenaMorte
+      value: Pierrot Death
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
       propertyPath: HealthPanel
       value: 
       objectReference: {fileID: 1888817147}
@@ -7773,7 +7777,6 @@ GameObject:
   - component: {fileID: 1936637724}
   - component: {fileID: 1936637723}
   - component: {fileID: 1936637726}
-  - component: {fileID: 1936637727}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7899,30 +7902,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &1936637727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1936637722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ComponentVersion: 1
-  m_AssetsPPU: 100
-  m_RefResolutionX: 640
-  m_RefResolutionY: 360
-  m_CropFrame: 0
-  m_GridSnapping: 0
-  m_FilterMode: 0
-  m_UpscaleRT: 0
-  m_PixelSnapping: 0
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!1 &1955291397
 GameObject:
   m_ObjectHideFlags: 0

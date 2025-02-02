@@ -240,6 +240,7 @@ MonoBehaviour:
   harlequinWin: {fileID: 4900000, guid: 5b65d236c7bc61944afa56640af59ca1, type: 3}
   pierrotWin: {fileID: 4900000, guid: d5792b89483edc640b4f17a73ba53813, type: 3}
   jesterWin: {fileID: 4900000, guid: e0dccd99dca8b8a4a9f54e3b71695c2b, type: 3}
+  allBossWin: {fileID: 0}
 --- !u!224 &184042545 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5396199808906302995, guid: 4f4cab1fb6bdc0d4499cc7973b9823d0, type: 3}
@@ -278,7 +279,6 @@ GameObject:
   - component: {fileID: 276133063}
   - component: {fileID: 276133062}
   - component: {fileID: 276133061}
-  - component: {fileID: 276133060}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -286,30 +286,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &276133060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 276133059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ComponentVersion: 1
-  m_AssetsPPU: 100
-  m_RefResolutionX: 640
-  m_RefResolutionY: 360
-  m_CropFrame: 0
-  m_GridSnapping: 0
-  m_FilterMode: 0
-  m_UpscaleRT: 0
-  m_PixelSnapping: 0
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!114 &276133061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,6 +440,7 @@ MonoBehaviour:
   timer: 0
   active: 0
   tempo: 5
+  cenaJackpot: 0
 --- !u!4 &614224184
 Transform:
   m_ObjectHideFlags: 0
