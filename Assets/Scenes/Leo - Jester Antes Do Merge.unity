@@ -1565,7 +1565,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9fc1356ba2e0a6409955b8c14d7d78a, type: 3}
   m_Name: 
@@ -1741,7 +1741,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab8822507eb764b44a8306423a4f6051, type: 3}
   m_Name: 
@@ -8503,6 +8503,10 @@ PrefabInstance:
       propertyPath: HealthPanel
       value: 
       objectReference: {fileID: 1136485951}
+    - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
+      propertyPath: deathAnimationName
+      value: Dead
+      objectReference: {fileID: 0}
     - target: {fileID: 6468320433688824224, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.111

@@ -83,7 +83,6 @@ public class PlayerHP : MonoBehaviour
     {
         dead = true;
         animator.Play(deathAnimationName);
-        sprite.color = Color.black;
         deathPanel.SetActive(true);
     }
 
