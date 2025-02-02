@@ -9,7 +9,6 @@ class Lollipop : Potion {
     protected override void Initialize()
     {
         base.Initialize();
-        equipedPower = playerController.equipedPower;
         powerDamageModifier = GlobalData.potionsData["Poder"][0];
         buffDuration = GlobalData.potionsData["Poder"][1];
         cdPowerModifier = GlobalData.potionsData["Poder"][2];
@@ -18,6 +17,7 @@ class Lollipop : Potion {
 
     public override void EnterPotion(){
         Debug.Log("Lollipop: começou o buff");
+        equipedPower = playerController.equipedPower;
         equipedPower.damageModifier = powerDamageModifier;
         equipedPower.cooldownTime *= cdPowerModifier;
     }

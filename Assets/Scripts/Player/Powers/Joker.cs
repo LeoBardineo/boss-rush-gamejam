@@ -5,6 +5,8 @@ using UnityEngine;
 class Joker : Power
 {
     List<Power> powers;
+    
+    [SerializeField]
     Power selectedPower;
 
     [SerializeField]
@@ -14,7 +16,6 @@ class Joker : Power
     {
         base.Initialize();
         powers = new List<Power> {
-            GetComponent<Bang>(),
             GetComponent<Blaze>(),
             GetComponent<Bunny>(),
             GetComponent<Rain>(),
@@ -33,7 +34,7 @@ class Joker : Power
         playerController.LockMovement();
         animator.Play(animationName);
 
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        yield return new WaitForSeconds(2f);
         
         playerController.UnlockMovement();
         chapeu.SetActive(false);
@@ -46,12 +47,14 @@ class Joker : Power
         if(lockedRemaining != 0f)
             playerController.LockMovement();
         selectedPower.EnterPower();
+        yield return new WaitForSeconds(selectedPower.attackDuration);
+        selectedPower.EndPower();
     }
     
     public override void EndPower()
     {
-        selectedPower.EndPower();
-        selectedPower.damageModifier = 1;
+        // selectedPower.EndPower();
+        // selectedPower.damageModifier = 1;
     }
 
 }

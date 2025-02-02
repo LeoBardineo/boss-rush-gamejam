@@ -2,6 +2,7 @@ using UnityEngine;
 
 // Cura 2 de HP
 class Pie : Potion {
+    [SerializeField]
     int healingPoints = 2;
 
     PlayerHP playerHP;

@@ -14,7 +14,6 @@ class IceCream : Potion {
     {
         base.Initialize();
         playerHP = GetComponent<PlayerHP>();
-        weapon = playerController.equipedWeapon;
         healingPoints = (int) GlobalData.potionsData["HPDano"][0];
         damageModifier = GlobalData.potionsData["HPDano"][1];
         buffDuration = GlobalData.potionsData["HPDano"][2];
@@ -23,6 +22,7 @@ class IceCream : Potion {
 
     public override void EnterPotion(){
         Debug.Log("IceCream: começou o buff");
+        weapon = playerController.equipedWeapon;
         playerHP.Heal(healingPoints);
         weapon.damageModifier = damageModifier;
         weapon.ChangeAttackAreaModifiers();

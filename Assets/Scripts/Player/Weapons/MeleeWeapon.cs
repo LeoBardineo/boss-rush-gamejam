@@ -33,8 +33,6 @@ abstract class MeleeWeapon : Weapon
             timer = 0;
             attacking = false;
             attackArea.gameObject.SetActive(false);
-            animator.Play("Idle");
-            return;
         }
 
         if (!attacking && timer >= cooldownTime)
@@ -43,7 +41,12 @@ abstract class MeleeWeapon : Weapon
             onCooldown = false;
         }
     }
-    
+
+    public override bool RetornaBananaSplitAtivo()
+    {
+        return attackArea.bananaSplitAmountOfHits > 0;
+    }
+
     public override void ChangeAttackAreaModifiers()
     {
         attackArea.bananaSplitAmountOfHits = bananaSplitAmountOfHits;

@@ -13,7 +13,6 @@ class BananaSplit : Potion {
     {
         base.Initialize();
         playerHP = GetComponent<PlayerHP>();
-        weapon = playerController.equipedWeapon;
         damageModifier = GlobalData.potionsData["Hits"][0];
         amountOfHits = (int) GlobalData.potionsData["Hits"][1];
         buffDuration = GlobalData.potionsData["Hits"][2];
@@ -23,6 +22,7 @@ class BananaSplit : Potion {
 
     public override void EnterPotion(){
         Debug.Log("BananaSplit: começou o buff");
+        weapon = playerController.equipedWeapon;
         weapon.bananaSplitEffect = true;
         weapon.bananaSplitAmountOfHits = amountOfHits;
         weapon.bananaSplitModifier = damageModifier;
@@ -32,7 +32,7 @@ class BananaSplit : Potion {
     public override void EndPotion(){
         Debug.Log("BananaSplit: acabou o buff");
         
-        if(weapon.bananaSplitEffect)
+        if(weapon.RetornaBananaSplitAtivo())
             playerHP.TakeDamage(damageAfterFail);
         
         weapon.bananaSplitEffect = false;

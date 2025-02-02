@@ -46,8 +46,9 @@ public class AttackArea : MonoBehaviour
     {
         if(bananaSplitEffect){
             damageModifier = bananaSplitModifier;
-            bananaSplitAmountOfHits--;
-            if(bananaSplitAmountOfHits == 0)
+            bananaSplitAmountOfHits -= 1;
+            Debug.Log(bananaSplitAmountOfHits);
+            if(bananaSplitAmountOfHits <= 0)
                 bananaSplitEffect = false;
         }
 

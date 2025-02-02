@@ -82,6 +82,8 @@ public class PlayerController : MonoBehaviour
 
     void Animate()
     {
+        if(equipedPower.isUsingPower) return;
+        
         if(isGrounded)
         {
             if(idle)

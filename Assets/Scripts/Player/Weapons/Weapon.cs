@@ -27,14 +27,14 @@ public abstract class Weapon : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(GlobalData.attackButton) && !onCooldown)
-        {
-            Attack();
-        }
-
         if(onCooldown)
         {
             HandleCooldown();
+        }
+
+        if (Input.GetKeyDown(GlobalData.attackButton) && !onCooldown)
+        {
+            Attack();
         }
     }
 
@@ -55,4 +55,5 @@ public abstract class Weapon : MonoBehaviour
     }
 
     public abstract void ChangeAttackAreaModifiers();
+    public abstract bool RetornaBananaSplitAtivo();
 }

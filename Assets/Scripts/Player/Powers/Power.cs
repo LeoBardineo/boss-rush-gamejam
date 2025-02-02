@@ -6,7 +6,7 @@ public abstract class Power : MonoBehaviour {
     public PlayerController playerController;
     public float cooldownRemaining = 0f, lockedRemaining = 0f, attackRemaining;
     public AttackArea attackArea;
-    bool isUsingPower = false;
+    public bool isUsingPower = false;
 
     protected Animator animator;
 

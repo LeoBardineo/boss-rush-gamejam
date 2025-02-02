@@ -24,6 +24,12 @@ abstract class RangedWeapon : Weapon
         attacking = false;
     }
 
+    public override bool RetornaBananaSplitAtivo()
+    {
+        AttackArea attackArea = bulletPrefab.GetComponent<Bullet>();
+        return attackArea.bananaSplitAmountOfHits > 0;
+    }
+
     public override void ChangeAttackAreaModifiers()
     {
         AttackArea attackArea = bulletPrefab.GetComponent<Bullet>();
