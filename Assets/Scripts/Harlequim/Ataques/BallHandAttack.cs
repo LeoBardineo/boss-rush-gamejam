@@ -9,7 +9,8 @@ public class BallHandAttack : MonoBehaviour
 
     [SerializeField] private GameObject leftHand,rightHand, rightToLeftLimitAndSpawn, leftToRightLimitAndSpawn;
     [SerializeField] private GameObject leftToRightResetGO,rightToLeftResetGO;
-    [SerializeField] private Animator AnimLeftHand,AnimRightHand;
+    [SerializeField] private Animator AnimLeftHand,AnimRightHand, AnimHarlequim;
+    [SerializeField] private AudioSource sound;
     private Rigidbody2D rbLeftHand, rbRightHand;
     private SpriteRenderer SpriteLeftHand, SpriteRightHand;
     private bool leftToRight, rightToLeft, antecipationStarted, antecipationFinished, canMove, vanishStarted, vanishFinished;
@@ -123,6 +124,8 @@ public class BallHandAttack : MonoBehaviour
                     rightToLeft= false;
                     ballHandAttacking = false;
                     AnimRightHand.Play("idleRightLeft");
+                    AnimHarlequim.applyRootMotion = true;
+                    sound.Stop();
                 }
             }
         }
@@ -131,6 +134,7 @@ public class BallHandAttack : MonoBehaviour
     public void StartVanish()
     {
         vanishStarted = true;
+        AnimHarlequim.Play("Default");
     }
 
     private void moveHand()
@@ -161,6 +165,8 @@ public class BallHandAttack : MonoBehaviour
             targetPosition.x -= 1;
             rightHand.transform.position = targetPosition;
         }
+        sound.Play();
+
     }
 
     public void StartBallAttack()

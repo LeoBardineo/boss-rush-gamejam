@@ -22,11 +22,12 @@ public class HomingMasks : MonoBehaviour
          if (Input.GetKeyDown(KeyCode.M))
         {
             BeginHomingMasksAttack();
+
         }
 
         if (homingMasksAttacking)
         {
-            if (missilesSpawned<=5)
+            if (missilesSpawned<=4)
             {
                 if(firstMissile)
                 {
@@ -51,6 +52,8 @@ public class HomingMasks : MonoBehaviour
             {
                 missilesSpawned=0;
                 homingMasksAttacking = false;
+                // Face.Play("HarlequimIdle");
+                // transHarl.transform.position = transHarl.transform.position;
             }
         }
     }
@@ -58,5 +61,6 @@ public class HomingMasks : MonoBehaviour
     public void BeginHomingMasksAttack()
     {
         homingMasksAttacking=true;
+        Face.Play("HarlequimShootingMasks");
     }
 }

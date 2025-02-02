@@ -30,7 +30,6 @@ public class HarlequimIdleState : IState
         bossHP = bossGameObject.GetComponent<BossHP>();
         transitionHarlequin = bossGameObject.GetComponent<TransitionHarlequin>();
         idleDuration = harlequimSM.idleDuration;
-
     }
 
     public void Enter()
@@ -39,11 +38,14 @@ public class HarlequimIdleState : IState
         Debug.Log("Entrou em Idle");
         // animator.Play("HarlequinIdle");
         timeSinceStart = 0f;
+        GlobalData.harlequimIdle=true;
+
 
     }
 
     public void Exit()
     {
+        GlobalData.harlequimIdle=false;
         Debug.Log("Saiu de Idle");
         GlobalData.playerCanTakeDamage=true;
     }
@@ -73,11 +75,7 @@ public class HarlequimIdleState : IState
             possibleAttacks.Add(new ShootingMasksState(bossGameObject));
         if(bossHP.fase2)
         {
-            if(bossHP.firstTimeFase2)
-            {
-                transitionHarlequin.Transition();
-                bossHP.firstTimeFase2 = false;
-            }
+            idleDuration=0.4f;
         }
 
         IState attack = possibleAttacks[Random.Range(0, possibleAttacks.Count)];

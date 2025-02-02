@@ -15,6 +15,7 @@ public class ConfettiRainAttack : MonoBehaviour
     public float attackDuration = 5f;
     public float spawnInterval = 14f;
     public static bool isAttacking = false;
+    [SerializeField] private AudioSource openHand,confete;
     private bool spawnHasBegun=false, posSpawnTracking=false;
     [SerializeField]
     private float trackingSpeed=0.12f;
@@ -82,12 +83,14 @@ public class ConfettiRainAttack : MonoBehaviour
                 timeD=0;
                 EndAttack();
                 isAttacking = false;
+                confete.Stop();
             }
         }
     }
 
     public void StartSpawning()
     {
+        openHand.Play();
         spawnHasBegun = true;
             if (isRightHand)
         {
@@ -99,6 +102,7 @@ public class ConfettiRainAttack : MonoBehaviour
             AnimLeftHand.Play("openLeftHand");
             Instantiate(confettiPrefab, leftHand);
         }
+        confete.Play();
     }
 
     void moveHandUp(bool hand)

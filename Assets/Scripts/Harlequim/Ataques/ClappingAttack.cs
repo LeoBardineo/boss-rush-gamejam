@@ -10,7 +10,9 @@ public class ClappingAttack : MonoBehaviour
     [SerializeField] private Transform leftHandClapPos,rightHandClapPos;
     private Vector3 originalLeftHandPos,originalRightHandPos;
     [SerializeField] private SpriteRenderer leftHandSprite, rightHandSprite;
-    [SerializeField] private Animator AnimLeftHand,AnimRightHand;
+    [SerializeField] private Animator AnimLeftHand,AnimRightHand,AnimHarlequim;
+    [SerializeField] private AudioSource clap,dragging;
+    private bool soundStarted;
     public static bool clapping = false;
     private bool canClap=false, antecipationStarted, canBegingClap, antecipationFinished, closeGap=false, clapClosedTimeFinished=false;
 
@@ -31,6 +33,7 @@ public class ClappingAttack : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             BeginClapAttack();
+            
         }
 
         if (antecipationStarted)
@@ -52,6 +55,11 @@ public class ClappingAttack : MonoBehaviour
         {
             if(!leftHand.GetComponent<HandInfo>().resetHandPos)
             {
+            if(!soundStarted) 
+            {
+                dragging.Play();
+                soundStarted=true;
+            }
             AnimLeftHand.Play("clappinglefthand");
             AnimRightHand.Play("clappingrighthand");
             rbLeftHand.linearVelocity = new Vector2(clappingSpeed * clappingSpeed,rbLeftHand.linearVelocity.y);
@@ -61,6 +69,7 @@ public class ClappingAttack : MonoBehaviour
             {
                 if(clapT <= clapClosedTime)
                 {
+                    clap.Play();
                     rbLeftHand.linearVelocity = new Vector2(0,0);
                     rbRightHand.linearVelocity = new Vector2(0,0); 
                     if(!closeGap)
@@ -82,6 +91,7 @@ public class ClappingAttack : MonoBehaviour
                         leftHand.transform.position += new Vector3(-0.444f,0,0);
                         rightHand.transform.position += new Vector3(+0.445f,0,0);
                         closeGap=false;
+                        soundStarted=false;
                     }
                 }
 
@@ -113,6 +123,7 @@ public class ClappingAttack : MonoBehaviour
                             SlapReset.SetActive(false);
                             AnimLeftHand.Play("idle");
                             AnimRightHand.Play("idleRightLeft");
+                            AnimHarlequim.applyRootMotion = true;
                         }
                         else
                         {
@@ -130,6 +141,7 @@ public class ClappingAttack : MonoBehaviour
 
     public void BeginClapAttack()
     {
+        AnimHarlequim.applyRootMotion = false;
         SlapReset.SetActive(true);
         MoveHandsToClapPosition();
         leftHand.GetComponent<HandInfo>().StartCicle();
