@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6bbb6d16b412dcc4c86bb2e1a42c2755
+guid: a3d941e678b1ba542adc761ddee194d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3972446440040962061
-    second: player_sem_vida_0
+      213: -4631681558892906215
+    second: player_meia_vida_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_sem_vida_0
+      name: player_meia_vida_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0818e38df6f02730800000000000000
-      internalID: 3972446440040962061
+      spriteID: 919f5717926f8bfb0800000000000000
+      internalID: -4631681558892906215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_sem_vida_1
+      name: player_meia_vida_1
       rect:
         serializedVersion: 2
         x: 48
@@ -143,15 +143,15 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d199937f4ecec04a93896d08b126ccf
-      internalID: -847343323
+      spriteID: 1a40d4a85b7c515418b8baba2dfc63b3
+      internalID: -1411123913
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 73b386fdbefe43c4a99b4df4cfd47c82
+    spriteID: 714bdd2c5fc66254dad0859ce4c2b0a1
     internalID: 0
     vertices: []
     indices: 
@@ -170,8 +170,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_sem_vida_0: 3972446440040962061
-      player_sem_vida_1: -847343323
+      player_meia_vida_0: -4631681558892906215
+      player_meia_vida_1: -1411123913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

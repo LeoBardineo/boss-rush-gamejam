@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a3d941e678b1ba542adc761ddee194d1
+guid: 3c4ae5c357f942c4b834768aa725a799
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4631681558892906215
-    second: player_meia_vida_0
+      213: 6050775304029694323
+    second: prototipoPowerBar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_meia_vida_0
+      name: prototipoPowerBar_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 4
-        width: 22
-        height: 22
+        x: 0
+        y: 0
+        width: 68
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 919f5717926f8bfb0800000000000000
-      internalID: -4631681558892906215
+      spriteID: 3796564a41ca8f350800000000000000
+      internalID: 6050775304029694323
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_meia_vida_0: -4631681558892906215
+      prototipoPowerBar_0: 6050775304029694323
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

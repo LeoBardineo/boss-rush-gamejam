@@ -36,6 +36,11 @@ public class PlayerHP : MonoBehaviour
     
     Image[] mascaras;
 
+    [SerializeField]
+    Sprite mascaraFull_X, mascaraMetade_X, mascaraVazia_X;
+    [SerializeField]
+    Sprite mascaraFull_Y, mascaraMetade_Y, mascaraVazia_Y;
+
     void Start()
     {
         maxHP = GlobalData.playerData["HP"][GlobalData.level];
@@ -135,23 +140,37 @@ public class PlayerHP : MonoBehaviour
         for (int i = 1; i <= mascaras.Length; i++)
         {
             Image mascara = mascaras[i - 1];
-            if(i > maxHP / 2)
+
+            if (i > maxHP / 2)
             {
                 mascara.gameObject.SetActive(false);
                 continue;
-            } else {
+            }
+            else
+            {
                 mascara.gameObject.SetActive(true);
             }
 
-            if (i <= HP / 2) {
-                mascara.sprite = mascaraFull;
-            } else {
-                mascara.sprite = mascaraVazia;
+            // Definir qual conjunto de sprites usar (X para ímpares, Y para pares)
+            Sprite fullSprite = (i % 2 == 1) ? mascaraFull_X : mascaraFull_Y;
+            Sprite metadeSprite = (i % 2 == 1) ? mascaraMetade_X : mascaraMetade_Y;
+            Sprite vaziaSprite = (i % 2 == 1) ? mascaraVazia_X : mascaraVazia_Y;
+
+            if (i <= HP / 2)
+            {
+                mascara.sprite = fullSprite;
+                Debug.Log($"Sprite atribuído: {fullSprite.name}");
+            }
+            else
+            {
+                mascara.sprite = vaziaSprite;
+                Debug.Log($"Sprite atribuído: {vaziaSprite.name}");
             }
 
-            if(i == Math.Ceiling(HP / 2) && HP % 2 == 1) {
+            if (i == Mathf.CeilToInt(HP / 2f) && HP % 2 == 1)
+            {
                 Debug.Log("mascara metade");
-                mascara.sprite = mascaraMetade;
+                mascara.sprite = metadeSprite;
             }
         }
     }

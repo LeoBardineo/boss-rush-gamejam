@@ -338,7 +338,7 @@ SpriteRenderer:
   m_Size: {x: 3.99, y: 5.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &5684474376143559998
@@ -389,8 +389,23 @@ MonoBehaviour:
   HP: 0
   maxHP: 0
   invicible: 0
+  canTakeDamage: 0
   invicibleDuration: 1.2
+  transitionSpeed: 5
   time: 0
+  damageColor: {r: 0, g: 0, b: 0, a: 0}
+  deathPanel: {fileID: 0}
+  deathAnimationName: 
+  HealthPanel: {fileID: 0}
+  mascaraFull: {fileID: 0}
+  mascaraMetade: {fileID: 0}
+  mascaraVazia: {fileID: 0}
+  mascaraFull_X: {fileID: -8429812702874340862, guid: 632d283867277194caea4a1f909c7434, type: 3}
+  mascaraMetade_X: {fileID: -4631681558892906215, guid: a3d941e678b1ba542adc761ddee194d1, type: 3}
+  mascaraVazia_X: {fileID: 3972446440040962061, guid: 6bbb6d16b412dcc4c86bb2e1a42c2755, type: 3}
+  mascaraFull_Y: {fileID: -1292544305, guid: 632d283867277194caea4a1f909c7434, type: 3}
+  mascaraMetade_Y: {fileID: -1411123913, guid: a3d941e678b1ba542adc761ddee194d1, type: 3}
+  mascaraVazia_Y: {fileID: -847343323, guid: 6bbb6d16b412dcc4c86bb2e1a42c2755, type: 3}
 --- !u!114 &4209071884946029514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,6 +442,7 @@ MonoBehaviour:
   PlayerControl: {fileID: 5684474376143559998}
   attackArea: {fileID: 0}
   attackWindow: 0.25
+  attackingAnimation: 
 --- !u!114 &7723716227244836027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,6 +465,8 @@ MonoBehaviour:
   lockedRemaining: 0
   attackRemaining: 0
   attackArea: {fileID: 0}
+  isUsingPower: 0
+  animationName: 
   powerArea: {fileID: 3092918430490645141}
 --- !u!114 &1064646194604916247
 MonoBehaviour:
@@ -472,9 +490,13 @@ MonoBehaviour:
   lockedRemaining: 0
   attackRemaining: 0
   attackArea: {fileID: 0}
+  isUsingPower: 0
+  animationName: 
   bunnyPrefab: {fileID: 6674516587623914274, guid: 1d5b8e4c02ef35c4ea1261314958e4c8, type: 3}
   spawnInterval: 0.5
   antecipationDuration: 0.5
+  chapeu: {fileID: 0}
+  firePoint: {fileID: 0}
 --- !u!114 &3064813010706502215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,6 +519,8 @@ MonoBehaviour:
   lockedRemaining: 0
   attackRemaining: 0
   attackArea: {fileID: 0}
+  isUsingPower: 0
+  animationName: 
   bangPrefab: {fileID: 3709194906325558912, guid: 1e67c0d3413c57e46a8f344c9cba5fb2, type: 3}
 --- !u!114 &5459251575316488715
 MonoBehaviour:
@@ -520,6 +544,8 @@ MonoBehaviour:
   lockedRemaining: 0
   attackRemaining: 0
   attackArea: {fileID: 0}
+  isUsingPower: 0
+  animationName: 
   rainPrefab: {fileID: 8770195569515005297, guid: e6f205b72fd0aca469384e1f4368ac73, type: 3}
   spawnInterval: 0.25
   antecipationDuration: 0.5
@@ -549,6 +575,10 @@ MonoBehaviour:
   lockedRemaining: 0
   attackRemaining: 0
   attackArea: {fileID: 0}
+  isUsingPower: 0
+  animationName: 
+  selectedPower: {fileID: 0}
+  chapeu: {fileID: 0}
 --- !u!114 &3115724463701295858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,9 +598,7 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
-  amountOfHits: 5
-  damageAfterFail: 1
-  damageModifier: 1.5
+  efeitoPocao: {fileID: 0}
 --- !u!114 &44547355805735292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -590,8 +618,7 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
-  reducedMaxHP: 2
-  damageModifier: 2
+  efeitoPocao: {fileID: 0}
 --- !u!114 &5129781609135002039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -611,8 +638,7 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
-  healingPoints: 4
-  damageModifier: 0.7
+  efeitoPocao: {fileID: 0}
 --- !u!114 &2964111498014244818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -632,8 +658,7 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
-  powerDamageModifier: 2
-  cdPowerModifier: 1.5
+  efeitoPocao: {fileID: 0}
 --- !u!114 &3715775322428487003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,6 +678,7 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
+  efeitoPocao: {fileID: 0}
   healingPoints: 2
 --- !u!1 &3738976277259312368
 GameObject:
