@@ -20,6 +20,7 @@ public static class GlobalData
     };
 
     public static string armaEquipada, poderEquipado, pocaoEquipada;
+    public static bool playerCanTakeDamage=true, harlequimIdle=false;
 
     public static int level = 0;
 

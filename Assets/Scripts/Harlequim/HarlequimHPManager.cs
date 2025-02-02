@@ -5,7 +5,7 @@ public class HarlequimHPManager : MonoBehaviour
 {
 
     public float maxHP, HP;
-    private float originalColorTimer, timeOnRed=2f, iFrames, iFrameTotal=1f;
+    private float originalColorTimer, timeOnRed=2f;
     private bool attacked = false, invincible=false;
     [SerializeField] SpriteRenderer SpriteRenderer;
     public bool fase2 = false, firstTimeFase2 = true;
