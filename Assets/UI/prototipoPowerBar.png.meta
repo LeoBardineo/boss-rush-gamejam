@@ -113,15 +113,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prototipoPowerBar_0
+      name: prototipoPowerBar_FULL
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 68
-        height: 49
+        width: 49
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: prototipoPowerBar_EMPTY
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f7ec6004d5012468075f3cd362c801
+      internalID: -545254779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: afa89fb5096f08f48a69428dca5d5ab8
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +170,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      prototipoPowerBar_0: 6050775304029694323
+      prototipoPowerBar_EMPTY: -545254779
+      prototipoPowerBar_FULL: 6050775304029694323
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

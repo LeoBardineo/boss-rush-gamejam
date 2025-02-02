@@ -253,4 +253,14 @@ public class PlayerController : MonoBehaviour
         }
         return null;
     }
+
+    public float GetPowerCooldownPercentage()
+    {
+        return Mathf.Clamp01(equipedPower.cooldownRemaining / equipedPower.cooldownTime);
+    }
+
+    public float GetPotionCooldownPercentage()
+    {
+        return Mathf.Clamp01(equipedPotion.cooldownRemaining / equipedPotion.cooldownTime);
+    }
 }

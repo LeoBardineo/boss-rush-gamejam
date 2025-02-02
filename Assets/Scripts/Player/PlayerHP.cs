@@ -31,7 +31,6 @@ public class PlayerHP : MonoBehaviour
     [SerializeField]
     GameObject HealthPanel;
 
-    [SerializeField]
     Sprite mascaraFull, mascaraMetade,  mascaraVazia;
     
     Image[] mascaras;
