@@ -12,6 +12,7 @@ public class PausSpawner : MonoBehaviour
     public static GameObject pausCardInstanciado;
     public BossHP bossHP;
     PlataformaSpawner plataformaSpawner;
+    [SerializeField] AudioSource sound;
 
     void Start()
     {
@@ -21,6 +22,7 @@ public class PausSpawner : MonoBehaviour
 
     public void SpawnCard()
     {
+        sound.Play();
         spawnPositionList = new List<Transform>();
         for(int i = 0; i < spawnArea.transform.childCount; i++)
         {

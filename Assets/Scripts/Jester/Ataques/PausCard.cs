@@ -10,6 +10,7 @@ public class PausCard : MonoBehaviour
     [SerializeField]
     float tempoDeAnimacaoOffset = 0.25f;
 
+    [SerializeField] AudioSource sound;
     public BossHP bossHP;
 
     void Start()
@@ -39,8 +40,10 @@ public class PausCard : MonoBehaviour
     public void ReverseControls()
     {
         if(PausSpawner.cardSpawned)
+        {
             animator.Play("PausCartaHitMe");
-        
+            sound.Play();
+        }
         if(bossHP.fase2){
             MirrorCamera();
             return;

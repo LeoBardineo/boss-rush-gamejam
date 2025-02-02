@@ -12,9 +12,11 @@ public class OurosSpawner : MonoBehaviour
     public float attackCooldown = 5f, attackCooldownRemaining = 0f;
     public float spawnInterval = 0.1f;
     public bool isSpawning = false;
+    [SerializeField] AudioSource sound;
 
     public void StartSpawning()
     {
+        sound.Play();
         isSpawning = true;
         InvokeRepeating(nameof(SpawnOuros), antecipationDuration, spawnInterval);
         StartCoroutine(WaitSpawning(antecipationDuration + attackDuration));
