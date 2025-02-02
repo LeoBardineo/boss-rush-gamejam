@@ -13,9 +13,11 @@ abstract class MeleeWeapon : Weapon
 
     [SerializeField]
     protected string attackingAnimation = "";
+    [SerializeField] AudioSource sound;
 
     protected override void Attack()
     {
+        sound.Play();
         base.Attack();
         attacking = true;
         attackArea.gameObject.SetActive(true);

@@ -5842,6 +5842,10 @@ PrefabInstance:
       propertyPath: PlayerControl
       value: 
       objectReference: {fileID: 568172047}
+    - target: {fileID: 3457345715520855329, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
       propertyPath: cenaMorte
       value: Pierrot Death
@@ -5927,9 +5931,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 711794188}
     - target: {fileID: 7208625081491408932, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7208625081491408932, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
       propertyPath: attackArea
       value: 
       objectReference: {fileID: 1617250374}
+    - target: {fileID: 7880502554026504187, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7749,7 +7761,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1279603063}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9e432264d5faf1418ed702d9bc1489f, type: 3}
   m_Name: 
@@ -7760,7 +7772,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1279603063}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91c597a58e4000a42a042b4920f4dc5a, type: 3}
   m_Name: 

@@ -1,5 +1,6 @@
 class Hammer : MeleeWeapon
 {
+
     protected override void Initialize()
     {
         base.Initialize();
