@@ -4981,7 +4981,7 @@ MonoBehaviour:
   gritoSound: {fileID: 735195982}
   rb: {fileID: 568172052}
   PushDirection: {x: -1, y: 0}
-  ScreamStrenght: 9
+  ScreamStrenght: 3
   screamGO: {fileID: 1613942368}
 --- !u!114 &1065663532
 MonoBehaviour:

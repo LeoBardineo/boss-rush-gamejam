@@ -35,7 +35,7 @@ public static class GlobalData
     public static Dictionary<string, float[]> playerData = new Dictionary<string, float[]>
     {
         // Level 0 | Level 1 | Level 2 | Level 3 | Level 4
-        {"HP", new float[] { 10, 12, 14, 16, 18 }},
+        {"HP", new float[] { 6, 12, 14, 16, 18 }},
         {"Agilidade", new float[] { 1, 1.1f, 1.2f, 1.35f, 1.5f }},
         {"PowerCD", new float[] { 1, 1.05f, 1.1f, 1.2f, 1.3f }},
     };

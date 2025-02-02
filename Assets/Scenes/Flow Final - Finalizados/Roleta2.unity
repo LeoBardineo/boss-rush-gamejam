@@ -542,6 +542,7 @@ MonoBehaviour:
   timer: 0
   active: 0
   tempo: 5
+  cenaJackpot: 0
 --- !u!4 &975353912
 Transform:
   m_ObjectHideFlags: 0
@@ -970,11 +971,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8855042825253848924, guid: b5e444393fb8d9d4eaa2879bb9cf3958, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 583
+      value: 579
       objectReference: {fileID: 0}
     - target: {fileID: 8855042825253848924, guid: b5e444393fb8d9d4eaa2879bb9cf3958, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 8855042825253848924, guid: b5e444393fb8d9d4eaa2879bb9cf3958, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1010,7 +1011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8855042825253848924, guid: b5e444393fb8d9d4eaa2879bb9cf3958, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -90
+      value: -119
       objectReference: {fileID: 0}
     - target: {fileID: 8855042825253848924, guid: b5e444393fb8d9d4eaa2879bb9cf3958, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1320,6 +1321,7 @@ MonoBehaviour:
   cortinaIn: {fileID: 5136823}
   dialogueText: {fileID: 1450329426}
   typingSpeed: 0.04
+  jackpotBotao: {fileID: 0}
   sceneManagementUtilitys: {fileID: 975353911}
   vaiPraCena: 0
   dialogueIsPlaying: 0
