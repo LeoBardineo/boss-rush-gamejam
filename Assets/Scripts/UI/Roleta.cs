@@ -15,17 +15,26 @@ public class Roleta : MonoBehaviour
     [SerializeField] Sprite HarlequinJester, PierrotJester, HarlequinPierrot, HarlequinIcon, PierrotIcon, JesterIcon;
     [SerializeField] SceneManagementUtilitys sceneManagementUtilitys;
     [SerializeField] GameObject cortinaIN;
+    [SerializeField] DialogueRoletaTrigger dialogueRoletaTrigger;
+
     int escolha;
-    bool girando = false;
+    bool girando = true;
 
     void Start()
     {
         MudarIcones();
+        StartCoroutine(EsperaSubir());
+    }
+
+    IEnumerator EsperaSubir()
+    {
+        yield return new WaitForSeconds(2f);
+        girando = false;
     }
 
     void Update()
     {
-        if(Input.GetKeyDown(GlobalData.roletaButton))
+        if(Input.GetKeyDown(GlobalData.roletaButton) && !DialogueManager.GetInstance().dialogueIsPlaying && DialogueManager.liberaEspaco)
         {
             IniciarGiro();
         }
@@ -101,30 +110,24 @@ public class Roleta : MonoBehaviour
 
     void MudarParaBossFight()
     {
-        string cena = "";
         string bossName = GlobalData.bossDisponiveis[escolha - 1];
 
         if(bossName == "Harlequin")
         {
-            cena = harlequinBossFight;
             GlobalData.bossDisponiveis.Remove("Harlequin");
         }
 
         if(bossName == "Pierrot")
         {
-            cena = pierrotBossFight;
             GlobalData.bossDisponiveis.Remove("Pierrot");
         }
 
         if(bossName == "Jester")
         {
-            cena = jesterBossFight;
             GlobalData.bossDisponiveis.Remove("Jester");
         }
 
-        cortinaIN.SetActive(true);
-        sceneManagementUtilitys.SceneName = cena;
-        sceneManagementUtilitys.LoadSceneStringWithTimer(1f);
+        dialogueRoletaTrigger.ComecaDialogoFinal(bossName);
         Debug.Log($"A roleta parou na escolha: {escolha} - {bossName}");
     }
 

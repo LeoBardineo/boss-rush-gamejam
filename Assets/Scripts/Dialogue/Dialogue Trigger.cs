@@ -13,7 +13,7 @@ public class DialogueTrigger : MonoBehaviour
 
     IEnumerator ComecaDialogo()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1.5f);
         DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
     }
 }

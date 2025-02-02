@@ -1,16 +1,25 @@
+using System.Collections;
 using Ink.Runtime;
 using TMPro;
 using UnityEngine;
 
 public class DialogueManager : MonoBehaviour
 {
-    [Header("Dialogue UI")]
-    [SerializeField] GameObject dialoguePanel;
+    [SerializeField] GameObject dialoguePanel, cortinaIn;
     [SerializeField] TextMeshProUGUI dialogueText;
+    [SerializeField] float typingSpeed = 0.04f;
+    public SceneManagementUtilitys sceneManagementUtilitys;
+    Coroutine displayLineCoroutine;
+    
+    public bool vaiPraCena = true;
 
     private Story currentStory;
 
-    bool dialogueIsPlaying;
+    public bool dialogueIsPlaying, textTyping = false, breakTyping = false;
+
+    public static bool liberaEspaco = true;
+
+    public string nomeCena;
     
     static DialogueManager instance;
     
@@ -35,8 +44,11 @@ public class DialogueManager : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("espaço");
-            ContinueStory();
+            if(!textTyping) {
+                ContinueStory();
+                return;
+            }
+            breakTyping = true;
         }
     }
 
@@ -47,6 +59,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EnterDialogueMode(TextAsset inkJSON)
     {
+        liberaEspaco = false;
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
@@ -57,19 +70,56 @@ public class DialogueManager : MonoBehaviour
 
     void ExitDialogueMode()
     {
+        Debug.Log("saiu");
+        StartCoroutine(LiberaApertarEspaco());
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
+        if(vaiPraCena)
+        {
+            cortinaIn.SetActive(true);
+            Debug.Log("indo pra cena " + nomeCena);
+            sceneManagementUtilitys.SceneName = nomeCena;
+            sceneManagementUtilitys.LoadSceneStringWithTimer(1f);
+        }
+    }
+
+    IEnumerator LiberaApertarEspaco()
+    {
+        yield return new WaitForSeconds(0.5f);
+        liberaEspaco = true;
     }
 
     void ContinueStory()
     {
         if(currentStory.canContinue)
         {
-            dialogueText.text = currentStory.Continue();
+            if(displayLineCoroutine != null)
+            {
+                StopCoroutine(displayLineCoroutine);
+            }
+            displayLineCoroutine = StartCoroutine(DisplayLine(currentStory.Continue()));
         }
         else
         {
             ExitDialogueMode();
         }
+    }
+
+    IEnumerator DisplayLine(string line)
+    {
+        textTyping = true;
+        breakTyping = false;
+        dialogueText.text = "";
+        foreach (char letter in line.ToCharArray())
+        {
+            if(breakTyping)
+            {
+                dialogueText.text = line;
+                break;
+            }
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+        textTyping = false;
     }
 }

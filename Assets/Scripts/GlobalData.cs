@@ -19,6 +19,12 @@ public static class GlobalData
         "Jester"
     };
 
+    public static Dictionary<string, string> cenasBossFights = new Dictionary<string, string>{
+        {"Harlequin", "Roleta2"},
+        {"Pierrot", "Roleta2"},
+        {"Jester", "Roleta2"}
+    };
+
     public static string armaEquipada, poderEquipado, pocaoEquipada;
     public static bool playerCanTakeDamage=true, harlequimIdle=false;
 
