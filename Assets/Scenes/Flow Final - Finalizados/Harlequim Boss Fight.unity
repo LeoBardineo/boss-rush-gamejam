@@ -5753,7 +5753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   idleDuration: 2
   gameManager: {fileID: 810138658}
-  cenaGanhou: 
+  cenaGanhou: Win Boss
 --- !u!114 &1298453977
 MonoBehaviour:
   m_ObjectHideFlags: 0

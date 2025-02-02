@@ -5031,8 +5031,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idleDuration: 3.5
-  gameManager: {fileID: 0}
-  cenaGanhou: 
+  gameManager: {fileID: 983024194}
+  cenaGanhou: Win Boss
 --- !u!212 &1065663535
 SpriteRenderer:
   m_ObjectHideFlags: 0
