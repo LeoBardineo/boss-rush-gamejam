@@ -3,20 +3,22 @@ using UnityEngine;
 public class ClappingAttack : MonoBehaviour
 {
     [SerializeField] private float clappingSpeed=3.5f;
-    [SerializeField] private float antecipationTimer=1.2f, timer;
+    [SerializeField] private float antecipationTimer=1.2f, timer,clapT, clapClosedTime=4.5f;
     private Rigidbody2D rbLeftHand,rbRightHand;
     [SerializeField] private GameObject leftHand,rightHand;
     [SerializeField] private GameObject SlapReset;
     [SerializeField] private Transform leftHandClapPos,rightHandClapPos;
     private Vector3 originalLeftHandPos,originalRightHandPos;
     [SerializeField] private SpriteRenderer leftHandSprite, rightHandSprite;
+    [SerializeField] private Animator AnimLeftHand,AnimRightHand;
     public static bool clapping = false;
-    private bool canClap=false, antecipationStarted, canBegingClap, antecipationFinished;
+    private bool canClap=false, antecipationStarted, canBegingClap, antecipationFinished, closeGap=false, clapClosedTimeFinished=false;
 
     [SerializeField]
     private int ciclesOfClaps, currentCicle;
     void Start()
     {
+        GlobalData.playerCanTakeDamage=false;
         currentCicle = 0;
         rbLeftHand = leftHand.GetComponent<Rigidbody2D>();
         rbRightHand = rightHand.GetComponent<Rigidbody2D>();
@@ -50,37 +52,74 @@ public class ClappingAttack : MonoBehaviour
         {
             if(!leftHand.GetComponent<HandInfo>().resetHandPos)
             {
+            AnimLeftHand.Play("clappinglefthand");
+            AnimRightHand.Play("clappingrighthand");
             rbLeftHand.linearVelocity = new Vector2(clappingSpeed * clappingSpeed,rbLeftHand.linearVelocity.y);
             rbRightHand.linearVelocity = new Vector2(-(clappingSpeed * clappingSpeed),rbRightHand.linearVelocity.y);
             }
             else
             {
-                if(!leftHand.GetComponent<HandInfo>().defaultHandPos && !leftHand.GetComponent<HandInfo>().finishedCicle)
+                if(clapT <= clapClosedTime)
                 {
-                    rbLeftHand.linearVelocity = new Vector2(-(clappingSpeed * clappingSpeed),rbLeftHand.linearVelocity.y);
-                    rbRightHand.linearVelocity = new Vector2(clappingSpeed * clappingSpeed,rbRightHand.linearVelocity.y);
+                    rbLeftHand.linearVelocity = new Vector2(0,0);
+                    rbRightHand.linearVelocity = new Vector2(0,0); 
+                    if(!closeGap)
+                    {
+
+                    leftHand.transform.position += new Vector3(0.0444f,0,0);
+                    rightHand.transform.position += new Vector3(-0.0445f,0,0);
+                    closeGap=true;
+                    }
+                    AnimLeftHand.Play("clappingClosedLeftHand");
+                    AnimRightHand.Play("clappingClosedRightHand");
+                    clapT+= Time.deltaTime;
                 }
                 else
                 {
-                    rbLeftHand.linearVelocity = new Vector2(0,0);
-                    rbRightHand.linearVelocity = new Vector2(0,0);                  
-                    currentCicle +=1;
-                    if (currentCicle >= ciclesOfClaps)
+                    clapClosedTimeFinished = true;
+                    if(closeGap)
                     {
-                       canClap = false;
-                       currentCicle = 0; 
-                       clapping = false;
-                       MoveHandsToOriginalPosition();
-                       antecipationFinished = false;
-                       leftHand.GetComponent<HandInfo>().ResetAll();
-                       rightHand.GetComponent<HandInfo>().ResetAll();
-                       SlapReset.SetActive(false);
-                     
+                        leftHand.transform.position += new Vector3(-0.444f,0,0);
+                        rightHand.transform.position += new Vector3(+0.445f,0,0);
+                        closeGap=false;
+                    }
+                }
+
+                if(clapClosedTimeFinished)
+                {
+                    if(!leftHand.GetComponent<HandInfo>().defaultHandPos && !leftHand.GetComponent<HandInfo>().finishedCicle)
+                    {
+                        AnimLeftHand.Play("clappinglefthand");
+                        AnimRightHand.Play("clappingrighthand");
+                        rbLeftHand.linearVelocity = new Vector2(-(clappingSpeed * clappingSpeed),rbLeftHand.linearVelocity.y);
+                        rbRightHand.linearVelocity = new Vector2(clappingSpeed * clappingSpeed,rbRightHand.linearVelocity.y);
                     }
                     else
                     {
-                    leftHand.GetComponent<HandInfo>().StartCicle();
-                    rightHand.GetComponent<HandInfo>().StartCicle();
+                        rbLeftHand.linearVelocity = new Vector2(0,0);
+                        rbRightHand.linearVelocity = new Vector2(0,0);                  
+                        currentCicle +=1;
+                        clapT=0;
+                        clapClosedTimeFinished=false;
+                        if (currentCicle >= ciclesOfClaps)
+                        {
+                            canClap = false;
+                            currentCicle = 0; 
+                            clapping = false;
+                            MoveHandsToOriginalPosition();
+                            antecipationFinished = false;
+                            leftHand.GetComponent<HandInfo>().ResetAll();
+                            rightHand.GetComponent<HandInfo>().ResetAll();
+                            SlapReset.SetActive(false);
+                            AnimLeftHand.Play("idle");
+                            AnimRightHand.Play("idleRightLeft");
+                        }
+                        else
+                        {
+                            Debug.Log("StartCicle");
+                            leftHand.GetComponent<HandInfo>().StartCicle();
+                            rightHand.GetComponent<HandInfo>().StartCicle();
+                        }
                     }
                 }
             }

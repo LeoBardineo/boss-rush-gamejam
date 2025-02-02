@@ -5,7 +5,7 @@ public class HarlequimHPManager : MonoBehaviour
 {
 
     public float maxHP, HP;
-    private float originalColorTimer, timeOnRed=1f, iFrames, iFrameTotal=1f;
+    private float originalColorTimer, timeOnRed=2f, iFrames, iFrameTotal=1f;
     private bool attacked = false, invincible=false;
     [SerializeField] SpriteRenderer SpriteRenderer;
     public bool fase2 = false, firstTimeFase2 = true;
@@ -50,7 +50,7 @@ public class HarlequimHPManager : MonoBehaviour
     }
 
 
-    public void Damage(float damage, bool isHand)
+    public void Damage(float damage)
     {
         if (!invincible)
         {
@@ -71,15 +71,13 @@ public class HarlequimHPManager : MonoBehaviour
         }
 
         //Script apenas por questões de debug abaixo
-        if(!isHand)
-        {
-            attacked = true;
-            SpriteRenderer.color = Color.magenta;
-            Debug.Log("Tomou golpe:"+SpriteRenderer.color);
-            Debug.Log("HP Atual:"+HP);
-        }
+        attacked = true;
+        SpriteRenderer.color = Color.magenta;
+        Debug.Log("Tomou golpe:"+SpriteRenderer.color);
+        Debug.Log("HP Atual:"+HP);
         invincible = true;
         }
+
     }
 
     void HarlequimDeath()

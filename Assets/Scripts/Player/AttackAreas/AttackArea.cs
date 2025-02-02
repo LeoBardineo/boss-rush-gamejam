@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AttackArea : MonoBehaviour
@@ -15,6 +16,13 @@ public class AttackArea : MonoBehaviour
         if (collider.GetComponent<BossHP>() != null)
         {
             BossHP BossHPAtual = collider.GetComponent<BossHP>();
+            BossHPAtual.Damage(CalcDamage());
+            Debug.Log("HP Atual:"+ BossHPAtual.HP);
+        }
+        
+        else if (collider.GetComponentInParent<BossHP>()!=null)
+        {
+            BossHP BossHPAtual = collider.GetComponentInParent<BossHP>();
             BossHPAtual.Damage(CalcDamage());
             Debug.Log("HP Atual:"+ BossHPAtual.HP);
         }

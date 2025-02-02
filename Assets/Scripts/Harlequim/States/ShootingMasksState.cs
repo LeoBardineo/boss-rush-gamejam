@@ -21,6 +21,7 @@ public class ShootingMasksState : IState
         Debug.Log("Entrou em ShootingMasks");
         timeSinceStart =0f;
         homingMasks.BeginHomingMasksAttack();
+        GlobalData.playerCanTakeDamage=false;
     }
 
     public void Exit()

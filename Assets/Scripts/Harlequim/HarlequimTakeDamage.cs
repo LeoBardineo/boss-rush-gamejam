@@ -3,7 +3,7 @@ using UnityEngine;
 public class HarlequimTakeDamage : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private float originalColorTimer, timeOnRed=0.75f;
+    private float originalColorTimer, timeOnRed=2f;
     [SerializeField]
     private bool hand;
     [SerializeField]
@@ -36,10 +36,9 @@ public class HarlequimTakeDamage : MonoBehaviour
 
     public void Damage(float damage)
     {
-        bool isHand = IsHand();
         attacked = true;
         Debug.Log("Dano");
-        harlHPManager.Damage(damage, isHand);
+        harlHPManager.Damage(damage);
     }
 
     private bool IsHand()

@@ -10,7 +10,7 @@ public class HomingMasks : MonoBehaviour
     private bool firstMissile=true;
     public static bool homingMasksAttacking;
     private float time, missilesDelay=2f;
-
+    [SerializeField] private Animator Face;
     void Start()
     {
         

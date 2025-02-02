@@ -1,37 +1,76 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
-public class HandInfo : BossDMG
+public class HandInfo : MonoBehaviour
 {
     public bool resetHandPos = false, handStartPlace = false, defaultHandPos, finishedCicle, touchedLimit;
-    protected override void  Start()
+    protected float bossDMG;
+    protected virtual void  Start()
     {
-        base.Start();
+        bossDMG = GlobalData.bossData["Dano"][GlobalData.level];
     }
-
-    void Update()
+    
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-
-    }
-    protected override void OnTriggerEnter2D(Collider2D collision) {
-        if(collision.GetComponent<PlayerHP>()!= null)
+        if (collision.CompareTag("Player"))
         {
-            if(collision.GetComponent<PlayerHP>().canTakeDamage)
+            if (collision.GetComponent<PlayerHP>() != null && GlobalData.playerCanTakeDamage)
             {
-                base.OnTriggerEnter2D(collision);
+                PlayerHP playerHP = collision.GetComponent<PlayerHP>();
+                if (!playerHP.invicible)
+                {
+                    playerHP.TakeDamage(bossDMG);
+                }
             }
-        }
+        } 
+    
         if (collision.CompareTag("ResetHand"))
-        {
-            resetHandPos = true;
-            defaultHandPos = false;
+         {
+             resetHandPos = true;
+             defaultHandPos = false;
         }
-        if (collision.CompareTag("DefaultHand"))
-        {
-            defaultHandPos = true;
-            finishedCicle = true;
+         if (collision.CompareTag("DefaultHand"))
+         {
+             defaultHandPos = true;
+             finishedCicle = true;
         }
-
     }
+
+        protected virtual void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            if (collision.GetComponent<PlayerHP>() != null && GlobalData.playerCanTakeDamage)
+            {
+                PlayerHP playerHP = collision.GetComponent<PlayerHP>();
+                if (!playerHP.invicible)
+                {
+                    playerHP.TakeDamage(bossDMG);
+                }
+            }
+        } 
+    }
+    // protected override void OnTriggerEnter2D(Collider2D collision) {
+    //     if(collision.GetComponent<PlayerHP>()!= null)
+    //     {
+    //         if(GlobalData.playerCanTakeDamage)
+    //         {
+    //             Debug.Log("Tomou dano player");
+    //             base.OnTriggerEnter2D(collision);
+    //         }
+    //     }
+    //     if (collision.CompareTag("ResetHand"))
+    //     {
+    //         resetHandPos = true;
+    //         defaultHandPos = false;
+    //     }
+    //     if (collision.CompareTag("DefaultHand"))
+    //     {
+    //         defaultHandPos = true;
+    //         finishedCicle = true;
+    //     }
+
+    // }
 
     public void StartCicle()
     {

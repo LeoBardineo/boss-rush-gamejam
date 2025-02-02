@@ -11,13 +11,14 @@ public class ConfettiRainAttack : MonoBehaviour
     private Vector3 posicaoCentro, dimensoes, velocity= Vector3.zero;
     public float spawnHeight = 1.5f;
     public float positionVariance = 0.5f;
-    public float antecipationDuration = 2f, time=0, timeTrackingAfter=5f, timeT=0;
-    public float attackDuration = 5f;
-    public float spawnInterval = 0.1f;
+    public float antecipationDuration = 2f, time=0, timeTrackingAfter=5f, timeT=0, timeD;
+    public float attackDuration = 9f;
+    public float spawnInterval = 14f;
     public static bool isAttacking = false;
     private bool spawnHasBegun=false, posSpawnTracking=false;
     [SerializeField]
-    private float trackingSpeed=0.15f;
+    private float trackingSpeed=0.12f;
+    [SerializeField] private Animator AnimLeftHand,AnimRightHand;
 
     void Update()
     {
@@ -29,12 +30,14 @@ public class ConfettiRainAttack : MonoBehaviour
         if (tracking)
         {
             trackPlayer();
+
             if (time <= antecipationDuration)
             {
                 time += Time.deltaTime;
             }
             else
             {
+
                 if (!spawnHasBegun && isAttacking)
                 {
                     posSpawnTracking = true;
@@ -53,32 +56,49 @@ public class ConfettiRainAttack : MonoBehaviour
                     timeT= 0;
                     tracking = false;
                     posSpawnTracking=false;
+                    time=0;
                 }
             }
-
+        }
+        if(isAttacking)
+        {
+            if (timeD<=attackDuration && timeD>=4.5)
+            {
+                if(isRightHand)
+            {
+                AnimRightHand.Play("closedRightHand");
+            }
+            else
+            {
+                AnimLeftHand.Play("closedLeftHand");
+            }
+            }
+            if(timeD<=attackDuration)
+            {
+                timeD+=Time.deltaTime;
+            }
+            else
+            {
+                timeD=0;
+                EndAttack();
+                isAttacking = false;
+            }
         }
     }
 
     public void StartSpawning()
     {
         spawnHasBegun = true;
-        InvokeRepeating(nameof(SpawnConfetti), antecipationDuration, spawnInterval);
-        StartCoroutine(WaitSpawning(antecipationDuration + attackDuration));
-    }
-
-    void SpawnConfetti()
-    {
-        Vector3 posicaoAleatoria = new Vector3(posicaoCentro.x, posicaoCentro.y, posicaoCentro.z);
-        Instantiate(confettiPrefab, posicaoAleatoria, confettiPrefab.transform.rotation);
-    }
-
-    IEnumerator WaitSpawning(float attackDuration)
-    {
-        yield return new WaitForSeconds(attackDuration);
-        CancelInvoke(nameof(SpawnConfetti));
-        isAttacking = false;
-        spawnHasBegun = false;
-        returnDefault();
+            if (isRightHand)
+        {
+            AnimRightHand.Play("openRightHand");
+            Instantiate(confettiPrefab, rightHand);
+        }
+        else
+        {
+            AnimLeftHand.Play("openLeftHand");
+            Instantiate(confettiPrefab, leftHand);
+        }
     }
 
     void moveHandUp(bool hand)
@@ -95,6 +115,19 @@ public class ConfettiRainAttack : MonoBehaviour
 
     void trackPlayer()
     {
+        Debug.Log("Tracking");
+        if(!posSpawnTracking)
+        {
+            if(isRightHand)
+            {
+                AnimRightHand.Play("closedRightHand");
+            }
+            else
+            {
+                AnimLeftHand.Play("closedLeftHand");
+            }
+        }
+
         if (isRightHand)
         { 
             // Vector3 playerTrackPos = new Vector3(player.position.x,rightHand.position.y,rightHand.position.z);
@@ -103,7 +136,7 @@ public class ConfettiRainAttack : MonoBehaviour
             posicaoCentro = rightHand.position;
             dimensoes = rightHand.localScale / 2;
         }
-        else
+        else if(!isRightHand)
         {
             leftHand.position = Vector3.SmoothDamp(leftHand.position, playerTracking.position,ref velocity, trackingSpeed);
             posicaoCentro = leftHand.position;
@@ -138,5 +171,20 @@ public class ConfettiRainAttack : MonoBehaviour
         {
             leftHand.position = defaultLeftHandPos.position;
         }
+    }
+
+    void EndAttack()
+    {
+        isAttacking = false;
+        spawnHasBegun = false;
+        if (isRightHand)
+        {
+            AnimRightHand.Play("idleRightLeft");
+        }
+        else
+        {
+            AnimLeftHand.Play("idle");
+        }
+        returnDefault();
     }
 }

@@ -5,8 +5,8 @@ public class BossHP : MonoBehaviour
 {
 
     public float maxHP, HP;
-    private float originalColorTimer, timeOnRed=0.75f;
-    private bool attacked = false;
+    private float originalColorTimer, timeOnRed=1f;
+    private bool attacked = false, invincible=false;
     [SerializeField] SpriteRenderer SpriteRenderer;
     public bool fase2 = false, firstTimeFase2 = true;
     private Color originalColor;
@@ -42,6 +42,7 @@ public class BossHP : MonoBehaviour
             attacked = false;
             SpriteRenderer.color = originalColor;
             originalColorTimer = 0;
+            invincible = false;
         }
 
     }
@@ -49,32 +50,34 @@ public class BossHP : MonoBehaviour
 
     public void Damage(float damage)
     {
-        HP -= damage;
-        
-        if (!fase2 && HP <= (maxHP/2))
-            fase2 = true;
-        
-        if(HP <= 0)
+        if (!invincible)
         {
-            HP = 0;
-
-            if(bossStateManager is JesterStateManager)
+            HP -= damage;
+            invincible = true;
+            if (!fase2 && HP <= (maxHP/2))
+                fase2 = true;
+            
+            if(HP <= 0)
             {
-                JesterDeath();
-                return;
-            }
+                HP = 0;
 
-            if(bossStateManager is HarlequimStateManager)
-            {
-                HarlequimDeath();
-                return ;
+                if(bossStateManager is JesterStateManager)
+                {
+                    JesterDeath();
+                    return;
+                }
+
+                if(bossStateManager is HarlequimStateManager)
+                {
+                    HarlequimDeath();
+                    return ;
+                }
             }
+            //Script apenas por questões de debug abaixo
+            attacked = true;
+            SpriteRenderer.color = Color.magenta;
+            Debug.Log("Tomou golpe:"+SpriteRenderer.color);
         }
-
-        //Script apenas por questões de debug abaixo
-        attacked = true;
-        SpriteRenderer.color = Color.magenta;
-        Debug.Log("Tomou golpe:"+SpriteRenderer.color);
     }
 
     void JesterDeath()
