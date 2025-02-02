@@ -52,7 +52,7 @@ public class HomingMasks : MonoBehaviour
             {
                 missilesSpawned=0;
                 homingMasksAttacking = false;
-                // Face.Play("HarlequimIdle");
+                Face.Play("HarlequimIdle");
                 // transHarl.transform.position = transHarl.transform.position;
             }
         }

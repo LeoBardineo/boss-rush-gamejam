@@ -55,26 +55,25 @@ public class ClappingAttack : MonoBehaviour
         {
             if(!leftHand.GetComponent<HandInfo>().resetHandPos)
             {
-            if(!soundStarted) 
-            {
-                dragging.Play();
-                soundStarted=true;
-            }
-            AnimLeftHand.Play("clappinglefthand");
-            AnimRightHand.Play("clappingrighthand");
-            rbLeftHand.linearVelocity = new Vector2(clappingSpeed * clappingSpeed,rbLeftHand.linearVelocity.y);
-            rbRightHand.linearVelocity = new Vector2(-(clappingSpeed * clappingSpeed),rbRightHand.linearVelocity.y);
+                if(!soundStarted) 
+                {
+                    dragging.Play();
+                    soundStarted=true;
+                }
+                AnimLeftHand.Play("clappinglefthand");
+                AnimRightHand.Play("clappingrighthand");
+                rbLeftHand.linearVelocity = new Vector2(clappingSpeed * clappingSpeed,rbLeftHand.linearVelocity.y);
+                rbRightHand.linearVelocity = new Vector2(-(clappingSpeed * clappingSpeed),rbRightHand.linearVelocity.y);
             }
             else
             {
                 if(clapT <= clapClosedTime)
                 {
-                    clap.Play();
                     rbLeftHand.linearVelocity = new Vector2(0,0);
                     rbRightHand.linearVelocity = new Vector2(0,0); 
                     if(!closeGap)
                     {
-
+                    clap.Play();        
                     leftHand.transform.position += new Vector3(0.0444f,0,0);
                     rightHand.transform.position += new Vector3(-0.0445f,0,0);
                     closeGap=true;

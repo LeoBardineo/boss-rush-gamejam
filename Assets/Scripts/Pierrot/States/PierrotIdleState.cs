@@ -60,16 +60,14 @@ public class PierrotIdleState : IState
             
         List<IState> possibleAttacks = new List<IState>();
         
-        // if(!TearJet.jetSpawned)
-        //     possibleAttacks.Add(new TearJatadaState(bossGameObject));
-        // if(!bossHP.fase2)
-        // {
-        //  if(!WaveBehaviour.waveSpawned)
-        //      possibleAttacks.Add(new WaveState   (bossGameObject));
-        // }
-        //  if(!spawnRainTears.isSpawning)
-        //      possibleAttacks.Add(new RainTearsState(bossGameObject));  
-            
+         if(!TearJet.jetSpawned)
+             possibleAttacks.Add(new TearJatadaState(bossGameObject));
+         if(!bossHP.fase2)
+         {
+          if(!WaveBehaviour.waveSpawned)
+             possibleAttacks.Add(new WaveState   (bossGameObject));
+         }
+         
         if(bossHP.fase2)
         { 
             if (bossHP.firstTimeFase2)
