@@ -56,6 +56,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Flow Final - Finalizados/Jackpot.unity
     guid: 3a502fe7cd213c347a53e1c13be2ce06
+  - enabled: 1
+    path: Assets/Scenes/Flow Final - Finalizados/EndGame.unity
+    guid: 8bca05309827bc74bb34f185f86b7c05
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

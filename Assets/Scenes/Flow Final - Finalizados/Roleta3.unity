@@ -898,6 +898,7 @@ MonoBehaviour:
   cortinaIn: {fileID: 858219890}
   dialogueText: {fileID: 640026626}
   typingSpeed: 0.04
+  jackpotBotao: {fileID: 0}
   sceneManagementUtilitys: {fileID: 2082348495}
   vaiPraCena: 0
   dialogueIsPlaying: 0
@@ -1132,8 +1133,8 @@ MonoBehaviour:
   PierrotJester: {fileID: 0}
   HarlequinPierrot: {fileID: 0}
   HarlequinIcon: {fileID: 21300000, guid: 33821e7d2b3144445a8ca9976762f328, type: 3}
-  PierrotIcon: {fileID: 21300000, guid: 0314e6e77244aee4d8308e21fb390861, type: 3}
-  JesterIcon: {fileID: 21300000, guid: 2bcd79f168d8c0a46a209f45c15d3c69, type: 3}
+  PierrotIcon: {fileID: 21300000, guid: 2bcd79f168d8c0a46a209f45c15d3c69, type: 3}
+  JesterIcon: {fileID: 21300000, guid: 0314e6e77244aee4d8308e21fb390861, type: 3}
   sceneManagementUtilitys: {fileID: 2082348495}
   cortinaIN: {fileID: 858219890}
   dialogueRoletaTrigger: {fileID: 1164990151}
@@ -1647,6 +1648,7 @@ MonoBehaviour:
   timer: 0
   active: 0
   tempo: 5
+  cenaJackpot: 0
 --- !u!4 &2082348496
 Transform:
   m_ObjectHideFlags: 0
