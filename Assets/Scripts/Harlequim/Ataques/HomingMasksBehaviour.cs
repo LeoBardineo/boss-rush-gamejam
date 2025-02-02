@@ -10,6 +10,7 @@ public class HomingMasksBehaviour : BossDMG
     private SpriteRenderer sr;
     private Animator anim;
     public bool srDead, deathByNotColliding;
+    [SerializeField] private AudioSource sound,tracking;
 
     private bool somethingHit=false;
     protected override void  Start()
@@ -19,6 +20,7 @@ public class HomingMasksBehaviour : BossDMG
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         target = GameObject.FindGameObjectWithTag("Player");
+        tracking.Play();
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -48,6 +50,8 @@ public class HomingMasksBehaviour : BossDMG
         {
             deathByNotColliding = true;
             anim.Play("missile-explosion");
+            sound.Play();
+            tracking.Stop();
             rb.angularVelocity=0;
             rb.linearVelocity=Vector2.zero;
         }
@@ -62,11 +66,15 @@ public class HomingMasksBehaviour : BossDMG
         if (collision.CompareTag("OneWayPlatform"))
         {
             somethingHit=true;
+            sound.Play();
+            tracking.Stop();
             anim.Play("missile-explosion");
         }
         if (collision.CompareTag("Player"))
         {
             somethingHit=true;
+            sound.Play();
+            tracking.Stop();
             anim.Play("missile-explosion");
         }
     }
