@@ -20,8 +20,8 @@ public static class GlobalData
     };
 
     public static Dictionary<string, string> cenasBossFights = new Dictionary<string, string>{
-        {"Harlequin", "Jester Boss Fight"},
-        {"Pierrot", "Jester Boss Fight"},
+        {"Harlequin", "Harlequim Boss Fight"},
+        {"Pierrot", "Pierrot Boss Fight"},
         {"Jester", "Jester Boss Fight"}
     };
 
