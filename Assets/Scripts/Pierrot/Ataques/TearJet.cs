@@ -51,11 +51,17 @@ public class TearJet : MonoBehaviour
 
     }
 
-    public void InstantiateJetTrace()
+       public void functionJet()
     {
         waterTrace = Instantiate(waterTracePrefab, waterJetSpawnPoint.position, Quaternion.identity);
         canTraceTrack = true;
         jetSpawned = true;
+    }
+
+    // AQUI
+    public void InstantiateJetTrace()
+    {
+        Invoke("functionJet",2.5f);
     }
 
     public void PlayerTracking()

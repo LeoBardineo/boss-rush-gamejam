@@ -26,6 +26,7 @@ public class TransitionPierrot : MonoBehaviour
     }
     public void transition()
     {
+        //AQUI
         oceanOfTears.SetActive(true);
     }
 }

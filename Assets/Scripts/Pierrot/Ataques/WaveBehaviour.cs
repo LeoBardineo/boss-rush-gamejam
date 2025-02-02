@@ -42,6 +42,7 @@ public class WaveBehaviour : MonoBehaviour
 
     public void InstantiateWave()
     {
+        //AQUI
         somDeOnda.Play();
         wave = Instantiate(wavePrefab, spawnPoint.position, Quaternion.identity);
         rb = wave.GetComponent<Rigidbody2D>();

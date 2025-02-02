@@ -116,10 +116,10 @@ TextureImporter:
       name: prototipoPowerBar_FULL
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 1
+        y: 1
         width: 49
-        height: 35
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,12 +138,12 @@ TextureImporter:
       name: prototipoPowerBar_EMPTY
       rect:
         serializedVersion: 2
-        x: 49
-        y: 0
+        x: 53
+        y: 1
         width: 49
-        height: 35
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

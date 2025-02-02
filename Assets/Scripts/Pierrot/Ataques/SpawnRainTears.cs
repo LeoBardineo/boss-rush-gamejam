@@ -9,12 +9,13 @@ public class SpawnRainTears: MonoBehaviour
     public float spawnHeight = 0f;
     public float positionVariance = 0.9f;
     public float antecipationDuration = 2f;
-    public float attackDuration = 5f;
+    public float attackDuration = 1.5f;
     public float spawnInterval = 0.1f;
     public bool isSpawning = false;
 
     public void StartSpawning()
     {
+        //AQUI
         isSpawning = true;
         InvokeRepeating(nameof(SpawnTears), antecipationDuration, spawnInterval);
         StartCoroutine(WaitSpawning(antecipationDuration + attackDuration));

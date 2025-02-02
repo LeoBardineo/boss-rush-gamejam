@@ -1,58 +1,67 @@
 fileFormatVersion: 2
-guid: 53c7d78ffe7b25a468993b41a0f47646
+guid: 7d55e2792b0e9f944ae5c0b574e64a72
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6896136812865621037
-    second: boss_pierrot_piscina-sheet_0
+      213: -1384034286956075947
+    second: boss_pierrot_tirandochapeu-sheet_0
   - first:
-      213: -7601180500661283920
-    second: boss_pierrot_piscina-sheet_1
+      213: 3116185805493893445
+    second: boss_pierrot_tirandochapeu-sheet_1
   - first:
-      213: -5601201584574358095
-    second: boss_pierrot_piscina-sheet_2
+      213: -3173087412220375903
+    second: boss_pierrot_tirandochapeu-sheet_2
   - first:
-      213: 8380434140096400951
-    second: boss_pierrot_piscina-sheet_3
+      213: 5165512325295096918
+    second: boss_pierrot_tirandochapeu-sheet_3
   - first:
-      213: 737369970671686589
-    second: boss_pierrot_piscina-sheet_4
+      213: 7830903882173547848
+    second: boss_pierrot_tirandochapeu-sheet_4
   - first:
-      213: -1063624677292105800
-    second: boss_pierrot_piscina-sheet_5
+      213: -3471993573203098906
+    second: boss_pierrot_tirandochapeu-sheet_5
   - first:
-      213: 5587743980488805681
-    second: boss_pierrot_piscina-sheet_6
+      213: -129506058660740060
+    second: boss_pierrot_tirandochapeu-sheet_6
   - first:
-      213: 7009647487356253667
-    second: boss_pierrot_piscina-sheet_7
+      213: -6362016916957599903
+    second: boss_pierrot_tirandochapeu-sheet_7
   - first:
-      213: 421213135708851782
-    second: boss_pierrot_piscina-sheet_8
+      213: 4681688558233522146
+    second: boss_pierrot_tirandochapeu-sheet_8
   - first:
-      213: -6753420400693887160
-    second: boss_pierrot_piscina-sheet_9
+      213: 1056624577811723577
+    second: boss_pierrot_tirandochapeu-sheet_9
   - first:
-      213: 3936089860471552282
-    second: boss_pierrot_piscina-sheet_10
+      213: 6387193072698164154
+    second: boss_pierrot_tirandochapeu-sheet_10
   - first:
-      213: 7901258986377825540
-    second: boss_pierrot_piscina-sheet_11
+      213: -1988146308880566481
+    second: boss_pierrot_tirandochapeu-sheet_11
   - first:
-      213: 3328568959608336644
-    second: boss_pierrot_piscina-sheet_12
+      213: -850369490464132034
+    second: boss_pierrot_tirandochapeu-sheet_12
   - first:
-      213: -1167347464304046435
-    second: boss_pierrot_piscina-sheet_13
+      213: 224126679322490176
+    second: boss_pierrot_tirandochapeu-sheet_13
   - first:
-      213: -2560222808338698919
-    second: boss_pierrot_piscina-sheet_14
+      213: 5955516677931700668
+    second: boss_pierrot_tirandochapeu-sheet_14
   - first:
-      213: -1025477043760547841
-    second: boss_pierrot_piscina-sheet_15
+      213: -3327563148073992914
+    second: boss_pierrot_tirandochapeu-sheet_15
   - first:
-      213: 8991594454758494145
-    second: boss_pierrot_piscina-sheet_16
+      213: 4818037046203309439
+    second: boss_pierrot_tirandochapeu-sheet_16
+  - first:
+      213: -725512896345337769
+    second: boss_pierrot_tirandochapeu-sheet_17
+  - first:
+      213: 2723554797933880677
+    second: boss_pierrot_tirandochapeu-sheet_18
+  - first:
+      213: -8533774983106163612
+    second: boss_pierrot_tirandochapeu-sheet_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -146,10 +155,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -161,365 +170,453 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_0
+      name: boss_pierrot_tirandochapeu-sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20bf1d1836f65b947a456a4f1bed7439
-      internalID: 6896136812865621037
+      spriteID: 69263b0e75c6829499045502d7dd6b33
+      internalID: -1384034286956075947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_1
+      name: boss_pierrot_tirandochapeu-sheet_1
       rect:
         serializedVersion: 2
         x: 262
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e27a804ec2eedb042831465bdc23c637
-      internalID: -7601180500661283920
+      spriteID: 143ecd6de33773244b089630da3b6ece
+      internalID: 3116185805493893445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_2
+      name: boss_pierrot_tirandochapeu-sheet_2
       rect:
         serializedVersion: 2
         x: 524
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54fde06826c496c4f9ffed58312a542e
-      internalID: -5601201584574358095
+      spriteID: 461c2593c5605ed4fbeeb46cbf206dd9
+      internalID: -3173087412220375903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_3
+      name: boss_pierrot_tirandochapeu-sheet_3
       rect:
         serializedVersion: 2
         x: 786
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53bc5848a14cad9409de5ed162902a13
-      internalID: 8380434140096400951
+      spriteID: 3b9242d322396d346bebc55a1e7b4c1b
+      internalID: 5165512325295096918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_4
+      name: boss_pierrot_tirandochapeu-sheet_4
       rect:
         serializedVersion: 2
         x: 1048
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d16098a8b6009644aaa4ccf2fcec321
-      internalID: 737369970671686589
+      spriteID: 0aa8fec8cc193cf47879cbcfdbaf99b5
+      internalID: 7830903882173547848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_5
+      name: boss_pierrot_tirandochapeu-sheet_5
       rect:
         serializedVersion: 2
         x: 1310
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2f7c7a52031a184488323d06d9c70fc
-      internalID: -1063624677292105800
+      spriteID: 17229d2a6f7dccb4f9a3aa723b3a8082
+      internalID: -3471993573203098906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_6
+      name: boss_pierrot_tirandochapeu-sheet_6
       rect:
         serializedVersion: 2
         x: 1572
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 767a4dc1be695264abef11fb494cbb16
-      internalID: 5587743980488805681
+      spriteID: 4153d4afcfa0235498844fa9d6a46ff1
+      internalID: -129506058660740060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_7
+      name: boss_pierrot_tirandochapeu-sheet_7
       rect:
         serializedVersion: 2
         x: 1834
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e13028f7b5b2f214ba41d3945f960bb3
-      internalID: 7009647487356253667
+      spriteID: c514b945affabb34d8849b4b8e9a45aa
+      internalID: -6362016916957599903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_8
+      name: boss_pierrot_tirandochapeu-sheet_8
       rect:
         serializedVersion: 2
         x: 2096
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c5cec8e11da43148906639390581d25
-      internalID: 421213135708851782
+      spriteID: 2357b45fe79ec1e4d9501412b20bc1d9
+      internalID: 4681688558233522146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_9
+      name: boss_pierrot_tirandochapeu-sheet_9
       rect:
         serializedVersion: 2
         x: 2358
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e16f0c52b69f6d4d898b716b8d47331
-      internalID: -6753420400693887160
+      spriteID: e1c5053070b87034f9feac22cc57dee6
+      internalID: 1056624577811723577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_10
+      name: boss_pierrot_tirandochapeu-sheet_10
       rect:
         serializedVersion: 2
         x: 2620
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9978e1335a2dd4a47b61c8216030c73f
-      internalID: 3936089860471552282
+      spriteID: 6fe6cd98fe0a353458937e44eca30d0b
+      internalID: 6387193072698164154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_11
+      name: boss_pierrot_tirandochapeu-sheet_11
       rect:
         serializedVersion: 2
         x: 2882
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fc5b93b42a1c9246b12d085c83c3464
-      internalID: 7901258986377825540
+      spriteID: 7283fbb93e5df9448884c4dee530d4d2
+      internalID: -1988146308880566481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_12
+      name: boss_pierrot_tirandochapeu-sheet_12
       rect:
         serializedVersion: 2
         x: 3144
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30017506f20fc3647944cd1ba0bfef3f
-      internalID: 3328568959608336644
+      spriteID: b2e0a285e388cd84bb20bf2841139014
+      internalID: -850369490464132034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_13
+      name: boss_pierrot_tirandochapeu-sheet_13
       rect:
         serializedVersion: 2
         x: 3406
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2327cab466f212f47a73a2fa3abdd6a1
-      internalID: -1167347464304046435
+      spriteID: 3166cd19b196670499b8b5d58c043b6d
+      internalID: 224126679322490176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_14
+      name: boss_pierrot_tirandochapeu-sheet_14
       rect:
         serializedVersion: 2
         x: 3668
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3d344a0baa5787459dc7a5d75a3a367
-      internalID: -2560222808338698919
+      spriteID: 77cf23c5c0c531347ad8bd0a8ef069fa
+      internalID: 5955516677931700668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_15
+      name: boss_pierrot_tirandochapeu-sheet_15
       rect:
         serializedVersion: 2
         x: 3930
         y: 0
         width: 262
-        height: 280
+        height: 285
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cf6c285e103b5f4fb2d6d2e139618ee
-      internalID: -1025477043760547841
+      spriteID: f52b3c1f81a79134491f1144265d5584
+      internalID: -3327563148073992914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_16
+      name: boss_pierrot_tirandochapeu-sheet_16
       rect:
         serializedVersion: 2
         x: 4192
         y: 0
         width: 262
-        height: 280
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671bc7a3e9f8f644b891e84106b897e4
+      internalID: 4818037046203309439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_tirandochapeu-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 0
+        width: 262
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c3340a6557c0b4ea2a04a43e8b566d
+      internalID: -725512896345337769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_tirandochapeu-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 4716
+        y: 0
+        width: 262
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae3e244b40908a4ca525640db5a3ce7
+      internalID: 2723554797933880677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_tirandochapeu-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4978
+        y: 0
+        width: 262
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7377a1f811e824586f6a56a560ca85
+      internalID: -8533774983106163612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_tirandochapeu-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 5240
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,8 +625,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d07238cb410097b489967a0223c240c7
-      internalID: 8991594454758494145
+      spriteID: cab2809c5590e9d4b929cbd23906bf54
+      internalID: -1554747675
       vertices: []
       indices: 
       edges: []
@@ -538,7 +635,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a8fcff3a07771fe4c9421d3432bbb624
+    spriteID: 3b3393e04182bd747b4eb23a23183eb4
     internalID: 0
     vertices: []
     indices: 
@@ -548,23 +645,27 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boss_pierrot_piscina-sheet_0: 6896136812865621037
-      boss_pierrot_piscina-sheet_1: -7601180500661283920
-      boss_pierrot_piscina-sheet_10: 3936089860471552282
-      boss_pierrot_piscina-sheet_11: 7901258986377825540
-      boss_pierrot_piscina-sheet_12: 3328568959608336644
-      boss_pierrot_piscina-sheet_13: -1167347464304046435
-      boss_pierrot_piscina-sheet_14: -2560222808338698919
-      boss_pierrot_piscina-sheet_15: -1025477043760547841
-      boss_pierrot_piscina-sheet_16: 8991594454758494145
-      boss_pierrot_piscina-sheet_2: -5601201584574358095
-      boss_pierrot_piscina-sheet_3: 8380434140096400951
-      boss_pierrot_piscina-sheet_4: 737369970671686589
-      boss_pierrot_piscina-sheet_5: -1063624677292105800
-      boss_pierrot_piscina-sheet_6: 5587743980488805681
-      boss_pierrot_piscina-sheet_7: 7009647487356253667
-      boss_pierrot_piscina-sheet_8: 421213135708851782
-      boss_pierrot_piscina-sheet_9: -6753420400693887160
+      boss_pierrot_tirandochapeu-sheet_0: -1384034286956075947
+      boss_pierrot_tirandochapeu-sheet_1: 3116185805493893445
+      boss_pierrot_tirandochapeu-sheet_10: 6387193072698164154
+      boss_pierrot_tirandochapeu-sheet_11: -1988146308880566481
+      boss_pierrot_tirandochapeu-sheet_12: -850369490464132034
+      boss_pierrot_tirandochapeu-sheet_13: 224126679322490176
+      boss_pierrot_tirandochapeu-sheet_14: 5955516677931700668
+      boss_pierrot_tirandochapeu-sheet_15: -3327563148073992914
+      boss_pierrot_tirandochapeu-sheet_16: 4818037046203309439
+      boss_pierrot_tirandochapeu-sheet_17: -725512896345337769
+      boss_pierrot_tirandochapeu-sheet_18: 2723554797933880677
+      boss_pierrot_tirandochapeu-sheet_19: -8533774983106163612
+      boss_pierrot_tirandochapeu-sheet_2: -3173087412220375903
+      boss_pierrot_tirandochapeu-sheet_20: -1554747675
+      boss_pierrot_tirandochapeu-sheet_3: 5165512325295096918
+      boss_pierrot_tirandochapeu-sheet_4: 7830903882173547848
+      boss_pierrot_tirandochapeu-sheet_5: -3471993573203098906
+      boss_pierrot_tirandochapeu-sheet_6: -129506058660740060
+      boss_pierrot_tirandochapeu-sheet_7: -6362016916957599903
+      boss_pierrot_tirandochapeu-sheet_8: 4681688558233522146
+      boss_pierrot_tirandochapeu-sheet_9: 1056624577811723577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

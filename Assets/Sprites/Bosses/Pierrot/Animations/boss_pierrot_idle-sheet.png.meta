@@ -177,6 +177,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -184,10 +197,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 11
-        width: 216
-        height: 267
+        x: 0
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +219,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_1
       rect:
         serializedVersion: 2
-        x: 281
-        y: 11
-        width: 216
-        height: 267
+        x: 262
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +241,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_2
       rect:
         serializedVersion: 2
-        x: 543
-        y: 11
-        width: 216
-        height: 267
+        x: 524
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +263,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_3
       rect:
         serializedVersion: 2
-        x: 805
-        y: 11
-        width: 216
-        height: 267
+        x: 786
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +285,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_4
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 11
-        width: 216
-        height: 267
+        x: 1048
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +307,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_5
       rect:
         serializedVersion: 2
-        x: 1329
-        y: 11
-        width: 216
-        height: 267
+        x: 1310
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +329,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_6
       rect:
         serializedVersion: 2
-        x: 1591
-        y: 11
-        width: 216
-        height: 267
+        x: 1572
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,10 +351,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_7
       rect:
         serializedVersion: 2
-        x: 1853
-        y: 11
-        width: 216
-        height: 267
+        x: 1834
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +373,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_8
       rect:
         serializedVersion: 2
-        x: 2115
-        y: 11
-        width: 216
-        height: 267
+        x: 2096
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +395,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_9
       rect:
         serializedVersion: 2
-        x: 2377
-        y: 11
-        width: 216
-        height: 267
+        x: 2358
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,10 +417,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_10
       rect:
         serializedVersion: 2
-        x: 2639
-        y: 11
-        width: 216
-        height: 267
+        x: 2620
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +439,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_11
       rect:
         serializedVersion: 2
-        x: 2901
-        y: 11
-        width: 216
-        height: 267
+        x: 2882
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +461,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_12
       rect:
         serializedVersion: 2
-        x: 3163
-        y: 11
-        width: 216
-        height: 267
+        x: 3144
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,10 +483,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_13
       rect:
         serializedVersion: 2
-        x: 3425
-        y: 11
-        width: 216
-        height: 267
+        x: 3406
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +505,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_14
       rect:
         serializedVersion: 2
-        x: 3687
-        y: 11
-        width: 216
-        height: 267
+        x: 3668
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +527,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_15
       rect:
         serializedVersion: 2
-        x: 3949
-        y: 11
-        width: 216
-        height: 267
+        x: 3930
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,10 +549,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_16
       rect:
         serializedVersion: 2
-        x: 4211
-        y: 11
-        width: 216
-        height: 267
+        x: 4192
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,10 +571,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_17
       rect:
         serializedVersion: 2
-        x: 4473
-        y: 11
-        width: 216
-        height: 267
+        x: 4454
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +593,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_18
       rect:
         serializedVersion: 2
-        x: 4735
-        y: 11
-        width: 216
-        height: 267
+        x: 4716
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,10 +615,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_19
       rect:
         serializedVersion: 2
-        x: 4997
-        y: 11
-        width: 216
-        height: 267
+        x: 4978
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +637,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_20
       rect:
         serializedVersion: 2
-        x: 5259
-        y: 11
-        width: 216
-        height: 267
+        x: 5240
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +659,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_21
       rect:
         serializedVersion: 2
-        x: 5521
-        y: 11
-        width: 216
-        height: 267
+        x: 5502
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +681,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_22
       rect:
         serializedVersion: 2
-        x: 5783
-        y: 11
-        width: 216
-        height: 267
+        x: 5764
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +703,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_23
       rect:
         serializedVersion: 2
-        x: 6045
-        y: 11
-        width: 216
-        height: 267
+        x: 6026
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,10 +725,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_24
       rect:
         serializedVersion: 2
-        x: 6307
-        y: 11
-        width: 216
-        height: 267
+        x: 6288
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,10 +747,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_25
       rect:
         serializedVersion: 2
-        x: 6569
-        y: 11
-        width: 216
-        height: 267
+        x: 6550
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +769,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_26
       rect:
         serializedVersion: 2
-        x: 6831
-        y: 11
-        width: 216
-        height: 267
+        x: 6812
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +791,10 @@ TextureImporter:
       name: boss_pierrot_idle-sheet_27
       rect:
         serializedVersion: 2
-        x: 7093
-        y: 11
-        width: 216
-        height: 267
+        x: 7074
+        y: 0
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,7 +813,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4b3f434d19d4d83469a1dd990f4ee012
     internalID: 0
     vertices: []
     indices: 

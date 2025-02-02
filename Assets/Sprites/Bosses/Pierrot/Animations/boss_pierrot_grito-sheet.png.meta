@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 0e7c2149f0e7cc04da75f67bcd9547bb
+guid: 72dada256617ded469728426c3fd8c6e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7020078530018246350
-    second: onda_pierrot_completo_corrigido_0
+      213: -3623861984194218529
+    second: boss_pierrot_grito-sheet_0
   - first:
-      213: 7784706781591010170
-    second: onda_pierrot_completo_corrigido_1
+      213: 6902770426484685831
+    second: boss_pierrot_grito-sheet_1
   - first:
-      213: 7856314414577312686
-    second: onda_pierrot_completo_corrigido_2
+      213: -7888940303934699597
+    second: boss_pierrot_grito-sheet_2
   - first:
-      213: -2788689927458611402
-    second: onda_pierrot_completo_corrigido_3
+      213: 3743898332464395971
+    second: boss_pierrot_grito-sheet_3
   - first:
-      213: 4158299415624153182
-    second: onda_pierrot_completo_corrigido_4
+      213: -4143992551981641180
+    second: boss_pierrot_grito-sheet_4
   - first:
-      213: 940921482046155725
-    second: onda_pierrot_completo_corrigido_5
+      213: 6244105557674864406
+    second: boss_pierrot_grito-sheet_5
   - first:
-      213: 3321097009008062847
-    second: onda_pierrot_completo_corrigido_6
+      213: -785480676805641863
+    second: boss_pierrot_grito-sheet_6
   - first:
-      213: 211636697519905177
-    second: onda_pierrot_completo_corrigido_7
+      213: 253397220154630766
+    second: boss_pierrot_grito-sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -93,7 +93,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -119,10 +119,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OndaPierrot_0
+      name: boss_pierrot_grito-sheet_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 0
-        width: 335
-        height: 203
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ea9f227d1344c0499b540b9445a90a6
-      internalID: -1147279944
+      spriteID: da7863efa4fe90242a48665a992d3d0a
+      internalID: -3623861984194218529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OndaPierrot_1
+      name: boss_pierrot_grito-sheet_1
       rect:
         serializedVersion: 2
-        x: 400
+        x: 262
         y: 0
-        width: 266
-        height: 203
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66da9c3c26be11046aa7384efb64db37
-      internalID: -1661212019
+      spriteID: e0fe72b9064bf7f42b0251bbb4ce8d37
+      internalID: 6902770426484685831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OndaPierrot_2
+      name: boss_pierrot_grito-sheet_2
       rect:
         serializedVersion: 2
-        x: 750
+        x: 524
         y: 0
-        width: 235
-        height: 203
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2afdc75a2299cb45bec211d1af0ff32
-      internalID: 468233870
+      spriteID: 3e347e9fcfb034b4a93c36a721d50ee5
+      internalID: -7888940303934699597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OndaPierrot_3
+      name: boss_pierrot_grito-sheet_3
       rect:
         serializedVersion: 2
-        x: 1055
+        x: 786
         y: 0
-        width: 269
-        height: 203
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2afee161865a23d439a82e6963e3a9d4
-      internalID: 843529427
+      spriteID: 74c4ccc6b668c614fb68aeb3d53ed78c
+      internalID: 3743898332464395971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OndaPierrot_4
+      name: boss_pierrot_grito-sheet_4
       rect:
         serializedVersion: 2
-        x: 1350
+        x: 1048
         y: 0
-        width: 301
-        height: 203
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a4111f34816a7f4e870dccd5e0e06b6
-      internalID: -1659706633
+      spriteID: bd6088b1f126eca419a954e5fd4db21b
+      internalID: -4143992551981641180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: OndaPierrot_5
+      name: boss_pierrot_grito-sheet_5
       rect:
         serializedVersion: 2
-        x: 1677
+        x: 1310
         y: 0
-        width: 307
-        height: 203
+        width: 262
+        height: 285
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,8 +259,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b301ff675b3ab7a4da53c3ee7b6a53dc
-      internalID: 85118996
+      spriteID: 85c1dbf6ad33cf149bbce4bd4f3e9f29
+      internalID: 6244105557674864406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_grito-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 0
+        width: 262
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5821646389e98264281259029ab3f9d5
+      internalID: -785480676805641863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_grito-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 0
+        width: 262
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e9fa6043b2bd8449a95bb68f2f4a3d
+      internalID: 253397220154630766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_pierrot_grito-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 0
+        width: 262
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e3b75a1f50a6b41b6ca00e14ff3aab
+      internalID: 1149174811
       vertices: []
       indices: 
       edges: []
@@ -269,7 +335,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: cf0485c4f9892ac408d09341eecbdacc
+    spriteID: 5965b8bdfb9d19344847adec91da6acb
     internalID: 0
     vertices: []
     indices: 
@@ -279,13 +345,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      OndaPierrot_0: -1147279944
-      OndaPierrot_1: -1661212019
-      OndaPierrot_2: 468233870
-      OndaPierrot_3: 843529427
-      OndaPierrot_4: -1659706633
-      OndaPierrot_5: 85118996
-      OndaPierrot_6: -1472144659
+      boss_pierrot_grito-sheet_0: -3623861984194218529
+      boss_pierrot_grito-sheet_1: 6902770426484685831
+      boss_pierrot_grito-sheet_2: -7888940303934699597
+      boss_pierrot_grito-sheet_3: 3743898332464395971
+      boss_pierrot_grito-sheet_4: -4143992551981641180
+      boss_pierrot_grito-sheet_5: 6244105557674864406
+      boss_pierrot_grito-sheet_6: -785480676805641863
+      boss_pierrot_grito-sheet_7: 253397220154630766
+      boss_pierrot_grito-sheet_8: 1149174811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

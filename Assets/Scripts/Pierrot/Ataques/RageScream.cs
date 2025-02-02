@@ -33,6 +33,7 @@ public class RageScream : MonoBehaviour
 
     public void RageScreamOn()
     {
+        //AQUI
         gritoSound.Play();
         rageScreamingOn = true;
     }

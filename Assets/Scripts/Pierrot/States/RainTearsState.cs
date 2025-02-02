@@ -7,6 +7,8 @@ public class RainTearsState : IState
     GameObject bossGameObject;
     SpriteRenderer sp;
     SpawnRainTears spawnRainTears;
+ 
+    private Animator anim;
 
     public RainTearsState(GameObject bossGameObject)
     {
@@ -14,22 +16,19 @@ public class RainTearsState : IState
         sp = bossGameObject.GetComponent<SpriteRenderer>();
         spawnRainTears = bossGameObject.GetComponent<SpawnRainTears>();
         attackDuration = spawnRainTears.attackDuration;
+        anim = bossGameObject.GetComponent<Animator>();
     }
 
     public void Enter()
     {
-        // inicia alguma animação do ataque começando
-        Debug.Log("Entrou em lagrimas caindo!");
-        sp.color = Color.yellow;
+        anim.Play("ataqueChuva");
         spawnRainTears.StartSpawning();
         timeSinceStart = 0f;
     }
 
     public void Exit()
     {
-        // inicia alguma animação do ataque terminando
-        Debug.Log("Saiu de lagrimas caindo!");
-        sp.color = Color.white;
+        anim.Play("idle");
     }
 
     public void Update()

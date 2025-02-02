@@ -3,7 +3,7 @@ using UnityEngine;
 public class WaveCollision : BossDMG
 {
 
-    private float time, timeToDestroy=2.9f;
+    private float time, timeToDestroy=5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected override void  Start()
     {

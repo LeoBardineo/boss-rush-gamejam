@@ -2157,14 +2157,20 @@ MonoBehaviour:
   HP: 0
   maxHP: 0
   invicible: 0
+  canTakeDamage: 0
   invicibleDuration: 1.2
+  transitionSpeed: 5
   time: 0
+  damageColor: {r: 0, g: 0, b: 0, a: 0}
   deathPanel: {fileID: 582140234}
   deathAnimationName: Ataque_Martelo
   HealthPanel: {fileID: 1136485951}
-  mascaraFull: {fileID: -8429812702874340862, guid: 632d283867277194caea4a1f909c7434, type: 3}
-  mascaraMetade: {fileID: -4631681558892906215, guid: a3d941e678b1ba542adc761ddee194d1, type: 3}
-  mascaraVazia: {fileID: 3972446440040962061, guid: 6bbb6d16b412dcc4c86bb2e1a42c2755, type: 3}
+  mascaraFull_X: {fileID: 0}
+  mascaraMetade_X: {fileID: 0}
+  mascaraVazia_X: {fileID: 0}
+  mascaraFull_Y: {fileID: 0}
+  mascaraMetade_Y: {fileID: 0}
+  mascaraVazia_Y: {fileID: 0}
 --- !u!114 &585488622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2511,6 +2517,8 @@ MonoBehaviour:
   lockedRemaining: 0
   attackRemaining: 0
   attackArea: {fileID: 0}
+  isUsingPower: 0
+  animationName: 
   powerArea: {fileID: 115760841}
 --- !u!114 &585488631
 MonoBehaviour:
@@ -2534,9 +2542,13 @@ MonoBehaviour:
   lockedRemaining: 0
   attackRemaining: 0
   attackArea: {fileID: 1380444958}
+  isUsingPower: 0
+  animationName: 
   bunnyPrefab: {fileID: 6674516587623914274, guid: 1d5b8e4c02ef35c4ea1261314958e4c8, type: 3}
   spawnInterval: 0.5
   antecipationDuration: 0.5
+  chapeu: {fileID: 0}
+  firePoint: {fileID: 0}
 --- !u!114 &585488632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2559,6 +2571,8 @@ MonoBehaviour:
   lockedRemaining: 0
   attackRemaining: 0
   attackArea: {fileID: 0}
+  isUsingPower: 0
+  animationName: 
   bangPrefab: {fileID: 3709194906325558912, guid: 1e67c0d3413c57e46a8f344c9cba5fb2, type: 3}
 --- !u!114 &585488633
 MonoBehaviour:
@@ -2582,6 +2596,8 @@ MonoBehaviour:
   lockedRemaining: 0
   attackRemaining: 0
   attackArea: {fileID: 0}
+  isUsingPower: 0
+  animationName: 
   rainPrefab: {fileID: 8770195569515005297, guid: e6f205b72fd0aca469384e1f4368ac73, type: 3}
   spawnInterval: 0.25
   antecipationDuration: 0.5
@@ -2611,6 +2627,10 @@ MonoBehaviour:
   lockedRemaining: 0
   attackRemaining: 0
   attackArea: {fileID: 0}
+  isUsingPower: 0
+  animationName: 
+  selectedPower: {fileID: 0}
+  chapeu: {fileID: 0}
 --- !u!114 &585488635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2630,6 +2650,8 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
+  efeitoPocao: {fileID: 0}
+  healingPoints: 2
 --- !u!114 &585488636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2649,6 +2671,7 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
+  efeitoPocao: {fileID: 0}
 --- !u!114 &585488637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2668,6 +2691,7 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
+  efeitoPocao: {fileID: 0}
 --- !u!114 &585488638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2687,6 +2711,7 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
+  efeitoPocao: {fileID: 0}
 --- !u!114 &585488639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2706,6 +2731,7 @@ MonoBehaviour:
   cooldownRemaining: 0
   lockedRemaining: 0
   buffRemaining: 0
+  efeitoPocao: {fileID: 0}
 --- !u!95 &585488640
 Animator:
   serializedVersion: 7
@@ -3784,7 +3810,7 @@ Transform:
   m_GameObject: {fileID: 753406832}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.13, y: -0.92, z: 0}
+  m_LocalPosition: {x: 1.08, y: -0.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3956,6 +3982,7 @@ GameObject:
   - component: {fileID: 778854211}
   - component: {fileID: 778854210}
   - component: {fileID: 778854217}
+  - component: {fileID: 778854218}
   m_Layer: 6
   m_Name: OceanOfTears
   m_TagString: Ground
@@ -4129,7 +4156,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 11
   m_Sprite: {fileID: 131475495, guid: 06219aea334443f438e21c9b121a3756, type: 3}
   m_Color: {r: 0, g: 1, b: 0.979579, a: 1}
   m_FlipX: 0
@@ -4253,6 +4280,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &778854218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778854209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aff4299b95b732a43a9a3c1d19d22a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 1.8
 --- !u!1 &788308816
 GameObject:
   m_ObjectHideFlags: 0
@@ -5498,7 +5538,7 @@ MonoBehaviour:
   spawnHeight: 1.5
   positionVariance: 1.5
   antecipationDuration: 2
-  attackDuration: 5
+  attackDuration: 7.5
   spawnInterval: 0.1
   isSpawning: 0
 --- !u!114 &1065663531
@@ -5545,7 +5585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be2b7c4031d389149ad3f6d0267e7c2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeAfterShoot: 2
+  timeAfterShoot: 1.5
   timeToShoot: 3
   delayTime: 1.2
   waterJetPrefab: {fileID: 1649262341622291913, guid: 0e5f94da9b9cc5e45bf59f8a11d08477, type: 3}
@@ -5565,7 +5605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1e6f75df01433743aebed120f5f9093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idleDuration: 2
+  idleDuration: 3.5
 --- !u!212 &1065663535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5671,7 +5711,7 @@ Animation:
   m_GameObject: {fileID: 1065663526}
   m_Enabled: 1
   serializedVersion: 4
-  m_Animation: {fileID: 7400000, guid: 01ae85a5a9f2ca84e80373ea5822f8d8, type: 2}
+  m_Animation: {fileID: 0}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
@@ -5691,10 +5731,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHP: 46.18
-  HP: 43.6
+  HP: 10
   SpriteRenderer: {fileID: 1065663535}
   fase2: 0
   firstTimeFase2: 1
+  timeOnRed: 1
   playerController: {fileID: 585488624}
 --- !u!61 &1065663540
 BoxCollider2D:
@@ -5734,7 +5775,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.16, y: 2.67}
+    oldSize: {x: 2.62, y: 2.8}
     newSize: {x: 3.37, y: 3.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

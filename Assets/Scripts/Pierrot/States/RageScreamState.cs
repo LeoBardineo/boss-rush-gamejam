@@ -8,24 +8,25 @@ public class RageScreamState : IState
     SpriteRenderer sp;
     RageScream rageScream;
 
+    private Animator anim;
+
     public RageScreamState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
         sp = bossGameObject.GetComponent<SpriteRenderer>();
         rageScream = bossGameObject.GetComponent<RageScream>();
+        anim = bossGameObject.GetComponent<Animator>();
     }
     public void Enter()
     {
-        Debug.Log("Entrou no grito");
-        sp.color = Color.red;
         timeSinceStart = 0f;
         rageScream.RageScreamOn();
+        anim.Play("ataque_O_Urro");
     }
 
     public void Exit()
     {
-        Debug.Log("Saiu do grito");
-        sp.color = Color.white;
+        anim.Play("idle");
     }
 
     public void Update()

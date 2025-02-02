@@ -1,58 +1,55 @@
 fileFormatVersion: 2
-guid: 53c7d78ffe7b25a468993b41a0f47646
+guid: 0a5652ca3305417449a7e2e477ba4c99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6896136812865621037
-    second: boss_pierrot_piscina-sheet_0
+      213: 1186262796127121779
+    second: boss_pierrot_soco-sheet_0
   - first:
-      213: -7601180500661283920
-    second: boss_pierrot_piscina-sheet_1
+      213: -8151282406833138834
+    second: boss_pierrot_soco-sheet_1
   - first:
-      213: -5601201584574358095
-    second: boss_pierrot_piscina-sheet_2
+      213: 5901930229498264108
+    second: boss_pierrot_soco-sheet_2
   - first:
-      213: 8380434140096400951
-    second: boss_pierrot_piscina-sheet_3
+      213: 490824786960389468
+    second: boss_pierrot_soco-sheet_3
   - first:
-      213: 737369970671686589
-    second: boss_pierrot_piscina-sheet_4
+      213: -7410450887140220642
+    second: boss_pierrot_soco-sheet_4
   - first:
-      213: -1063624677292105800
-    second: boss_pierrot_piscina-sheet_5
+      213: 5442361501598039002
+    second: boss_pierrot_soco-sheet_5
   - first:
-      213: 5587743980488805681
-    second: boss_pierrot_piscina-sheet_6
+      213: -6562576145495360107
+    second: boss_pierrot_soco-sheet_6
   - first:
-      213: 7009647487356253667
-    second: boss_pierrot_piscina-sheet_7
+      213: -5885249094971512131
+    second: boss_pierrot_soco-sheet_7
   - first:
-      213: 421213135708851782
-    second: boss_pierrot_piscina-sheet_8
+      213: 8329821301297814851
+    second: boss_pierrot_soco-sheet_8
   - first:
-      213: -6753420400693887160
-    second: boss_pierrot_piscina-sheet_9
+      213: -3443201454217443369
+    second: boss_pierrot_soco-sheet_9
   - first:
-      213: 3936089860471552282
-    second: boss_pierrot_piscina-sheet_10
+      213: 6884411012054192369
+    second: boss_pierrot_soco-sheet_10
   - first:
-      213: 7901258986377825540
-    second: boss_pierrot_piscina-sheet_11
+      213: 8224667109890286688
+    second: boss_pierrot_soco-sheet_11
   - first:
-      213: 3328568959608336644
-    second: boss_pierrot_piscina-sheet_12
+      213: 8053195363303103423
+    second: boss_pierrot_soco-sheet_12
   - first:
-      213: -1167347464304046435
-    second: boss_pierrot_piscina-sheet_13
+      213: -7774013937134530787
+    second: boss_pierrot_soco-sheet_13
   - first:
-      213: -2560222808338698919
-    second: boss_pierrot_piscina-sheet_14
+      213: -3083027377166520898
+    second: boss_pierrot_soco-sheet_14
   - first:
-      213: -1025477043760547841
-    second: boss_pierrot_piscina-sheet_15
-  - first:
-      213: 8991594454758494145
-    second: boss_pierrot_piscina-sheet_16
+      213: -7114921048882515906
+    second: boss_pierrot_soco-sheet_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -146,10 +143,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -161,375 +158,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_0
+      name: boss_pierrot_soco-sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 262
-        height: 280
+        x: 88
+        y: 11
+        width: 216
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 20bf1d1836f65b947a456a4f1bed7439
-      internalID: 6896136812865621037
+      spriteID: 3713b6d5ab3767010800000000000000
+      internalID: 1186262796127121779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_1
+      name: boss_pierrot_soco-sheet_1
       rect:
         serializedVersion: 2
-        x: 262
-        y: 0
-        width: 262
-        height: 280
+        x: 482
+        y: 11
+        width: 222
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e27a804ec2eedb042831465bdc23c637
-      internalID: -7601180500661283920
+      spriteID: e63d1dc96d3d0ee80800000000000000
+      internalID: -8151282406833138834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_2
+      name: boss_pierrot_soco-sheet_2
       rect:
         serializedVersion: 2
-        x: 524
-        y: 0
-        width: 262
-        height: 280
+        x: 864
+        y: 11
+        width: 240
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 54fde06826c496c4f9ffed58312a542e
-      internalID: -5601201584574358095
+      spriteID: c2a3262264ed7e150800000000000000
+      internalID: 5901930229498264108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_3
+      name: boss_pierrot_soco-sheet_3
       rect:
         serializedVersion: 2
-        x: 786
-        y: 0
-        width: 262
-        height: 280
+        x: 1267
+        y: 11
+        width: 237
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 53bc5848a14cad9409de5ed162902a13
-      internalID: 8380434140096400951
+      spriteID: c551bb11b82cfc600800000000000000
+      internalID: 490824786960389468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_4
+      name: boss_pierrot_soco-sheet_4
       rect:
         serializedVersion: 2
-        x: 1048
-        y: 0
-        width: 262
-        height: 280
+        x: 1672
+        y: 11
+        width: 232
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9d16098a8b6009644aaa4ccf2fcec321
-      internalID: 737369970671686589
+      spriteID: e11678e2e2ac82990800000000000000
+      internalID: -7410450887140220642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_5
+      name: boss_pierrot_soco-sheet_5
       rect:
         serializedVersion: 2
-        x: 1310
-        y: 0
-        width: 262
-        height: 280
+        x: 2072
+        y: 11
+        width: 232
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c2f7c7a52031a184488323d06d9c70fc
-      internalID: -1063624677292105800
+      spriteID: adb330a63f6278b40800000000000000
+      internalID: 5442361501598039002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_6
+      name: boss_pierrot_soco-sheet_6
       rect:
         serializedVersion: 2
-        x: 1572
-        y: 0
-        width: 262
-        height: 280
+        x: 2472
+        y: 11
+        width: 232
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 767a4dc1be695264abef11fb494cbb16
-      internalID: 5587743980488805681
+      spriteID: 59dfb4404cb0de4a0800000000000000
+      internalID: -6562576145495360107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_7
+      name: boss_pierrot_soco-sheet_7
       rect:
         serializedVersion: 2
-        x: 1834
-        y: 0
-        width: 262
-        height: 280
+        x: 2877
+        y: 11
+        width: 227
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e13028f7b5b2f214ba41d3945f960bb3
-      internalID: 7009647487356253667
+      spriteID: dbaa8872125635ea0800000000000000
+      internalID: -5885249094971512131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_8
+      name: boss_pierrot_soco-sheet_8
       rect:
         serializedVersion: 2
-        x: 2096
-        y: 0
-        width: 262
-        height: 280
+        x: 3262
+        y: 11
+        width: 242
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3c5cec8e11da43148906639390581d25
-      internalID: 421213135708851782
+      spriteID: 34d965a1758799370800000000000000
+      internalID: 8329821301297814851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_9
+      name: boss_pierrot_soco-sheet_9
       rect:
         serializedVersion: 2
-        x: 2358
-        y: 0
-        width: 262
-        height: 280
+        x: 3685
+        y: 11
+        width: 219
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0e16f0c52b69f6d4d898b716b8d47331
-      internalID: -6753420400693887160
+      spriteID: 7d7c24f258a4730d0800000000000000
+      internalID: -3443201454217443369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_10
+      name: boss_pierrot_soco-sheet_10
       rect:
         serializedVersion: 2
-        x: 2620
-        y: 0
-        width: 262
-        height: 280
+        x: 4088
+        y: 11
+        width: 216
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9978e1335a2dd4a47b61c8216030c73f
-      internalID: 3936089860471552282
+      spriteID: 1f0174d17575a8f50800000000000000
+      internalID: 6884411012054192369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_11
+      name: boss_pierrot_soco-sheet_11
       rect:
         serializedVersion: 2
-        x: 2882
-        y: 0
-        width: 262
-        height: 280
+        x: 4488
+        y: 11
+        width: 216
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1fc5b93b42a1c9246b12d085c83c3464
-      internalID: 7901258986377825540
+      spriteID: 06469d80923e32270800000000000000
+      internalID: 8224667109890286688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_12
+      name: boss_pierrot_soco-sheet_12
       rect:
         serializedVersion: 2
-        x: 3144
-        y: 0
-        width: 262
-        height: 280
+        x: 4888
+        y: 11
+        width: 216
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 30017506f20fc3647944cd1ba0bfef3f
-      internalID: 3328568959608336644
+      spriteID: fbb1188e382b2cf60800000000000000
+      internalID: 8053195363303103423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_13
+      name: boss_pierrot_soco-sheet_13
       rect:
         serializedVersion: 2
-        x: 3406
-        y: 0
-        width: 262
-        height: 280
+        x: 5288
+        y: 11
+        width: 216
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2327cab466f212f47a73a2fa3abdd6a1
-      internalID: -1167347464304046435
+      spriteID: d1f092e33872d1490800000000000000
+      internalID: -7774013937134530787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_14
+      name: boss_pierrot_soco-sheet_14
       rect:
         serializedVersion: 2
-        x: 3668
-        y: 0
-        width: 262
-        height: 280
+        x: 5688
+        y: 11
+        width: 216
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f3d344a0baa5787459dc7a5d75a3a367
-      internalID: -2560222808338698919
+      spriteID: ebd6f2f5fe2e635d0800000000000000
+      internalID: -3083027377166520898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_15
+      name: boss_pierrot_soco-sheet_15
       rect:
         serializedVersion: 2
-        x: 3930
-        y: 0
-        width: 262
-        height: 280
+        x: 6088
+        y: 11
+        width: 216
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4cf6c285e103b5f4fb2d6d2e139618ee
-      internalID: -1025477043760547841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: boss_pierrot_piscina-sheet_16
-      rect:
-        serializedVersion: 2
-        x: 4192
-        y: 0
-        width: 262
-        height: 280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d07238cb410097b489967a0223c240c7
-      internalID: 8991594454758494145
+      spriteID: e307864a009b24d90800000000000000
+      internalID: -7114921048882515906
       vertices: []
       indices: 
       edges: []
@@ -538,7 +513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a8fcff3a07771fe4c9421d3432bbb624
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -548,23 +523,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boss_pierrot_piscina-sheet_0: 6896136812865621037
-      boss_pierrot_piscina-sheet_1: -7601180500661283920
-      boss_pierrot_piscina-sheet_10: 3936089860471552282
-      boss_pierrot_piscina-sheet_11: 7901258986377825540
-      boss_pierrot_piscina-sheet_12: 3328568959608336644
-      boss_pierrot_piscina-sheet_13: -1167347464304046435
-      boss_pierrot_piscina-sheet_14: -2560222808338698919
-      boss_pierrot_piscina-sheet_15: -1025477043760547841
-      boss_pierrot_piscina-sheet_16: 8991594454758494145
-      boss_pierrot_piscina-sheet_2: -5601201584574358095
-      boss_pierrot_piscina-sheet_3: 8380434140096400951
-      boss_pierrot_piscina-sheet_4: 737369970671686589
-      boss_pierrot_piscina-sheet_5: -1063624677292105800
-      boss_pierrot_piscina-sheet_6: 5587743980488805681
-      boss_pierrot_piscina-sheet_7: 7009647487356253667
-      boss_pierrot_piscina-sheet_8: 421213135708851782
-      boss_pierrot_piscina-sheet_9: -6753420400693887160
+      boss_pierrot_soco-sheet_0: 1186262796127121779
+      boss_pierrot_soco-sheet_1: -8151282406833138834
+      boss_pierrot_soco-sheet_10: 6884411012054192369
+      boss_pierrot_soco-sheet_11: 8224667109890286688
+      boss_pierrot_soco-sheet_12: 8053195363303103423
+      boss_pierrot_soco-sheet_13: -7774013937134530787
+      boss_pierrot_soco-sheet_14: -3083027377166520898
+      boss_pierrot_soco-sheet_15: -7114921048882515906
+      boss_pierrot_soco-sheet_2: 5901930229498264108
+      boss_pierrot_soco-sheet_3: 490824786960389468
+      boss_pierrot_soco-sheet_4: -7410450887140220642
+      boss_pierrot_soco-sheet_5: 5442361501598039002
+      boss_pierrot_soco-sheet_6: -6562576145495360107
+      boss_pierrot_soco-sheet_7: -5885249094971512131
+      boss_pierrot_soco-sheet_8: 8329821301297814851
+      boss_pierrot_soco-sheet_9: -3443201454217443369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -9,26 +9,26 @@ public class WaveState : IState
     GameObject bossGameObject;
     SpriteRenderer sp;
     WaveBehaviour wave;
+    
+    private Animator anim;
 
     public WaveState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
         sp = bossGameObject.GetComponent<SpriteRenderer>();
         wave = bossGameObject.GetComponent<WaveBehaviour>();
+        anim = bossGameObject.GetComponent<Animator>();
     }
     public void Enter()
     {
-        // inicia alguma animação do ataque começando
-        Debug.Log("Entrou em waves");
+        anim.Play("ataqueOnda");
         wave.InstantiateWave();
-        sp.color = Color.blue;
         timeSinceStart= 0f;
     }
 
     public void Exit()
     {
-        Debug.Log("Saiu de waves");
-        sp.color = Color.white;
+        anim.Play("idle");
     }
 
     public void Update()

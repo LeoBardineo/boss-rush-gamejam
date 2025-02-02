@@ -135,6 +135,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -142,10 +155,10 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 11
-        width: 216
-        height: 267
+        x: 0
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,19 +177,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_1
       rect:
         serializedVersion: 2
-        x: 281
-        y: 11
-        width: 216
-        height: 267
+        x: 262
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a91791db61263fc0800000000000000
+      spriteID: 964860f35a649a2499c9bf75294d0bdd
       internalID: -3515585712154535519
       vertices: []
       indices: 
@@ -186,19 +199,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_2
       rect:
         serializedVersion: 2
-        x: 543
-        y: 11
-        width: 216
-        height: 267
+        x: 524
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b7f3faf6957b20c0800000000000000
+      spriteID: b4f72fb85f66f33489ce7aa06b3de840
       internalID: -4599453303112992845
       vertices: []
       indices: 
@@ -208,19 +221,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_3
       rect:
         serializedVersion: 2
-        x: 805
-        y: 11
-        width: 216
-        height: 267
+        x: 786
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ecffdc82ed79bf630800000000000000
+      spriteID: 6db559fa168e092459014e3c1b610670
       internalID: 3961927277625606094
       vertices: []
       indices: 
@@ -230,19 +243,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_4
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 11
-        width: 216
-        height: 267
+        x: 1048
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8656419bc3282dcc0800000000000000
+      spriteID: 3269649c601d81b4c914da23fc9b6432
       internalID: -3687741947548244632
       vertices: []
       indices: 
@@ -252,19 +265,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_5
       rect:
         serializedVersion: 2
-        x: 1329
-        y: 11
-        width: 216
-        height: 267
+        x: 1310
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c2c4306bc062bbbf0800000000000000
+      spriteID: d5bea383a7243af4fb5f5ae81879ad21
       internalID: -307610313509614548
       vertices: []
       indices: 
@@ -274,19 +287,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_6
       rect:
         serializedVersion: 2
-        x: 1591
-        y: 11
-        width: 216
-        height: 267
+        x: 1572
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e0e341e1945c4c080800000000000000
+      spriteID: 5214e3c080b6225499f2936c0eb053a1
       internalID: -9167986023591559666
       vertices: []
       indices: 
@@ -296,19 +309,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_7
       rect:
         serializedVersion: 2
-        x: 1853
-        y: 11
-        width: 216
-        height: 267
+        x: 1834
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 77f06166e5fa35580800000000000000
+      spriteID: 0e6b01b645ad82b48a88b6cc35690be0
       internalID: -8839528823623643273
       vertices: []
       indices: 
@@ -318,19 +331,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_8
       rect:
         serializedVersion: 2
-        x: 2115
-        y: 11
-        width: 216
-        height: 267
+        x: 2096
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a9620b2f5b47f7410800000000000000
+      spriteID: ded8bc163ba1b044bae7b7416f948b1a
       internalID: 1477027527610345114
       vertices: []
       indices: 
@@ -340,19 +353,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_9
       rect:
         serializedVersion: 2
-        x: 2377
-        y: 11
-        width: 216
-        height: 267
+        x: 2358
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d3d69a0d2b9fc340800000000000000
+      spriteID: f5f75b1f0e64699498c6ecb1a5bcba21
       internalID: 4886294738473767890
       vertices: []
       indices: 
@@ -362,19 +375,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_10
       rect:
         serializedVersion: 2
-        x: 2639
-        y: 11
-        width: 216
-        height: 267
+        x: 2620
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 26c549ef6dfe0f740800000000000000
+      spriteID: b332b6156c7d7f740a3bcdda82549d1b
       internalID: 5183906877776616546
       vertices: []
       indices: 
@@ -384,19 +397,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_11
       rect:
         serializedVersion: 2
-        x: 2901
-        y: 11
-        width: 216
-        height: 267
+        x: 2882
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 75b241c2b0b791330800000000000000
+      spriteID: 7d2c7772dd244ef48b2727610aa75f24
       internalID: 3682109458266467159
       vertices: []
       indices: 
@@ -406,19 +419,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_12
       rect:
         serializedVersion: 2
-        x: 3163
-        y: 11
-        width: 216
-        height: 267
+        x: 3144
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ee20ab066565ca70800000000000000
+      spriteID: 3c3783c001f892a4b857de73aa483758
       internalID: 8846588531995324136
       vertices: []
       indices: 
@@ -428,19 +441,19 @@ TextureImporter:
       name: boss_pierrot_chorolagrimas-sheet_13
       rect:
         serializedVersion: 2
-        x: 3425
-        y: 11
-        width: 216
-        height: 267
+        x: 3406
+        y: 0
+        width: 262
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6019b8ad5ce6a1490800000000000000
+      spriteID: 4a003192b752ec54e9c7c5138bc41a20
       internalID: -7774780010647547642
       vertices: []
       indices: 
@@ -450,7 +463,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 95baa659ec185c3408038ff87d7869cd
     internalID: 0
     vertices: []
     indices: 
