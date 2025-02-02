@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      palhacito_logo_icon_0: -2462342540568255276
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
