@@ -11,8 +11,8 @@ public class ConfettiRainAttack : MonoBehaviour
     private Vector3 posicaoCentro, dimensoes, velocity= Vector3.zero;
     public float spawnHeight = 1.5f;
     public float positionVariance = 0.5f;
-    public float antecipationDuration = 2f, time=0, timeTrackingAfter=5f, timeT=0, timeD;
-    public float attackDuration = 9f;
+    public float antecipationDuration = 2f, time=0, timeTrackingAfter=2f, timeT=0, timeD;
+    public float attackDuration = 5f;
     public float spawnInterval = 14f;
     public static bool isAttacking = false;
     private bool spawnHasBegun=false, posSpawnTracking=false;
