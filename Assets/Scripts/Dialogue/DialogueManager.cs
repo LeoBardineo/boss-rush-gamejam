@@ -2,12 +2,14 @@ using System.Collections;
 using Ink.Runtime;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField] GameObject dialoguePanel, cortinaIn;
     [SerializeField] TextMeshProUGUI dialogueText;
     [SerializeField] float typingSpeed = 0.04f;
+    [SerializeField] Button jackpotBotao;
     public SceneManagementUtilitys sceneManagementUtilitys;
     Coroutine displayLineCoroutine;
     
@@ -64,6 +66,10 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
         Debug.Log("entrou");
+        if(jackpotBotao != null)
+        {
+            jackpotBotao.enabled = false;
+        }
 
         ContinueStory();
     }
@@ -74,6 +80,10 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(LiberaApertarEspaco());
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
+        if(jackpotBotao != null)
+        {
+            jackpotBotao.enabled = true;
+        }
         if(vaiPraCena)
         {
             cortinaIn.SetActive(true);

@@ -127,6 +127,8 @@ public class Roleta : MonoBehaviour
             GlobalData.bossDisponiveis.Remove("Jester");
         }
 
+        GlobalData.ultimoBoss = bossName;
+
         dialogueRoletaTrigger.ComecaDialogoFinal(bossName);
         Debug.Log($"A roleta parou na escolha: {escolha} - {bossName}");
     }

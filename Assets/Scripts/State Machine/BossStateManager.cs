@@ -19,6 +19,8 @@ public abstract class BossStateManager : MonoBehaviour
 
     public void BossDeath()
     {
+        if(GlobalData.bossDisponiveis.Count == 0)
+            cenaGanhou = "WinAllBoss";
         StartCoroutine(gameManager.CarregaCena(cenaGanhou));
     }
 }

@@ -46,20 +46,39 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         facingRight = true;
 
-        if(equipedWeapon == null)
-        {
-            equipedWeapon = equipFirstWeapon();
-        }
+        // if(equipedWeapon == null)
+        // {
+        //     equipedWeapon = equipFirstWeapon();
+        // }
 
-        if(equipedPower == null)
-        {
-            equipedPower = equipFirstPower();
-        }
+        // if(equipedPower == null)
+        // {
+        //     equipedPower = equipFirstPower();
+        // }
 
-        if(equipedPotion == null)
-        {
-            equipedPotion = equipFirstPotion();
-        }
+        // if(equipedPotion == null)
+        // {
+        //     equipedPotion = equipFirstPotion();
+        // }
+
+        if(GlobalData.armaEquipada == "Martelo") equipedWeapon = GetComponent<Hammer>();
+        if(GlobalData.armaEquipada == "Florzinha") equipedWeapon = GetComponent<SquirtFlower>();
+        if(GlobalData.armaEquipada == "Malabares") equipedWeapon = GetComponent<JugglingClub>();
+        if(GlobalData.armaEquipada == "Canhao") equipedWeapon = GetComponent<Cannon>();
+
+        if(GlobalData.poderEquipado == "CospeFogo") equipedPower = GetComponent<Blaze>();
+        if(GlobalData.poderEquipado == "Coelhos") equipedPower = GetComponent<Bunny>();
+        if(GlobalData.poderEquipado == "Nuvem") equipedPower = GetComponent<Rain>();
+        if(GlobalData.poderEquipado == "Coringa") equipedPower = GetComponent<Joker>();
+
+        if(GlobalData.pocaoEquipada == "HP") equipedPotion = GetComponent<Pie>();
+        if(GlobalData.pocaoEquipada == "Poder") equipedPotion = GetComponent<Lollipop>();
+        if(GlobalData.pocaoEquipada == "DanoHP") equipedPotion = GetComponent<IceCream>();
+        if(GlobalData.pocaoEquipada == "Hits") equipedPotion = GetComponent<BananaSplit>();
+
+        equipedWeapon.enabled = true;
+        equipedPower.enabled = true;
+        equipedPotion.enabled = true;
 
         speed *= GlobalData.playerData["Agilidade"][GlobalData.level];
     }

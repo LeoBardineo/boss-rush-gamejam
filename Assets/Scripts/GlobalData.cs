@@ -20,13 +20,15 @@ public static class GlobalData
     };
 
     public static Dictionary<string, string> cenasBossFights = new Dictionary<string, string>{
-        {"Harlequin", "Roleta2"},
-        {"Pierrot", "Roleta2"},
+        {"Harlequin", "Jester Boss Fight"},
+        {"Pierrot", "Jester Boss Fight"},
         {"Jester", "Jester Boss Fight"}
     };
 
-    public static string armaEquipada, poderEquipado, pocaoEquipada;
-    public static bool playerCanTakeDamage=true, harlequimIdle=false;
+    public static string ultimoBoss = "Harlequin";
+
+    public static string armaEquipada = "Martelo", poderEquipado = "CospeFogo", pocaoEquipada = "HP";
+    public static bool playerCanTakeDamage=true, harlequimIdle=false, primeiraVezJackpot=true;
 
     public static int level = 0;
 

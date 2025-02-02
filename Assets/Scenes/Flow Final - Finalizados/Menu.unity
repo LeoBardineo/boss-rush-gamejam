@@ -1105,7 +1105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b092cb6673621c84db9bf9382f7aafeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: 
+  SceneName: Dialogo Introducao
   sceneBuildIndex: 0
   sobreCanva: {fileID: 1299831919}
   currentTime: 0

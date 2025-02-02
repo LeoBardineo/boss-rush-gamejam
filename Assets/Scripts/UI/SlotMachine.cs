@@ -20,6 +20,8 @@ public class SlotMachine : MonoBehaviour
     [SerializeField] Image[] slotsImage;
     [SerializeField] float tempoDeGiro = 1.5f;
     
+    [SerializeField] GameObject cortinaIn;
+    
     string[] escolhas = new string[3];
     List<string>[] todosNomes = new List<string>[3];
     List<Sprite>[] todasImagens = new List<Sprite>[3];
@@ -88,6 +90,7 @@ public class SlotMachine : MonoBehaviour
         StartCoroutine(GirarSlot(0));
         StartCoroutine(GirarSlot(1));
         StartCoroutine(GirarSlot(2));
+        StartCoroutine(FecharCortinas());
     }
 
     IEnumerator GirarSlot(int index)
@@ -111,5 +114,11 @@ public class SlotMachine : MonoBehaviour
             GlobalData.pocaoEquipada = escolhas[index];
 
         Debug.Log($"Slot {index + 1}: {escolhas[index]}");
+    }
+
+    IEnumerator FecharCortinas()
+    {
+        yield return new WaitForSeconds(6);
+        cortinaIn.SetActive(true);
     }
 }

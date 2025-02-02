@@ -12,6 +12,9 @@ public class SceneManagementUtilitys : MonoBehaviour
     public float timer;
 	public bool active;
 	public float tempo = 5f;
+
+	[SerializeField]
+	bool cenaJackpot;
 	
 	public void LoadSceneString()
 	{
@@ -57,6 +60,15 @@ public class SceneManagementUtilitys : MonoBehaviour
 	void Start()
     {
         currentTime = 0f;
+		if(cenaJackpot)
+		{
+			if(GlobalData.bossDisponiveis.Count == 3)
+				SceneName = "Roleta1";
+			if(GlobalData.bossDisponiveis.Count == 2)
+				SceneName = "Roleta2";
+			if(GlobalData.bossDisponiveis.Count == 1)
+				SceneName = "Roleta3";
+		}
     }
 
 	void Update()
