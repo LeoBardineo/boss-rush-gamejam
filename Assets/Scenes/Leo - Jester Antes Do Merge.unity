@@ -1547,7 +1547,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -4508908325442177008, guid: ec3d00c07bd463f40a4c9cdae72e1296, type: 3}
+  m_Sprite: {fileID: -3346150902882381851, guid: 0ba0eb848cfea8a44a80894d44eb24a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1580,7 +1580,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 156e4a95b6750664489242fd43d75f46, type: 3}
   m_Name: 
@@ -1588,7 +1588,7 @@ MonoBehaviour:
   cardPrefab: {fileID: 7033371986308471254, guid: 59fde9b8a5876a243b4f333a2b94b479, type: 3}
   spawnArea: {fileID: 1634828656}
   pausCard: {fileID: 0}
-  playerController: {fileID: 0}
+  playerController: {fileID: 1515378947515325471}
   spawnPositionList: []
   bossHP: {fileID: 0}
 --- !u!114 &496510890
@@ -1598,13 +1598,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8154c55cfa5db9349974f0f947ba5338, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   copas: {fileID: 6021406861567221011, guid: 2f26f85b11b3cf641b4b82626f7c0e43, type: 3}
-  player: {fileID: 0}
+  player: {fileID: 1515378947515325435}
   antecipationDuration: 0.5
   attackDuration: 10
   secondPhaseWaitDuration: 1
@@ -1619,7 +1619,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496510881}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a25fa214efe74a44db126e0b21eaac08, type: 3}
   m_Name: 
@@ -1686,7 +1686,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5, y: 2.62}
+    oldSize: {x: 1.67, y: 2.64}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1711,6 +1711,7 @@ MonoBehaviour:
   SpriteRenderer: {fileID: 496510886}
   fase2: 0
   firstTimeFase2: 1
+  timeOnRed: 1
   playerController: {fileID: 0}
 --- !u!95 &496510895
 Animator:
@@ -8495,22 +8496,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2371046537048151501, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2371046537048151501, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2371046537048151501, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2371046537048151501, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
       propertyPath: deathPanel
       value: 
@@ -8519,22 +8504,6 @@ PrefabInstance:
       propertyPath: HealthPanel
       value: 
       objectReference: {fileID: 1136485951}
-    - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: damageColor.a
-      value: 0.74509805
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: transitionSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: invicibleDuration
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: deathAnimationName
-      value: Dead
-      objectReference: {fileID: 0}
     - target: {fileID: 6468320433688824224, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.111
@@ -8588,6 +8557,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
+--- !u!4 &1515378947515325435 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6468320433688824224, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
+  m_PrefabInstance: {fileID: 1515378947515325434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1515378947515325471 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6081013211673093663, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
+  m_PrefabInstance: {fileID: 1515378947515325434}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9dfad691bc5f974895f068daf355510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

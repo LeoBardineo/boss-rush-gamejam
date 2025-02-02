@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 2e48ff18103f063459f178ba595eb8b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -342390979335346552
+    second: jester cartas_0
+  - first:
+      213: -3070570043164662322
+    second: jester cartas_1
+  - first:
+      213: -2088123863661501985
+    second: jester cartas_2
+  - first:
+      213: -865078682780708566
+    second: jester cartas_3
+  - first:
+      213: 2809124761411148931
+    second: jester cartas_4
+  - first:
+      213: -8784460734558946080
+    second: jester cartas_5
+  - first:
+      213: 2733550478948230583
+    second: jester cartas_6
+  - first:
+      213: 8154485035366163275
+    second: jester cartas_7
+  - first:
+      213: -181718372993109876
+    second: jester cartas_8
+  - first:
+      213: -5342745882861607417
+    second: jester cartas_9
+  - first:
+      213: -3000525638940868133
+    second: jester cartas_10
+  - first:
+      213: 4991053693311286481
+    second: jester cartas_11
+  - first:
+      213: 862567989306853838
+    second: jester cartas_12
+  - first:
+      213: 6541064257956239196
+    second: jester cartas_13
+  - first:
+      213: -852434601184282703
+    second: jester cartas_14
+  - first:
+      213: -7594598559446141206
+    second: jester cartas_15
+  - first:
+      213: -7167410622405247972
+    second: jester cartas_16
+  - first:
+      213: 4590932175327994095
+    second: jester cartas_17
+  - first:
+      213: -9043131678489805198
+    second: jester cartas_18
+  - first:
+      213: 7080608146951465671
+    second: jester cartas_19
+  - first:
+      213: -3128640003468024231
+    second: jester cartas_20
+  - first:
+      213: 8739511915340941490
+    second: jester cartas_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jester cartas_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8862b66e7359f3bf0800000000000000
+      internalID: -342390979335346552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5e63770d42365d0800000000000000
+      internalID: -3070570043164662322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1a07bc86e7503e0800000000000000
+      internalID: -2088123863661501985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_3
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21d71a758f9ef3f0800000000000000
+      internalID: -865078682780708566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_4
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c5aad46140cf620800000000000000
+      internalID: 2809124761411148931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_5
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec3f350183571680800000000000000
+      internalID: -8784460734558946080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_6
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5ee497da58fe520800000000000000
+      internalID: 2733550478948230583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_7
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b432d337fec8a2170800000000000000
+      internalID: 8154485035366163275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_8
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8075904a186a7df0800000000000000
+      internalID: -181718372993109876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_9
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7066ad63de0cad5b0800000000000000
+      internalID: -5342745882861607417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_10
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd14a7f24ddfb56d0800000000000000
+      internalID: -3000525638940868133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_11
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc78bce3e8c34540800000000000000
+      internalID: 4991053693311286481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_12
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec90245240578fb00800000000000000
+      internalID: 862567989306853838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_13
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c575c7c594786ca50800000000000000
+      internalID: 6541064257956239196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_14
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7b8222f3b8b24f0800000000000000
+      internalID: -852434601184282703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_15
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6f48c19d09a9690800000000000000
+      internalID: -7594598559446141206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_16
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c7c24730e388c90800000000000000
+      internalID: -7167410622405247972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_17
+      rect:
+        serializedVersion: 2
+        x: 4274
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0265a5d7446bf30800000000000000
+      internalID: 4590932175327994095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_18
+      rect:
+        serializedVersion: 2
+        x: 4523
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e7886a6a7508280800000000000000
+      internalID: -9043131678489805198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_19
+      rect:
+        serializedVersion: 2
+        x: 4772
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca67c0589f534260800000000000000
+      internalID: 7080608146951465671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_20
+      rect:
+        serializedVersion: 2
+        x: 5021
+        y: 1
+        width: 159
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956263b3e76d494d0800000000000000
+      internalID: -3128640003468024231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jester cartas_21
+      rect:
+        serializedVersion: 2
+        x: 5270
+        y: 1
+        width: 167
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8c03878cbf84970800000000000000
+      internalID: 8739511915340941490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jester cartas_0: -342390979335346552
+      jester cartas_1: -3070570043164662322
+      jester cartas_10: -3000525638940868133
+      jester cartas_11: 4991053693311286481
+      jester cartas_12: 862567989306853838
+      jester cartas_13: 6541064257956239196
+      jester cartas_14: -852434601184282703
+      jester cartas_15: -7594598559446141206
+      jester cartas_16: -7167410622405247972
+      jester cartas_17: 4590932175327994095
+      jester cartas_18: -9043131678489805198
+      jester cartas_19: 7080608146951465671
+      jester cartas_2: -2088123863661501985
+      jester cartas_20: -3128640003468024231
+      jester cartas_21: 8739511915340941490
+      jester cartas_3: -865078682780708566
+      jester cartas_4: 2809124761411148931
+      jester cartas_5: -8784460734558946080
+      jester cartas_6: 2733550478948230583
+      jester cartas_7: 8154485035366163275
+      jester cartas_8: -181718372993109876
+      jester cartas_9: -5342745882861607417
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
