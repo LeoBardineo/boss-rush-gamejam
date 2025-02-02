@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,7 +13,10 @@ public class PlayerHP : MonoBehaviour
 
     //Pra alterar o tempo que o player fica invencível após tomar um dano é só alterar abaixo
     [SerializeField]
-    private float invicibleDuration = 1.7f, time;
+    private float invicibleDuration = 1.7f, transitionSpeed = 5f, time;
+
+    [SerializeField]
+    Color damageColor;
 
     [SerializeField]
     GameObject deathPanel;
@@ -91,9 +95,25 @@ public class PlayerHP : MonoBehaviour
         if (GetComponentInChildren<SpriteRenderer>()!= null)
         {
             sprite = GetComponentInChildren<SpriteRenderer>();
-            sprite.color = Color.red;
-            Debug.Log("Hurt change");
+            StartCoroutine(DamageFeedback());
         }
+    }
+
+    IEnumerator DamageFeedback()
+    {
+        float elapsedTime = 0f;
+        
+        while (elapsedTime < invicibleDuration)
+        {
+            float t = Mathf.PingPong(Time.time * transitionSpeed, 1f);
+            sprite.color = Color.Lerp(Color.white, damageColor, t);
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        sprite.color = Color.white;
+
     }
 
     public void Heal(int healingPoints)
