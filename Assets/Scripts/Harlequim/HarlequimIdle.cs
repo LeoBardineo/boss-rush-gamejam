@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class HarlequimIdle : MonoBehaviour
 {
-    private float limitYdown=-0.71f, limitYup=0.93f,time,timeToMove=0.8f;
     private bool onIdle;
     [SerializeField] Animator harlequim, hand1, hand2;
 
