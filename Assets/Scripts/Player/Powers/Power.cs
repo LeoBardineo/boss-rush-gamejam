@@ -8,6 +8,11 @@ public abstract class Power : MonoBehaviour {
     public AttackArea attackArea;
     bool isUsingPower = false;
 
+    protected Animator animator;
+
+    [SerializeField]
+    protected string animationName;
+
     void Start()
     {
         Initialize();
@@ -16,6 +21,7 @@ public abstract class Power : MonoBehaviour {
     protected virtual void Initialize()
     {
         playerController = GetComponent<PlayerController>();
+        animator = GetComponent<Animator>();
         // cooldownTime = GlobalData.playerData["PowerCD"][GlobalData.level];
     }
 

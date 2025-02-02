@@ -13,6 +13,7 @@ class Blaze : Power {
     
     public override void EnterPower()
     {
+        animator.Play(animationName);
         powerArea.damage = damage;
         powerArea.damageModifier = damageModifier;
         powerArea.gameObject.SetActive(true);

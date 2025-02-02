@@ -7,8 +7,9 @@ class Bunny : Power
 
     [SerializeField]
     float spawnInterval = 0.5f, antecipationDuration = 0.5f;
-    
-    Transform player;
+
+    [SerializeField]
+    GameObject chapeu, firePoint;
 
     protected override void Initialize()
     {
@@ -21,18 +22,20 @@ class Bunny : Power
     {
         if(playerController == null)
             playerController = GetComponent<PlayerController>();
-        player = playerController.transform;
         InvokeRepeating(nameof(SpawnBunny), antecipationDuration, spawnInterval);
+        chapeu.SetActive(true);
+        animator.Play(animationName);
     }
     
     public override void EndPower()
     {
         CancelInvoke(nameof(SpawnBunny));
+        chapeu.SetActive(false);
     }
 
     void SpawnBunny()
     {
-        Vector3 spawnPosition = player.position;
+        Vector3 spawnPosition = firePoint.transform.position;
         GameObject bunnyInstance = Instantiate(bunnyPrefab, spawnPosition, bunnyPrefab.transform.rotation);
         BunnyAttack bunnyAttack = bunnyInstance.GetComponent<BunnyAttack>();
         bunnyAttack.damage = damage;

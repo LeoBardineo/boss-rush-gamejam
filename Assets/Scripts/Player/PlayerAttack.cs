@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 
+[Obsolete("Classe antiga de ataque, usamos o Weapon agora", true)]
 public class PlayerAttack : MonoBehaviour
 {
     private GameObject attackArea = default;

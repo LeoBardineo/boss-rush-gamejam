@@ -27,7 +27,7 @@ public abstract class Weapon : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A) && !onCooldown)
+        if (Input.GetKeyDown(GlobalData.attackButton) && !onCooldown)
         {
             Attack();
         }

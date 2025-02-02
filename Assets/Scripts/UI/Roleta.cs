@@ -25,7 +25,7 @@ public class Roleta : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.G))
+        if(Input.GetKeyDown(GlobalData.roletaButton))
         {
             IniciarGiro();
         }

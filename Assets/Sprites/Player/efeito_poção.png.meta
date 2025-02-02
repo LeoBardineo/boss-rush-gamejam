@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: 4c55763c1c71f204c870c55db52d6cb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5686277987101857053
+    second: "efeito_po\xE7\xE3o_0"
+  - first:
+      213: -8228260020089317062
+    second: "efeito_po\xE7\xE3o_1"
+  - first:
+      213: -4244978326486997382
+    second: "efeito_po\xE7\xE3o_2"
+  - first:
+      213: -3657341049370177551
+    second: "efeito_po\xE7\xE3o_3"
+  - first:
+      213: 2160463744471199797
+    second: "efeito_po\xE7\xE3o_4"
+  - first:
+      213: -4007135001539670603
+    second: "efeito_po\xE7\xE3o_5"
+  - first:
+      213: 8813114010938472504
+    second: "efeito_po\xE7\xE3o_6"
+  - first:
+      213: -481930850167693761
+    second: "efeito_po\xE7\xE3o_7"
+  - first:
+      213: 3820478600195324092
+    second: "efeito_po\xE7\xE3o_8"
+  - first:
+      213: 6294727776596823348
+    second: "efeito_po\xE7\xE3o_9"
+  - first:
+      213: 2190445523954549673
+    second: "efeito_po\xE7\xE3o_10"
+  - first:
+      213: -733657580392158151
+    second: "efeito_po\xE7\xE3o_11"
+  - first:
+      213: -5994095605466945261
+    second: "efeito_po\xE7\xE3o_12"
+  - first:
+      213: 53198224260080262
+    second: "efeito_po\xE7\xE3o_13"
+  - first:
+      213: -4791694862844908194
+    second: "efeito_po\xE7\xE3o_14"
+  - first:
+      213: 8528131314715571336
+    second: "efeito_po\xE7\xE3o_15"
+  - first:
+      213: -1537442579747781796
+    second: "efeito_po\xE7\xE3o_16"
+  - first:
+      213: 4887859391914910099
+    second: "efeito_po\xE7\xE3o_17"
+  - first:
+      213: -3139382662463925210
+    second: "efeito_po\xE7\xE3o_18"
+  - first:
+      213: -4770114204569769540
+    second: "efeito_po\xE7\xE3o_19"
+  - first:
+      213: 4410760642985450077
+    second: "efeito_po\xE7\xE3o_20"
+  - first:
+      213: 5404865002003737149
+    second: "efeito_po\xE7\xE3o_21"
+  - first:
+      213: -3869512904890707916
+    second: "efeito_po\xE7\xE3o_22"
+  - first:
+      213: -2454647229435565769
+    second: "efeito_po\xE7\xE3o_23"
+  - first:
+      213: 6693096134809265199
+    second: "efeito_po\xE7\xE3o_24"
+  - first:
+      213: 8908362306656388176
+    second: "efeito_po\xE7\xE3o_25"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_0"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 41
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15545bb3b7b9ee40800000000000000
+      internalID: 5686277987101857053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_1"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 43
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f3dca22eaf18b4a84e038c555dfa32
+      internalID: -8228260020089317062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_2"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 45
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb618e5557111bd409a4e9a9d9b5db78
+      internalID: -4244978326486997382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_3"
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 45
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b3e3b8de3b30e46809486fd54343bb
+      internalID: -3657341049370177551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_4"
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 45
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc2e5d0eeacf594da70b3f41f31b307
+      internalID: 2160463744471199797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_5"
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 45
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0bb027e7621174194c81848bd4bada
+      internalID: -4007135001539670603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_6"
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 45
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995af5fdcd8b55c4f8c66fd2443d6ee7
+      internalID: 8813114010938472504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_7"
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 45
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfe6325f588e5c4e8757f6609467bfd
+      internalID: -481930850167693761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_8"
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 46
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5214068536c344ba7a8d6e62762218
+      internalID: 3820478600195324092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_9"
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 46
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12ac2111ab269c4f80fab1f82bc2fc5
+      internalID: 6294727776596823348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_10"
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 47
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afcef10097f8c344a0d57c7c50458a8
+      internalID: 2190445523954549673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "efeito_po\xE7\xE3o_11"
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 45
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa973e78ac32f9944a42a18c45df8135
+      internalID: -733657580392158151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 902cbf22aa0e2c94c9ce2754d1b5738c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "efeito_po\xE7\xE3o_0": 5686277987101857053
+      "efeito_po\xE7\xE3o_1": -8228260020089317062
+      "efeito_po\xE7\xE3o_10": 2190445523954549673
+      "efeito_po\xE7\xE3o_11": -733657580392158151
+      "efeito_po\xE7\xE3o_2": -4244978326486997382
+      "efeito_po\xE7\xE3o_3": -3657341049370177551
+      "efeito_po\xE7\xE3o_4": 2160463744471199797
+      "efeito_po\xE7\xE3o_5": -4007135001539670603
+      "efeito_po\xE7\xE3o_6": 8813114010938472504
+      "efeito_po\xE7\xE3o_7": -481930850167693761
+      "efeito_po\xE7\xE3o_8": 3820478600195324092
+      "efeito_po\xE7\xE3o_9": 6294727776596823348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

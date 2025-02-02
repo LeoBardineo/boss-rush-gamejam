@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if(PlayerHP.dead) return;
+        if(PlayerHP.dead || equipedWeapon.attacking) return;
         
         Dash();
         if (!movimentLocked)
@@ -82,8 +82,6 @@ public class PlayerController : MonoBehaviour
 
     void Animate()
     {
-        if(equipedWeapon.attacking) return;
-
         if(isGrounded)
         {
             if(idle)
@@ -120,7 +118,7 @@ public class PlayerController : MonoBehaviour
 
     void DoPower()
     {
-        if(Input.GetKeyDown(KeyCode.F) && !powerInCooldown)
+        if(Input.GetKeyDown(GlobalData.powerButton) && !powerInCooldown)
         {
             equipedPower.UsePower();
         }
@@ -128,7 +126,7 @@ public class PlayerController : MonoBehaviour
 
     void DoPotion()
     {
-        if(Input.GetKeyDown(KeyCode.G) && !potionInCooldown)
+        if(Input.GetKeyDown(GlobalData.potionButton) && !potionInCooldown)
         {
             equipedPotion.UsePotion();
         }
@@ -173,7 +171,7 @@ public class PlayerController : MonoBehaviour
     // Lida com o input do Dash
     void Dash()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && !movimentLocked)
+        if (Input.GetKeyDown(GlobalData.dashButton) && canDash && !movimentLocked)
         {
             StartCoroutine(DashRT());
         }

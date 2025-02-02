@@ -25,6 +25,7 @@ class Rain : Power
         RainAttack rainAttack = rainPrefab.GetComponent<RainAttack>();
         rainAttack.damage = damage;
         rainAttack.damageModifier = damageModifier;
+        animator.Play(animationName);
         InvokeRepeating(nameof(SpawnRain), antecipationDuration, spawnInterval);
     }
     

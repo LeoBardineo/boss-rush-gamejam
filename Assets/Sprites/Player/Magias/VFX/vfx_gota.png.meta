@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 7a5c1ea08660996498c759bd09016215
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1555725250305744745
+    second: vfx_gota_0
+  - first:
+      213: 7330774251636538915
+    second: vfx_gota_1
+  - first:
+      213: -2762915353894103298
+    second: vfx_gota_2
+  - first:
+      213: 7494154688008391903
+    second: vfx_gota_3
+  - first:
+      213: 2886301207285850032
+    second: vfx_gota_4
+  - first:
+      213: -3515562373201605466
+    second: vfx_gota_5
+  - first:
+      213: 3801885363670059871
+    second: vfx_gota_6
+  - first:
+      213: 516722850873024891
+    second: vfx_gota_7
+  - first:
+      213: 1614363549812193918
+    second: vfx_gota_8
+  - first:
+      213: -191081614549895579
+    second: vfx_gota_9
+  - first:
+      213: -6744502091461395525
+    second: vfx_gota_10
+  - first:
+      213: 7530494491298699435
+    second: vfx_gota_11
+  - first:
+      213: 8768334105725412033
+    second: vfx_gota_12
+  - first:
+      213: -4496406912840494348
+    second: vfx_gota_13
+  - first:
+      213: 7761850956528263840
+    second: vfx_gota_14
+  - first:
+      213: 8454848831301507306
+    second: vfx_gota_15
+  - first:
+      213: -6804852447853249779
+    second: vfx_gota_16
+  - first:
+      213: -3919879774948278562
+    second: vfx_gota_17
+  - first:
+      213: 6884508307493234337
+    second: vfx_gota_18
+  - first:
+      213: -6333053478907218235
+    second: vfx_gota_19
+  - first:
+      213: 5353930857835924418
+    second: vfx_gota_20
+  - first:
+      213: -4272836483114379808
+    second: vfx_gota_21
+  - first:
+      213: -527611256231551802
+    second: vfx_gota_22
+  - first:
+      213: -1094438075041013006
+    second: vfx_gota_23
+  - first:
+      213: 2394990043871604720
+    second: vfx_gota_24
+  - first:
+      213: 238508259605411431
+    second: vfx_gota_25
+  - first:
+      213: -3112664708263443919
+    second: vfx_gota_26
+  - first:
+      213: -653298283024682385
+    second: vfx_gota_27
+  - first:
+      213: 4041326199468557004
+    second: vfx_gota_28
+  - first:
+      213: -141511888029905405
+    second: vfx_gota_29
+  - first:
+      213: 1827896524369125124
+    second: vfx_gota_30
+  - first:
+      213: -8989222853381646388
+    second: vfx_gota_31
+  - first:
+      213: 5435358802489529988
+    second: vfx_gota_32
+  - first:
+      213: -19446025878517545
+    second: vfx_gota_33
+  - first:
+      213: -8632727226885774121
+    second: vfx_gota_34
+  - first:
+      213: 1690676359383111348
+    second: vfx_gota_35
+  - first:
+      213: -2639387229030228316
+    second: vfx_gota_36
+  - first:
+      213: 2655250846995784534
+    second: vfx_gota_37
+  - first:
+      213: 5440178641539984106
+    second: vfx_gota_38
+  - first:
+      213: -361016787961681928
+    second: vfx_gota_39
+  - first:
+      213: 41901797241076116
+    second: vfx_gota_40
+  - first:
+      213: 1024872157778693264
+    second: vfx_gota_41
+  - first:
+      213: 4822308035836759054
+    second: vfx_gota_42
+  - first:
+      213: 1279667094341524018
+    second: vfx_gota_43
+  - first:
+      213: -5251367773241536504
+    second: vfx_gota_44
+  - first:
+      213: 6768382771063929457
+    second: vfx_gota_45
+  - first:
+      213: 7796587862975559736
+    second: vfx_gota_46
+  - first:
+      213: -4748091352600803794
+    second: vfx_gota_47
+  - first:
+      213: 5260980756511790417
+    second: vfx_gota_48
+  - first:
+      213: 3871730540437703090
+    second: vfx_gota_49
+  - first:
+      213: -68972421760757598
+    second: vfx_gota_50
+  - first:
+      213: 9163425408749006746
+    second: vfx_gota_51
+  - first:
+      213: -3582737798454770728
+    second: vfx_gota_52
+  - first:
+      213: -3300373651928577990
+    second: vfx_gota_53
+  - first:
+      213: -330681669767441780
+    second: vfx_gota_54
+  - first:
+      213: -5044625842571614053
+    second: vfx_gota_55
+  - first:
+      213: -3376107071622077012
+    second: vfx_gota_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vfx_gota_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 227
+        width: 200
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f54906fdb079510800000000000000
+      internalID: 1555725250305744745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_gota_1
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 203
+        width: 200
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e306d77542cb560800000000000000
+      internalID: 7330774251636538915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_gota_2
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 153
+        width: 200
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef65baacf1728a9d0800000000000000
+      internalID: -2762915353894103298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_gota_3
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 148
+        width: 200
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc8196abf5900860800000000000000
+      internalID: 7494154688008391903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_gota_4
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 111
+        width: 200
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfdd0fd7a33e0820800000000000000
+      internalID: 2886301207285850032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_gota_5
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 106
+        width: 210
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acc697d5a6363fc0800000000000000
+      internalID: -3515562373201605466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_gota_6
+      rect:
+        serializedVersion: 2
+        x: 3863
+        y: 102
+        width: 210
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b8f42589203c430800000000000000
+      internalID: 3801885363670059871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_gota_7
+      rect:
+        serializedVersion: 2
+        x: 4510
+        y: 86
+        width: 200
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b712d95f1b4cb2700800000000000000
+      internalID: 516722850873024891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_gota_8
+      rect:
+        serializedVersion: 2
+        x: 5143
+        y: 90
+        width: 210
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7af4e4681f576610800000000000000
+      internalID: 1614363549812193918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_gota_9
+      rect:
+        serializedVersion: 2
+        x: 5784
+        y: 92
+        width: 210
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56635a1b844295df0800000000000000
+      internalID: -191081614549895579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_gota_10
+      rect:
+        serializedVersion: 2
+        x: 6425
+        y: 89
+        width: 210
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb709be417b662a0800000000000000
+      internalID: -6744502091461395525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a39b2e1f9b2ab0a449bb01b354a5ec40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vfx_gota_0: 1555725250305744745
+      vfx_gota_1: 7330774251636538915
+      vfx_gota_10: -6744502091461395525
+      vfx_gota_2: -2762915353894103298
+      vfx_gota_3: 7494154688008391903
+      vfx_gota_4: 2886301207285850032
+      vfx_gota_5: -3515562373201605466
+      vfx_gota_6: 3801885363670059871
+      vfx_gota_7: 516722850873024891
+      vfx_gota_8: 1614363549812193918
+      vfx_gota_9: -191081614549895579
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

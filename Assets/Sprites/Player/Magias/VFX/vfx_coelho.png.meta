@@ -1,0 +1,784 @@
+fileFormatVersion: 2
+guid: f880de5a56bbcd94f99e81ac0bd68d6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4089955889066770542
+    second: vfx_coelho_0
+  - first:
+      213: 5768747780822034341
+    second: vfx_coelho_1
+  - first:
+      213: -5480830517032850367
+    second: vfx_coelho_2
+  - first:
+      213: 3002963441266497525
+    second: vfx_coelho_3
+  - first:
+      213: 7660142318161380047
+    second: vfx_coelho_4
+  - first:
+      213: -9152109904835995019
+    second: vfx_coelho_5
+  - first:
+      213: -7763583035145066313
+    second: vfx_coelho_6
+  - first:
+      213: -323103995840995077
+    second: vfx_coelho_7
+  - first:
+      213: -6604147225403156604
+    second: vfx_coelho_8
+  - first:
+      213: 5974616340989755873
+    second: vfx_coelho_9
+  - first:
+      213: 8283713481741825149
+    second: vfx_coelho_10
+  - first:
+      213: 8488378883864587866
+    second: vfx_coelho_11
+  - first:
+      213: -588970736217999387
+    second: vfx_coelho_12
+  - first:
+      213: -5666436394293218164
+    second: vfx_coelho_13
+  - first:
+      213: 2702584608346971688
+    second: vfx_coelho_14
+  - first:
+      213: -467980423815213416
+    second: vfx_coelho_15
+  - first:
+      213: 5887367362021758604
+    second: vfx_coelho_16
+  - first:
+      213: -2715451213367904702
+    second: vfx_coelho_17
+  - first:
+      213: -1510594837805416096
+    second: vfx_coelho_18
+  - first:
+      213: 395751965733958383
+    second: vfx_coelho_19
+  - first:
+      213: -2762951877479818947
+    second: vfx_coelho_20
+  - first:
+      213: -1377718841768663909
+    second: vfx_coelho_21
+  - first:
+      213: -5679968113581263958
+    second: vfx_coelho_22
+  - first:
+      213: -8459869029121356202
+    second: vfx_coelho_23
+  - first:
+      213: -6494804300224860419
+    second: vfx_coelho_24
+  - first:
+      213: -2169537071061465509
+    second: vfx_coelho_25
+  - first:
+      213: -3305334612840209974
+    second: vfx_coelho_26
+  - first:
+      213: 5535631853384535048
+    second: vfx_coelho_27
+  - first:
+      213: -975499545031237768
+    second: vfx_coelho_28
+  - first:
+      213: -6888089708234253351
+    second: vfx_coelho_29
+  - first:
+      213: -4066822879303227474
+    second: vfx_coelho_30
+  - first:
+      213: -6750010524677760530
+    second: vfx_coelho_31
+  - first:
+      213: 2360725271673042129
+    second: vfx_coelho_32
+  - first:
+      213: -1646058651149530802
+    second: vfx_coelho_33
+  - first:
+      213: -2729939058549460994
+    second: vfx_coelho_34
+  - first:
+      213: -8058458112116871135
+    second: vfx_coelho_35
+  - first:
+      213: 7677225917268074487
+    second: vfx_coelho_36
+  - first:
+      213: 285177202260802045
+    second: vfx_coelho_37
+  - first:
+      213: 3790915794553681558
+    second: vfx_coelho_38
+  - first:
+      213: -1967957974897868892
+    second: vfx_coelho_39
+  - first:
+      213: 5418380350202280100
+    second: vfx_coelho_40
+  - first:
+      213: -326798358296000083
+    second: vfx_coelho_41
+  - first:
+      213: -3268325466840622502
+    second: vfx_coelho_42
+  - first:
+      213: -4574693304236563054
+    second: vfx_coelho_43
+  - first:
+      213: 5385445928700908716
+    second: vfx_coelho_44
+  - first:
+      213: -3498754902456268614
+    second: vfx_coelho_45
+  - first:
+      213: -4230436241873183810
+    second: vfx_coelho_46
+  - first:
+      213: -3424101102387782446
+    second: vfx_coelho_47
+  - first:
+      213: 2045290776098349626
+    second: vfx_coelho_48
+  - first:
+      213: 6185382677937961405
+    second: vfx_coelho_49
+  - first:
+      213: 6358507607633380011
+    second: vfx_coelho_50
+  - first:
+      213: 5904443542589044992
+    second: vfx_coelho_51
+  - first:
+      213: -8909778689852360489
+    second: vfx_coelho_52
+  - first:
+      213: 1996930042721891061
+    second: vfx_coelho_53
+  - first:
+      213: 6494393905145263394
+    second: vfx_coelho_54
+  - first:
+      213: 7782058778023835204
+    second: vfx_coelho_55
+  - first:
+      213: -2898198232923875724
+    second: vfx_coelho_56
+  - first:
+      213: 5302791089857680094
+    second: vfx_coelho_57
+  - first:
+      213: 345247889338619615
+    second: vfx_coelho_58
+  - first:
+      213: -4199503917839264137
+    second: vfx_coelho_59
+  - first:
+      213: -4634322876691154353
+    second: vfx_coelho_60
+  - first:
+      213: -2423265470345008517
+    second: vfx_coelho_61
+  - first:
+      213: 2044394117922415066
+    second: vfx_coelho_62
+  - first:
+      213: -3447798579467643047
+    second: vfx_coelho_63
+  - first:
+      213: -7908601491055492011
+    second: vfx_coelho_64
+  - first:
+      213: 4785209587278579646
+    second: vfx_coelho_65
+  - first:
+      213: 1496094426930694475
+    second: vfx_coelho_66
+  - first:
+      213: 4274779680504424574
+    second: vfx_coelho_67
+  - first:
+      213: -6876196177321462300
+    second: vfx_coelho_68
+  - first:
+      213: -5955174030874780535
+    second: vfx_coelho_69
+  - first:
+      213: 3667824097183118081
+    second: vfx_coelho_70
+  - first:
+      213: -9172629275738914077
+    second: vfx_coelho_71
+  - first:
+      213: -2125092542616121910
+    second: vfx_coelho_72
+  - first:
+      213: -1727718547851476170
+    second: vfx_coelho_73
+  - first:
+      213: 7125877131031031393
+    second: vfx_coelho_74
+  - first:
+      213: -5976063520466788825
+    second: vfx_coelho_75
+  - first:
+      213: 4186265830053863549
+    second: vfx_coelho_76
+  - first:
+      213: 1812571489008584794
+    second: vfx_coelho_77
+  - first:
+      213: -6560237568837295287
+    second: vfx_coelho_78
+  - first:
+      213: -8044255993375156528
+    second: vfx_coelho_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vfx_coelho_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 78
+        width: 129
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6087da263172c830800000000000000
+      internalID: 4089955889066770542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_1
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 75
+        width: 129
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a768b2ea85be0050800000000000000
+      internalID: 5768747780822034341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_2
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 77
+        width: 129
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ce226fead20f3b0800000000000000
+      internalID: -5480830517032850367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_3
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 75
+        width: 129
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f79c26e65baca920800000000000000
+      internalID: 3002963441266497525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_4
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 71
+        width: 129
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc242fa6ada4e4a60800000000000000
+      internalID: 7660142318161380047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_5
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 68
+        width: 129
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a9ae0188c2df080800000000000000
+      internalID: -9152109904835995019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_6
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 80
+        width: 131
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8ededdc56324490800000000000000
+      internalID: -7763583035145066313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_7
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 76
+        width: 129
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0636ea0aa148bf0800000000000000
+      internalID: -323103995840995077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_8
+      rect:
+        serializedVersion: 2
+        x: 5345
+        y: 75
+        width: 129
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4879679b61b5954a0800000000000000
+      internalID: -6604147225403156604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_9
+      rect:
+        serializedVersion: 2
+        x: 6018
+        y: 80
+        width: 129
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e140f148e91ae250800000000000000
+      internalID: 5974616340989755873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_10
+      rect:
+        serializedVersion: 2
+        x: 6687
+        y: 77
+        width: 129
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74f55cc589a5f270800000000000000
+      internalID: 8283713481741825149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_11
+      rect:
+        serializedVersion: 2
+        x: 7385
+        y: 88
+        width: 129
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5eecab1f97ccc570800000000000000
+      internalID: 8488378883864587866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_12
+      rect:
+        serializedVersion: 2
+        x: 8028
+        y: 85
+        width: 129
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e730a46c3e83d7f0800000000000000
+      internalID: -588970736217999387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_13
+      rect:
+        serializedVersion: 2
+        x: 8661
+        y: 79
+        width: 137
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84bec71f16cc51b0800000000000000
+      internalID: -5666436394293218164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_14
+      rect:
+        serializedVersion: 2
+        x: 9287
+        y: 74
+        width: 160
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e95f3e162818520800000000000000
+      internalID: 2702584608346971688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_15
+      rect:
+        serializedVersion: 2
+        x: 9928
+        y: 68
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e48a4b8466189f0800000000000000
+      internalID: -467980423815213416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_16
+      rect:
+        serializedVersion: 2
+        x: 10568
+        y: 69
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8619835c6124b150800000000000000
+      internalID: 5887367362021758604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_coelho_17
+      rect:
+        serializedVersion: 2
+        x: 11210
+        y: 69
+        width: 163
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2467d4e2287c05ad0800000000000000
+      internalID: -2715451213367904702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 733eed59849f4c241922cb32e7deeaa9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vfx_coelho_0: 4089955889066770542
+      vfx_coelho_1: 5768747780822034341
+      vfx_coelho_10: 8283713481741825149
+      vfx_coelho_11: 8488378883864587866
+      vfx_coelho_12: -588970736217999387
+      vfx_coelho_13: -5666436394293218164
+      vfx_coelho_14: 2702584608346971688
+      vfx_coelho_15: -467980423815213416
+      vfx_coelho_16: 5887367362021758604
+      vfx_coelho_17: -2715451213367904702
+      vfx_coelho_2: -5480830517032850367
+      vfx_coelho_3: 3002963441266497525
+      vfx_coelho_4: 7660142318161380047
+      vfx_coelho_5: -9152109904835995019
+      vfx_coelho_6: -7763583035145066313
+      vfx_coelho_7: -323103995840995077
+      vfx_coelho_8: -6604147225403156604
+      vfx_coelho_9: 5974616340989755873
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: cb7e4da3bd245d547b443c3ff5f66a98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7019604622464338409
+    second: vfx_fogo_0
+  - first:
+      213: -2085842114441159026
+    second: vfx_fogo_1
+  - first:
+      213: -6035749520626772810
+    second: vfx_fogo_2
+  - first:
+      213: -5807009640023213881
+    second: vfx_fogo_3
+  - first:
+      213: 8025401412291221423
+    second: vfx_fogo_4
+  - first:
+      213: -5545869312172090595
+    second: vfx_fogo_5
+  - first:
+      213: -2978684215078262516
+    second: vfx_fogo_6
+  - first:
+      213: -8267081594832716554
+    second: vfx_fogo_7
+  - first:
+      213: 4935425274999292593
+    second: vfx_fogo_8
+  - first:
+      213: -5877891698486257844
+    second: vfx_fogo_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vfx_fogo_4
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 199
+        width: 234
+        height: 106
+      alignment: 9
+      pivot: {x: 0.0096482495, y: 0.24518384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716b25e89ca559e90800000000000000
+      internalID: -7019604622464338409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_fogo_5
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 198
+        width: 234
+        height: 106
+      alignment: 9
+      pivot: {x: 0.0044268747, y: 0.23391049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e5f2fe5a99d03e0800000000000000
+      internalID: -2085842114441159026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_fogo_6
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 197
+        width: 234
+        height: 105
+      alignment: 9
+      pivot: {x: 0.0065646702, y: 0.261676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b49ecd2ac5bc3ca0800000000000000
+      internalID: -6035749520626772810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_fogo_7
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 203
+        width: 231
+        height: 96
+      alignment: 9
+      pivot: {x: 0.007248123, y: 0.22575283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b1e3d6e3d1903b0800000000000000
+      internalID: -5545869312172090595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_fogo_3
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 199
+        width: 234
+        height: 106
+      alignment: 9
+      pivot: {x: 0.011342627, y: 0.23870921}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c096236fc7699a6d0800000000000000
+      internalID: -2978684215078262516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_fogo_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 214
+        width: 234
+        height: 106
+      alignment: 9
+      pivot: {x: 0.01, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b241db73272e7440800000000000000
+      internalID: 4935425274999292593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_fogo_2
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 205
+        width: 234
+        height: 106
+      alignment: 9
+      pivot: {x: 0.01, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47528384a88d6ea0800000000000000
+      internalID: -5877891698486257844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0a2090455163bab428482224869217c7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vfx_fogo_1: 4935425274999292593
+      vfx_fogo_2: -5877891698486257844
+      vfx_fogo_3: -2978684215078262516
+      vfx_fogo_4: -7019604622464338409
+      vfx_fogo_5: -2085842114441159026
+      vfx_fogo_6: -6035749520626772810
+      vfx_fogo_7: -5545869312172090595
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

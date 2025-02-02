@@ -6,6 +6,9 @@ abstract class Potion : MonoBehaviour {
     public float cooldownRemaining = 0f, lockedRemaining = 0f, buffRemaining = 0f;
     bool isUsingPotion = false;
 
+    [SerializeField]
+    GameObject efeitoPocao;
+
     void Start()
     {
         Initialize();
@@ -61,11 +64,13 @@ abstract class Potion : MonoBehaviour {
             playerController.LockMovement();
         EnterPotion();
         playerController.potionInCooldown = true;
+        efeitoPocao.SetActive(true);
     }
 
     void DisablePotion()
     {
         isUsingPotion = false;
+        efeitoPocao.SetActive(false);
         EndPotion();
     }
 

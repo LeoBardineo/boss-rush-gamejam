@@ -143,10 +143,10 @@ TextureImporter:
       name: player_ataque_rosa_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 7
-        width: 78
-        height: 93
+        x: 0
+        y: 0
+        width: 107
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: player_ataque_rosa_1
       rect:
         serializedVersion: 2
-        x: 113
-        y: 7
-        width: 78
-        height: 93
+        x: 107
+        y: 0
+        width: 107
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: player_ataque_rosa_2
       rect:
         serializedVersion: 2
-        x: 223
-        y: 7
-        width: 78
-        height: 99
+        x: 214
+        y: 0
+        width: 107
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: player_ataque_rosa_3
       rect:
         serializedVersion: 2
-        x: 332
-        y: 6
-        width: 85
-        height: 100
+        x: 321
+        y: 0
+        width: 107
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: player_ataque_rosa_4
       rect:
         serializedVersion: 2
-        x: 439
-        y: 6
-        width: 73
-        height: 100
+        x: 428
+        y: 0
+        width: 107
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: player_ataque_rosa_5
       rect:
         serializedVersion: 2
-        x: 511
-        y: 33
-        width: 13
-        height: 13
+        x: 535
+        y: 0
+        width: 107
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,99 +271,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: player_ataque_rosa_6
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 46
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c1299eef16a41f10800000000000000
-      internalID: 2239597570787189187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_ataque_rosa_7
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 6
-        width: 73
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20579f0b2b0dbd780800000000000000
-      internalID: -8657096392797752062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_ataque_rosa_8
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 33
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a627c816308073a0800000000000000
-      internalID: -6669690078303410521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_ataque_rosa_9
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 29
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e746efd398c73a00800000000000000
-      internalID: 736277601540524005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b9d05c95a22a0ec4f9b1567517a60959
     internalID: 0
     vertices: []
     indices: 
@@ -379,10 +291,6 @@ TextureImporter:
       player_ataque_rosa_3: -5227124996550520079
       player_ataque_rosa_4: 8000935424840432832
       player_ataque_rosa_5: -7512748924389143867
-      player_ataque_rosa_6: 2239597570787189187
-      player_ataque_rosa_7: -8657096392797752062
-      player_ataque_rosa_8: -6669690078303410521
-      player_ataque_rosa_9: 736277601540524005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

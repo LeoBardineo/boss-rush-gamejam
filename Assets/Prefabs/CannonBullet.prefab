@@ -78,9 +78,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0, g: 0.0056425133, b: 0.0754717, a: 1}
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 5584126007162925087, guid: fee05402234abab48bc49b648b1445e0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -165,5 +165,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4cc0669298d712438ef2c2fe7106629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  damage: 0
+  damageModifier: 1
+  bananaSplitModifier: 1
+  bananaSplitEffect: 0
+  bananaSplitAmountOfHits: 0
+  speed: 7
   rb: {fileID: 9087577568135758770}
+  tipoDeArma: Canhao

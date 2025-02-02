@@ -20,6 +20,7 @@ class Bang : Power
         if(playerController == null)
             playerController = GetComponent<PlayerController>();
         player = playerController.transform;
+        animator.Play(animationName);
         SpawnBang();
     }
     

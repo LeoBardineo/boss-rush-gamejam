@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 44dd3b4fdf4bc1d4dbd3ac299a9908a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 779355428662165701
+    second: vfx_carta_coringa_0
+  - first:
+      213: 745813588841516661
+    second: vfx_carta_coringa_1
+  - first:
+      213: -4085181171942775676
+    second: vfx_carta_coringa_2
+  - first:
+      213: 915908168231360170
+    second: vfx_carta_coringa_3
+  - first:
+      213: -2632088931816597572
+    second: vfx_carta_coringa_4
+  - first:
+      213: -1299882012963869181
+    second: vfx_carta_coringa_5
+  - first:
+      213: -6869752258808723841
+    second: vfx_carta_coringa_6
+  - first:
+      213: 9010401385952699784
+    second: vfx_carta_coringa_7
+  - first:
+      213: -6774676650528562280
+    second: vfx_carta_coringa_8
+  - first:
+      213: -7262682780498037789
+    second: vfx_carta_coringa_9
+  - first:
+      213: -9104806804302912781
+    second: vfx_carta_coringa_10
+  - first:
+      213: 388722476140376468
+    second: vfx_carta_coringa_11
+  - first:
+      213: 6289566431533253339
+    second: vfx_carta_coringa_12
+  - first:
+      213: 6148811135308685847
+    second: vfx_carta_coringa_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vfx_carta_coringa_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 36
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c04e2712a3d0da00800000000000000
+      internalID: 779355428662165701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 34
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ece8fe189a95a00800000000000000
+      internalID: 745813588841516661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_2
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 34
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484ac3b4e558e47c0800000000000000
+      internalID: -4085181171942775676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_3
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 34
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa61f4650a5f5bc00800000000000000
+      internalID: 915908168231360170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_4
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 34
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb795d9df01f87bd0800000000000000
+      internalID: -2632088931816597572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_5
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 34
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e6e5f3234e5fde0800000000000000
+      internalID: -1299882012963869181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_6
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 34
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76c4c6d7bcb9a0a0800000000000000
+      internalID: -6869752258808723841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_7
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 34
+        width: 80
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885e56542506b0d70800000000000000
+      internalID: 9010401385952699784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_8
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 36
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893ac19ea738bf1a0800000000000000
+      internalID: -6774676650528562280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_9
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 45
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e371109d74c53b90800000000000000
+      internalID: -7262682780498037789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_10
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 46
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f227f8637a35a180800000000000000
+      internalID: -9104806804302912781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_11
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 46
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491be825805056500800000000000000
+      internalID: 388722476140376468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_12
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 42
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2c2ce8857094750800000000000000
+      internalID: 6289566431533253339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_carta_coringa_13
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 44
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7126a075627f45550800000000000000
+      internalID: 6148811135308685847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vfx_carta_coringa_0: 779355428662165701
+      vfx_carta_coringa_1: 745813588841516661
+      vfx_carta_coringa_10: -9104806804302912781
+      vfx_carta_coringa_11: 388722476140376468
+      vfx_carta_coringa_12: 6289566431533253339
+      vfx_carta_coringa_13: 6148811135308685847
+      vfx_carta_coringa_2: -4085181171942775676
+      vfx_carta_coringa_3: 915908168231360170
+      vfx_carta_coringa_4: -2632088931816597572
+      vfx_carta_coringa_5: -1299882012963869181
+      vfx_carta_coringa_6: -6869752258808723841
+      vfx_carta_coringa_7: 9010401385952699784
+      vfx_carta_coringa_8: -6774676650528562280
+      vfx_carta_coringa_9: -7262682780498037789
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

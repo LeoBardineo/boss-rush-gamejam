@@ -3,6 +3,16 @@ using UnityEngine;
 
 public static class GlobalData
 {
+    public static bool useGlobalData = false;
+
+    public static KeyCode
+        attackButton = KeyCode.A,
+        powerButton = KeyCode.F,
+        potionButton = KeyCode.G,
+        roletaButton = KeyCode.Space,
+        pauseButton = KeyCode.Escape,
+        dashButton = KeyCode.LeftShift;
+
     public static List<string> bossDisponiveis = new List<string>{
         "Harlequin",
         "Pierrot",
