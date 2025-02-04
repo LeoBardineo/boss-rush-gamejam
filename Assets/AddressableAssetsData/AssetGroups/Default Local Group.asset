@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: e412e758d5925f1438cdc7456cf118aa
+  m_SerializeEntries:
+  - m_GUID: 13f342320bca7fe47811c04bbbf50059
+    m_Address: icone_hpdano_pot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29fcc33191357d44d8ec8674d77edf5f
+    m_Address: icone_danohp_pot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52c6d3dd156a33e41b6a25dffecd38a1
+    m_Address: icone_martelo_arma
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58ac637d24e60274497001da733aaf76
+    m_Address: icone_malabares_arma
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 590e6585b665ed844ab9842c3367d41a
+    m_Address: icone_poder_pot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a7f3ce35c64c4641aaef2912b6f58b1
+    m_Address: icone_hits_pot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cd5bc7a22484814b9f3dac6e66cfead
+    m_Address: icone_espada_arma
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bca3e49de99def49ab93d624a7aedbd
+    m_Address: icone_coelho_skill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8288a804a694bd140a369366dd96f955
+    m_Address: icone_flor_arma
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2f2f7885cb9d67448f9707d2326d9e2
+    m_Address: icone_bang_skill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a773a702aee5af345aeb2b4d28ba8738
+    m_Address: icone_canhao_arma
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c39d5ef30c70dbf45946d4db24a24a1b
+    m_Address: icone_coringa_skill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c61c8600f0a648f4ab41e1b7e2535122
+    m_Address: icone_hp_pot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d13993a54760e3f4b9d6f9f496e75d24
+    m_Address: icone_fogo_skill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7f6ae6a55378bf4d8e9fb89cb3af9ca
+    m_Address: icone_gota_skill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9254d1b2c1d2e97468c1723baedcba85, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 310f413c76d4dda4b937803652dd4325, type: 2}
+    - {fileID: 11400000, guid: 6d249c1f7df24204e9675b9ad977146f, type: 2}

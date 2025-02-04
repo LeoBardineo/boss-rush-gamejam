@@ -60,5 +60,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Flow Final - Finalizados/EndGame.unity
     guid: 8bca05309827bc74bb34f185f86b7c05
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: cfd9ff3b701614d4eb6ec9bf7270adfe, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

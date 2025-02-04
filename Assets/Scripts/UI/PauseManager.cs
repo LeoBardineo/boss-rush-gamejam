@@ -1,4 +1,8 @@
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using TMPro;
 
 public class PauseManager : MonoBehaviour
 {
@@ -13,11 +17,24 @@ public class PauseManager : MonoBehaviour
     [SerializeField]
     private Animator animator;
 
+    [SerializeField]
+    Image weaponIcon, powerIcon, potionIcon;
+
+    string weaponIconAddress;
+    string powerIconAddress;
+    string potionIconAddress;
+
+    AsyncOperationHandle<Sprite> weaponHandle, powerHandle, potionHandle;
+
     void Start()
     {
         pausePanel.SetActive(false);
         settingsPanel.SetActive(false);    
-        animator.updateMode = AnimatorUpdateMode.UnscaledTime;    
+        animator.updateMode = AnimatorUpdateMode.UnscaledTime;
+        weaponIconAddress = GlobalData.icones[GlobalData.armaEquipada]["icon"];
+        powerIconAddress = GlobalData.icones[GlobalData.poderEquipado]["icon"];
+        potionIconAddress = GlobalData.icones[GlobalData.pocaoEquipada]["icon"];
+        LoadPauseIcons();
     }
 
     void Update()
@@ -69,5 +86,54 @@ public class PauseManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit(); 
+    }
+
+    void LoadPauseIcons()
+    {
+        weaponHandle = Addressables.LoadAssetAsync<Sprite>(weaponIconAddress);
+        weaponHandle.Completed += handle =>
+        {
+            if (handle.Status == AsyncOperationStatus.Succeeded)
+            {
+                weaponIcon.sprite = handle.Result;
+            }
+            else
+            {
+                Debug.LogError("Falha ao carregar o ícone de arma.");
+            }
+        };
+
+        powerHandle = Addressables.LoadAssetAsync<Sprite>(powerIconAddress);
+        powerHandle.Completed += handle =>
+        {
+            if (handle.Status == AsyncOperationStatus.Succeeded)
+            {
+                powerIcon.sprite = handle.Result;
+            }
+            else
+            {
+                Debug.LogError("Falha ao carregar o ícone de poder.");
+            }
+        };
+
+        potionHandle = Addressables.LoadAssetAsync<Sprite>(potionIconAddress);
+        potionHandle.Completed += handle =>
+        {
+            if (handle.Status == AsyncOperationStatus.Succeeded)
+            {
+                potionIcon.sprite = handle.Result;
+            }
+            else
+            {
+                Debug.LogError("Falha ao carregar o ícone de poção.");
+            }
+        };
+    }
+
+    void OnDestroy()
+    {
+        Addressables.Release(weaponHandle);
+        Addressables.Release(powerHandle);
+        Addressables.Release(potionHandle);
     }
 }

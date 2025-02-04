@@ -28,6 +28,71 @@ public static class GlobalData
     public static string ultimoBoss = "Harlequin";
 
     public static string armaEquipada = "Martelo", poderEquipado = "CospeFogo", pocaoEquipada = "HP";
+    
+    public static Dictionary<string, Dictionary<string, string>> icones = new Dictionary<string, Dictionary<string, string>>
+    {
+        {"Martelo", new Dictionary<string, string> {
+            {"icon", "icone_martelo_arma"},
+            {"title", "Pew-Pew Hammer"},
+            {"description", "Oh, I love the sound that this thing makes! It’s so cute! The damage may not be so cute, but you'll get through it, right? Good luck!"},
+        }},
+        {"Florzinha", new Dictionary<string, string> {
+            {"icon", "icone_flor_arma"},
+            {"title", "Sneezy lil' Flower"},
+            {"description", "It's always hilarious when I use this on somebody, try this by yourself!"},
+        }},
+        {"Malabares", new Dictionary<string, string> {
+            {"icon", "icone_malabares_arma"},
+            {"title", "Super Double Juggle Trouble"},
+            {"description", "Do you know what's better than one weapon? Yes! Two weapons! C'mon let's cause some trouble using them!"},
+        }},
+        {"Canhao", new Dictionary<string, string> {
+            {"icon", "icone_canhao_arma"},
+            {"title", "Mr. BOOM"},
+            {"description", "It is an epic weapon, please show some respect to the amazing Mr. BOOM! Go Boom your enemy!"},
+        }},
+        {"CospeFogo", new Dictionary<string, string> {
+            {"icon", "icone_fogo_skill"},
+            {"title", "Circus Blaze"},
+            {"description", "The oldest trick in the clown book. Spits fire in a straight line."},
+        }},
+        {"Coelhos", new Dictionary<string, string> {
+            {"icon", "icone_coelho_skill"},
+            {"title", "The Great Bunny Escapade"},
+            {"description", "After being abandoned by the Harlequin, the bunnies stuck inside this top hat are planning an escape. When activated, the herd will attack your target."},
+        }},
+        {"Nuvem", new Dictionary<string, string> {
+            {"icon", "icone_gota_skill"},
+            {"title", "Woe is me!"},
+            {"description", "Pierrot’s last tears… They will rain over your target, just be careful not to flood the stage (again)."},
+        }},
+        {"Coringa", new Dictionary<string, string> {
+            {"icon", "icone_coringa_skill"},
+            {"title", "Wild Card"},
+            {"description", "That ace up your sleeve looks suspicious… I wonder what it does."},
+        }},
+        {"HP", new Dictionary<string, string> {
+            {"icon", "icone_hp_pot"},
+            {"title", "Pie in the face"},
+            {"description", "In your face, that is. Heals 2 HP."},
+        }},
+        {"Poder", new Dictionary<string, string> {
+            {"icon", "icone_poder_pot"},
+            {"title", "Lollipop"},
+            {"description", "Triples your next power’s damage, but increases its cooldown. You know, as lollipops do."},
+        }},
+        {"DanoHP", new Dictionary<string, string> {
+            {"icon", "icone_danohp_pot"},
+            {"title", "Vanilla Ice Cream"},
+            {"description", "Careful with it, you might get a brain freeze. Increases HP but temporarily reduces damage."},
+        }},
+        {"Hits", new Dictionary<string, string> {
+            {"icon", "icone_hits_pot"},
+            {"title", "Banana Split"},
+            {"description", "Your next 5 attacks have increased damage, but if you miss they hurt you instead. Don’t slip up!"},
+        }},
+    };
+
     public static bool playerCanTakeDamage=true, harlequimIdle=false, primeiraVezJackpot=true;
 
     public static int level = 0;
