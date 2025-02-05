@@ -80,7 +80,9 @@ public class PauseManager : MonoBehaviour
     public void ResumeGame()
     {
         Time.timeScale = 1; 
-        pausePanel.SetActive(false); 
+        pausePanel.SetActive(false);
+        if(settingsOpened)
+            ToggleSettings();
     }
 
     public void QuitGame()

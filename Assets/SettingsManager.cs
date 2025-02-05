@@ -47,6 +47,16 @@ public class SettingsManager : MonoBehaviour
         UpdateResolutionText();
     }
 
+    public void ChangeFullscreen(bool checkMarked)
+    {
+        FullScreenMode windowMode = FullScreenMode.Windowed;
+        if(checkMarked){
+            windowMode = FullScreenMode.ExclusiveFullScreen;
+        }
+
+        Screen.SetResolution(Screen.width, Screen.height, windowMode);
+    }
+
     void ChangeMusicVolume()
     {
 
