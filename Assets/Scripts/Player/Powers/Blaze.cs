@@ -3,7 +3,7 @@ using UnityEngine;
 class Blaze : Power {
     [SerializeField]
     BlazeArea powerArea;
-    [SerializeField] AudioSource sound;
+    
     protected override void Initialize()
     {
         base.Initialize();
@@ -13,7 +13,6 @@ class Blaze : Power {
     
     public override void EnterPower()
     {
-        sound.Play();
         animator.Play(animationName);
         powerArea.damage = damage;
         powerArea.damageModifier = damageModifier;

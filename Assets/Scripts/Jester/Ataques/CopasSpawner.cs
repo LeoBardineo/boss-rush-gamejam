@@ -10,7 +10,6 @@ public class CopasSpawner : MonoBehaviour
     public float attackCooldown = 5f, attackCooldownRemaining = 0f;
     public float spawnInterval = 1f;
     public bool isSpawning = false;
-    [SerializeField] AudioSource sound;
 
     void Update()
     {
@@ -20,7 +19,6 @@ public class CopasSpawner : MonoBehaviour
 
     public void StartSpawning()
     {
-        sound.Play();
         isSpawning = true;
         InvokeRepeating(nameof(SpawnCopas), antecipationDuration, spawnInterval);
         StartCoroutine(WaitSpawning(attackDuration));
@@ -43,7 +41,6 @@ public class CopasSpawner : MonoBehaviour
 
     public void StopSpawning()
     {
-        sound.Stop();
         isSpawning = false;
         CancelInvoke();
     }

@@ -13,7 +13,11 @@ public abstract class Weapon : MonoBehaviour
     public bool bananaSplitEffect = false;
     public int bananaSplitAmountOfHits = 0;
     protected Animator animator;
+    protected AudioSource audioSource;
     public bool attacking = false;
+
+    [SerializeField]
+    AudioClip weaponSound;
 
     void Start()
     {
@@ -23,6 +27,7 @@ public abstract class Weapon : MonoBehaviour
     protected virtual void Initialize()
     {
         animator =  GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -40,6 +45,7 @@ public abstract class Weapon : MonoBehaviour
 
     protected virtual void Attack()
     {
+        audioSource.PlayOneShot(weaponSound);
         onCooldown = true;
     }
 

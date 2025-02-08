@@ -32,7 +32,7 @@ public class PlataformaState : IState
 
     public void Exit()
     {
-        // Debug.Log("Saiu do plataforma!");
+        
     }
 
     public void Update()

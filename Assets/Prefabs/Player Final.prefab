@@ -609,6 +609,7 @@ GameObject:
   - component: {fileID: 4000197127312766532}
   - component: {fileID: 8001816083176579605}
   - component: {fileID: 2371046537048151501}
+  - component: {fileID: 5611953913739017501}
   - component: {fileID: 6081013211673093663}
   - component: {fileID: 4139662814116421947}
   - component: {fileID: 8149094920593079556}
@@ -912,6 +913,103 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &5611953913739017501
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6544714825887644499}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &6081013211673093663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -974,7 +1072,7 @@ MonoBehaviour:
   mascaraMetade_Y: {fileID: -1411123913, guid: a3d941e678b1ba542adc761ddee194d1, type: 3}
   mascaraVazia_Y: {fileID: -847343323, guid: 6bbb6d16b412dcc4c86bb2e1a42c2755, type: 3}
   gameManager: {fileID: 0}
-  cenaMorte: Death
+  cenaMorte: Jester Death
 --- !u!114 &8149094920593079556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -995,7 +1093,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6544714825887644499}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91c597a58e4000a42a042b4920f4dc5a, type: 3}
   m_Name: 
@@ -1008,6 +1106,7 @@ MonoBehaviour:
   bananaSplitEffect: 0
   bananaSplitAmountOfHits: 0
   attacking: 0
+  weaponSound: {fileID: 8300000, guid: 23110b035d8fd6b459a7b123133a494c, type: 3}
   PlayerControl: {fileID: 6081013211673093663}
   attackArea: {fileID: 1585248505649636413}
   attackWindow: 0.5
@@ -1032,6 +1131,7 @@ MonoBehaviour:
   bananaSplitEffect: 0
   bananaSplitAmountOfHits: 0
   attacking: 0
+  weaponSound: {fileID: 8300000, guid: 27e9e0a50c1b79f46bb020cae228607e, type: 3}
   PlayerControl: {fileID: 0}
   attackArea: {fileID: 0}
   attackWindow: 0.8
@@ -1056,6 +1156,7 @@ MonoBehaviour:
   bananaSplitEffect: 0
   bananaSplitAmountOfHits: 0
   attacking: 0
+  weaponSound: {fileID: 0}
   firePoint: {fileID: 6145733353485483778}
   bulletPrefab: {fileID: 4428540785357012945, guid: 6cdc01cb26354f646a801e1bb23ee17e, type: 3}
   animationName: Ataque_Canhao
@@ -1079,6 +1180,7 @@ MonoBehaviour:
   bananaSplitEffect: 0
   bananaSplitAmountOfHits: 0
   attacking: 0
+  weaponSound: {fileID: 8300000, guid: a23415bcc8dc2394cbde55ebf8c186f1, type: 3}
   firePoint: {fileID: 6145733353485483778}
   bulletPrefab: {fileID: 4428540785357012945, guid: bb683991ef638ef469911331d90dbe9b, type: 3}
   animationName: Ataque_Flor
@@ -1089,7 +1191,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6544714825887644499}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9e432264d5faf1418ed702d9bc1489f, type: 3}
   m_Name: 
@@ -1106,6 +1208,7 @@ MonoBehaviour:
   attackArea: {fileID: 0}
   isUsingPower: 0
   animationName: Skill_Fogo
+  powerSound: {fileID: 8300000, guid: 1287bb1a8c1ad19458e047f0610d4fd7, type: 3}
   powerArea: {fileID: 6141003459574240155}
 --- !u!114 &7911580481481757164
 MonoBehaviour:
@@ -1131,6 +1234,7 @@ MonoBehaviour:
   attackArea: {fileID: 1585248505649636413}
   isUsingPower: 0
   animationName: Skill_Coelhos
+  powerSound: {fileID: 8300000, guid: 33d82c9c8c2330f4ebbf09050d0fa32c, type: 3}
   bunnyPrefab: {fileID: 6674516587623914274, guid: 1d5b8e4c02ef35c4ea1261314958e4c8, type: 3}
   spawnInterval: 0.5
   antecipationDuration: 0.5
@@ -1160,6 +1264,7 @@ MonoBehaviour:
   attackArea: {fileID: 0}
   isUsingPower: 0
   animationName: Skill_Choro
+  powerSound: {fileID: 8300000, guid: 96fd7fedc6651d0469c8df0e73553c86, type: 3}
   rainPrefab: {fileID: 8770195569515005297, guid: e6f205b72fd0aca469384e1f4368ac73, type: 3}
   spawnInterval: 0.25
   antecipationDuration: 0.5
@@ -1191,6 +1296,7 @@ MonoBehaviour:
   attackArea: {fileID: 0}
   isUsingPower: 0
   animationName: Skill_Coringa
+  powerSound: {fileID: 8300000, guid: adfa93ac999b4844cb68e6eb1397a189, type: 3}
   selectedPower: {fileID: 0}
   chapeu: {fileID: 4123544535045415620}
 --- !u!114 &9034441500766201223
@@ -1213,6 +1319,7 @@ MonoBehaviour:
   lockedRemaining: 0
   buffRemaining: 0
   efeitoPocao: {fileID: 4301235626288076207}
+  potionSound: {fileID: 8300000, guid: c7d2eb042c6936641a2bd73e57360dc4, type: 3}
 --- !u!114 &4788858344984555486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1233,6 +1340,7 @@ MonoBehaviour:
   lockedRemaining: 0
   buffRemaining: 0
   efeitoPocao: {fileID: 4301235626288076207}
+  potionSound: {fileID: 8300000, guid: c7d2eb042c6936641a2bd73e57360dc4, type: 3}
 --- !u!114 &7106023672632829347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1253,6 +1361,7 @@ MonoBehaviour:
   lockedRemaining: 0
   buffRemaining: 0
   efeitoPocao: {fileID: 4301235626288076207}
+  potionSound: {fileID: 8300000, guid: c7d2eb042c6936641a2bd73e57360dc4, type: 3}
 --- !u!114 &7880502554026504187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1260,7 +1369,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6544714825887644499}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 267a91cc567162248914852d4fc41ee7, type: 3}
   m_Name: 
@@ -1273,6 +1382,7 @@ MonoBehaviour:
   lockedRemaining: 0
   buffRemaining: 0
   efeitoPocao: {fileID: 4301235626288076207}
+  potionSound: {fileID: 8300000, guid: c7d2eb042c6936641a2bd73e57360dc4, type: 3}
   healingPoints: 2
 --- !u!1 &6713420992869626539
 GameObject:

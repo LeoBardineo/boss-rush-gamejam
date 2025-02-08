@@ -72,7 +72,8 @@ public class BossHP : MonoBehaviour
                 }
 
                 if(bossStateManager is HarlequimStateManager)
-                {Debug.Log("Harlequim death chamado");
+                {
+                    Debug.Log("Harlequim death chamado");
                     HarlequimDeath();
                     return ;
                 }

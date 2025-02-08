@@ -12,17 +12,21 @@ public class PausSpawner : MonoBehaviour
     public static GameObject pausCardInstanciado;
     public BossHP bossHP;
     PlataformaSpawner plataformaSpawner;
-    [SerializeField] AudioSource sound;
+    
+    [SerializeField]
+    AudioClip soundAparicao, soundInverte;
+    AudioSource audioSource;
 
     void Start()
     {
         pausCard = cardPrefab.GetComponent<PausCard>();
         plataformaSpawner = GetComponent<PlataformaSpawner>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void SpawnCard()
     {
-        sound.Play();
+        audioSource.PlayOneShot(soundAparicao);
         spawnPositionList = new List<Transform>();
         for(int i = 0; i < spawnArea.transform.childCount; i++)
         {
@@ -40,6 +44,7 @@ public class PausSpawner : MonoBehaviour
 
     public void StartReverse()
     {
+        audioSource.PlayOneShot(soundInverte);
         pausCardInstanciado.GetComponent<PausCard>().ReverseControls();
     }
 

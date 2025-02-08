@@ -9,9 +9,13 @@ public abstract class Power : MonoBehaviour {
     public bool isUsingPower = false;
 
     protected Animator animator;
+    protected AudioSource audioSource;
 
     [SerializeField]
     protected string animationName;
+    
+    [SerializeField]
+    AudioClip powerSound;
 
     void Start()
     {
@@ -22,6 +26,7 @@ public abstract class Power : MonoBehaviour {
     {
         playerController = GetComponent<PlayerController>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
         // cooldownTime = GlobalData.playerData["PowerCD"][GlobalData.level];
     }
 
@@ -70,6 +75,7 @@ public abstract class Power : MonoBehaviour {
             playerController.LockMovement();
         EnterPower();
         playerController.powerInCooldown = true;
+        audioSource.PlayOneShot(powerSound);
     }
 
     void DisablePower()

@@ -6,8 +6,13 @@ abstract class Potion : MonoBehaviour {
     public float cooldownRemaining = 0f, lockedRemaining = 0f, buffRemaining = 0f;
     bool isUsingPotion = false;
 
+    protected AudioSource audioSource;
+
     [SerializeField]
     GameObject efeitoPocao;
+
+    [SerializeField]
+    AudioClip potionSound;
 
     void Start()
     {
@@ -17,6 +22,7 @@ abstract class Potion : MonoBehaviour {
     protected virtual void Initialize()
     {
         playerController = GetComponent<PlayerController>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -65,6 +71,7 @@ abstract class Potion : MonoBehaviour {
         EnterPotion();
         playerController.potionInCooldown = true;
         efeitoPocao.SetActive(true);
+        audioSource.PlayOneShot(potionSound);
     }
 
     void DisablePotion()

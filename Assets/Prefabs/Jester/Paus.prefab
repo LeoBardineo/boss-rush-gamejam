@@ -236,7 +236,6 @@ MonoBehaviour:
   playerController: {fileID: 0}
   animator: {fileID: 0}
   tempoDeAnimacaoOffset: 0.25
-  sound: {fileID: 2526711283728867360}
   bossHP: {fileID: 0}
 --- !u!61 &-1168901526108237975
 BoxCollider2D:

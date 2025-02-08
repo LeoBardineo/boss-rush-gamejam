@@ -6,14 +6,12 @@ public class CopasState : IState
     float attackDuration;
     float timeSinceStart = 0f;
     GameObject bossGameObject;
-    SpriteRenderer sp;
     public CopasSpawner copasSpawner;
     BossHP bossHP;
 
     public CopasState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
-        sp = bossGameObject.GetComponent<SpriteRenderer>();
         copasSpawner = bossGameObject.GetComponent<CopasSpawner>();
         bossHP = bossGameObject.GetComponent<BossHP>();
         attackDuration = copasSpawner.attackDuration;
@@ -23,18 +21,14 @@ public class CopasState : IState
 
     public void Enter()
     {
-        // inicia alguma animação do ataque começando
         Debug.Log("Entrou em copas!");
-        sp.color = Color.red;
         copasSpawner.StartSpawning();
         timeSinceStart = 0f;
     }
 
     public void Exit()
     {
-        // inicia alguma animação do ataque terminando
-        // Debug.Log("Saiu do copas!");
-        sp.color = Color.white;
+        
     }
 
     public void Update()

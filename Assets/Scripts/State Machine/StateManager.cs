@@ -3,7 +3,7 @@ using UnityEngine;
 public class StateManager
 {
     public IState currentState;
-    bool isTransitioningState = false;
+    bool isTransitioningState = false, endState = false;
 
     public void Start(IState initialState)
     {
@@ -13,12 +13,13 @@ public class StateManager
 
     public void Update()
     {
-        if(isTransitioningState) return;
+        if(isTransitioningState || endState) return;
 
         IState nextState = currentState.GetNext();
 
         if(nextState == null){
             currentState.Exit();
+            endState = true;
             return;
         }
 
