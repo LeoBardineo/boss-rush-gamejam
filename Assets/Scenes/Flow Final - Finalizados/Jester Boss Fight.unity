@@ -3841,6 +3841,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
+      propertyPath: morteAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 21d5abd8a33a3cf45b52450aeeda0ffe, type: 3}
+    - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
       propertyPath: HealthPanel
       value: 
       objectReference: {fileID: 1136485951}

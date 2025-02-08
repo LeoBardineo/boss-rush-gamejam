@@ -42,6 +42,10 @@ public class PlayerHP : MonoBehaviour
     [SerializeField]
     string cenaMorte;
 
+    [SerializeField]
+    AudioClip morteAudio;
+    AudioSource audioSource;
+
     void Start()
     {
         maxHP = GlobalData.playerData["HP"][GlobalData.level];
@@ -49,6 +53,7 @@ public class PlayerHP : MonoBehaviour
 
         dead = false;
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         mascaras = HealthPanel.GetComponentsInChildren<Image>(includeInactive : true);
         UpdateHealthUI();
@@ -92,6 +97,7 @@ public class PlayerHP : MonoBehaviour
     {
         dead = true;
         animator.Play(deathAnimationName);
+        audioSource.PlayOneShot(morteAudio);
         StartCoroutine(gameManager.CarregaCena(cenaMorte));
     }
 

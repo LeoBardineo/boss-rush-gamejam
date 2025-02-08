@@ -1073,6 +1073,7 @@ MonoBehaviour:
   mascaraVazia_Y: {fileID: -847343323, guid: 6bbb6d16b412dcc4c86bb2e1a42c2755, type: 3}
   gameManager: {fileID: 0}
   cenaMorte: Jester Death
+  morteAudio: {fileID: 8300000, guid: 21d5abd8a33a3cf45b52450aeeda0ffe, type: 3}
 --- !u!114 &8149094920593079556
 MonoBehaviour:
   m_ObjectHideFlags: 0
