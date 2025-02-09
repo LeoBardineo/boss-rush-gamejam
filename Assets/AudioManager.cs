@@ -8,6 +8,9 @@ public class AudioManager : MonoBehaviour
     public Slider musicSlider;
     public Slider sfxSlider;
 
+    [SerializeField]
+    AudioSource sfxFeedback;
+
     private void Start()
     {
         float musicVol = PlayerPrefs.GetFloat("MusicVolume", 0.75f);
@@ -32,6 +35,8 @@ public class AudioManager : MonoBehaviour
 
     public void SetSFXVolume(float volume)
     {
+        if(!sfxFeedback.isPlaying)
+            sfxFeedback.Play();
         float dB = volume > 0f ? Mathf.Log10(volume) * 20 : -80f;
         audioMixer.SetFloat("SFXVolume", dB);
         PlayerPrefs.SetFloat("SFXVolume", volume);

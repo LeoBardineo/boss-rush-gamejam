@@ -6,13 +6,11 @@ public class BallHandState : IState
     float attackDuration = 5f;
     float timeSinceStart = 0f;
     GameObject bossGameObject;
-    SpriteRenderer sp;
 
     BallHandAttack ballHandAttack;
     public BallHandState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
-        sp = bossGameObject.GetComponent<SpriteRenderer>();
         ballHandAttack = bossGameObject.GetComponent<BallHandAttack>();
     }
 

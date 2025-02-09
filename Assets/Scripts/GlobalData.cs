@@ -27,7 +27,7 @@ public static class GlobalData
 
     public static string ultimoBoss = "Harlequin";
 
-    public static string armaEquipada = "Martelo", poderEquipado = "CospeFogo", pocaoEquipada = "HP";
+    public static string armaEquipada = "Malabares", poderEquipado = "Coringa", pocaoEquipada = "HP";
     
     public static Dictionary<string, Dictionary<string, string>> icones = new Dictionary<string, Dictionary<string, string>>
     {

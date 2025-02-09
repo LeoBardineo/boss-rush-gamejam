@@ -1039,9 +1039,9 @@ MonoBehaviour:
   dashingPower: 25
   dashingTime: 0.1
   dashingCooldown: 1
-  equipedWeapon: {fileID: 0}
-  equipedPower: {fileID: 0}
-  equipedPotion: {fileID: 0}
+  equipedWeapon: {fileID: 3457345715520855329}
+  equipedPower: {fileID: 7208625081491408932}
+  equipedPotion: {fileID: 9034441500766201223}
   tr: {fileID: 8001816083176579605}
 --- !u!114 &4139662814116421947
 MonoBehaviour:
@@ -1072,7 +1072,7 @@ MonoBehaviour:
   mascaraMetade_Y: {fileID: -1411123913, guid: a3d941e678b1ba542adc761ddee194d1, type: 3}
   mascaraVazia_Y: {fileID: -847343323, guid: 6bbb6d16b412dcc4c86bb2e1a42c2755, type: 3}
   gameManager: {fileID: 0}
-  cenaMorte: Jester Death
+  cenaMorte: Pierrot Death
   morteAudio: {fileID: 8300000, guid: 21d5abd8a33a3cf45b52450aeeda0ffe, type: 3}
 --- !u!114 &8149094920593079556
 MonoBehaviour:
@@ -1132,9 +1132,9 @@ MonoBehaviour:
   bananaSplitEffect: 0
   bananaSplitAmountOfHits: 0
   attacking: 0
-  weaponSound: {fileID: 8300000, guid: 27e9e0a50c1b79f46bb020cae228607e, type: 3}
-  PlayerControl: {fileID: 0}
-  attackArea: {fileID: 0}
+  weaponSound: {fileID: 8300000, guid: 404c720e83732c74d922ddc736e7f799, type: 3}
+  PlayerControl: {fileID: 6081013211673093663}
+  attackArea: {fileID: 1585248505649636413}
   attackWindow: 0.8
   attackingAnimation: Ataque_Malabares
 --- !u!114 &606182861348533205
@@ -1157,7 +1157,7 @@ MonoBehaviour:
   bananaSplitEffect: 0
   bananaSplitAmountOfHits: 0
   attacking: 0
-  weaponSound: {fileID: 0}
+  weaponSound: {fileID: 8300000, guid: f13b19ccb7321c244bbc017988fe9c86, type: 3}
   firePoint: {fileID: 6145733353485483778}
   bulletPrefab: {fileID: 4428540785357012945, guid: 6cdc01cb26354f646a801e1bb23ee17e, type: 3}
   animationName: Ataque_Canhao
@@ -1200,13 +1200,13 @@ MonoBehaviour:
   attackDuration: 0.75
   cooldownTime: 5
   lockedTime: 0.75
-  damageModifier: 0
+  damageModifier: 1
   damage: 10
   playerController: {fileID: 6081013211673093663}
   cooldownRemaining: 0
   lockedRemaining: 0
   attackRemaining: 0
-  attackArea: {fileID: 0}
+  attackArea: {fileID: 6141003459574240155}
   isUsingPower: 0
   animationName: Skill_Fogo
   powerSound: {fileID: 8300000, guid: 1287bb1a8c1ad19458e047f0610d4fd7, type: 3}
@@ -1226,7 +1226,7 @@ MonoBehaviour:
   attackDuration: 5
   cooldownTime: 10
   lockedTime: 5
-  damageModifier: 0
+  damageModifier: 1
   damage: 10
   playerController: {fileID: 6081013211673093663}
   cooldownRemaining: 0
@@ -1256,13 +1256,13 @@ MonoBehaviour:
   attackDuration: 5
   cooldownTime: 1
   lockedTime: 0
-  damageModifier: 0
+  damageModifier: 1
   damage: 0
   playerController: {fileID: 6081013211673093663}
   cooldownRemaining: 0
   lockedRemaining: 0
   attackRemaining: 0
-  attackArea: {fileID: 0}
+  attackArea: {fileID: 1585248505649636413}
   isUsingPower: 0
   animationName: Skill_Choro
   powerSound: {fileID: 8300000, guid: 96fd7fedc6651d0469c8df0e73553c86, type: 3}
@@ -1286,19 +1286,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDuration: 0
-  cooldownTime: 2
+  cooldownTime: 30
   lockedTime: 0
-  damageModifier: 0
+  damageModifier: 1
   damage: 0
   playerController: {fileID: 6081013211673093663}
   cooldownRemaining: 0
   lockedRemaining: 0
   attackRemaining: 0
-  attackArea: {fileID: 0}
+  attackArea: {fileID: 1585248505649636413}
   isUsingPower: 0
   animationName: Skill_Coringa
   powerSound: {fileID: 8300000, guid: adfa93ac999b4844cb68e6eb1397a189, type: 3}
-  selectedPower: {fileID: 0}
+  selectedPower: {fileID: 7208625081491408932}
   chapeu: {fileID: 4123544535045415620}
 --- !u!114 &9034441500766201223
 MonoBehaviour:

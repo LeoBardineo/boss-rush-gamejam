@@ -5,12 +5,10 @@ public class ConfettiRainState : IState
     float attackDuration = 5f;
     float timeSinceStart = 0f;
     GameObject bossGameObject;
-    SpriteRenderer sp;
     ConfettiRainAttack confettiRainAttack;
     public ConfettiRainState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
-        sp = bossGameObject.GetComponent<SpriteRenderer>();
         confettiRainAttack = bossGameObject.GetComponent<ConfettiRainAttack>();
 
     }

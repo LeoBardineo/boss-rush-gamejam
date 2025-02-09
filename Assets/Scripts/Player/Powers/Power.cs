@@ -17,7 +17,7 @@ public abstract class Power : MonoBehaviour {
     [SerializeField]
     AudioClip powerSound;
 
-    void Start()
+    public void Start()
     {
         Initialize();
     }

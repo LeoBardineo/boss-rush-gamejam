@@ -5,13 +5,11 @@ public class ShootingMasksState : IState
     float attackDuration = 7f;
     float timeSinceStart = 0f;
     GameObject bossGameObject;
-    SpriteRenderer sp;
 
     HomingMasks homingMasks;
     public ShootingMasksState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
-        sp = bossGameObject.GetComponent<SpriteRenderer>();
         homingMasks = bossGameObject.GetComponent<HomingMasks>();
 
     }

@@ -179,7 +179,7 @@ AudioSource:
   m_GameObject: {fileID: 29426271}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 662725379245293113, guid: 3ec117aed8b9b3648ac6d0506542522b, type: 2}
   m_audioClip: {fileID: 8300000, guid: c092ae9ec0e52db4aa90b196d72ed80f, type: 3}
   m_Resource: {fileID: 8300000, guid: c092ae9ec0e52db4aa90b196d72ed80f, type: 3}
   m_PlayOnAwake: 1
@@ -738,7 +738,7 @@ AudioSource:
   m_GameObject: {fileID: 459099538}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6788502552002494942, guid: 3ec117aed8b9b3648ac6d0506542522b, type: 2}
   m_audioClip: {fileID: 8300000, guid: d223f41e19a4ba044aa7b3f447410976, type: 3}
   m_Resource: {fileID: 8300000, guid: d223f41e19a4ba044aa7b3f447410976, type: 3}
   m_PlayOnAwake: 0
@@ -867,7 +867,7 @@ AudioSource:
   m_GameObject: {fileID: 463366868}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6788502552002494942, guid: 3ec117aed8b9b3648ac6d0506542522b, type: 2}
   m_audioClip: {fileID: 8300000, guid: 0f020f377fc62104e913850b762647cc, type: 3}
   m_Resource: {fileID: 8300000, guid: 0f020f377fc62104e913850b762647cc, type: 3}
   m_PlayOnAwake: 0
@@ -1279,7 +1279,7 @@ AudioSource:
   m_GameObject: {fileID: 645954111}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6788502552002494942, guid: 3ec117aed8b9b3648ac6d0506542522b, type: 2}
   m_audioClip: {fileID: 8300000, guid: 1bddb8ca9a4197440bb286428ea163fa, type: 3}
   m_Resource: {fileID: 8300000, guid: 1bddb8ca9a4197440bb286428ea163fa, type: 3}
   m_PlayOnAwake: 0
@@ -1528,17 +1528,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07c8963176f29cb4fa4c0e2ee9334449, type: 3}
---- !u!114 &711794188 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1585248505649636413, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-  m_PrefabInstance: {fileID: 1279603063}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf20139f70e4042408388008e07f62f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &722737318
 GameObject:
   m_ObjectHideFlags: 0
@@ -2077,7 +2066,7 @@ AudioSource:
   m_GameObject: {fileID: 735195981}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6788502552002494942, guid: 3ec117aed8b9b3648ac6d0506542522b, type: 2}
   m_audioClip: {fileID: 8300000, guid: 3e7db7c9b04152e4ead6873462726bbd, type: 3}
   m_Resource: {fileID: 8300000, guid: 3e7db7c9b04152e4ead6873462726bbd, type: 3}
   m_PlayOnAwake: 0
@@ -2437,7 +2426,7 @@ AudioSource:
   m_GameObject: {fileID: 778854209}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6788502552002494942, guid: 3ec117aed8b9b3648ac6d0506542522b, type: 2}
   m_audioClip: {fileID: 8300000, guid: 0caa6c3c62370a248b10a779246039fd, type: 3}
   m_Resource: {fileID: 8300000, guid: 0caa6c3c62370a248b10a779246039fd, type: 3}
   m_PlayOnAwake: 1
@@ -3431,22 +3420,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 990415000753696348, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: attackArea
-      value: 
-      objectReference: {fileID: 711794188}
-    - target: {fileID: 990415000753696348, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: PlayerControl
-      value: 
-      objectReference: {fileID: 568172047}
-    - target: {fileID: 3457345715520855329, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: cenaMorte
-      value: Pierrot Death
-      objectReference: {fileID: 0}
     - target: {fileID: 4139662814116421947, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
       propertyPath: HealthPanel
       value: 
@@ -3455,26 +3428,6 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 983024194}
-    - target: {fileID: 4229022694646347776, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: attackArea
-      value: 
-      objectReference: {fileID: 711794188}
-    - target: {fileID: 4229022694646347776, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: selectedPower
-      value: 
-      objectReference: {fileID: 1917695598}
-    - target: {fileID: 6081013211673093663, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: equipedPower
-      value: 
-      objectReference: {fileID: 1917695598}
-    - target: {fileID: 6081013211673093663, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: equipedPotion
-      value: 
-      objectReference: {fileID: 1917695597}
-    - target: {fileID: 6081013211673093663, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: equipedWeapon
-      value: 
-      objectReference: {fileID: 1917695599}
     - target: {fileID: 6468320433688824224, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.111
@@ -3523,22 +3476,6 @@ PrefabInstance:
       propertyPath: boss
       value: 
       objectReference: {fileID: 1065663536}
-    - target: {fileID: 7026510275694964019, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: attackArea
-      value: 
-      objectReference: {fileID: 711794188}
-    - target: {fileID: 7208625081491408932, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7208625081491408932, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: attackArea
-      value: 
-      objectReference: {fileID: 1617250374}
-    - target: {fileID: 7880502554026504187, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3671,17 +3608,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1065663536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1617250374 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6141003459574240155, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-  m_PrefabInstance: {fileID: 1279603063}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d84f178d9da923c4bb7d307a85d08c14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1629661622
 GameObject:
   m_ObjectHideFlags: 0
@@ -3765,39 +3691,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2075675397109592958, guid: 66bc848526f694946b5b1a6c28358703, type: 3}
   m_PrefabInstance: {fileID: 420657877}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1917695597 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9034441500766201223, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-  m_PrefabInstance: {fileID: 1279603063}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd1c1f3763912dc42ba554cb2ea0aeb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1917695598 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7208625081491408932, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-  m_PrefabInstance: {fileID: 1279603063}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9e432264d5faf1418ed702d9bc1489f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1917695599 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3457345715520855329, guid: e488a759eacc8004a9cbe54725bd967b, type: 3}
-  m_PrefabInstance: {fileID: 1279603063}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91c597a58e4000a42a042b4920f4dc5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1936637722
 GameObject:
   m_ObjectHideFlags: 0
@@ -4124,7 +4017,6 @@ SceneRoots:
   - {fileID: 459099540}
   - {fileID: 735195983}
   - {fileID: 645954113}
-  - {fileID: 29426273}
   - {fileID: 778854216}
   - {fileID: 1223635970}
   - {fileID: 1048538374}
@@ -4138,3 +4030,4 @@ SceneRoots:
   - {fileID: 59920881}
   - {fileID: 983024195}
   - {fileID: 648948117}
+  - {fileID: 29426273}

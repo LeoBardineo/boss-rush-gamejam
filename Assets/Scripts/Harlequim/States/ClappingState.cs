@@ -6,13 +6,11 @@ public class ClappingState : IState
     float attackDuration = 5f;
     float timeSinceStart = 0f;
     GameObject bossGameObject;
-    SpriteRenderer sp;
 
     ClappingAttack clappingAttack;
     public ClappingState(GameObject bossGameObject)
     {
         this.bossGameObject = bossGameObject;
-        sp = bossGameObject.GetComponent<SpriteRenderer>();
         clappingAttack = bossGameObject.GetComponent<ClappingAttack>();
 
     }

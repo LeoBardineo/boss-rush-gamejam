@@ -39,6 +39,7 @@ class Joker : Power
         playerController.UnlockMovement();
         chapeu.SetActive(false);
         selectedPower = powers[Random.Range(0, powers.Count)];
+        selectedPower.Start();
         attackRemaining = selectedPower.attackDuration;
         lockedRemaining = selectedPower.lockedTime;
         cooldownRemaining = selectedPower.cooldownTime;
@@ -46,9 +47,12 @@ class Joker : Power
         selectedPower.damageModifier = damageModifier;
         if(lockedRemaining != 0f)
             playerController.LockMovement();
+        selectedPower.enabled = true;
         selectedPower.EnterPower();
         yield return new WaitForSeconds(selectedPower.attackDuration);
         selectedPower.EndPower();
+        selectedPower.enabled = false;
+        cooldownRemaining = cooldownTime;
     }
     
     public override void EndPower()
