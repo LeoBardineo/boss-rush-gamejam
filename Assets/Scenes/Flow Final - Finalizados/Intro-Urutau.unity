@@ -224,7 +224,7 @@ AudioSource:
   m_GameObject: {fileID: 571371437}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 662725379245293113, guid: 3ec117aed8b9b3648ac6d0506542522b, type: 2}
   m_audioClip: {fileID: 8300000, guid: cc3892f5de9b946478dec51698616dcf, type: 3}
   m_Resource: {fileID: 8300000, guid: cc3892f5de9b946478dec51698616dcf, type: 3}
   m_PlayOnAwake: 1
@@ -445,6 +445,7 @@ MonoBehaviour:
   timer: 7
   active: 1
   tempo: 5
+  cenaJackpot: 0
 --- !u!1 &1508137958
 GameObject:
   m_ObjectHideFlags: 0

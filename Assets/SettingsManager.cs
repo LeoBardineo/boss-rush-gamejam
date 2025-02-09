@@ -5,9 +5,18 @@ using TMPro;
 public class SettingsManager : MonoBehaviour
 {
     [SerializeField] List<string> resolutions;
-    [SerializeField] TextMeshProUGUI resolutionText;
+    [SerializeField] TextMeshProUGUI resolutionText, fullscreenText;
+    int resolutionIndex = 0, fullscreenIndex = 0;
+
     List<Dictionary<string, int>> resolutionsDict = new List<Dictionary<string, int>>();
-    int resolutionIndex = 0;
+
+    List<string> fullScreenModesKeys;
+    Dictionary<string, FullScreenMode> fullScreenModes = new(){
+        {"Windowed", FullScreenMode.Windowed},
+        {"Maximized Window", FullScreenMode.MaximizedWindow},
+        {"Window fullscreen", FullScreenMode.FullScreenWindow},
+        {"Fullscreen", FullScreenMode.ExclusiveFullScreen},
+    };
 
     void Start()
     {
@@ -22,12 +31,15 @@ public class SettingsManager : MonoBehaviour
 
             resolutionsDict.Add(resolutionMap);
         }
-        UpdateResolutionText();
+        fullScreenModesKeys = new List<string>(fullScreenModes.Keys);
+        fullscreenIndex = fullScreenModesKeys.IndexOf(GetCurrentFullscreenMode());
+        UpdateTexts();
     }
 
-    void UpdateResolutionText()
+    void UpdateTexts()
     {
         resolutionText.text = $"{resolutionsDict[resolutionIndex]["width"]} x {resolutionsDict[resolutionIndex]["height"]}";
+        fullscreenText.text = fullScreenModesKeys[fullscreenIndex];
     }
 
     public void ChangeResolution(int direction)
@@ -41,29 +53,38 @@ public class SettingsManager : MonoBehaviour
 
         int width = resolutionsDict[resolutionIndex]["width"];
         int height = resolutionsDict[resolutionIndex]["height"];
+        FullScreenMode currentMode = fullScreenModes[fullScreenModesKeys[fullscreenIndex]];
 
-        Screen.SetResolution(width, height, FullScreenMode.Windowed);
+        Screen.SetResolution(width, height, currentMode);
 
-        UpdateResolutionText();
+        UpdateTexts();
     }
 
-    public void ChangeFullscreen(bool checkMarked)
+    public void ChangeFullscreen(int direction)
     {
-        FullScreenMode windowMode = FullScreenMode.Windowed;
-        if(checkMarked){
-            windowMode = FullScreenMode.ExclusiveFullScreen;
+        fullscreenIndex += direction;
+
+        if (fullscreenIndex < 0)
+            fullscreenIndex = fullScreenModesKeys.Count - 1;
+        else if (fullscreenIndex >= fullScreenModesKeys.Count)
+            fullscreenIndex = 0;
+
+        FullScreenMode newMode = fullScreenModes[fullScreenModesKeys[fullscreenIndex]];
+        Screen.SetResolution(Screen.width, Screen.height, newMode);
+
+        UpdateTexts();
+    }
+
+    string GetCurrentFullscreenMode()
+    {
+        FullScreenMode currentMode = Screen.fullScreenMode;
+
+        foreach (var mode in fullScreenModes)
+        {
+            if (mode.Value == currentMode)
+                return mode.Key;
         }
 
-        Screen.SetResolution(Screen.width, Screen.height, windowMode);
-    }
-
-    void ChangeMusicVolume()
-    {
-
-    }
-
-    void ChangeSoundVolume()
-    {
-
+        return "Windowed";
     }
 }
