@@ -74,6 +74,7 @@ public class PierrotIdleState : IState
             {
                 transitionPierrot.transition();
                 bossHP.firstTimeFase2 = false;
+                return new Fase2State(bossGameObject);
             }
             if(!RageScream.rageScreamingOn)
             possibleAttacks.Add(new RageScreamState(bossGameObject));

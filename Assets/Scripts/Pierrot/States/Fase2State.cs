@@ -5,7 +5,7 @@ public class Fase2State : IState
     GameObject bossGameObject;
     private Animator anim;
 
-    float attackDuration = 6f;
+    float attackDuration = 2.2f;
     float timeSinceStart = 0f;
 
     public Fase2State(GameObject bossGameObject)
@@ -18,7 +18,7 @@ public class Fase2State : IState
     public void Enter()
     {
         timeSinceStart = 0f;
-        anim.Play("ataqueInundaçao");
+        anim.Play("ataqueInundação");
     }
 
     public void Exit()
