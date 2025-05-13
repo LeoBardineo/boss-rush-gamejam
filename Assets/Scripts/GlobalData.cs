@@ -25,6 +25,12 @@ public static class GlobalData
         {"Jester", "Jester Boss Fight"}
     };
 
+    public static Dictionary<string, string> cenasBossMortes = new Dictionary<string, string>{
+        {"Harlequin", "Arlequin Death"},
+        {"Pierrot", "Pierrot Death"},
+        {"Jester", "Jester Death"}
+    };
+
     public static string ultimoBoss = "Harlequin";
 
     public static string armaEquipada = "Malabares", poderEquipado = "Coringa", pocaoEquipada = "HP";

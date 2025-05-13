@@ -98,7 +98,7 @@ public class PlayerHP : MonoBehaviour
         dead = true;
         animator.Play(deathAnimationName);
         audioSource.PlayOneShot(morteAudio);
-        StartCoroutine(gameManager.CarregaCena(cenaMorte));
+        StartCoroutine(gameManager.CarregaCena(GlobalData.cenasBossMortes[GlobalData.ultimoBoss]));
     }
 
     void HurtEffect()
